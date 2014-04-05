@@ -1,0 +1,13 @@
+<map id="CreateFileUploadErrMsg" name="CreateFileUploadErrMsg">
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#ab1aa05123bc9f29e32ae4c6e425795e7" title="GetFileUploadLengthErrResponseMsg" alt="" coords="227,26,485,55"/>
+<area shape="rect" id="node14" href="$filetransfermsg_8h.html#a9ae14b1c82667694d4ca0ad4d596b3d2" title="ChkFileUploadErr" alt="" coords="292,82,420,111"/>
+<area shape="rect" id="node19" href="$filetransfermsg_8h.html#a13bf704d8f27f1bc267cdfc1273b2257" title="GetFileUploadCompressedLevel\lErrMsg" alt="" coords="533,128,757,174"/>
+<area shape="rect" id="node24" href="$filetransfermsg_8h.html#af170c89e2cac690fbd83235c4b1a8348" title="ChkFileUploadWriteErr" alt="" coords="276,194,436,223"/>
+<area shape="rect" id="node5" href="$handlefiletransferrequest_8c.html#a80f562d2c9e3718120c465ec7876dc76" title="SendFileUploadLengthErrMsg" alt="" coords="541,24,749,54"/>
+<area shape="rect" id="node7" href="$handlefiletransferrequest_8c.html#ab401155a884808a5b0aad5086d64be7c" title="HandleFileUploadRequest" alt="" coords="1069,54,1253,83"/>
+<area shape="rect" id="node11" href="$handlefiletransferrequest_8c.html#a139e1f258e32e6c2469cbd518de2f0cc" title="HandleFileUploadLengthError" alt="" coords="811,27,1016,56"/>
+<area shape="rect" id="node9" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="1301,80,1509,110"/>
+<area shape="rect" id="node16" href="$handlefiletransferrequest_8c.html#a87187a1e702bf11de71ec7b76d288e08" title="HandleFileUpload" alt="" coords="848,80,979,110"/>
+<area shape="rect" id="node21" href="$handlefiletransferrequest_8c.html#af11396f89393159a041af47c2d1a225f" title="HandleFileUploadDataRequest" alt="" coords="807,136,1020,166"/>
+<area shape="rect" id="node26" href="$handlefiletransferrequest_8c.html#a5f9c5fe5f03b210e6ea2142eac656ee1" title="HandleFileUploadWrite" alt="" coords="564,198,727,227"/>
+</map>

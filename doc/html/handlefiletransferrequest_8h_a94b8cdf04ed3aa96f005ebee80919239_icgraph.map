@@ -1,0 +1,6 @@
+<map id="GetFtpRoot" name="GetFtpRoot">
+<area shape="rect" id="node3" href="$filetransfermsg_8c.html#a4f842d9eb93ce11ae4483dd422f4a2ed" title="CreateFileListInfo" alt="" coords="148,5,276,35"/>
+<area shape="rect" id="node5" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="327,5,500,35"/>
+<area shape="rect" id="node7" href="$handlefiletransferrequest_8h.html#a4b827b9302f065dd142a9f60f6d0700d" title="HandleFileListRequest" alt="" coords="549,5,709,35"/>
+<area shape="rect" id="node9" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="757,5,965,35"/>
+</map>

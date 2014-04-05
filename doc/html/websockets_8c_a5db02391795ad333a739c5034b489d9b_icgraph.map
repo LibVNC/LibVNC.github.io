@@ -1,0 +1,26 @@
+<map id="webSocketsDecode" name="webSocketsDecode">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gad8d47e03686c65f6b4733bf8339fae16" title="rfbReadExactTimeout" alt="" coords="200,399,357,428"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c" title="rfbReadExact" alt="" coords="407,399,511,428"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#gad69b4c8af1112f980c62083c24449e99" title="rfbProcessClientSecurityType" alt="" coords="565,32,768,61"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga6afa48fd77c6f5d5a85734d557a1c413" title="rfbAuthProcessClientMessage" alt="" coords="561,85,772,115"/>
+<area shape="rect" id="node26" href="$group__libvncserver__api.html#ga3e0a84ddf4f229a98a1b2c9466f37f5a" title="rfbProcessFileTransferRead\lBuffer" alt="" coords="572,138,761,185"/>
+<area shape="rect" id="node28" href="$group__libvncserver__api.html#ga2151f58ccef5446ee03256408636000f" title="rfbProcessFileTransfer" alt="" coords="852,192,1009,221"/>
+<area shape="rect" id="node31" href="$handlefiletransferrequest_8h.html#a4b827b9302f065dd142a9f60f6d0700d" title="HandleFileListRequest" alt="" coords="851,272,1011,301"/>
+<area shape="rect" id="node35" href="$handlefiletransferrequest_8c.html#a91e6dfa544ea8489f5b8353a80b0ab06" title="HandleFileDownloadRequest" alt="" coords="831,368,1031,397"/>
+<area shape="rect" id="node38" href="$handlefiletransferrequest_8c.html#a77471467f0892e39eee70aa6a4db950e" title="HandleFileDownloadLength\lError" alt="" coords="571,359,763,406"/>
+<area shape="rect" id="node41" href="$handlefiletransferrequest_8c.html#af7ee328ddca8136fee3c68d500a83c07" title="HandleFileDownloadCancel\lRequest" alt="" coords="835,422,1027,469"/>
+<area shape="rect" id="node44" href="$handlefiletransferrequest_8c.html#ab401155a884808a5b0aad5086d64be7c" title="HandleFileUploadRequest" alt="" coords="839,495,1023,524"/>
+<area shape="rect" id="node47" href="$handlefiletransferrequest_8c.html#a139e1f258e32e6c2469cbd518de2f0cc" title="HandleFileUploadLengthError" alt="" coords="564,531,769,560"/>
+<area shape="rect" id="node50" href="$handlefiletransferrequest_8c.html#af11396f89393159a041af47c2d1a225f" title="HandleFileUploadDataRequest" alt="" coords="824,552,1037,581"/>
+<area shape="rect" id="node53" href="$handlefiletransferrequest_8c.html#a71c692266ebc435f5d8ddd4db56fc373" title="HandleFileUploadFailedRequest" alt="" coords="821,615,1040,644"/>
+<area shape="rect" id="node56" href="$handlefiletransferrequest_8c.html#a7159879e27594873306f16c2838fd6b6" title="HandleFileCreateDirRequest" alt="" coords="568,685,765,715"/>
+<area shape="rect" id="node59" href="$rfbtightserver_8c.html#a7794966a6eaf6a021e859d347e75047d" title="rfbProcessClientAuthType" alt="" coords="576,739,757,768"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga67655299c270a6dd4f3cfcc3b60bc7d4" title="rfbProcessClientMessage" alt="" coords="840,59,1021,88"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="1143,59,1241,88"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="1345,59,1476,88"/>
+<area shape="rect" id="node15" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1564,5,1617,35"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="1527,59,1655,88"/>
+<area shape="rect" id="node21" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="1540,112,1641,141"/>
+<area shape="rect" id="node19" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1705,59,1759,88"/>
+<area shape="rect" id="node33" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="1088,495,1296,524"/>
+</map>

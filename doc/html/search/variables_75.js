@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['u',['u',['../unionws__mask__t.html#aa21e554721eddcf127b7fcfa7fdc56bd',1,'ws_mask_t']]],
+  ['ublen',['ublen',['../structrfb_client_rec.html#a3fbe9911d70893a6eb5a516dcfba1a0f',1,'rfbClientRec']]],
+  ['udpclient',['udpClient',['../structrfb_screen_info.html#afef038ef1c104366484551353dae2ffb',1,'rfbScreenInfo']]],
+  ['udpport',['udpPort',['../structrfb_screen_info.html#ac03f61ef7348b73a3886e721f2ff9d54',1,'rfbScreenInfo']]],
+  ['udpremoteaddr',['udpRemoteAddr',['../structrfb_screen_info.html#a443aae78875789b8264fd9b7a2f7d339',1,'rfbScreenInfo']]],
+  ['udpsock',['udpSock',['../structrfb_screen_info.html#aa7f0eafcd1f52b26a4e5c969780aad69',1,'rfbScreenInfo']]],
+  ['udpsockconnected',['udpSockConnected',['../structrfb_screen_info.html#a03ac87b60999bb0e1e8d94771eab501f',1,'rfbScreenInfo']]],
+  ['ultra_5fbuffer',['ultra_buffer',['../structrfb_client.html#a0ea35d0ca2f22663a17c2504922409ad',1,'rfbClient']]],
+  ['ultra_5fbuffer_5fsize',['ultra_buffer_size',['../structrfb_client.html#a94245b21294fe72de11d147470e8995e',1,'rfbClient']]],
+  ['undercursorbuffer',['underCursorBuffer',['../structrfb_screen_info.html#aceaccd0169648409ac18f1175db16206',1,'rfbScreenInfo']]],
+  ['undercursorbufferlen',['underCursorBufferLen',['../structrfb_screen_info.html#ac9f032273fb0fc71af522f48b7ae0e8e',1,'rfbScreenInfo']]],
+  ['unused',['unused',['../structrfb_file_download_cancel_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileDownloadCancelMsg::unused()'],['../structrfb_file_upload_failed_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileUploadFailedMsg::unused()'],['../structrfb_file_create_dir_request_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileCreateDirRequestMsg::unused()'],['../structrfb_file_upload_cancel_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileUploadCancelMsg::unused()'],['../structrfb_file_download_failed_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileDownloadFailedMsg::unused()']]],
+  ['updatebuf',['updateBuf',['../structrfb_client_rec.html#a7e033f2aa649344bb0bd2ba0da2ed3b2',1,'rfbClientRec']]],
+  ['updaterect',['updateRect',['../structrfb_client.html#a012d203b6136465db8315eb53177d195',1,'rfbClient']]],
+  ['uploadfd',['uploadFD',['../structrfb_client_file_upload.html#ad012ba00c2caed53719dcffcd65d61aa',1,'rfbClientFileUpload']]],
+  ['uploadinprogress',['uploadInProgress',['../structrfb_client_file_upload.html#a761c73faf0feef48c1d0a287b58a16a7',1,'rfbClientFileUpload']]],
+  ['usage',['usage',['../structrfb_protocol_extension.html#a23370b7601c180e3f4736c9003605aaf',1,'rfbProtocolExtension']]],
+  ['usebgr233',['useBGR233',['../struct_app_data.html#a28a59d7a8b23410a437881803dd9d6e3',1,'AppData']]],
+  ['usecopyrect',['useCopyRect',['../structrfb_client_rec.html#ab24bc32445d5a3e196a9b7f7e0951b28',1,'rfbClientRec']]],
+  ['usenewfbsize',['useNewFBSize',['../structrfb_client_rec.html#a8fb2126b03237b894f262407b2cd3395',1,'rfbClientRec']]],
+  ['usercredential',['userCredential',['../unionrfb_credential.html#a2b6b8c6d350a0c9f037e02425daf9abc',1,'rfbCredential']]],
+  ['useremotecursor',['useRemoteCursor',['../struct_app_data.html#a432344eb697b6902ac9308817e75ec7b',1,'AppData']]],
+  ['userichcursorencoding',['useRichCursorEncoding',['../structrfb_client_rec.html#a75f841c326171c112802040726f0989f',1,'rfbClientRec']]],
+  ['username',['username',['../unionrfb_credential.html#a9b20c006bd90a09e1465fb668700e81d',1,'rfbCredential']]]
+];

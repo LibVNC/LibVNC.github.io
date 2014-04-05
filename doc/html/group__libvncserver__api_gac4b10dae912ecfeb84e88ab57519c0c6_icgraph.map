@@ -1,0 +1,8 @@
+<map id="rfbProcessNewConnection" name="rfbProcessNewConnection">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="244,59,343,88"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="393,59,524,88"/>
+<area shape="rect" id="node7" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="612,5,665,35"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="575,59,703,88"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="588,112,689,141"/>
+<area shape="rect" id="node11" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="753,59,807,88"/>
+</map>

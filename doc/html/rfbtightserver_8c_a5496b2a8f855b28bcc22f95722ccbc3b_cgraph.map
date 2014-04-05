@@ -1,0 +1,10 @@
+<map id="rfbTightExtensionInit" name="rfbTightExtensionInit">
+<area shape="rect" id="node3" href="$rfbtightserver_8c.html#a09828684789f10656710e7f2dd3b622c" title="rfbSendInteractionCaps" alt="" coords="207,85,377,115"/>
+<area shape="rect" id="node5" href="$handlefiletransferrequest_8c.html#ac9e315575770f5d37e318c566d170cef" title="IsFileTransferEnabled" alt="" coords="428,5,580,35"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="449,59,559,88"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="452,112,556,141"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="652,165,751,195"/>
+<area shape="rect" id="node9" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="647,5,756,35"/>
+<area shape="rect" id="node13" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="629,59,773,88"/>
+<area shape="rect" id="node15" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="655,112,748,141"/>
+</map>

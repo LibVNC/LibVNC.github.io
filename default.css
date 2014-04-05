@@ -1,0 +1,149 @@
+
+
+/*
+   id's
+*/
+
+#body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+body {
+    background-color: #313131;
+    margin: 0;
+}
+
+#container {
+    font-family:sans-serif;
+    background-color: white;
+    color: #202020;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#footer {
+    text-align: center;
+}
+
+#navbar {
+    font-weight:bold;
+    font-size:1.4em;
+    background-color: #738073;
+    border-bottom: 1px solid #5C665C;
+    border-top: 1px solid #5C665C;
+    margin-top: 12px;
+    padding: 0.3em;
+    position: relative;
+    text-align: center;
+}
+
+#navbar a, #navbar_secondary a {
+    color: white;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    
+    text-decoration: none;
+}
+
+#navbar a:hover, #navbar_secondary a:hover {
+    background-color: #313131;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar_secondary {
+    background-color: #738073;
+    border-bottom: 1px solid #5C665C;
+    border-left: 1px solid #5C665C;
+    border-right: 1px solid #5C665C;
+    padding: 0.3em;
+    position: relative;
+    text-align: center;
+}
+
+
+#proj_desc {
+    font-size: 1.2em;
+}
+
+
+
+
+
+/*
+   classes not bound to types
+*/
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.indent {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+
+/* 
+   types
+*/
+
+a {
+    color: #2D6198;
+}
+
+a:visited {
+    color: #884488;
+}
+
+h1 {
+    background-color: #7BB37B;
+    border: 1px solid #6A996A;
+    color: #151515;
+    font-size: 1.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    padding-top: 0.2em;
+}
+
+h2 {
+    color: #313131;
+    font-size: 1.2em;
+}
+
+h3 {
+    color: #313131;
+    font-size: 0.8em;
+    margin-bottom: -8px;
+}
+
+img {
+    border: 0;
+}
+
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+p.citation {
+    font-style: italic
+}
+
+pre {
+    margin-left: 3%;
+    margin-right: 3%;    
+    white-space: pre-wrap;
+}
+

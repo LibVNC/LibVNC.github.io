@@ -1,0 +1,11 @@
+<map id="rfbPrintStats" name="rfbPrintStats">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga5e38113b588c9331ea474a495f540500" title="rfbClientConnectionGone" alt="" coords="155,84,336,113"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga3fd4d06263d6d54a8381fd56ae979eb4" title="rfbRefuseOnHoldClient" alt="" coords="385,5,548,35"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga7560cf50d53208ad5dc24b3d82bbb418" title="rfbScreenCleanup" alt="" coords="597,29,733,59"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="401,109,532,139"/>
+<area shape="rect" id="node20" href="$scale_8h.html#ad01190579a004e161f5fe81d2fb5b919" title="rfbSendNewScaleSize" alt="" coords="387,163,547,192"/>
+<area shape="rect" id="node9" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="783,83,836,112"/>
+<area shape="rect" id="node13" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="639,83,692,112"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="601,136,729,165"/>
+<area shape="rect" id="node18" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="615,189,716,219"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="rfbConnectToTcpAddr" name="rfbConnectToTcpAddr">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290" title="rfbConnect" alt="" coords="209,5,300,35"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga672984a7fc0c67f1d1a28d69ba140fae" title="rfbReverseConnection" alt="" coords="351,5,511,35"/>
+</map>

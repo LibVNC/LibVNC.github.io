@@ -1,0 +1,5 @@
+<map id="DefaultSupportedMessagesTightVNC" name="DefaultSupportedMessagesTightVNC">
+<area shape="rect" id="node3" href="$rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="255,44,452,73"/>
+<area shape="rect" id="node5" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="501,5,632,35"/>
+<area shape="rect" id="node7" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="501,71,632,100"/>
+</map>

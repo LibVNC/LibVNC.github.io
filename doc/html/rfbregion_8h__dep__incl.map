@@ -1,0 +1,8 @@
+<map id="rfb/rfbregion.h" name="rfb/rfbregion.h">
+<area shape="rect" id="node3" href="$libvncserver_2cursor_8c.html" title="libvncserver/cursor.c" alt="" coords="5,83,157,112"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="libvncserver/main.c" alt="" coords="181,83,325,112"/>
+<area shape="rect" id="node7" href="$rfbregion_8c.html" title="libvncserver/rfbregion.c" alt="" coords="349,83,517,112"/>
+<area shape="rect" id="node9" href="$rfbserver_8c.html" title="libvncserver/rfbserver.c" alt="" coords="541,83,709,112"/>
+<area shape="rect" id="node11" href="$scale_8c.html" title="libvncserver/scale.c" alt="" coords="733,83,880,112"/>
+<area shape="rect" id="node13" href="$translate_8c.html" title="libvncserver/translate.c" alt="" coords="904,83,1075,112"/>
+</map>

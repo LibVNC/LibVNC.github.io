@@ -1,0 +1,27 @@
+<map id="rfbClientIteratorNext" name="rfbClientIteratorNext">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga04b4ad9130d8b7a4cc97d03fc3cbc159" title="rfbSetCursor" alt="" coords="245,5,347,35"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="247,215,345,244"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="453,216,584,245"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga444fdc5b55fc40ed873674e7cb1f502d" title="rfbScheduleCopyRegion" alt="" coords="211,111,381,140"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga2939d940b9dad65c6308f9d8a7163a18" title="rfbMarkRegionAsModified" alt="" coords="205,375,387,404"/>
+<area shape="rect" id="node39" href="$group__libvncserver__api.html#ga6b2065e71b8c8780c383a09c9fbaf63d" title="cursor handling for the pointer " alt="" coords="215,268,377,297"/>
+<area shape="rect" id="node44" href="$group__libvncserver__api.html#gac8426ba80d7e7bca1dc43b22127d10ad" title="rfbNewFramebuffer" alt="" coords="225,321,367,351"/>
+<area shape="rect" id="node46" href="$group__libvncserver__api.html#ga7560cf50d53208ad5dc24b3d82bbb418" title="rfbScreenCleanup" alt="" coords="651,59,787,88"/>
+<area shape="rect" id="node49" href="$group__libvncserver__api.html#ga69b57fe0447eac66fe216430bcda5859" title="rfbShutdownServer" alt="" coords="224,428,368,457"/>
+<area shape="rect" id="node52" href="$group__libvncserver__api.html#gafaa6ce29830fc432bff8599c4565cfa9" title="rfbSendBell" alt="" coords="249,481,343,511"/>
+<area shape="rect" id="node54" href="$group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988" title="rfbSendServerCutText" alt="" coords="216,535,376,564"/>
+<area shape="rect" id="node58" href="$group__libvncserver__api.html#gac479a87dfde93551b8a2271551c314e2" title="rfbSetClientColourMaps" alt="" coords="211,588,381,617"/>
+<area shape="rect" id="node9" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="692,269,745,299"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="655,165,783,195"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="836,321,937,351"/>
+<area shape="rect" id="node13" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="860,112,913,141"/>
+<area shape="rect" id="node19" href="$group__libvncserver__api.html#gaa07b26543b8a057da510abae57654035" title="rfbDoCopyRegion" alt="" coords="453,163,584,192"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333" title="rfbScheduleCopyRect" alt="" coords="440,109,597,139"/>
+<area shape="rect" id="node21" href="$group__libvncserver__api.html#ga0a67c048d760f95be37888db7ef61db7" title="rfbDoCopyRect" alt="" coords="661,112,776,141"/>
+<area shape="rect" id="node27" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="436,375,601,404"/>
+<area shape="rect" id="node30" href="$group__libvncserver__api.html#ga6c95e168c017a5b4c79397429396591b" title="rfbFillRect" alt="" coords="679,373,759,403"/>
+<area shape="rect" id="node33" href="$group__libvncserver__api.html#gabc21dfa884626a9f0fdd7256f9140ff8" title="rfbDrawPixel" alt="" coords="669,477,768,507"/>
+<area shape="rect" id="node35" href="$group__libvncserver__api.html#ga6ac5e0920a82a864cba2f2dced941ad8" title="rfbDrawLine" alt="" coords="839,451,935,480"/>
+<area shape="rect" id="node41" href="$group__libvncserver__api.html#ga7bc0e73d60a80ddc855fe1c4313fe57d" title="rfbGetScreen" alt="" coords="465,269,572,299"/>
+<area shape="rect" id="node56" href="$group__libvncserver__api.html#ga44dbdb37fdb046d2ac9d386355f4edc0" title="rfbGotXCutText" alt="" coords="461,535,576,564"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="rfbScheduleCopyRegion" name="rfbScheduleCopyRegion">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gaa07b26543b8a057da510abae57654035" title="rfbDoCopyRegion" alt="" coords="240,5,371,35"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333" title="rfbScheduleCopyRect" alt="" coords="227,59,384,88"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga0a67c048d760f95be37888db7ef61db7" title="rfbDoCopyRect" alt="" coords="433,5,548,35"/>
+</map>

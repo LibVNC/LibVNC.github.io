@@ -1,0 +1,8 @@
+<map id="ConnectToRFBServer" name="ConnectToRFBServer">
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#gafbcc99a23b84be80e703171e39dcc36d" title="ConnectClientToUnixSock" alt="" coords="209,5,391,35"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga3a3393c31fc2d2c4d4b9a52683158a17" title="ConnectClientToTcpAddr6" alt="" coords="209,59,391,88"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#gaac22e57008d10f34a9d37c441db5f268" title="StringToIPAddr" alt="" coords="244,112,356,141"/>
+<area shape="rect" id="node9" href="$group__libvncclient__api.html#ga36c6f012f3b4a0e2e3d8c766b7026463" title="ConnectClientToTcpAddr" alt="" coords="213,165,387,195"/>
+<area shape="rect" id="node11" href="$group__libvncclient__api.html#ga6a989607734750c72470ae1d222458e0" title="SetDSCP" alt="" coords="260,219,340,248"/>
+<area shape="rect" id="node13" href="$group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="239,272,361,301"/>
+</map>

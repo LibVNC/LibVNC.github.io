@@ -1,0 +1,10 @@
+<map id="ReadFromTLS" name="ReadFromTLS">
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="164,136,313,165"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga180680663bb6ef69e69a9fc0cb06f352" title="HandleCursorShape" alt="" coords="373,5,523,35"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="581,32,771,61"/>
+<area shape="rect" id="node11" href="$group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="364,109,532,139"/>
+<area shape="rect" id="node13" href="$rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="372,163,524,192"/>
+<area shape="rect" id="node15" href="$group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="592,188,760,217"/>
+<area shape="rect" id="node19" href="$tls__gnutls_8c.html#a64cfa84eeb071db3775670c6db100f08" title="HandleVeNCryptAuth" alt="" coords="369,267,527,296"/>
+<area shape="rect" id="node9" href="$ppmtest_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="820,32,873,61"/>
+</map>

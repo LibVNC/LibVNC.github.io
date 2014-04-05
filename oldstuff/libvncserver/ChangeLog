@@ -1,0 +1,220 @@
+2005-01-15  Karl Runge <runge@karlrunge.com>
+	* rfb/rfb.h: add alphaSource and alphaPreMultiplied to rfbCursor. 
+	* libvncserver/cursor.c: do cursor alpha blending in rfbDrawCursor()
+	  for non-cursorshapeupdates clients.
+	* x11vnc: -alphablend, cursors fixes, -snapfb, more tweaks and bug
+	  fixes.
+
+2004-12-27  Karl Runge <runge@karlrunge.com>
+	* x11vnc: improve alpha channel handling for XFIXES cursors. 
+	* add more parameters to remote control.
+
+2004-12-20  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* released version 0.7
+
+2004-12-19  Karl Runge <runge@karlrunge.com>
+	* x11vnc: string cleanup, synchronous remote-control option -sync
+	* libvncserver/cursor.c: zero underCursorBufferLen when cursor freed.
+
+2004-12-16  Karl Runge <runge@karlrunge.com>
+	* test/encodingstest.c: fix decl bug in main()
+	* x11vnc: use XFIXES extension to show the exact cursor shape.
+	* remote control nearly everything on the fly, -remote/-query 
+	* tcl/tk gui based on the remote control, -gui
+	* support screen size changes with XRANDR ext., -xrandr, -padgeom
+	* Misc: -overlay visual support on IRIX, -id pick, -pointer_mode n,
+	  -sb n, RFB_MODE set in env. under -accept/-gone.
+
+2004-12-02  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* make LibVNCServer compile & work on MinGW32
+
+2004-11-30  "Leiradella, Andre V Matos Da Cunha" <ANDRE.LEIRADELLA@bra.xerox.com>
+	* libvncclient/sockets.c: return TRUE in every case of success
+
+2004-08-29  Karl Runge <runge@karlrunge.com>
+	* x11vnc: yet another pointer input handling algorithm in
+	  check_user_input(), revert to previous with -old_pointer2.
+	* modifiy prepare_x11vnc_dist.sh to install tightvnc Java viewer
+	  in $prefix/share/x11vnc/classes
+
+2004-08-29  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* */*.[ch]: API changes: global functions/structures should have
+	*   either "rfb", "sra" or "zrle" as prefix, while structure members
+	*   should not...
+
+2004-08-29  Karl Runge <runge@karlrunge.com>
+	* x11vnc: changes in cursor shape handling: use rfbSetCursor()
+	* cursor shape options: -cursor, -cursor (X|some|most)
+	* -vncconnect the default. 
+	* configure.ac: add more macros for X extensions.
+
+2004-08-15  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -overlay to fix colors with Sun 8+24 overlay visuals.
+	* -sid option.
+
+2004-08-03  Karl Runge <runge@karlrunge.com>
+	* x11vnc: manpage and README
+	* fix XKBlib.h detection on *BSD
+
+2004-07-31  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -cursorpos now the default
+
+2004-07-28  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -add_keysyms dynamically add missing keysyms to X server
+
+2004-07-26  Karl Runge <runge@karlrunge.com>
+	* x11vnc: first pass at doing modtweak via XKEYBOARD extension (-xkb)
+	* -skip_keycodes; reset modtweaks on event MappingNotify.
+	* fix bugs wrt PRIMARY handling.
+	* continuation lines "\" in x11vncrc.  
+
+2004-07-15  Karl Runge <runge@karlrunge.com>
+	* x11vnc: modtweak is now the default
+	* check X11/XKBlib.h in configure.ac to work around Solaris 7 bug.
+
+2004-07-10  Karl Runge <runge@karlrunge.com>
+	* x11vnc: norepeat to turn off X server autorepeat when clients exist,
+	  let the client side do the autorepeating.
+
+2004-06-26  Karl Runge <runge@karlrunge.com>
+	* x11vnc: add "-scale fraction" for global server-side scaling.
+
+2004-06-17  Karl Runge <runge@karlrunge.com>
+	* x11vnc: simple ~/.x11vncrc config file support, -rc, -norc
+
+2004-06-12  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -clear_mods, -clear_keys, and -storepasswd,
+	* add RFB_SERVER_IP RFB_SERVER_PORT to -accept env.
+
+2004-06-07  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* libvncserver/cursor.c, rfb/rfb.h: fix cursor trails
+	* */Makefile.am: stop automake nagging
+	* libvncclient/*, client_examples/*: streamline API, SDLvncviewer added
+	* examples/, libvncclient/, test/: moved tests to test/
+
+2004-06-05  Karl Runge <runge@karlrunge.com>
+	* x11vnc: rearrange file for easier maintenance
+	* add RFB_CLIENT_COUNT to -accept and -gone commands
+
+2004-05-27  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -viewpasswd, viewonly passwds.
+	* some typos in prepare_x11vnc_dist.sh 
+	* libvncserver: fix view-only plain passwd and view-only CutText 
+
+2004-05-25  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* moved the library into libvncserver/
+	* moved x11vnc into x11vnc/
+
+2004-05-21  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -gone, -passwdfile, -o logfile; add view-only to -accept
+
+2004-05-08  Karl Runge <runge@karlrunge.com>
+	* x11vnc: add -accept some-command/xmessage/popup
+
+2004-05-05  Karl Runge <runge@karlrunge.com>
+	* x11vnc: mouse button -> keystrokes and keystroke -> mouse button
+	  mappings in -buttonmap and -remap
+	* shm OS blacklist revert to -onetile
+
+2004-04-28  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -auth, more -cursorpos and -nofb work
+
+2004-04-19  Karl Runge <runge@karlrunge.com>
+	* x11vnc: -cursorpos, -sigpipe
+
+2004-04-13  Karl Runge <runge@karlrunge.com>
+	* x11vnc: do not send selection unless all clients
+	  are in RFB_NORMAL state.
+	* increase rfbMaxClientWait when threaded to avoid
+	  ReadExact() timeouts for some viewers.
+
+2004-04-08  Karl Runge <runge@karlrunge.com>
+	* x11vnc options -blackout, -xinerama, -xwarppointer
+	* modify configure.ac to pick up -lXinerama
+	* extend -remap to take mapping list.
+	* check cargs result for unused args.
+
+2004-03-22  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* fix cargs.c (hopefully for the last time):
+	  arguments were not correctly purged
+
+2004-03-15  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* fix libvncserver-config to again return a linker when
+	  called with --link
+
+2004-03-10  Karl Runge <runge@karlrunge.com>
+	* x11vnc options -vncconnect, -connect, -remap,
+	  -debug_pointer, and -debug_keyboard
+	* support reverse connections, vncconnect(1), etc.
+	* expt. with user supplied keysym remapping.
+	* debug output option for pointer and keyboard.
+
+2004-02-29  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* fixed warning of valgrind for regiontest
+
+2004-02-19  Karl Runge <runge@karlrunge.com>
+	* x11vnc options -nosel -noprimary -visual.
+	* add clipboard/selection handling.
+	* add visual option (mostly for testing and workarounds).
+	* improve shm cleanup on failures.
+
+2004-02-04  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* Make examples (at least a few) compileable with g++,
+	  as pointed out by Juan Jose Costello
+
+2004-01-30  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* Thanks to Paul Fox from Bright Star Engineering,
+	  a few more memory leaks were fixed.
+
+2004-01-29  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* Honour the check for libz and libjpeg again.
+
+2004-01-21  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* do not send unneccessary updates when drawing a cursor
+	* ignore SIGPIPE; it is handled by EPIPE
+	* add an example how to use rfbDoCopyRect
+	* add experimental progressive updating (off by default)
+
+2004-01-19  Karl Runge <runge@karlrunge.com>
+	* handle mouse button number mismatch
+	* improved pointer input handling during drags, etc.
+	* somewhat faster copy_tiles() -> copy_tiles()
+	* x11vnc options -buttonmap -old_pointer -old_copytile
+
+2004-01-16  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* compile fix for cygwin
+
+2004-01-09  Karl Runge <runge@karlrunge.com>
+	* x11vnc options -allow, -localhost, -nodragging, -input_skip
+	* minimize memory usage under -nofb
+
+2003-12-08  Karl Runge <runge@karlrunge.com>
+	* add check for XKEYBOARD extension in configure.ac
+	* support XBell events (disable: "-nobell"), "-nofb" in x11vnc
+
+2003-11-07  Karl Runge <runge@karlrunge.com>
+	* support "-inetd", "-noshm", "-flipbyteorder" in x11vnc
+
+2003-10-26  Johannes E. Schindelin  <Johannes.Schindelin@gmx.de>
+	* released Version 0.6
+
+2003-09-11  Mark McLoughlin  <mark@skynet.ie>
+
+	* Makefile.in, */Makefile.in, aclocal.m4,
+	  bootstrap.sh, config.h.in, configure,
+	  depcomp, install-sh, missing, mkinstalldirs,
+	Removed auto-generated files from CVS.
+
+2003-09-11  Mark McLoughlin  <mark@skynet.ie>
+
+	* rdr/Exception.h, rdr/FdInStream.cxx, rdr/FdInStream.h,
+	  rdr/FdOutStream.cxx, rdr/FdOutStream.h, rdr/FixedMemOutStream.h,
+	  rdr/InStream.cxx, rdr/InStream.h, rdr/MemInStream.h,
+	  rdr/MemOutStream.h, rdr/NullOutStream.cxx, rdr/NullOutStream.h,
+	  rdr/OutStream.h, rdr/ZlibInStream.cxx, rdr/ZlibInStream.h,
+	  rdr/ZlibOutStream.cxx, rdr/ZlibOutStream.h, rdr/types.h,
+	  zrle.cxx, zrleDecode.h, zrleEncode.h: remove original
+	C++ ZRLE implementation. Its been ported to C.
+
+	* NEWS: copy the existing ChangeLog to here and make
+	this a more detailed ChangeLog.

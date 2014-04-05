@@ -1,0 +1,15 @@
+<map id="rfbScaledScreenUpdate" name="rfbScaledScreenUpdate">
+<area shape="rect" id="node3" href="$private_8h.html#ac0420e7b997ea22099e2070a566a1cef" title="rfbHideCursor" alt="" coords="229,89,339,119"/>
+<area shape="rect" id="node19" href="$private_8h.html#ad749a1914d8c46af1f10534f96d771a0" title="rfbShowCursor" alt="" coords="227,36,341,65"/>
+<area shape="rect" id="node22" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="636,156,801,185"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="391,36,585,65"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="657,12,780,41"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="852,8,983,37"/>
+<area shape="rect" id="node11" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1071,59,1124,88"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="1033,5,1161,35"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="1047,112,1148,141"/>
+<area shape="rect" id="node15" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1212,5,1265,35"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga6c95e168c017a5b4c79397429396591b" title="rfbFillRect" alt="" coords="877,163,957,192"/>
+<area shape="rect" id="node28" href="$group__libvncserver__api.html#gabc21dfa884626a9f0fdd7256f9140ff8" title="rfbDrawPixel" alt="" coords="868,216,967,245"/>
+<area shape="rect" id="node30" href="$group__libvncserver__api.html#ga6ac5e0920a82a864cba2f2dced941ad8" title="rfbDrawLine" alt="" coords="1049,241,1145,271"/>
+</map>

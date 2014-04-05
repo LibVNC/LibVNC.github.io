@@ -1,0 +1,17 @@
+<map id="SupportsClient2Server" name="SupportsClient2Server">
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#gaef68ecf341f38878a5a23da0cea878dd" title="Sends format and encoding parameters to the server. " alt="" coords="248,5,427,35"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="223,59,452,88"/>
+<area shape="rect" id="node14" href="$group__libvncclient__api.html#gaa1ba5207ea861033e2c9e219c169af8a" title="SendScaleSetting" alt="" coords="269,112,405,141"/>
+<area shape="rect" id="node16" href="$group__libvncclient__api.html#ga8f60b3d5f9974296d0de9cc0aa59bb3f" title="Sends a text chat message to the server. " alt="" coords="283,165,392,195"/>
+<area shape="rect" id="node18" href="$group__libvncclient__api.html#ga232fc2e1ae4ff62310d73d97285553ab" title="Opens a text chat window on the server. " alt="" coords="283,219,392,248"/>
+<area shape="rect" id="node20" href="$group__libvncclient__api.html#ga9bc2b2864ae70fb6da4b39fdda220798" title="Closes the text chat window on the server. " alt="" coords="281,272,393,301"/>
+<area shape="rect" id="node22" href="$group__libvncclient__api.html#ga2624712903d55aeb1bb647cd59d013bc" title="TextChatFinish" alt="" coords="281,325,393,355"/>
+<area shape="rect" id="node24" href="$group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7" title="PermitServerInput" alt="" coords="269,379,405,408"/>
+<area shape="rect" id="node26" href="$group__libvncclient__api.html#gabe907e4cdd36d303bff50471f7770fbe" title="SendXvpMsg" alt="" coords="285,432,389,461"/>
+<area shape="rect" id="node28" href="$group__libvncclient__api.html#gaad722bff3748771686f18252296585ea" title="Sends a pointer event to the server. " alt="" coords="269,485,405,515"/>
+<area shape="rect" id="node30" href="$group__libvncclient__api.html#gabbf04cd637fc2e400f624e07b2be3d80" title="Sends a key event to the server. " alt="" coords="281,539,393,568"/>
+<area shape="rect" id="node32" href="$group__libvncclient__api.html#ga033450499eb08f78b92b78eacdd44dcc" title="Places a string on the server&#39;s clipboard. " alt="" coords="269,592,405,621"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="501,21,709,67"/>
+<area shape="rect" id="node9" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="757,60,947,89"/>
+<area shape="rect" id="node11" href="$ppmtest_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="996,60,1049,89"/>
+</map>

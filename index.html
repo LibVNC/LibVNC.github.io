@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8" />
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+
+  <title>LibVNCServer/LibVNCClient</title>
+  <link rel="alternate" type="application/rss+xml" title=
+  "LibVNCServer/LibVNCClient Project Activity" href=
+  "https://sourceforge.net/export/rss2_keepsake.php?group_id=32584" />
+  <link rel="stylesheet" type="text/css" href="default.css" title=
+  "default" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="navbar">
+      <a href="index.html">Home</a> <a href=
+      "doc/html/index.html">Documentation</a> <a href=
+      "success.html">Who's using it?</a> <a href=
+      "http://sourceforge.net/projects/libvncserver/files/libvncserver/">
+      Download</a> <a href=
+      "http://sourceforge.net/projects/libvncserver/support">Support</a>
+      <a href=
+      "http://sourceforge.net/projects/libvncserver/develop">Development</a>
+    </div>
+
+    <div id="body">
+      <h1>Introduction</h1>
+
+      <div class="center" id="proj_desc">
+        <p><b>LibVNCServer/LibVNCClient</b> are cross-platform C
+        libraries that allow you to easily implement VNC server or
+        client functionality in your program. If you don't know VNC
+        and what it's good for, read about it <a href=
+        "http://en.wikipedia.org/wiki/Virtual_Network_Computing">here</a>.<br />
+
+        <br />
+        See the <a href="doc/html/index.html">documentation</a> for
+        an API reference, the <a href="#building">build howto</a>
+        for info on how to compile the libraries on your platform
+        and the <a href="#news">project news</a> for a list of
+        recent changes.</p>
+      </div><br />
+
+      <p>To give an example, the simplest server looks like
+      this:<br />
+      <br /></p>
+      <pre class="code">
+#include &lt;rfb/rfb.h&gt;
+
+int main(int argc,char** argv)
+{
+  rfbScreenInfoPtr server=rfbGetScreen(&amp;argc,argv,400,300,8,3,4);
+  server-&gt;frameBuffer=malloc(400*300*4);
+  rfbInitServer(server);
+  rfbRunEventLoop(server,-1,FALSE);
+  return(0);
+}
+
+</pre>
+
+      <p>This sample creates a 400x300 frame buffer in true colour.
+      There are 4 bytes per pixel, because 3 (which are only used
+      instead of all 4) is such an odd number. Then the server is
+      initialized and a blocking event loop is started.</p>
+
+      <p>Of course, this program only shows rubbish (whatever is in
+      the frame buffer you malloc'd) and does not do any error
+      checking at all, but it proves that writing a server can be
+      very easy.</p>
+
+      <p>For more in-depth information (especially if you want to
+      write a real <a href=
+      "doc/html/libvncserver_doc.html">server</a> or <a href=
+      "doc/html/libvncclient_doc.html">client</a>) look into the
+      provided <a href="doc/html/examples.html">examples</a> and
+      into the <a href="doc/html/index.html">documentation</a> for
+      LibVNCServer and LibVNCClient.</p><br />
+
+      <p><b>LibVNCServer and LibVNCClient are free software
+      licensed under the GPL</b>. If you use them, you <b>must</b>
+      adhere to the terms of th GPL.</p>
+
+      <p><b>Looking for help or want to participate in the active
+      development of LibVNCServer/LibVNCClient?</b> Subscribe to
+      the <a href=
+      "http://sourceforge.net/projects/libvncserver/support">libvncserver-common
+      mailing</a> list.</p>
+
+      <div class="center">
+<script type="text/javascript" src="http://www.ohloh.net/p/34069/widgets/project_partner_badge.js"></script>    
+
+      </div>
+
+
+
+      <h1><a name="news" id="news"></a>News</h1>
+
+
+
+   <h3>2012/05/04</h3>
+     <div class=indent>
+	<br/>
+	<b>LibVNCServer 0.9.9 released!</b><br />
+      <br />
+      This is a major release that contains numerous bugfixes and a nice bag of shiny new features, mainly full IPv6 support, the new TurboVNC encoder and support for WebSockets.
+      <br />
+
+      <br />
+
+      You can get it over on <a href=
+      "http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.9/LibVNCServer-0.9.9.tar.gz/download">
+      http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.9/LibVNCServer-0.9.9.tar.gz/download</a><br />
+
+      <br />
+
+
+Besides the fixed bugs, the cool stuff is:<br />
+<br />
+
+- Overall changes:<br />
+<ul>
+ <li>Added <a href="http://kanaka.github.com/noVNC/">noVNC HTML5 VNC viewer</a> connect possibility
+to our http server. Pure JavaScript, no Java plugin required anymore! (But a
+recent browser...) </li>
+ <li>Added a GTK+ VNC viewer example. </li>
+</ul>
+
+- LibVNCServer/LibVNCClient:
+<ul>
+
+ <li>Added support to build for Google Android. </li>
+ <li>Complete IPv6 support in both LibVNCServer and LibVNCClient. </li>
+</ul>
+
+
+- LibVNCServer:
+<ul>
+ <li>Split two event-loop related functions out of the rfbProcessEvents() mechanism.
+This is required to be able to do proper event loop integration with Qt. Idea was
+taken from Vino's libvncserver fork.</li>
+ <li>Added <a href="http://wiki.qemu.org/VNC_Tight_PNG">TightPNG</a> encoding support. Like the
+original Tight encoding, this still uses JPEG, but ZLIB encoded rects are encoded
+with PNG here.</li>
+ <li>Added suport for serving VNC sessions through <a href="http://en.wikipedia.org/wiki/WebSocket">WebSockets</a>, a web technology providing for multiplexing
+bi-directional, full-duplex communications channels over a single TCP connection.</li>
+ <li>Support connections from the Mac OS X built-in VNC client to LibVNCServer
+instances running with no password.</li>
+ <li>Replaced the Tight encoder with a <a href="http://www.virtualgl.org/pmwiki/uploads/About/tighttoturbo.pdf">TurboVNC</a> one which is tremendously faster in most
+cases, especially with high-color video or 3D workloads.
+</li>
+</ul>
+
+- LibVNCClient:
+<ul>
+ <li>Added support to only listen for reverse connections on a specific IP address.</li>
+ <li>Support for using OpenSSL instead of GnuTLS. This could come in handy on embedded
+devices where only this TLS implementation is available.</li>
+ <li>Added support to connect to UltraVNC Single Click servers.</li>
+</ul>
+
+
+<br /><br />
+A hearty thanks to all that contributed!
+
+
+      </div>
+
+
+
+   <h3>2011/11/09</h3>
+     <div class=indent>
+	<br/>
+	<b>LibVNCServer 0.9.8.2 released!</b><br />
+      <br />
+      This is a maintenance release that fixes a regression in libvncclient that crept in with Apple Remote Desktop support added with 0.9.8. Viewers that were not
+	adapted to the new functionality would fail connecting to ARD servers before.
+      <br />
+
+      <br />
+
+      You can get it over on <a href=
+      "http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.8.2/LibVNCServer-0.9.8.2.tar.gz/download">
+      http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.8.2/LibVNCServer-0.9.8.2.tar.gz/download</a><br />
+
+      <br />
+
+      </div>
+
+
+      <h3>2011/10/12</h3>
+     <div class=indent>
+	<br/>
+	<b>LibVNCServer 0.9.8.1 released!</b><br />
+      <br />
+      This is a maintenance release that fixes an ABI compatibility issue introduced with 0.9.8.
+      <br />
+
+      <br />
+
+      You can get it over on <a href=
+      "http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.8.1/LibVNCServer-0.9.8.1.tar.gz/download">
+      http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.8.1/LibVNCServer-0.9.8.1.tar.gz/download</a><br />
+
+      <br />
+
+      </div>
+
+      <h3>2011/03/30</h3>
+
+      <div class=indent>
+	<br/>
+	<b>LibVNCServer version 0.9.8 has been released
+      today!</b><br />
+      <br />
+      You can get it over on <a href=
+      "http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.8/LibVNCServer-0.9.8.tar.gz/download">
+      http://sourceforge.net/projects/libvncserver/files/libvncserver/0.9.8/LibVNCServer-0.9.8.tar.gz/download</a><br />
+
+      <br />
+      To keep the story short, this is what's new:<br />
+      <br />
+      Overall changes:
+
+      <ul>
+        <li>Automagically generated API documentation using
+        doxygen.</li>
+
+        <li>Added support for pkg-config.</li>
+
+        <li>Fixed Mingw32 cross compilation.</li>
+
+        <li>Fixed CMake build system.</li>
+      </ul>LibVNCServer/LibVNCClient:
+
+      <ul>
+        <li>All files used by _both_ LibVNCServer and LibVNCClient
+        were put into a 'common' directory, reducing code
+        duplication.</li>
+
+        <li>Implemented xvp VNC extension.</li>
+
+        <li>Updated minilzo library used for Ultra encoding to ver
+        2.04. According to the minilzo README, this brings a
+        significant speedup on 64-bit architechtures.</li>
+      </ul>
+      
+      LibVNCServer:
+
+      <ul>
+        <li>Thread safety for ZRLE, Zlib, Tight, RRE, CoRRE and
+        Ultra encodings. This makes all VNC encodings safe to use
+        with a multithreaded server.</li>
+
+        <li>A DisplayFinishedHook for LibVNCServer. If set, this
+        hook gets called just before rfbSendFrameBufferUpdate()
+        returns.</li>
+
+        <li>Fix for tight security type for RFB 3.8 in TightVNC
+        file transfer (Debian Bug #517422).</li>
+      </ul>LibVNCClient:
+
+      <ul>
+        <li>Unix sockets support.</li>
+
+        <li>Anonymous TLS security type support.</li>
+
+        <li>VeNCrypt security type support.</li>
+
+        <li>MSLogon security type support.</li>
+
+        <li>ARD (Apple Remote Desktop) security type support.</li>
+
+        <li>UltraVNC Repeater support.</li>
+
+        <li>A new FinishedFrameBufferUpdate callback that is
+        invoked after each complete framebuffer update.</li>
+
+        <li>A new non-forking listen (reverse VNC) function that
+        works under Windows.</li>
+
+        <li>IPv6 support. LibVNCClient is now able to connect to
+        IPv6 VNC servers.</li>
+
+        <li>IP QoS support. This enables setting the DSCP/Traffic
+        Class field of IP/IPv6 packets sent by a client. For
+        example starting a client with -qosdscp 184 marks all
+        outgoing traffic for expedited forwarding. Implementation
+        for Win32 is still a TODO, though.</li>
+
+        <li>Fixed hostname resolution problems under Windows.</li>
+      </ul>SDLvncviewer
+
+      <ul>
+        <li>Is now resizable and can do key repeat, mouse wheel
+        scrolling and clipboard copy and paste.</li>
+      </ul>LinuxVNC:
+
+      <ul>
+        <li>Fix for no input possible because of ctrl key being
+        stuck. Issue was reported as Debian bug #555988.</li>
+      </ul><br />
+      Thanks to all that contributed!<br />
+      <br />
+      </div>
+
+      <h3>2010/11/29</h3>
+
+      <p>LibVNCServer/LibVNCClient now have a new website (inspired
+      by the FFmpeg one) including <a href=
+      "doc/html/index.html">API documentation.</a></p>
+
+      <h3>2005/09/29</h3>
+
+      <p>LibVNCServer now sports a brand new method to extend the
+      protocol, thanks to Rohit Kumar! He also extended the library
+      to support RFB 3.7. Furthermore, he contributed TightVNC file
+      transfer protocol support to LibVNCServer!</p>
+
+      <h3>2005/05/25</h3>
+
+      <p>LibVNCClient now features ZRLE decoding!</p>
+
+      <h3>2005/05/15</h3>
+
+      <p>Another round of valgrinding completed. This time it is
+      augmented by changes instigated by using Linus' sparse. In
+      the course, the complete sources were converted to ANSI
+      C.</p>
+
+      <h3>2005/05/07</h3>
+
+      <p>The member socketInitDone was renamed to socketState, and
+      no longer contains a bool value. This allows us to quit a
+      server cleanly from the event loop via rfbShutdownServer(),
+      so that the structures can be cleaned up properly. This is
+      demonstrated in examples/example.c.</p>
+
+      <h3>2005/01/21</h3>
+
+      <p>The function rfbMakeMaskFromAlphaSource() applies a
+      Floyd-Steinberg dither to approximate a binary mask from a
+      cursor with alpha channel. A demonstration can be found in
+      test/cursortest.c.</p>
+
+      <h3>2005/01/16</h3>
+
+      <p>Renamed this page to reflect that LibVNCClient is actually
+      very usable.</p>
+
+      <h3>2005/01/16</h3>
+
+      <p>Karl Runge has done awesome work to support cursors with
+      alpha blending! You can try it with x11vnc as in CVS, or wait
+      a few more days for x11vnc to be released officially!</p>
+
+      <h3>2005/01/15</h3>
+
+      <p>Happy new year! It begins with a new macro recorder based
+      on LibVNCServer/LibVNCClient using perl as script language.
+      The macro recorder is itself written in perl, and writes out
+      perl scripts, acting as a VNC proxy, so that you can connect
+      a vncviewer to it, and it records all your input, possibly
+      looking for a certain button, image, word, etc. before
+      continuing. I called it VisualNaCro, and it's in CVS.</p>
+
+      <h3>2004/12/20</h3>
+
+      <p>Just before christmas, a new release! Version 0.7 brings
+      you the first non-beta of LibVNCServer...</p>
+
+      <h3>2004/12/02</h3>
+
+      <p>Finally MinGW32 support. I only had problems with a
+      vncviewer which wouldn't connect to localhost: I use
+      SDLvncviewer...</p>
+
+      <h3>2004/12/01</h3>
+
+      <p>LibVNCClient is getting better and better... Expect a very
+      powerful client soon!</p>
+
+      <h3>2004/10/16</h3>
+
+      <p>LibVNCServer has automated test, thanks to LibVNCClient
+      (included). It doesn't do ZRLE yet, and exposed some bugs,
+      the only remaining of these is CoRRE (not sure yet if it's a
+      bug in the client or the server).</p>
+
+      <h3>2004/09/14</h3>
+
+      <p>Added <a href="success.html">Success stories</a>.</p>
+
+      <h3>2004/09/07</h3>
+
+      <p>The API was cleaned up. The structures and functions now
+      have a prefix (mostly "rfb", sometimes "zrle" or "sra") in
+      order not to clutter the namespace, while the structure's
+      members don't need such a prefix.</p>
+
+      <h3>2004/08/17</h3>
+
+      <p>I finally came around to fix mouse behaviour in QEMU's VNC
+      frontend for Windows 98. Please find the patch <a href=
+      "http://libvncserver.sourceforge.net/qemu/">here</a>. If
+      mouse behaves strangely, try to wiggle the pointer to a free
+      spot on the desktop, hit Ctrl+Shift and release them. After
+      that, the mouse should behave nicely.</p>
+
+      <h3>2004/06/07</h3>
+
+      <p>After silently being added almost a year ago,
+      libvncclient's API was modified for real use, and three
+      examples were added: ppmtest (a very simple demo),
+      SDLvncviewer, and vnc2mpg (which lets you record your VNC
+      session to a movie). Automated regression tests of the
+      libraries are planned.</p>
+
+      <h3>2004/06/02</h3>
+
+      <p><a href=
+      "http://www.karlrunge.com/x11vnc/">x11vnc</a>-0.6.1 was
+      released! This reflects the long way the original, small
+      example has gone, improved in many possible ways and having a
+      broad user base.</p>
+
+      <h3>2004/05/29</h3>
+
+      <p>Some <a href=
+      "http://libvncserver.sourceforge.net/qemu/">patches</a> were
+      created for <a href="http://qemu.org/">QEMU</a>, a FAST!
+      emulator by Fabrice Bellard, to control those sessions with a
+      vncviewer.</p>
+
+      <h3>2004/02/29</h3>
+
+      <p>LibVNCServer is listed as a project using <a href=
+      "http://valgrind.org/">Valgrind</a>!</p>
+
+      <h3>2003/11/07</h3>
+
+      <p>Version 0.6 is out! x11vnc performance boosts! You no
+      longer need a c++ compiler in order to have ZRLE coding!
+      LinuxVNC was added (This is to the text console what x11vnc
+      is to X11)!</p>
+
+      <h3>2003/02/21</h3>
+
+      <p>rdp2vnc is in rdesktop's CVS.</p>
+
+      <h3>2003/02/19</h3>
+
+      <p>A preliminary patch for rdesktop (CVS) to make rdp2vnc, a
+      translator from Windows Terminal Server's protocol to VNC's
+      protocol, is <a href=
+      "rdesktop-cvs+vnc.diff.gz">available</a>. It needs a new
+      version of libvncserver; try CVS until I release 0.6.</p>
+
+      <h3>2003/02/09</h3>
+
+      <p>Version 0.5 is out! Features include autoconf based
+      configure, rpm package (YMMV), cleanup of directory
+      structure, NEW x11vnc! ZRLE encoding! HTTP tunnelling through
+      LibVNCServer's HTTP support! Many bug fixes!</p>
+
+      <h3>2002/07/28</h3>
+
+      <p>Version 0.4 is out! Biggest feature: NewFB encoding. Quite
+      a few bugfixes also (Thanks to all!).</p>
+
+      <h3>2001/12/14</h3>
+
+      <p>A new version of <a href=
+      "rdesktop-1.1.0+vnc-0.2.tar.gz">rdesktop+vnc</a> is
+      available! (Includes support for other platforms keyboard
+      mapping with plain rdesktop!)</p>
+
+      <h3>2001/10/23</h3>
+
+      <p>Added a link to my homepage at the end.</p>
+
+      <h3>2001/10/18</h3>
+
+      <p>I released the rdp2vnc extensions as well as patches for
+      general keyboard handling, working inside Xvnc and
+      process_text2 (the famous "font:" error) to rdesktop. Please
+      find it on the <a href=
+      "http://sourceforge.net/project/showfiles.php?group_id=32584">
+      download page</a>.</p>
+
+      <h3>2001/10/13</h3>
+
+      <p>A snapshot of <a href=
+      "http://sourceforge.net/project/showfiles.php?group_id=32584">
+      LibVNCServer</a> and <a href=
+      "http://sourceforge.net/project/showfiles.php?group_id=32584">
+      RDP2VNC</a> is now available. You can also download the
+      <a href=
+      "http://sourceforge.net/project/showfiles.php?group_id=32584">
+      diff</a> against rdesktop-1.1.0. rdp2vnc also contains the
+      patches for keyboards other than PC keyboards, and you can
+      specify "-k fr" again.</p><br />
+
+      <h1><a name="building" id="building"></a>How to Build</h1>
+
+      <h3>The prerequisites:</h3>
+
+      <ul>
+        <li>The usual C compiler with headers and stuff.</li>
+
+        <li>For the more advanced VNC encodings: <a href=
+        "http://www.zlib.net/">zlib</a> and <a href=
+        "http://www.ijg.org/">libjpeg</a> development
+        packages.</li>
+
+        <li>If you want to try out the provided client example:
+        <a href="http://www.libsdl.org/">libSDL</a> development
+        package version &gt;= 1.2.0.</li>
+      </ul><br />
+
+      <h3>To configure the source:</h3>
+ 
+	<p>On Unix/Linux platforms, just the usual:</p>
+
+      <pre class="code">
+./configure
+</pre>
+
+
+
+      <p>If crosscompiling for Windows using <a href=
+      "http://www.mingw.org/">MinGW</a> (The WINVER define
+      'unlocks' some newer features of the Win32 TCP/IP stack. The
+      LDFLAGS setting allows building of DLLs provided you have
+      ws2_32.dll available in your linker path.):</p>
+      <pre class="code">
+
+CPPFLAGS=-DWINVER=0x0501 ./configure  \
+	    --build=&lt;your build system type&gt; --host=i586-mingw32msvc --with-sdl-config=&lt;your win32 sdl-config&gt; \
+            --with-zlib=&lt;path to your win32 zlib&gt; --with-jepg=&lt;path to your win32 libjpeg&gt; \
+            --with-gnutls=&lt;path to your win32 gnutls or 'no'&gt; \
+            --with-gcrypt=&lt;path to your win32 libgcrypt or 'no'&gt; 
+      
+</pre>
+
+      <p>If building for Android:
+<ul>
+<li>1. Read &lt;NDK location&gt;/docs/STANDALONE-TOOLCHAIN.html.</li>
+
+<li>2. Setup your toolchain according to step 3 in the above file.</li>
+
+<li>3. Execute</li>
+</ul>
+<pre class="code">
+./configure --host=arm-eabi CC=arm-linux-androideabi-gcc
+</pre>
+
+
+      </p>
+<br/>
+
+      <h3>Building:</h3>
+<p>As always, it's done by typing:</p>
+      <pre class="code">
+make
+</pre>
+
+      <p>That's it....</p><br />
+      <br />
+      <br />
+    </div>
+  </div>
+</body>
+</html>

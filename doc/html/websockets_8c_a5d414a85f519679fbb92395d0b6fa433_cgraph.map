@@ -1,0 +1,12 @@
+<map id="webSocketsCheck" name="webSocketsCheck">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gadcd4375a6ca0e6ee923e18be59ad051d" title="rfbPeekExactTimeout" alt="" coords="191,85,345,115"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="216,165,320,195"/>
+<area shape="rect" id="node18" href="$rfbssl_8h.html#a60dc1d61027a24ce3584b7ba0820570a" title="rfbssl_init" alt="" coords="227,245,309,275"/>
+<area shape="rect" id="node5" href="$rfbssl_8h.html#a3d953fca2145875d9076d4bf5c7c37a1" title="rfbssl_peek" alt="" coords="420,5,513,35"/>
+<area shape="rect" id="node7" href="$rfbssl_8h.html#a8e8c36ccf5704a8216eaf701eea537a8" title="rfbssl_pending" alt="" coords="409,59,524,88"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="417,112,516,141"/>
+<area shape="rect" id="node13" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="395,165,539,195"/>
+<area shape="rect" id="node15" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="420,219,513,248"/>
+<area shape="rect" id="node20" href="$rfbssl__gnutls_8c.html#a885cfe7ff139df26429fbc25323ec066" title="rfbssl_init_global" alt="" coords="404,272,529,301"/>
+<area shape="rect" id="node22" href="$rfbssl__gnutls_8c.html#a33c4d7cfc6cfadc0974849af54c4b2d2" title="rfbssl_log_func" alt="" coords="588,272,703,301"/>
+</map>

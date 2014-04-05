@@ -1,0 +1,99 @@
+This is a preliminary draft
+
+Fixed Point Arithmetic
+----------------------
+
+Fabrice does not like float's in QEmu, and I understand why: floats
+are not standardized (Pentium has different precision than PowerPC,
+for example), and on a few platforms, they are slow, and if they
+are not, their conversion from/to int's is.
+
+Thus the need for fixed point precision. What does that mean? A fixed
+point number is represented by an int. In order to get the real value,
+you have to divide that int by a certain power of two, which you can
+define:
+
+#define FP_ONE (1<<16)
+
+Remember, a 32-bit int has only 31 bits for the number, because the
+most signigicant bit ("MSB") is used for the sign. Let's declare the
+type:
+
+typedef int32_t fp_t;
+
+Now, for the integer part of the fixed point number, there are
+31-16=15 bits, and for the fractional part there are 16 bits. Of course
+you can use an other partition, so let's redefine it like
+
+#define FP_SHIFT 16
+#define FP_ONE (1<<(FP_SHIFT))
+
+Let's define for convenience, and to better understand, a cast from/to
+float:
+
+static inline float fp_to_float(fp_t f) { return f/(float)FP_ONE; }
+static inline fp_t float_to_fp(float f) { return (fp_t)(f*FP_ONE); }
+
+The beauty of it: Adding and Subtracting work like with int's:
+
+static inline fp_t fp_add(fp_t a,fp_t b) { return a+b; }
+static inline fp_t fp_subtract(fp_t a,fp_t b) { return a-b; }
+
+Just multiplying and dividing are a bit of a problem: Remember, each
+fp_t really is an int, which is the real value times FP_ONE, so in order
+to multiply, we have to calculate
+
+a*b*FP_ONE from a*FP_ONE and b*FP_ONE
+
+Easy, right? Multiply a*FP_ONE*b*FP_ONE/FP_ONE. Wrong. You loose precious
+precision! In order to get the maximum precision, you have to divide
+both a*FP_ONE and b*FP_ONE by 1<<(FP_SHIFT/2), and then multiply the result:
+
+static inline fp_t fp_multiply(fp_t a,fp_t b) {
+#define FP_MULTIPLY_FACTOR (1<<((FP_SHIFT)/2))
+	return (a/FP_MULTIPLY_FACTOR)*(b/FP_MULTIPLY_FACTOR);
+}
+
+It gets worse with division:
+
+static inline fp_t fp_divide(fp_t a,fp_t b) {
+	return a/(b/FP_ONE);
+}
+
+If a and b were float's, this would work, but unfortunately, they aren't,
+so a division by anything smaller than 1 will make (b/FP_ONE)==0, i.e.
+a division by zero.
+
+A better solution is to use this equality:
+
+a/b*FP_ONE == (a*FP_ONE*factor*FP_ONE)/(b*FP_ONE*factor)
+
+In order to get the best factor with respect to precision, we choose the
+one where either the nominator or the denominator (whichever is greater),
+are as close as possible to INT_MAX:
+
+static inline fp_t fp_divide(fp_t a,fp_t b) {
+	int factor=(a>b?INT_MAX/(a*FP_ONE)):INT_MAX/b);
+	return (a*FP_ONE*factor)/(b*factor);
+}
+
+However, an overflow in a*FP_ONE can occur. Therefore, it is best to first
+define the inverse:
+
+static inline fp_t fp_inv(fp_t f) {
+#if FP_SHIFT<16
+	return FP_ONE*FP_ONE/f;
+#elif FP_SHIFT==16
+	/* as close as possible: */
+	return INT_MAX/b*2;
+#else
+	return FP_ONE/(f/FP_ONE);
+#endif
+}
+
+and then define the division as the multiplication with the inverse:
+
+static inline fp_t fp_divide(fp_t a,fp_t b) {
+	return fp_multiply(a,fp_inv(b));
+}
+

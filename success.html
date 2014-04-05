@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8" />
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+
+  <title>LibVNCServer/LibVNCClient success stories</title>
+  <link rel="alternate" type="application/rss+xml" title=
+  "LibVNCServer/LibVNCClient Project Activity" href=
+  "https://sourceforge.net/export/rss2_keepsake.php?group_id=32584" />
+  <link rel="stylesheet" type="text/css" href="default.css" title=
+  "default" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="navbar">
+      <a href="index.html">Home</a> <a href=
+      "doc/html/index.html">Documentation</a> <a href=
+      "success.html">Who's using it?</a> <a href=
+      "http://sourceforge.net/projects/libvncserver/files/libvncserver/">
+      Download</a> <a href=
+      "http://sourceforge.net/projects/libvncserver/support">Support</a>
+      <a href=
+      "http://sourceforge.net/projects/libvncserver/develop">Development</a>
+    </div>
+
+    <h1>LibVNCServer</h1>
+
+    <ul>
+      <li><a href="http://www.karlrunge.com">Karl Runge</a> took my
+      first version of x11vnc, which was just a proof-of-concept
+      that the library actually is usable, and turned it into a
+      <a href="http://www.karlrunge.com/x11vnc/">fully fledged
+      application</a>.<br />
+      <br /></li>
+
+      <li>Tim Jansen created <a href=
+      "http://www.tjansen.de/krfb/">KRFB</a>, which is x11vnc
+      integrated into KDE.<br />
+      <br /></li>
+
+      <li>Jeff Mock of <a href="http://alfa.naic.edu">the world's
+      largest radio telescope in Arecibo</a> sent me a nice
+        <a href="http://libvncserver.sourceforge.net/alfa-vnc.gif">screenshot</a>,
+        describing his use of LibVNCServer:
+
+        <p class="citation">I've been using it for about 4 months
+        on a project to build a new spectrometer for the radio
+        telescope at Arecibo. Arecibo is the largest radio
+        telescope in the world (305m!) in Puerto Rico. It has
+        10-times the collecting area of the second largest
+        telescope in Effelsburg (maybe near you?).</p>
+
+        <p class="citation">The project is an embedded linux box
+        that boots from a compact flash card. The root filesystem
+        is only about 5MB. X wasn't reasonable for such a small
+        embedded system, but libvncserver was perfect. On the
+        console we run graphical diagnostics that write directly to
+        the frame buffer. It was a simple matter to hook this
+        direct-framebuffer application to libvncserver. This way we
+        can easily view the diagnostics for the spectrometer from
+        the control room (or anyplace else for that
+        matter).</p><br />
+        <br />
+      </li>
+
+      <li>michu let me know that <a href=
+      "http://ssl.bulix.org/projects/lcd4linux/">LCD4Linux</a> has
+      a VNC backend using LibVNCServer.<br />
+      <br /></li>
+
+      <li><a href="http://kcemu.sf.net">kcemu</a> uses it as well.<br />
+      <br /></li>
+
+      <li><a href="http://www.virtualbox.org">VirtualBox</a> uses
+      LibVNCServer for its built-in VNC server.<br />
+      <br /></li>
+
+
+  <li><a href="http://code.google.com/p/android-vnc-server/">android-vnc-server</a>,
+      a VNC server specifically for the Android mobile platform,
+      forked from android-vnc project on google code. Unlike the
+      original android-vnc, it doesn't need a special keyboard driver
+      built into the kernel. <br />
+      <br /></li>
+
+
+      <li><a href="http://cydia.saurik.com/info/veency/">Veency</a> is a VNC server for iPhones (<a href="http://svn.saurik.com/repos/menes/trunk/veency/">Sources</a>).<br />
+      <br /></li>
+
+          </ul>
+          
+       <h1>LibVNCClient</h1>    
+       <ul>
+       
+        <li><a href="http://aqemu.sourceforge.net/">aqemu</a> uses LibVNCClient internally.<br />
+      <br /></li>
+       
+      <li><a href="http://remmina.sourceforge.net">Remmina</a> uses LibVNCClient for its VNC plugin.<br />
+      <br /></li>
+      
+      <li><a href="http://sourceforge.net/projects/multivnc/">MultiVNC</a> is a cross-platform wxWidgets VNC viewer based on LibVNCClient.<br />
+      <br /></li>
+
+   <li><a href="http://kde.org/applications/internet/krdc/">KRDC</a> is KDEs remote desktop client. There also is a  <a href="http://websvn.kde.org/trunk/KDE/kdenetwork/krdc/vnc/qtonly/README?view=markup">Qt 
+implementation of
+LibVNCClient</a> (Qt-only, no KDE dependencies)
+<br />
+      <br /></li>
+       
+       </ul>
+  </div>
+</body>
+</html>

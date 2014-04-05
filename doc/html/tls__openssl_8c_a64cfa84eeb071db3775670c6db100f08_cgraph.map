@@ -1,0 +1,7 @@
+<map id="HandleVeNCryptAuth" name="HandleVeNCryptAuth">
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="212,59,361,88"/>
+<area shape="rect" id="node9" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="221,112,352,141"/>
+<area shape="rect" id="node5" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="420,5,527,35"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="411,59,536,88"/>
+<area shape="rect" id="node11" href="$tls_8h.html#a4d0cfe74a748174418e500f34d106df1" title="WriteToTLS" alt="" coords="429,112,517,141"/>
+</map>

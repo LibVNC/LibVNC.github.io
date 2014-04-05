@@ -1,0 +1,99 @@
+How does Fabrice avoid using C++?
+---------------------------------
+
+Well, it's easy. In C++ you write something like
+
+template<class T>
+T calculate(T value) {
+	// do something clever with variables of type T
+	return value*2;
+}
+
+In Fabrice's world (C), you write a header file which ends in _template.h
+This file is #include'd after #define'ing some values/types/whatever, and
+after the #include, they are #undef'ined again.
+
+Example: Suppose you want to write a routine using floating point, but you
+want to be able to use it with integers, too. Your example_template.h would
+look something like this
+
+-- snip --
+
+static VALUE_TYPE calculate(VALUE_TYPE value) {
+	/* do something incredibly clever */
+	return MULTIPLY(value,2);
+}
+
+-- snap --
+
+In order to use that, you would use something like this:
+
+-- snip --
+
+#define VALUE_TYPE float
+#define MULTIPLY(a,b) ((a)*(float)(b))
+#include "example_template.h"
+#undef MULTIPLY
+#undef VALUE_TYPE
+
+-- snap --
+
+Very often, you want to use the template for several different #define'd
+values, because that's the whole purpose of templates, right? Written as
+above, that would not work, because the function calculate() can only be
+defined once.
+
+Fabrice introduced the glue() macros for that (they are in vl.h). They
+glue together two identifiers, i.e.
+
+	glue(calculate_,VALUE_TYPE)
+
+will become "calculate_float" if VALUE_TYPE was #define'd to be a float, and
+"calculate_int" if VALUE_TYPE was #define'd to be an int.
+
+So, the final example_template.h would look like this:
+
+-- snip --
+
+static VALUE_TYPE glue(calculate_,VALUE_TYPE)(VALUE_TYPE value) {
+	/* do something incredibly clever */
+	return MULTIPLY(value,2);
+}
+
+-- snap --
+
+and the code using it:
+
+-- snip --
+
+#define VALUE_TYPE float
+#define MULTIPLY(a,b) ((a)*(float)(b))
+#include "example_template.h"
+#undef MULTIPLY
+#undef VALUE_TYPE
+
+#define VALUE_TYPE int
+#define MULTIPLY(a,b) ((a)*(int)(b))
+#include "example_template.h"
+#undef MULTIPLY
+#undef VALUE_TYPE
+
+//...
+
+	float g=calculate_float(f);
+	int j=calculate_int(i);
+	
+-- snap --
+
+In order to make functions with two or more templated types, you can
+nest glue():
+
+	glue(glue(glue(convert_from_,IN_T),_to_),OUT_T)
+
+Once you get used to it, it's as easy to read as C++ templates (which is
+not that easy, either ;-) ). And what is more, it is as type safe as
+C++ templates.
+
+You could achieve a similar effect using #define's only, but you'd loose
+the type safety.
+

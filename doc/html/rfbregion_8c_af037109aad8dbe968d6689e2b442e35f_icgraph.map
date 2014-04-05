@@ -1,0 +1,11 @@
+<map id="sraClipRect2" name="sraClipRect2">
+<area shape="rect" id="node3" href="$private_8h.html#a024a888b290971c3d022e345a0f70f92" title="rfbRedrawAfterHideCursor" alt="" coords="156,32,340,61"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga04b4ad9130d8b7a4cc97d03fc3cbc159" title="rfbSetCursor" alt="" coords="437,5,539,35"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="391,59,585,88"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="635,59,757,88"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="807,59,937,88"/>
+<area shape="rect" id="node13" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1025,5,1079,35"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="988,59,1116,88"/>
+<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="1001,112,1103,141"/>
+<area shape="rect" id="node17" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1167,59,1220,88"/>
+</map>

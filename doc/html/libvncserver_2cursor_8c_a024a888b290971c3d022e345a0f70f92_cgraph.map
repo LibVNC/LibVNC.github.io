@@ -1,0 +1,7 @@
+<map id="rfbRedrawAfterHideCursor" name="rfbRedrawAfterHideCursor">
+<area shape="rect" id="node3" href="$rfbregion_8h.html#af037109aad8dbe968d6689e2b442e35f" title="sraClipRect2" alt="" coords="259,5,357,35"/>
+<area shape="rect" id="node5" href="$rfbregion_8h.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="240,59,376,88"/>
+<area shape="rect" id="node9" href="$rfbregion_8h.html#a8da96b0923f469be1346604d6608e941" title="sraRgnOr" alt="" coords="268,112,348,141"/>
+<area shape="rect" id="node11" href="$rfbregion_8h.html#a596e83a5a0244b65bd7f5c216987b261" title="sraRgnDestroy" alt="" coords="251,165,365,195"/>
+<area shape="rect" id="node7" href="$rfbregion_8c.html#a1836e6c639e0567a59e5a10496318180" title="sraSpanListDestroy" alt="" coords="424,112,571,141"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ConnectToRFBRepeater" name="ConnectToRFBRepeater">
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga3a3393c31fc2d2c4d4b9a52683158a17" title="ConnectClientToTcpAddr6" alt="" coords="224,5,405,35"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#gaac22e57008d10f34a9d37c441db5f268" title="StringToIPAddr" alt="" coords="259,59,371,88"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#ga36c6f012f3b4a0e2e3d8c766b7026463" title="ConnectClientToTcpAddr" alt="" coords="228,112,401,141"/>
+<area shape="rect" id="node9" href="$group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="253,165,376,195"/>
+<area shape="rect" id="node11" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="240,219,389,248"/>
+<area shape="rect" id="node17" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="249,272,380,301"/>
+<area shape="rect" id="node13" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="463,165,569,195"/>
+<area shape="rect" id="node15" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="453,219,579,248"/>
+<area shape="rect" id="node19" href="$tls_8h.html#a4d0cfe74a748174418e500f34d106df1" title="WriteToTLS" alt="" coords="472,272,560,301"/>
+</map>

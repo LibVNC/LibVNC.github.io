@@ -1,0 +1,20 @@
+<map id="HandleFileDownload" name="HandleFileDownload">
+<area shape="rect" id="node3" href="$filetransfermsg_8c.html#a8489e45c5921254020eee16b8aedb5a3" title="ChkFileDownloadErr" alt="" coords="457,42,601,71"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="477,332,581,362"/>
+<area shape="rect" id="node17" href="$filetransfermsg_8c.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="457,543,601,572"/>
+<area shape="rect" id="node19" href="$handlefiletransferrequest_8c.html#ae2bc1e0c2dff037241baf95bba3bdcbf" title="RunFileDownloadThread" alt="" coords="203,386,373,415"/>
+<area shape="rect" id="node37" href="$filetransfermsg_8c.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="716,103,889,132"/>
+<area shape="rect" id="node5" href="$filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="969,103,1159,132"/>
+<area shape="rect" id="node7" href="$filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="701,33,904,80"/>
+<area shape="rect" id="node11" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="731,279,875,308"/>
+<area shape="rect" id="node13" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="756,332,849,362"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="753,386,852,415"/>
+<area shape="rect" id="node21" href="$handlefiletransferrequest_8c.html#ab9c04c8d9a2305beddd3dfa4a3aae68f" title="rfbGetTightClientData" alt="" coords="449,386,609,415"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="748,492,857,522"/>
+<area shape="rect" id="node29" href="$filetransfermsg_8c.html#a4e2c427b6917a6437bba3f5caa35c8e0" title="GetFileDownloadResponseMsg\lInBlocks" alt="" coords="423,154,636,201"/>
+<area shape="rect" id="node42" href="$filetransfermsg_8c.html#a9c4a21a4089cb4b02aff8ddbec27adc1" title="CloseUndoneFileTransfer" alt="" coords="441,490,617,519"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga9779d2d83bed62b5ac82e080cfd06b72" title="rfbGetExtensionClientData" alt="" coords="708,439,897,468"/>
+<area shape="rect" id="node27" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="1009,492,1119,522"/>
+<area shape="rect" id="node31" href="$filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="687,156,919,186"/>
+<area shape="rect" id="node35" href="$filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="699,209,907,256"/>
+</map>

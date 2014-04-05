@@ -1,0 +1,23 @@
+<map id="rfbDoCopyRect" name="rfbDoCopyRect">
+<area shape="rect" id="node3" href="$rfbregion_8h.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="605,5,741,35"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#gaa07b26543b8a057da510abae57654035" title="rfbDoCopyRegion" alt="" coords="172,219,303,248"/>
+<area shape="rect" id="node41" href="$rfbregion_8h.html#a596e83a5a0244b65bd7f5c216987b261" title="sraRgnDestroy" alt="" coords="616,59,731,88"/>
+<area shape="rect" id="node5" href="$rfbregion_8c.html#a1836e6c639e0567a59e5a10496318180" title="sraSpanListDestroy" alt="" coords="808,32,955,61"/>
+<area shape="rect" id="node9" href="$rfbregion_8h.html#ac9f3ec7d295abcf97252b9271b41bed8" title="sraRgnGetReverseIterator" alt="" coords="352,459,539,488"/>
+<area shape="rect" id="node13" href="$rfbregion_8h.html#ae136bd7edc797893660c338d2467ad34" title="sraRgnIteratorNext" alt="" coords="375,165,516,195"/>
+<area shape="rect" id="node15" href="$rfbregion_8h.html#aad3b73b9c266919ad3335874d1ca2b5e" title="sraRgnReleaseIterator" alt="" coords="364,219,527,248"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga444fdc5b55fc40ed873674e7cb1f502d" title="rfbScheduleCopyRegion" alt="" coords="360,272,531,301"/>
+<area shape="rect" id="node11" href="$rfbregion_8h.html#a95f8c17ad5f66bb8c3e705057ad9ad13" title="sraRgnGetIterator" alt="" coords="605,592,741,621"/>
+<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga0e6ec0764fcf459b5f4e191eabc02469" title="rfbGetClientIterator" alt="" coords="601,112,745,141"/>
+<area shape="rect" id="node21" href="$group__libvncserver__api.html#gaa14312283c0782436cffcd7fb601f919" title="rfbClientIteratorNext" alt="" coords="597,219,749,248"/>
+<area shape="rect" id="node27" href="$rfbregion_8h.html#ae2bc8fd0fd11df2130ce5842692328b1" title="sraRgnEmpty" alt="" coords="620,272,727,301"/>
+<area shape="rect" id="node29" href="$rfbregion_8h.html#a8da96b0923f469be1346604d6608e941" title="sraRgnOr" alt="" coords="633,325,713,355"/>
+<area shape="rect" id="node31" href="$rfbregion_8h.html#af32f44819018015973ca177cada8872a" title="sraRgnMakeEmpty" alt="" coords="604,379,743,408"/>
+<area shape="rect" id="node33" href="$rfbregion_8h.html#a708e13728f206cf94b19e9ef2c223c6b" title="sraRgnCreateRgn" alt="" coords="607,432,740,461"/>
+<area shape="rect" id="node37" href="$rfbregion_8h.html#a238615bae0d77cff185b830a403e0ce8" title="sraRgnOffset" alt="" coords="621,485,725,515"/>
+<area shape="rect" id="node39" href="$rfbregion_8h.html#aa00ec361ac3a1aa4ab282f09e6da1304" title="sraRgnAnd" alt="" coords="628,539,719,568"/>
+<area shape="rect" id="node45" href="$group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2" title="rfbReleaseClientIterator" alt="" coords="588,165,759,195"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#gaba44eeec109d8dc5c9fb75790c665c25" title="rfbDecrClientRef" alt="" coords="820,165,943,195"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga84073ffa09fe65ca2899b1544b665657" title="rfbIncrClientRef" alt="" coords="823,219,940,248"/>
+<area shape="rect" id="node35" href="$rfbregion_8c.html#aa4c03d58d6142575ee59e8482325c8e8" title="sraSpanListDup" alt="" coords="820,432,943,461"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="rfbSendCopyRegion" name="rfbSendCopyRegion">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="201,59,396,88"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="445,59,568,88"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="617,59,748,88"/>
+<area shape="rect" id="node9" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="836,5,889,35"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="799,59,927,88"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="812,112,913,141"/>
+<area shape="rect" id="node13" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="977,59,1031,88"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="HandleFileDownloadLengthError" name="HandleFileDownloadLengthError">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c" title="rfbReadExact" alt="" coords="308,112,412,141"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="305,165,415,195"/>
+<area shape="rect" id="node19" href="$handlefiletransferrequest_8c.html#a7645a0b1924a689c0d93efbf75488dc6" title="SendFileDownloadLengthErrMsg" alt="" coords="248,245,472,275"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#gad8d47e03686c65f6b4733bf8339fae16" title="rfbReadExactTimeout" alt="" coords="536,112,693,141"/>
+<area shape="rect" id="node7" href="$websockets_8c.html#a5db02391795ad333a739c5034b489d9b" title="webSocketsDecode" alt="" coords="780,59,927,88"/>
+<area shape="rect" id="node9" href="$rfbssl_8h.html#af141e18074ba4af73ffaeec8cea33f58" title="rfbssl_read" alt="" coords="808,112,899,141"/>
+<area shape="rect" id="node11" href="$rfbssl_8h.html#a8e8c36ccf5704a8216eaf701eea537a8" title="rfbssl_pending" alt="" coords="796,5,911,35"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="804,165,903,195"/>
+<area shape="rect" id="node17" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="560,165,669,195"/>
+<area shape="rect" id="node21" href="$filetransfermsg_8c.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="521,325,708,371"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="563,219,667,248"/>
+<area shape="rect" id="node32" href="$filetransfermsg_8c.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="543,272,687,301"/>
+<area shape="rect" id="node23" href="$filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="759,333,948,363"/>
+<area shape="rect" id="node27" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="781,272,925,301"/>
+<area shape="rect" id="node29" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="807,219,900,248"/>
+</map>

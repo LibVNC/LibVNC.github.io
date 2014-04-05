@@ -1,0 +1,20 @@
+<map id="sraRgnOr" name="sraRgnOr">
+<area shape="rect" id="node3" href="$private_8h.html#a024a888b290971c3d022e345a0f70f92" title="rfbRedrawAfterHideCursor" alt="" coords="137,20,321,49"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="372,72,567,101"/>
+<area shape="rect" id="node21" href="$group__libvncserver__api.html#ga444fdc5b55fc40ed873674e7cb1f502d" title="rfbScheduleCopyRegion" alt="" coords="144,177,315,207"/>
+<area shape="rect" id="node29" href="$group__libvncserver__api.html#ga2939d940b9dad65c6308f9d8a7163a18" title="rfbMarkRegionAsModified" alt="" coords="139,124,320,153"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga04b4ad9130d8b7a4cc97d03fc3cbc159" title="rfbSetCursor" alt="" coords="419,19,520,48"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="639,59,761,88"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="833,8,964,37"/>
+<area shape="rect" id="node13" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1052,59,1105,88"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="1015,5,1143,35"/>
+<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="1028,112,1129,141"/>
+<area shape="rect" id="node17" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1193,5,1247,35"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#gaa07b26543b8a057da510abae57654035" title="rfbDoCopyRegion" alt="" coords="404,229,535,259"/>
+<area shape="rect" id="node27" href="$group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333" title="rfbScheduleCopyRect" alt="" coords="391,176,548,205"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga0a67c048d760f95be37888db7ef61db7" title="rfbDoCopyRect" alt="" coords="643,229,757,259"/>
+<area shape="rect" id="node31" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="617,137,783,167"/>
+<area shape="rect" id="node34" href="$group__libvncserver__api.html#ga6c95e168c017a5b4c79397429396591b" title="rfbFillRect" alt="" coords="859,163,939,192"/>
+<area shape="rect" id="node37" href="$group__libvncserver__api.html#gabc21dfa884626a9f0fdd7256f9140ff8" title="rfbDrawPixel" alt="" coords="849,216,948,245"/>
+<area shape="rect" id="node39" href="$group__libvncserver__api.html#ga6ac5e0920a82a864cba2f2dced941ad8" title="rfbDrawLine" alt="" coords="1031,241,1127,271"/>
+</map>

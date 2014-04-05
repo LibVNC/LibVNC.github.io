@@ -1,0 +1,11 @@
+<map id="rfbSendLastRectMarker" name="rfbSendLastRectMarker">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga32c99de46885cdee380c8a4331f9003c" title="rfbSendUpdateBuf" alt="" coords="253,125,392,155"/>
+<area shape="rect" id="node18" href="$group__libvncserver__api.html#gafbc8caaa32d18d84e3404eb26a503f03" title="rfbStatRecordEncodingSent" alt="" coords="224,192,421,221"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="503,59,607,88"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="711,112,809,141"/>
+<area shape="rect" id="node14" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="500,164,609,193"/>
+<area shape="rect" id="node7" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="688,5,832,35"/>
+<area shape="rect" id="node9" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="713,59,807,88"/>
+<area shape="rect" id="node16" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="705,165,815,195"/>
+<area shape="rect" id="node20" href="$group__libvncserver__api.html#ga53c830f38aed163bd1746ca6cfb13ad4" title="rfbStatLookupEncoding" alt="" coords="471,217,639,247"/>
+</map>

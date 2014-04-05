@@ -1,0 +1,15 @@
+<map id="rfbSendServerCutText" name="rfbSendServerCutText">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga0e6ec0764fcf459b5f4e191eabc02469" title="rfbGetClientIterator" alt="" coords="240,5,384,35"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#gaa14312283c0782436cffcd7fb601f919" title="rfbClientIteratorNext" alt="" coords="236,112,388,141"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="260,192,364,221"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="493,245,592,275"/>
+<area shape="rect" id="node20" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="257,296,367,325"/>
+<area shape="rect" id="node24" href="$group__libvncserver__api.html#gac5765c726716d39945dedaab4f7418f4" title="rfbStatRecordMessageSent" alt="" coords="215,351,409,380"/>
+<area shape="rect" id="node28" href="$group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2" title="rfbReleaseClientIterator" alt="" coords="227,59,397,88"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#gaba44eeec109d8dc5c9fb75790c665c25" title="rfbDecrClientRef" alt="" coords="481,32,604,61"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga84073ffa09fe65ca2899b1544b665657" title="rfbIncrClientRef" alt="" coords="484,85,601,115"/>
+<area shape="rect" id="node13" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="471,139,615,168"/>
+<area shape="rect" id="node15" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="496,192,589,221"/>
+<area shape="rect" id="node22" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="488,299,597,328"/>
+<area shape="rect" id="node26" href="$group__libvncserver__api.html#ga429aa011ed355c2ee5cf5f123b599ac7" title="rfbStatLookupMessage" alt="" coords="459,352,627,381"/>
+</map>

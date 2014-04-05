@@ -1,0 +1,7 @@
+<map id="rfbReadExact" name="rfbReadExact">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gad8d47e03686c65f6b4733bf8339fae16" title="rfbReadExactTimeout" alt="" coords="160,85,317,115"/>
+<area shape="rect" id="node5" href="$websockets_8c.html#a5db02391795ad333a739c5034b489d9b" title="webSocketsDecode" alt="" coords="365,5,512,35"/>
+<area shape="rect" id="node7" href="$rfbssl_8h.html#af141e18074ba4af73ffaeec8cea33f58" title="rfbssl_read" alt="" coords="393,59,484,88"/>
+<area shape="rect" id="node9" href="$rfbssl_8h.html#a8e8c36ccf5704a8216eaf701eea537a8" title="rfbssl_pending" alt="" coords="381,112,496,141"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="389,165,488,195"/>
+</map>

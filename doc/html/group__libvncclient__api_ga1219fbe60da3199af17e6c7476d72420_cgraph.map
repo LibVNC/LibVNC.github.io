@@ -1,0 +1,17 @@
+<map id="InitialiseRFBConnection" name="InitialiseRFBConnection">
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="497,32,647,61"/>
+<area shape="rect" id="node9" href="$rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="473,293,671,323"/>
+<area shape="rect" id="node15" href="$rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="225,217,423,263"/>
+<area shape="rect" id="node20" href="$rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="225,337,423,383"/>
+<area shape="rect" id="node25" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="507,139,637,168"/>
+<area shape="rect" id="node29" href="$rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="248,9,400,39"/>
+<area shape="rect" id="node32" href="$tls_8h.html#a520b8bbe83b889a11a24199a20df0a0b" title="HandleAnonTLSAuth" alt="" coords="248,407,400,436"/>
+<area shape="rect" id="node34" href="$tls_8h.html#a64cfa84eeb071db3775670c6db100f08" title="HandleVeNCryptAuth" alt="" coords="245,113,403,143"/>
+<area shape="rect" id="node40" href="$group__libvncclient__api.html#ga87ef334b2bd6b0eefdb10fa7469aa554" title="PrintPixelFormat" alt="" coords="263,460,385,489"/>
+<area shape="rect" id="node5" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="732,59,839,88"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="723,5,848,35"/>
+<area shape="rect" id="node11" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="720,320,851,349"/>
+<area shape="rect" id="node13" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="720,267,851,296"/>
+<area shape="rect" id="node27" href="$tls_8h.html#a4d0cfe74a748174418e500f34d106df1" title="WriteToTLS" alt="" coords="741,139,829,168"/>
+<area shape="rect" id="node38" href="$tls_8h.html#a544b05c0d93af06c61dd57b0d32b9d7e" title="FreeTLS" alt="" coords="536,85,608,115"/>
+</map>

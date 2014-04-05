@@ -1,0 +1,24 @@
+<map id="rfbStatLookupMessage" name="rfbStatLookupMessage">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gac5765c726716d39945dedaab4f7418f4" title="rfbStatRecordMessageSent" alt="" coords="223,164,417,193"/>
+<area shape="rect" id="node48" href="$group__libvncserver__api.html#ga63701c37029f12509cee2d6c570d1657" title="rfbStatRecordMessageRcvd" alt="" coords="223,217,417,247"/>
+<area shape="rect" id="node5" href="$rfbserver_8c.html#a61602fc9f6663dc873531392a2fbdf98" title="rfbSendXvp" alt="" coords="524,5,617,35"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga45dba2c00982dca1e96b336e0c968b13" title="send a TextChat message to a client " alt="" coords="479,59,663,88"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga8894d97a563a2299ec44fca90cd2700e" title="rfbSendFileTransferMessage" alt="" coords="472,112,669,141"/>
+<area shape="rect" id="node31" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="724,165,919,195"/>
+<area shape="rect" id="node36" href="$group__libvncserver__api.html#ga5889aed9d497bd75f90229076f40198a" title="rfbSendSetColourMapEntries" alt="" coords="468,216,673,245"/>
+<area shape="rect" id="node42" href="$group__libvncserver__api.html#gafaa6ce29830fc432bff8599c4565cfa9" title="rfbSendBell" alt="" coords="524,269,617,299"/>
+<area shape="rect" id="node44" href="$group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988" title="rfbSendServerCutText" alt="" coords="491,323,651,352"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga935445b2e8bf60cdde75836c62e90140" title="rfbSendDirContent" alt="" coords="751,8,892,37"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga2151f58ccef5446ee03256408636000f" title="rfbProcessFileTransfer" alt="" coords="976,59,1133,88"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga2e1dd04a2f45e25c348fe413aa57d075" title="rfbSendFileTransferChunk" alt="" coords="731,112,912,141"/>
+<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="1005,112,1104,141"/>
+<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="1191,139,1321,168"/>
+<area shape="rect" id="node21" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1409,85,1463,115"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="1372,139,1500,168"/>
+<area shape="rect" id="node27" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="1385,192,1487,221"/>
+<area shape="rect" id="node25" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1551,139,1604,168"/>
+<area shape="rect" id="node33" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="993,165,1116,195"/>
+<area shape="rect" id="node38" href="$group__libvncserver__api.html#ga6114598cb8cf16c62bd18356bbd3da99" title="rfbSetClientColourMap" alt="" coords="739,219,904,248"/>
+<area shape="rect" id="node40" href="$group__libvncserver__api.html#gac479a87dfde93551b8a2271551c314e2" title="rfbSetClientColourMaps" alt="" coords="969,219,1140,248"/>
+<area shape="rect" id="node46" href="$group__libvncserver__api.html#ga44dbdb37fdb046d2ac9d386355f4edc0" title="rfbGotXCutText" alt="" coords="764,323,879,352"/>
+</map>

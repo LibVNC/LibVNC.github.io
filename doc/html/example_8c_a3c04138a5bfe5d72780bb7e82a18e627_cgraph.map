@@ -1,0 +1,51 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga7bc0e73d60a80ddc855fe1c4313fe57d" title="rfbGetScreen" alt="" coords="301,373,408,403"/>
+<area shape="rect" id="node46" href="$group__libvncserver__api.html#gac2afbad6cde9ca3590b84136f70ff2d5" title="rfbDrawString" alt="" coords="120,969,229,999"/>
+<area shape="rect" id="node50" href="$group__libvncserver__api.html#ga8d95458dd102510f8dfc48b645b6a5cf" title="rfbIsActive" alt="" coords="311,1047,399,1076"/>
+<area shape="rect" id="node52" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="289,1112,420,1141"/>
+<area shape="rect" id="node109" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="111,1073,239,1103"/>
+<area shape="rect" id="node113" href="$group__libvncserver__api.html#ga7560cf50d53208ad5dc24b3d82bbb418" title="rfbScreenCleanup" alt="" coords="488,1397,624,1427"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga5fb33ee8958185eca06eb9611f41924a" title="rfbProcessArguments" alt="" coords="477,164,635,193"/>
+<area shape="rect" id="node21" href="$group__libvncserver__api.html#ga53710f23634e27c020baa924c15430bc" title="rfbDoNothingWithClient" alt="" coords="472,347,640,376"/>
+<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga6b2065e71b8c8780c383a09c9fbaf63d" title="cursor handling for the pointer " alt="" coords="475,1141,637,1171"/>
+<area shape="rect" id="node36" href="$group__libvncserver__api.html#ga15e5a5ffebe789a4c03496a9a494b011" title="rfbSetTranslateFunction" alt="" coords="471,400,641,429"/>
+<area shape="rect" id="node44" href="$group__libvncserver__api.html#gacc4239e66c4bab330ec15e1472f8534c" title="rfbClientListInit" alt="" coords="499,293,613,323"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c" title="rfbUsage" alt="" coords="749,216,829,245"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga713c7145c81b88c2d9d0e1cca4294e61" title="rfbGetExtensionIterator" alt="" coords="949,177,1120,207"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga32fbe0c45fbc80bfa1e31ecc56824e4e" title="rfbReleaseExtensionIterator" alt="" coords="936,256,1133,285"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#gae4a556ffd945ad86ab47b6f5b8591bb4" title="to check against plain passwords " alt="" coords="703,5,876,35"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973" title="rfbStringToAddr" alt="" coords="729,59,849,88"/>
+<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga05a4019e7dfb3dcd2c8ab8e96cb35138" title="rfbPurgeArguments" alt="" coords="716,112,863,141"/>
+<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga0e6ec0764fcf459b5f4e191eabc02469" title="rfbGetClientIterator" alt="" coords="717,1163,861,1192"/>
+<area shape="rect" id="node27" href="$group__libvncserver__api.html#gaa14312283c0782436cffcd7fb601f919" title="rfbClientIteratorNext" alt="" coords="713,1269,865,1299"/>
+<area shape="rect" id="node33" href="$group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2" title="rfbReleaseClientIterator" alt="" coords="704,1216,875,1245"/>
+<area shape="rect" id="node29" href="$group__libvncserver__api.html#gaba44eeec109d8dc5c9fb75790c665c25" title="rfbDecrClientRef" alt="" coords="973,1269,1096,1299"/>
+<area shape="rect" id="node31" href="$group__libvncserver__api.html#ga84073ffa09fe65ca2899b1544b665657" title="rfbIncrClientRef" alt="" coords="976,1323,1093,1352"/>
+<area shape="rect" id="node38" href="$group__libvncclient__api.html#ga87ef334b2bd6b0eefdb10fa7469aa554" title="PrintPixelFormat" alt="" coords="728,320,851,349"/>
+<area shape="rect" id="node40" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="735,373,844,403"/>
+<area shape="rect" id="node42" href="$group__libvncserver__api.html#ga5b2944dabba3678296abb70523dc52af" title="rfbTranslateNone" alt="" coords="724,427,855,456"/>
+<area shape="rect" id="node48" href="$group__libvncserver__api.html#ga3f0433e0cd94f45591e9a4c305bb55b0" title="rfbDrawChar" alt="" coords="304,969,405,999"/>
+<area shape="rect" id="node54" href="$rfbserver_8c.html#a807a6797458158198edfb5e3ce8058e5" title="rfbGetClientIteratorWith\lClosed" alt="" coords="471,962,641,1009"/>
+<area shape="rect" id="node56" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="507,1032,605,1061"/>
+<area shape="rect" id="node86" href="$group__libvncserver__api.html#ga10a66fc12cbd42fd462cec62ae481c48" title="rfbHttpCheckFds" alt="" coords="725,637,853,667"/>
+<area shape="rect" id="node90" href="$private_8h.html#a615a7287884f04e55e5cd24aef53e0f1" title="rfbClientIteratorHead" alt="" coords="712,1323,867,1352"/>
+<area shape="rect" id="node94" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="495,560,617,589"/>
+<area shape="rect" id="node104" href="$group__libvncserver__api.html#ga5e38113b588c9331ea474a495f540500" title="rfbClientConnectionGone" alt="" coords="699,1376,880,1405"/>
+<area shape="rect" id="node58" href="$group__libvncserver__api.html#ga91cc6fb70a3126373a5bc9a67356462f" title="rfbNewClientConnection" alt="" coords="703,899,876,928"/>
+<area shape="rect" id="node62" href="$group__libvncserver__api.html#ga2e1dd04a2f45e25c348fe413aa57d075" title="rfbSendFileTransferChunk" alt="" coords="699,952,880,981"/>
+<area shape="rect" id="node65" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="1183,821,1281,851"/>
+<area shape="rect" id="node67" href="$group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6" title="rfbProcessNewConnection" alt="" coords="696,1059,883,1088"/>
+<area shape="rect" id="node73" href="$group__libvncserver__api.html#ga20091daffb56a19c59a29dd47a49289f" title="rfbNewUDPClient" alt="" coords="724,1005,855,1035"/>
+<area shape="rect" id="node75" href="$group__libvncserver__api.html#ga1130b88632f9c351d7e756400cbe5607" title="rfbDisconnectUDPSock" alt="" coords="951,689,1119,719"/>
+<area shape="rect" id="node77" href="$group__libvncserver__api.html#gabcea396f71c319d19dadc5ce5c5cc6ff" title="rfbNewUDPConnection" alt="" coords="952,847,1117,876"/>
+<area shape="rect" id="node80" href="$group__libvncserver__api.html#gaf463b46888ae35fd8c0fde7d2c54cf18" title="rfbProcessUDPInput" alt="" coords="716,741,863,771"/>
+<area shape="rect" id="node84" href="$group__libvncserver__api.html#ga67655299c270a6dd4f3cfcc3b60bc7d4" title="rfbProcessClientMessage" alt="" coords="699,845,880,875"/>
+<area shape="rect" id="node70" href="$group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e" title="rfbSetNonBlocking" alt="" coords="965,743,1104,772"/>
+<area shape="rect" id="node96" href="$rfbregion_8h.html#ae2bc8fd0fd11df2130ce5842692328b1" title="sraRgnEmpty" alt="" coords="981,533,1088,563"/>
+<area shape="rect" id="node98" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="692,480,887,509"/>
+<area shape="rect" id="node101" href="$main_8c.html#adc9835fab042c6614119d9b22342dae0" title="gettimeofday" alt="" coords="736,533,843,563"/>
+<area shape="rect" id="node106" href="$libvncserver_2zrle_8c.html#ac1af04a4d6e253f9d7554d51972e1170" title="rfbFreeZrleData" alt="" coords="973,1376,1096,1405"/>
+<area shape="rect" id="node119" href="$group__libvncserver__api.html#ga0f997ac6d4d0e6726e47626484f8c53f" title="rfbFreeCursor" alt="" coords="736,1429,843,1459"/>
+<area shape="rect" id="node121" href="$libvncserver_2zlib_8c.html#a1bcd688a07658a2551a21704af29eab0" title="rfbZlibCleanup" alt="" coords="732,1483,847,1512"/>
+<area shape="rect" id="node123" href="$libvncserver_2tight_8c.html#ac5186d6b671607265ebc7ba61458ac9e" title="rfbTightCleanup" alt="" coords="729,1536,849,1565"/>
+</map>

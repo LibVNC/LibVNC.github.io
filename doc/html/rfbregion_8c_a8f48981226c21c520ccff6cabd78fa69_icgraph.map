@@ -1,0 +1,9 @@
+<map id="sraRgnBBox" name="sraRgnBBox">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="153,59,348,88"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="397,59,520,88"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="569,59,700,88"/>
+<area shape="rect" id="node9" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="788,5,841,35"/>
+<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="751,59,879,88"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="764,112,865,141"/>
+<area shape="rect" id="node13" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="929,59,983,88"/>
+</map>

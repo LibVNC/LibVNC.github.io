@@ -1,0 +1,11 @@
+<map id="CloseUndoneFileTransfer" name="CloseUndoneFileTransfer">
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#af170c89e2cac690fbd83235c4b1a8348" title="ChkFileUploadWriteErr" alt="" coords="237,5,397,35"/>
+<area shape="rect" id="node7" href="$handlefiletransferrequest_8c.html#af11396f89393159a041af47c2d1a225f" title="HandleFileUploadDataRequest" alt="" coords="693,57,907,87"/>
+<area shape="rect" id="node11" href="$handlefiletransferrequest_8c.html#ae2bc1e0c2dff037241baf95bba3bdcbf" title="RunFileDownloadThread" alt="" coords="232,109,403,139"/>
+<area shape="rect" id="node18" href="$handlefiletransferrequest_8c.html#af7ee328ddca8136fee3c68d500a83c07" title="HandleFileDownloadCancel\lRequest" alt="" coords="451,162,643,209"/>
+<area shape="rect" id="node22" href="$handlefiletransferrequest_8c.html#a71c692266ebc435f5d8ddd4db56fc373" title="HandleFileUploadFailedRequest" alt="" coords="691,225,909,255"/>
+<area shape="rect" id="node5" href="$handlefiletransferrequest_8c.html#a5f9c5fe5f03b210e6ea2142eac656ee1" title="HandleFileUploadWrite" alt="" coords="465,5,628,35"/>
+<area shape="rect" id="node9" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="957,143,1165,172"/>
+<area shape="rect" id="node13" href="$handlefiletransferrequest_8c.html#afb87f94f7dd4ab2f7ef935cf8ab6c459" title="HandleFileDownload" alt="" coords="472,109,621,139"/>
+<area shape="rect" id="node15" href="$handlefiletransferrequest_8c.html#a91e6dfa544ea8489f5b8353a80b0ab06" title="HandleFileDownloadRequest" alt="" coords="700,115,900,144"/>
+</map>

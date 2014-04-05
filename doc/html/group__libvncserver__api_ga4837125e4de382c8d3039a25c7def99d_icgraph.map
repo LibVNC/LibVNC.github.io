@@ -1,0 +1,4 @@
+<map id="rfbListenOnUDPPort" name="rfbListenOnUDPPort">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gaffbc6830eeb53ad7bb1950937e9eefd3" title="rfbInitSockets" alt="" coords="204,5,311,35"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga0fb612a193a96424b82b9a5e7b494e73" title="rfbInitServer" alt="" coords="361,5,460,35"/>
+</map>

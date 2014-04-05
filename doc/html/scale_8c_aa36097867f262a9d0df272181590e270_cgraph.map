@@ -1,0 +1,8 @@
+<map id="rfbScalingSetup" name="rfbScalingSetup">
+<area shape="rect" id="node3" href="$scale_8c.html#aece30976d1819284fb4ce8955ef308c7" title="rfbScalingFind" alt="" coords="211,5,320,35"/>
+<area shape="rect" id="node5" href="$scale_8c.html#a9e4226d2a6bd008d6f4aa04639fdfd37" title="rfbScaledScreenAllocate" alt="" coords="177,59,353,88"/>
+<area shape="rect" id="node7" href="$scale_8c.html#ad2eebed1c78b7f5d28ca06d7caf95d6e" title="rfbScaledScreenUpdateRect" alt="" coords="404,85,604,115"/>
+<area shape="rect" id="node9" href="$scale_8c.html#ac5c8c788237531f41575fe50f59f0439" title="rfbScaledCorrection" alt="" coords="655,32,801,61"/>
+<area shape="rect" id="node11" href="$scale_8c.html#a47def286385861eed52ab06fe845f441" title="ScaleX" alt="" coords="696,85,760,115"/>
+<area shape="rect" id="node13" href="$scale_8c.html#a959adee4fa4dd2590ec5b8c09209d411" title="ScaleY" alt="" coords="696,139,760,168"/>
+</map>

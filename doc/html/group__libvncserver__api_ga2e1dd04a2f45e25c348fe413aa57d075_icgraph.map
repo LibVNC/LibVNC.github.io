@@ -1,0 +1,9 @@
+<map id="rfbSendFileTransferChunk" name="rfbSendFileTransferChunk">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="268,59,367,88"/>
+<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga2151f58ccef5446ee03256408636000f" title="rfbProcessFileTransfer" alt="" coords="239,112,396,141"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="447,59,577,88"/>
+<area shape="rect" id="node7" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="665,5,719,35"/>
+<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="628,59,756,88"/>
+<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="641,112,743,141"/>
+<area shape="rect" id="node11" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="807,59,860,88"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="rfbHttpInitSockets" name="rfbHttpInitSockets">
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga78439c3ee641e665e25b0ffae7b00ee3" title="rfbListenOnTCPPort" alt="" coords="193,5,337,35"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="391,84,489,113"/>
+<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga28afa9b471b819e9a2c119dd509227ea" title="rfbListenOnTCP6Port" alt="" coords="189,109,341,139"/>
+</map>
