@@ -563,57 +563,34 @@ A hearty thanks to all that contributed!
         package version &gt;= 2.0.0.</li>
       </ul><br />
 
-      <h2>To configure the source:</h2>
+      <h2>Building:</h2>
  
-	<p>On Unix/Linux platforms, just the usual:</p>
+      <p>LibVNCServer uses CMake, so you can build via:</p>
 
       <pre class="code">
-./configure
-</pre>
-        <p>Or, if you checked out the source code repository directly instead of using a release tarball:</p>
-      <pre class="code">
-       ./autogen.sh
-	</pre>
-
-
-
-      <p>If crosscompiling for Windows using <a href=
-      "http://www.mingw.org/">MinGW</a> (The WINVER define
-      'unlocks' some newer features of the Win32 TCP/IP stack. The
-      LDFLAGS setting allows building of DLLs provided you have
-      ws2_32.dll available in your linker path.):</p>
-      <pre class="code">
-
-CPPFLAGS=-DWINVER=0x0501 ./configure  \
-	    --build=&lt;your build system type&gt; --host=i686-w64-mingw32 --with-sdl-config=&lt;your win32 sdl-config&gt; \
-            --with-zlib=&lt;path to your win32 zlib&gt; --with-jepg=&lt;path to your win32 libjpeg&gt; \
-            --with-gnutls=&lt;path to your win32 gnutls or 'no'&gt; \
-            --with-gcrypt=&lt;path to your win32 libgcrypt or 'no'&gt; 
-      
+mkdir build
+cd build
+cmake ..
+cmake --build .
 </pre>
 
-      <p>If building for Android:
-<ul>
-<li>1. Read &lt;NDK location&gt;/docs/STANDALONE-TOOLCHAIN.html.</li>
+<p>For some more comprehensive examples that include installation of dependencies, see
+    the <a href="https://github.com/LibVNC/libvncserver/blob/master/.travis.yml">Unix CI</a> and <a href="https://github.com/LibVNC/libvncserver/blob/master/.appveyor.yml">Windows CI</a> build setups.
+</p>
 
-<li>2. Setup your toolchain according to step 3 in the above file.</li>
-
-<li>3. Execute</li>
-</ul>
+<p>If building for Android (see <a href="https://developer.android.com/ndk/guides/cmake.html">the NDK CMake guide</a> as a reference):</p>
 <pre class="code">
-./configure --host=arm-eabi CC=arm-linux-androideabi-gcc
+mkdir build
+cd build
+cmake .. -DANDROID_NDK=<path> -DCMAKE_TOOLCHAIN_FILE=<path> -DANDROID_NATIVE_API_LEVEL=<API level you want> -DWITH_PNG=OFF # NDK not shipping png per default
+cmake --build .
 </pre>
 
 
       </p>
 <br/>
 
-      <h2>Building:</h2>
-<p>As always, it's done by typing:</p>
-      <pre class="code">
-make
-</pre>
-
+      
       <p>That's it....</p><br />
       <br />
       <br />
