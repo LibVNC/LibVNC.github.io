@@ -141,9 +141,10 @@ p.citation {
     font-style: italic
 }
 
-pre {
+pre.code {
     margin-left: 3%;
     margin-right: 3%;    
     white-space: pre-wrap;
+    font-weight: bold;
 }
 
