@@ -1,9 +1,0 @@
-<map id="rfbAuthProcessClientMessage" name="rfbAuthProcessClientMessage">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga67655299c270a6dd4f3cfcc3b60bc7d4" title="rfbProcessClientMessage" alt="" coords="267,59,448,88"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="497,59,596,88"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="647,59,777,88"/>
-<area shape="rect" id="node9" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="865,5,919,35"/>
-<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="828,59,956,88"/>
-<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="841,112,943,141"/>
-<area shape="rect" id="node13" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1007,59,1060,88"/>
-</map>

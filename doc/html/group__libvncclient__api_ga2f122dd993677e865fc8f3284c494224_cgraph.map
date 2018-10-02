@@ -1,5 +1,5 @@
 <map id="listenForIncomingConnections" name="listenForIncomingConnections">
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga69c6bc02b34e74139dac22ed91060ae4" title="ListenAtTcpPortAndAddress" alt="" coords="268,5,463,35"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga923e422f147002ce7546dec6a6b4a786" title="AcceptTcpConnection" alt="" coords="287,59,444,88"/>
-<area shape="rect" id="node7" href="$group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="304,112,427,141"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga69c6bc02b34e74139dac22ed91060ae4" title="ListenAtTcpPortAndAddress" alt="" coords="267,5,464,32"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga923e422f147002ce7546dec6a6b4a786" title="AcceptTcpConnection" alt="" coords="286,56,445,83"/>
+<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="304,107,427,133"/>
 </map>

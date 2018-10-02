@@ -1,4 +1,4 @@
 <map id="rfbRegisterSecurityHandler" name="rfbRegisterSecurityHandler">
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga01c5678801521e7dadb2d62426ae8447" title="rfbRegisterTightVNCFileTransfer\lExtension" alt="" coords="245,21,464,67"/>
-<area shape="rect" id="node6" href="$filetransfer_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="513,29,567,59"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga01c5678801521e7dadb2d62426ae8447" title="rfbRegisterTightVNCFileTransfer\lExtension" alt="" coords="245,5,464,47"/>
+<area shape="rect" id="node3" href="$filetransfer_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="512,13,567,39"/>
 </map>

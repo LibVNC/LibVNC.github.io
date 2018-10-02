@@ -1,9 +1,0 @@
-<map id="SendFileDownloadLengthErrMsg" name="SendFileDownloadLengthErrMsg">
-<area shape="rect" id="node3" href="$filetransfermsg_8c.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="279,9,465,55"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="320,89,424,119"/>
-<area shape="rect" id="node15" href="$filetransfermsg_8c.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="300,143,444,172"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="516,5,705,35"/>
-<area shape="rect" id="node9" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="539,59,683,88"/>
-<area shape="rect" id="node11" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="564,112,657,141"/>
-<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="561,165,660,195"/>
-</map>

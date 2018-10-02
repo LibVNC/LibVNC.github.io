@@ -1,4 +1,4 @@
 <map id="DefaultSupportedMessages" name="DefaultSupportedMessages">
-<area shape="rect" id="node3" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="253,5,384,35"/>
-<area shape="rect" id="node5" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="253,59,384,88"/>
+<area shape="rect" id="node2" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="252,5,383,32"/>
+<area shape="rect" id="node3" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="252,56,383,83"/>
 </map>

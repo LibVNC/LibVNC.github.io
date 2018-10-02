@@ -1,4 +1,4 @@
 <map id="CreateFileListInfo" name="CreateFileListInfo">
-<area shape="rect" id="node3" href="$handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="208,5,301,35"/>
-<area shape="rect" id="node5" href="$filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="184,59,325,88"/>
+<area shape="rect" id="node2" href="$handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="208,5,301,32"/>
+<area shape="rect" id="node3" href="$filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="184,56,325,83"/>
 </map>

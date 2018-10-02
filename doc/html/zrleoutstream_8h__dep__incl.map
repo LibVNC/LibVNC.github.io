@@ -1,5 +1,5 @@
 <map id="libvncserver/zrleoutstream.h" name="libvncserver/zrleoutstream.h">
-<area shape="rect" id="node3" href="$libvncserver_2zrle_8c.html" title="libvncserver/zrle.c" alt="" coords="5,160,141,189"/>
-<area shape="rect" id="node5" href="$zrleencodetemplate_8c.html" title="libvncserver/zrleencodetemplate.c" alt="" coords="32,83,272,112"/>
-<area shape="rect" id="node8" href="$zrleoutstream_8c.html" title="libvncserver/zrleoutstream.c" alt="" coords="296,83,499,112"/>
+<area shape="rect" id="node2" href="$libvncserver_2zrle_8c.html" title="libvncserver/zrle.c" alt="" coords="5,155,141,181"/>
+<area shape="rect" id="node3" href="$zrleencodetemplate_8c.html" title="libvncserver/zrleencodetemplate.c" alt="" coords="33,80,274,107"/>
+<area shape="rect" id="node4" href="$zrleoutstream_8c.html" title="libvncserver/zrleoutstream.c" alt="" coords="299,80,501,107"/>
 </map>

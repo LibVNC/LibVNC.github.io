@@ -1,5 +1,0 @@
-<map id="rfbGetTightClientData" name="rfbGetTightClientData">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga9779d2d83bed62b5ac82e080cfd06b72" title="rfbGetExtensionClientData" alt="" coords="215,5,404,35"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="255,59,364,88"/>
-<area shape="rect" id="node7" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="455,59,564,88"/>
-</map>

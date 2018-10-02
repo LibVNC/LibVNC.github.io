@@ -1,5 +1,5 @@
 <map id="rfbConnect" name="rfbConnect">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571" title="rfbConnectToTcpAddr" alt="" coords="147,5,301,35"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="351,57,449,87"/>
-<area shape="rect" id="node8" href="$group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e" title="rfbSetNonBlocking" alt="" coords="155,109,293,139"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571" title="rfbConnectToTcpAddr" alt="" coords="145,5,300,32"/>
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="348,56,449,83"/>
+<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e" title="rfbSetNonBlocking" alt="" coords="153,107,293,133"/>
 </map>

@@ -1,6 +1,3 @@
 <map id="FreeTLS" name="FreeTLS">
-<area shape="rect" id="node3" href="$tls__gnutls_8c.html#a64cfa84eeb071db3775670c6db100f08" title="HandleVeNCryptAuth" alt="" coords="125,5,283,35"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga71e4dac37ff9a25e1cf5ab06a068bcc3" title="Cleans up the client structure and releases the memory allocated for it. " alt="" coords="141,59,267,88"/>
-<area shape="rect" id="node7" href="$ppmtest_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="476,59,529,88"/>
-<area shape="rect" id="node9" href="$group__libvncclient__api.html#gabb2299d1644f3cf38544eb97d2356475" title="Initializes the client. " alt="" coords="332,84,425,113"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga71e4dac37ff9a25e1cf5ab06a068bcc3" title="Cleans up the client structure and releases the memory allocated for it. " alt="" coords="125,5,252,32"/>
 </map>

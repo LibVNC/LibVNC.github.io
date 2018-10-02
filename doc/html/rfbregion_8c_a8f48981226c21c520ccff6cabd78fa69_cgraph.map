@@ -1,5 +1,4 @@
 <map id="sraRgnBBox" name="sraRgnBBox">
-<area shape="rect" id="node3" href="$rfbregion_8h.html#a83db19fccc118eadcf8e47d69cfd5af0" title="sraRgnCreate" alt="" coords="165,5,275,35"/>
-<area shape="rect" id="node5" href="$rfbregion_8h.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="152,59,288,88"/>
-<area shape="rect" id="node7" href="$rfbregion_8c.html#a1836e6c639e0567a59e5a10496318180" title="sraSpanListDestroy" alt="" coords="336,59,483,88"/>
+<area shape="rect" id="node2" href="$rfbregion_8c.html#a53b25d91fe37e0e842fcf677087c85ce" title="sraRgnCreate" alt="" coords="165,5,275,32"/>
+<area shape="rect" id="node3" href="$rfbregion_8c.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="152,56,288,83"/>
 </map>

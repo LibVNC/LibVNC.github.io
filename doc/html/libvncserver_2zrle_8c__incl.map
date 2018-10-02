@@ -1,9 +1,9 @@
 <map id="libvncserver/zrle.c" name="libvncserver/zrle.c">
-<area shape="rect" id="node3" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="136,237,208,267"/>
-<area shape="rect" id="node17" href="$private_8h.html" title="private.h" alt="" coords="200,83,277,112"/>
-<area shape="rect" id="node19" href="$zrleoutstream_8h.html" title="zrleoutstream.h" alt="" coords="207,160,329,189"/>
-<area shape="rect" id="node26" href="$zrleencodetemplate_8c.html" title="zrleencodetemplate.c" alt="" coords="352,83,512,112"/>
-<area shape="rect" id="node11" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="277,315,381,344"/>
-<area shape="rect" id="node23" href="$zrletypes_8h.html" title="zrletypes.h" alt="" coords="348,237,439,267"/>
-<area shape="rect" id="node29" href="$zrlepalettehelper_8h.html" title="zrlepalettehelper.h" alt="" coords="353,160,495,189"/>
+<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="139,229,211,256"/>
+<area shape="rect" id="node9" href="$private_8h.html" title="private.h" alt="" coords="203,80,281,107"/>
+<area shape="rect" id="node10" href="$zrleoutstream_8h.html" title="zrleoutstream.h" alt="" coords="211,155,335,181"/>
+<area shape="rect" id="node13" href="$zrleencodetemplate_8c.html" title="zrleencodetemplate.c" alt="" coords="357,80,519,107"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,304,389,331"/>
+<area shape="rect" id="node12" href="$zrletypes_8h.html" title="zrletypes.h" alt="" coords="353,229,445,256"/>
+<area shape="rect" id="node14" href="$zrlepalettehelper_8h.html" title="zrlepalettehelper.h" alt="" coords="359,155,501,181"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="CreateFileListInfo" name="CreateFileListInfo">
-<area shape="rect" id="node3" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="185,5,359,35"/>
-<area shape="rect" id="node5" href="$handlefiletransferrequest_8h.html#a4b827b9302f065dd142a9f60f6d0700d" title="HandleFileListRequest" alt="" coords="408,5,568,35"/>
-<area shape="rect" id="node7" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="616,5,824,35"/>
+<area shape="rect" id="node2" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="199,5,344,32"/>
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="184,56,359,83"/>
 </map>

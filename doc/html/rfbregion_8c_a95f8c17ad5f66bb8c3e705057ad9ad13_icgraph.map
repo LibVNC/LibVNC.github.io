@@ -1,13 +1,4 @@
 <map id="sraRgnGetIterator" name="sraRgnGetIterator">
-<area shape="rect" id="node3" href="$rfbregion_8c.html#ac9f3ec7d295abcf97252b9271b41bed8" title="sraRgnGetReverseIterator" alt="" coords="189,59,376,88"/>
-<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="620,84,815,113"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#gaa07b26543b8a057da510abae57654035" title="rfbDoCopyRegion" alt="" coords="432,5,563,35"/>
-<area shape="rect" id="node9" href="$group__libvncserver__api.html#gafb3509a6b0f46fb8d619f897811e59d5" title="rfbSendCopyRegion" alt="" coords="424,59,571,88"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga0a67c048d760f95be37888db7ef61db7" title="rfbDoCopyRect" alt="" coords="660,5,775,35"/>
-<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="864,84,987,113"/>
-<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="1036,84,1167,113"/>
-<area shape="rect" id="node17" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1255,31,1308,60"/>
-<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="1217,84,1345,113"/>
-<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="1231,137,1332,167"/>
-<area shape="rect" id="node21" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1396,84,1449,113"/>
+<area shape="rect" id="node2" href="$rfbregion_8c.html#ac9f3ec7d295abcf97252b9271b41bed8" title="sraRgnGetReverseIterator" alt="" coords="189,5,376,32"/>
+<area shape="rect" id="node3" href="$rfbregion_8c.html#af037109aad8dbe968d6689e2b442e35f" title="sraClipRect2" alt="" coords="424,31,524,57"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="close_video_stream" name="close_video_stream">
+<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441" title="movie_open" alt="" coords="203,5,303,32"/>
+<area shape="rect" id="node4" href="$vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75" title="movie_close" alt="" coords="203,56,304,83"/>
+<area shape="rect" id="node3" href="$vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5" title="vnc_malloc_fb" alt="" coords="352,31,464,57"/>
+</map>

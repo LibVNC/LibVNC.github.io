@@ -1,10 +1,4 @@
 <map id="gettimeofday" name="gettimeofday">
-<area shape="rect" id="node3" href="$camera_8c.html#af6f08e3c92a8e79780b52c8438e0363c" title="TimeToTakePicture" alt="" coords="331,5,467,35"/>
-<area shape="rect" id="node7" href="$camera_8c.html#a3bf27110afe2299a3ca2d8689c622ebe" title="TakePicture" alt="" coords="175,57,268,87"/>
-<area shape="rect" id="node10" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="160,111,283,140"/>
-<area shape="rect" id="node5" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="553,57,607,87"/>
-<area shape="rect" id="node12" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="333,111,464,140"/>
-<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="516,111,644,140"/>
-<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="529,164,631,193"/>
-<area shape="rect" id="node17" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="695,111,748,140"/>
+<area shape="rect" id="node2" href="$camera_8c.html#af6f08e3c92a8e79780b52c8438e0363c" title="TimeToTakePicture" alt="" coords="160,5,299,32"/>
+<area shape="rect" id="node3" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="347,5,401,32"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="rfbScaledScreenUpdateRect" name="rfbScaledScreenUpdateRect">
-<area shape="rect" id="node3" href="$scale_8c.html#ac5c8c788237531f41575fe50f59f0439" title="rfbScaledCorrection" alt="" coords="257,5,404,35"/>
-<area shape="rect" id="node5" href="$scale_8c.html#a47def286385861eed52ab06fe845f441" title="ScaleX" alt="" coords="299,59,363,88"/>
-<area shape="rect" id="node7" href="$scale_8c.html#a959adee4fa4dd2590ec5b8c09209d411" title="ScaleY" alt="" coords="299,112,363,141"/>
+<area shape="rect" id="node2" href="$scale_8c.html#ac5c8c788237531f41575fe50f59f0439" title="rfbScaledCorrection" alt="" coords="255,5,403,32"/>
+<area shape="rect" id="node3" href="$scale_8c.html#a47def286385861eed52ab06fe845f441" title="ScaleX" alt="" coords="296,56,361,83"/>
+<area shape="rect" id="node4" href="$scale_8c.html#a959adee4fa4dd2590ec5b8c09209d411" title="ScaleY" alt="" coords="297,107,361,133"/>
 </map>

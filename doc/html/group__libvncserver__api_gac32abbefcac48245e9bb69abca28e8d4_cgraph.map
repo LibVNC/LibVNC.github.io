@@ -1,5 +1,0 @@
-<map id="rfbWriteExact" name="rfbWriteExact">
-<area shape="rect" id="node3" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="160,5,304,35"/>
-<area shape="rect" id="node5" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="185,59,279,88"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="183,112,281,141"/>
-</map>

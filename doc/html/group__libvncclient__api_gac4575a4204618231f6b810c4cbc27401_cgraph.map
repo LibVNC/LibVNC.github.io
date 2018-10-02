@@ -1,5 +1,4 @@
 <map id="SendFramebufferUpdateRequest" name="SendFramebufferUpdateRequest">
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="287,5,452,35"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="304,59,435,88"/>
-<area shape="rect" id="node7" href="$tls_8h.html#a4d0cfe74a748174418e500f34d106df1" title="WriteToTLS" alt="" coords="503,59,591,88"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="284,5,451,32"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="301,56,433,83"/>
 </map>

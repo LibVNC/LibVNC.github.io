@@ -1,14 +1,3 @@
 <map id="rfbSetNonBlocking" name="rfbSetNonBlocking">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#gaffbc6830eeb53ad7bb1950937e9eefd3" title="rfbInitSockets" alt="" coords="236,5,343,35"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6" title="rfbProcessNewConnection" alt="" coords="196,59,383,88"/>
-<area shape="rect" id="node21" href="$group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290" title="rfbConnect" alt="" coords="244,112,335,141"/>
-<area shape="rect" id="node25" href="$group__libvncserver__api.html#ga10a66fc12cbd42fd462cec62ae481c48" title="rfbHttpCheckFds" alt="" coords="449,165,577,195"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga0fb612a193a96424b82b9a5e7b494e73" title="rfbInitServer" alt="" coords="464,5,563,35"/>
-<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga37b8d9a8ad2277643e49cdc0a9599e93" title="rfbCheckFds" alt="" coords="464,59,563,88"/>
-<area shape="rect" id="node11" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="644,112,775,141"/>
-<area shape="rect" id="node13" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="863,59,916,88"/>
-<area shape="rect" id="node15" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="825,112,953,141"/>
-<area shape="rect" id="node19" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="839,165,940,195"/>
-<area shape="rect" id="node17" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1004,112,1057,141"/>
-<area shape="rect" id="node23" href="$group__libvncserver__api.html#ga672984a7fc0c67f1d1a28d69ba140fae" title="rfbReverseConnection" alt="" coords="433,112,593,141"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290" title="rfbConnect" alt="" coords="193,5,285,32"/>
 </map>

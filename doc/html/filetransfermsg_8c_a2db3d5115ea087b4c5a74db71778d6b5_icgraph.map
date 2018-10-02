@@ -1,13 +1,8 @@
 <map id="CreateFileDownloadErrMsg" name="CreateFileDownloadErrMsg">
-<area shape="rect" id="node3" href="$filetransfermsg_8h.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="276,120,449,149"/>
-<area shape="rect" id="node16" href="$filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="247,67,479,96"/>
-<area shape="rect" id="node19" href="$filetransfermsg_8h.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="543,178,729,225"/>
-<area shape="rect" id="node27" href="$filetransfermsg_8h.html#a5ef3f520d0445246836eea3c66776805" title="ChkFileDownloadErr" alt="" coords="564,5,708,35"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8h.html#a079ecc26fe0bb13f11dbdc2cd953d583" title="GetFileDownloadResponseMsg\lInBlocks" alt="" coords="529,58,743,105"/>
-<area shape="rect" id="node9" href="$handlefiletransferrequest_8c.html#afb87f94f7dd4ab2f7ef935cf8ab6c459" title="HandleFileDownload" alt="" coords="1087,67,1236,96"/>
-<area shape="rect" id="node7" href="$handlefiletransferrequest_8c.html#ae2bc1e0c2dff037241baf95bba3bdcbf" title="RunFileDownloadThread" alt="" coords="819,67,989,96"/>
-<area shape="rect" id="node11" href="$handlefiletransferrequest_8c.html#a91e6dfa544ea8489f5b8353a80b0ab06" title="HandleFileDownloadRequest" alt="" coords="1307,128,1507,157"/>
-<area shape="rect" id="node13" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="1555,128,1763,157"/>
-<area shape="rect" id="node21" href="$handlefiletransferrequest_8c.html#a7645a0b1924a689c0d93efbf75488dc6" title="SendFileDownloadLengthErrMsg" alt="" coords="792,187,1016,216"/>
-<area shape="rect" id="node24" href="$handlefiletransferrequest_8c.html#a77471467f0892e39eee70aa6a4db950e" title="HandleFileDownloadLength\lError" alt="" coords="1065,119,1257,166"/>
+<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="294,31,427,57"/>
+<area shape="rect" id="node5" href="$filetransfermsg_8h.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="273,81,448,108"/>
+<area shape="rect" id="node6" href="$filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="244,132,477,159"/>
+<area shape="rect" id="node7" href="$filetransfermsg_8h.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="266,183,455,225"/>
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="540,5,685,32"/>
+<area shape="rect" id="node4" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="525,56,700,83"/>
 </map>

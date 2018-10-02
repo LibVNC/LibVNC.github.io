@@ -1,7 +1,0 @@
-<map id="rfbReverseConnection" name="rfbReverseConnection">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290" title="rfbConnect" alt="" coords="223,57,313,87"/>
-<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga930cb358aae50529f715be516085336c" title="rfbNewClient" alt="" coords="217,111,319,140"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571" title="rfbConnectToTcpAddr" alt="" coords="368,5,523,35"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="572,57,671,87"/>
-<area shape="rect" id="node10" href="$group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e" title="rfbSetNonBlocking" alt="" coords="376,109,515,139"/>
-</map>

@@ -1,5 +1,5 @@
 <map id="libvncclient/listen.c" name="libvncclient/listen.c">
-<area shape="rect" id="node13" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="193,83,300,112"/>
-<area shape="rect" id="node23" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="397,160,501,189"/>
-<area shape="rect" id="node29" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="525,160,629,189"/>
+<area shape="rect" id="node5" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="373,80,479,107"/>
+<area shape="rect" id="node9" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="486,155,593,181"/>
+<area shape="rect" id="node12" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="617,155,721,181"/>
 </map>

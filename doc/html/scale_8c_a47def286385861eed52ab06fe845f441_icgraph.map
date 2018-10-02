@@ -1,14 +1,4 @@
 <map id="ScaleX" name="ScaleX">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#gafb3509a6b0f46fb8d619f897811e59d5" title="rfbSendCopyRegion" alt="" coords="148,72,295,101"/>
-<area shape="rect" id="node19" href="$scale_8h.html#ad2eebed1c78b7f5d28ca06d7caf95d6e" title="rfbScaledScreenUpdateRect" alt="" coords="121,152,321,181"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562" title="rfbSendFramebufferUpdate" alt="" coords="372,59,567,88"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f" title="rfbUpdateClient" alt="" coords="616,59,739,88"/>
-<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title="rfbProcessEvents" alt="" coords="788,59,919,88"/>
-<area shape="rect" id="node11" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1007,5,1060,35"/>
-<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga1f5f3116deec0ab6bb18208c2eb538e6" title="rfbRunEventLoop" alt="" coords="969,59,1097,88"/>
-<area shape="rect" id="node17" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="983,112,1084,141"/>
-<area shape="rect" id="node15" href="$example_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1148,59,1201,88"/>
-<area shape="rect" id="node21" href="$scale_8h.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa" title="rfbScaledScreenUpdate" alt="" coords="383,112,556,141"/>
-<area shape="rect" id="node23" href="$scale_8h.html#a9e4226d2a6bd008d6f4aa04639fdfd37" title="rfbScaledScreenAllocate" alt="" coords="381,165,557,195"/>
-<area shape="rect" id="node25" href="$scale_8h.html#aa36097867f262a9d0df272181590e270" title="rfbScalingSetup" alt="" coords="616,191,739,220"/>
+<area shape="rect" id="node2" href="$scale_8h.html#ad2eebed1c78b7f5d28ca06d7caf95d6e" title="rfbScaledScreenUpdateRect" alt="" coords="119,5,320,32"/>
+<area shape="rect" id="node3" href="$scale_8h.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa" title="rfbScaledScreenUpdate" alt="" coords="368,5,543,32"/>
 </map>

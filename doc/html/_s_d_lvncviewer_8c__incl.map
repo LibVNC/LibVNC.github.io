@@ -1,5 +1,5 @@
 <map id="client_examples/SDLvncviewer.c" name="client_examples/SDLvncviewer.c">
-<area shape="rect" id="node7" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="268,83,375,112"/>
-<area shape="rect" id="node19" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="485,160,589,189"/>
-<area shape="rect" id="node25" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="613,160,717,189"/>
+<area shape="rect" id="node4" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="185,80,291,107"/>
+<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="298,155,405,181"/>
+<area shape="rect" id="node11" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="429,155,533,181"/>
 </map>

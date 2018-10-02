@@ -1,5 +1,4 @@
 <map id="SendFramebufferUpdateRequest" name="SendFramebufferUpdateRequest">
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="285,5,493,51"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="541,44,731,73"/>
-<area shape="rect" id="node7" href="$ppmtest_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="780,44,833,73"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="284,5,492,47"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="293,71,483,98"/>
 </map>

@@ -1,8 +1,4 @@
 <map id="rfbMarkRegionAsModified" name="rfbMarkRegionAsModified">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="236,111,401,140"/>
-<area shape="rect" id="node5" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="473,5,527,35"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga6c95e168c017a5b4c79397429396591b" title="rfbFillRect" alt="" coords="460,59,540,88"/>
-<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga474bd8c13f28ad06fe40220d02c08c92" title="rfbSelectBox" alt="" coords="599,97,700,127"/>
-<area shape="rect" id="node11" href="$group__libvncserver__api.html#gabc21dfa884626a9f0fdd7256f9140ff8" title="rfbDrawPixel" alt="" coords="451,163,549,192"/>
-<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga6ac5e0920a82a864cba2f2dced941ad8" title="rfbDrawLine" alt="" coords="601,176,697,205"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="235,5,401,32"/>
+<area shape="rect" id="node3" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="449,5,504,32"/>
 </map>

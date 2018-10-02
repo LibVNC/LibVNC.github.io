@@ -1,6 +1,0 @@
-<map id="rfbSetTranslateFunction" name="rfbSetTranslateFunction">
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga87ef334b2bd6b0eefdb10fa7469aa554" title="PrintPixelFormat" alt="" coords="228,5,351,35"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e" title="rfbCloseClient" alt="" coords="235,59,344,88"/>
-<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga5b2944dabba3678296abb70523dc52af" title="rfbTranslateNone" alt="" coords="224,112,355,141"/>
-<area shape="rect" id="node7" href="$rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23" title="rfbssl_destroy" alt="" coords="404,59,513,88"/>
-</map>

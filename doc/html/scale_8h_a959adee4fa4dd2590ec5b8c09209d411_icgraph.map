@@ -1,6 +1,4 @@
 <map id="ScaleY" name="ScaleY">
-<area shape="rect" id="node3" href="$scale_8h.html#ad2eebed1c78b7f5d28ca06d7caf95d6e" title="rfbScaledScreenUpdateRect" alt="" coords="119,59,319,88"/>
-<area shape="rect" id="node5" href="$scale_8h.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa" title="rfbScaledScreenUpdate" alt="" coords="371,5,544,35"/>
-<area shape="rect" id="node7" href="$scale_8h.html#a9e4226d2a6bd008d6f4aa04639fdfd37" title="rfbScaledScreenAllocate" alt="" coords="369,59,545,88"/>
-<area shape="rect" id="node9" href="$scale_8h.html#aa36097867f262a9d0df272181590e270" title="rfbScalingSetup" alt="" coords="595,85,717,115"/>
+<area shape="rect" id="node2" href="$scale_8h.html#ad2eebed1c78b7f5d28ca06d7caf95d6e" title="rfbScaledScreenUpdateRect" alt="" coords="117,5,319,32"/>
+<area shape="rect" id="node3" href="$scale_8h.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa" title="rfbScaledScreenUpdate" alt="" coords="367,5,541,32"/>
 </map>

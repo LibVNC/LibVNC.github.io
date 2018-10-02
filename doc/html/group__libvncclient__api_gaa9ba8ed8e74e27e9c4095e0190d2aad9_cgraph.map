@@ -1,13 +1,10 @@
 <map id="HandleRFBServerMessage" name="HandleRFBServerMessage">
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="540,56,689,85"/>
-<area shape="rect" id="node9" href="$group__libvncclient__api.html#ga180680663bb6ef69e69a9fc0cb06f352" title="HandleCursorShape" alt="" coords="272,81,421,111"/>
-<area shape="rect" id="node12" href="$group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="500,171,729,200"/>
-<area shape="rect" id="node20" href="$group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="243,185,451,231"/>
-<area shape="rect" id="node23" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="281,255,412,284"/>
-<area shape="rect" id="node25" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="281,308,412,337"/>
-<area shape="rect" id="node5" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="809,5,916,35"/>
-<area shape="rect" id="node7" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="800,59,925,88"/>
-<area shape="rect" id="node14" href="$group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="780,133,945,163"/>
-<area shape="rect" id="node16" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="797,187,928,216"/>
-<area shape="rect" id="node18" href="$tls_8h.html#a4d0cfe74a748174418e500f34d106df1" title="WriteToTLS" alt="" coords="996,187,1084,216"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="284,56,435,83"/>
+<area shape="rect" id="node6" href="$group__libvncclient__api.html#ga180680663bb6ef69e69a9fc0cb06f352" title="Handles XCursor and RichCursor shape updates from the server. " alt="" coords="284,107,435,133"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="244,157,475,184"/>
+<area shape="rect" id="node3" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="552,5,660,32"/>
+<area shape="rect" id="node4" href="$sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="547,56,665,83"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="543,107,669,133"/>
+<area shape="rect" id="node8" href="$group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="523,157,689,184"/>
+<area shape="rect" id="node9" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="540,208,672,235"/>
 </map>

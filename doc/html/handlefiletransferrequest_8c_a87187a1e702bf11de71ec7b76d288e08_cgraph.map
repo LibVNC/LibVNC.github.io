@@ -1,9 +1,0 @@
-<map id="HandleFileUpload" name="HandleFileUpload">
-<area shape="rect" id="node3" href="$filetransfermsg_8c.html#abc10a47e8a98c676be6e6718a9f944f9" title="ChkFileUploadErr" alt="" coords="196,19,324,48"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4" title="rfbWriteExact" alt="" coords="208,85,312,115"/>
-<area shape="rect" id="node15" href="$filetransfermsg_8c.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="188,139,332,168"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="381,5,555,35"/>
-<area shape="rect" id="node9" href="$websockets_8c.html#a76bf748e758748f2d2ad836d2feddd35" title="webSocketsEncode" alt="" coords="396,59,540,88"/>
-<area shape="rect" id="node11" href="$rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42" title="rfbssl_write" alt="" coords="421,112,515,141"/>
-<area shape="rect" id="node13" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="419,165,517,195"/>
-</map>

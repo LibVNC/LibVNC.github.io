@@ -1,8 +1,8 @@
 <map id="rfb/rfbregion.h" name="rfb/rfbregion.h">
-<area shape="rect" id="node3" href="$libvncserver_2cursor_8c.html" title="libvncserver/cursor.c" alt="" coords="5,83,157,112"/>
-<area shape="rect" id="node5" href="$main_8c.html" title="libvncserver/main.c" alt="" coords="181,83,325,112"/>
-<area shape="rect" id="node7" href="$rfbregion_8c.html" title="libvncserver/rfbregion.c" alt="" coords="349,83,517,112"/>
-<area shape="rect" id="node9" href="$rfbserver_8c.html" title="libvncserver/rfbserver.c" alt="" coords="541,83,709,112"/>
-<area shape="rect" id="node11" href="$scale_8c.html" title="libvncserver/scale.c" alt="" coords="733,83,880,112"/>
-<area shape="rect" id="node13" href="$translate_8c.html" title="libvncserver/translate.c" alt="" coords="904,83,1075,112"/>
+<area shape="rect" id="node2" href="$libvncserver_2cursor_8c.html" title="libvncserver/cursor.c" alt="" coords="5,80,157,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="libvncserver/main.c" alt="" coords="182,80,327,107"/>
+<area shape="rect" id="node4" href="$rfbregion_8c.html" title="libvncserver/rfbregion.c" alt="" coords="352,80,523,107"/>
+<area shape="rect" id="node5" href="$rfbserver_8c.html" title="libvncserver/rfbserver.c" alt="" coords="547,80,717,107"/>
+<area shape="rect" id="node6" href="$scale_8c.html" title="libvncserver/scale.c" alt="" coords="741,80,888,107"/>
+<area shape="rect" id="node7" href="$translate_8c.html" title="libvncserver/translate.c" alt="" coords="912,80,1083,107"/>
 </map>

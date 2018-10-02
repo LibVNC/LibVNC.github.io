@@ -1,4 +1,0 @@
-<map id="rfbProcessUDPInput" name="rfbProcessUDPInput">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga6f938854d9e09cbbd2bbf77a02120d1c" title="rfbLogPerror" alt="" coords="239,5,337,35"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga1130b88632f9c351d7e756400cbe5607" title="rfbDisconnectUDPSock" alt="" coords="204,59,372,88"/>
-</map>

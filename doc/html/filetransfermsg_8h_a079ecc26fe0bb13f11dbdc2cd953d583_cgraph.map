@@ -1,7 +1,0 @@
-<map id="GetFileDownloadResponseMsgInBlocks" name="GetFileDownloadResponseMsgInBlocks">
-<area shape="rect" id="node3" href="$filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="271,5,503,35"/>
-<area shape="rect" id="node7" href="$filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="285,58,488,105"/>
-<area shape="rect" id="node9" href="$filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="283,127,491,174"/>
-<area shape="rect" id="node11" href="$filetransfermsg_8c.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="300,197,473,227"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="553,101,743,131"/>
-</map>

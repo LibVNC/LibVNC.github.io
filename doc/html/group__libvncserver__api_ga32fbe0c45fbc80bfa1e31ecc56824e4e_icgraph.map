@@ -1,6 +1,4 @@
 <map id="rfbReleaseExtensionIterator" name="rfbReleaseExtensionIterator">
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c" title="rfbUsage" alt="" coords="251,5,331,35"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga5fb33ee8958185eca06eb9611f41924a" title="rfbProcessArguments" alt="" coords="380,32,537,61"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga7bc0e73d60a80ddc855fe1c4313fe57d" title="rfbGetScreen" alt="" coords="587,32,693,61"/>
-<area shape="rect" id="node9" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="743,32,796,61"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c" title="rfbUsage" alt="" coords="251,5,331,32"/>
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga5fb33ee8958185eca06eb9611f41924a" title="rfbProcessArguments" alt="" coords="379,31,539,57"/>
 </map>

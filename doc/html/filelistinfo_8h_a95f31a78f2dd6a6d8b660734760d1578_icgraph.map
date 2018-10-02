@@ -1,6 +1,5 @@
 <map id="GetSumOfFileNamesLength" name="GetSumOfFileNamesLength">
-<area shape="rect" id="node3" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="253,5,387,35"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="436,5,609,35"/>
-<area shape="rect" id="node7" href="$handlefiletransferrequest_8h.html#a4b827b9302f065dd142a9f60f6d0700d" title="HandleFileListRequest" alt="" coords="659,5,819,35"/>
-<area shape="rect" id="node9" href="$rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7" title="rfbTightExtensionMsgHandler" alt="" coords="867,5,1075,35"/>
+<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="252,31,385,57"/>
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="448,5,593,32"/>
+<area shape="rect" id="node4" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="433,56,608,83"/>
 </map>
