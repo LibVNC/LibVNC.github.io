@@ -566,54 +566,7 @@ A hearty thanks to all that contributed!
       patches for keyboards other than PC keyboards, and you can
       specify "-k fr" again.</p><br />
 
-      <h1><a name="building" id="building"></a>How to Build</h1>
 
-      <h2>The prerequisites:</h2>
-
-      <ul>
-        <li>The usual C compiler with headers and stuff.</li>
-
-        <li>For the more advanced VNC encodings: <a href=
-        "http://www.zlib.net/">zlib</a> and <a href=
-        "http://www.ijg.org/">libjpeg</a> development
-        packages.</li>
-
-        <li>If you want to try out the provided client example:
-        <a href="http://www.libsdl.org/">libSDL</a> development
-        package version &gt;= 2.0.0.</li>
-      </ul><br />
-
-      <h2>Building:</h2>
- 
-      <p>LibVNCServer uses CMake, so you can build via:</p>
-
-      <pre class="code">
-mkdir build
-cd build
-cmake ..
-cmake --build .
-</pre>
-
-<p>For some more comprehensive examples that include installation of dependencies, see
-    the <a href="https://github.com/LibVNC/libvncserver/blob/master/.travis.yml">Unix CI</a> and <a href="https://github.com/LibVNC/libvncserver/blob/master/.appveyor.yml">Windows CI</a> build setups.
-</p>
-
-<p>If building for Android (see <a href="https://developer.android.com/ndk/guides/cmake.html">the NDK CMake guide</a> as a reference):</p>
-<pre class="code">
-mkdir build
-cd build
-cmake .. -DANDROID_NDK=<path> -DCMAKE_TOOLCHAIN_FILE=<path> -DANDROID_NATIVE_API_LEVEL=<API level you want> -DWITH_PNG=OFF # NDK not shipping png per default
-cmake --build .
-</pre>
-
-
-      </p>
-<br/>
-
-      
-      <p>That's it....</p><br />
-      <br />
-      <br />
     </div>
   </div>
 </body>
