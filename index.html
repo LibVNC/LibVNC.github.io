@@ -97,6 +97,58 @@ int main(int argc,char** argv)
 <a href="https://ci.appveyor.com/project/bk138/libvncserver/branch/master"><img src="https://ci.appveyor.com/api/projects/status/fao6m1md3q4g2bwn/branch/master?svg=true"/></a>
 <br/>
       </div>
+
+      <br/><br/>
+      <h1 id="projects-using">Projects using LibVNCServer/LibVNCClient</h1>
+
+      <h2 id="libvncserver">LibVNCServer</h2>
+      <h3 id="x11vnc"><a href="https://github.com/LibVNC/x11vnc">x11vnc</a></h3>
+      <p><a href="http://www.karlrunge.com">Karl Runge</a> took Dscho’s first version of x11vnc, which was just a proof-of-concept that the library actually is usable, and turned it into a <a href="http://www.karlrunge.com/x11vnc/">fully fledged application</a> whose <a href="https://github.com/LibVNC/x11vnc">community version can nowadays be found on GitHub</a>.</p>
+      <h3 id="vnc-for-kde"><a href="http://www.tjansen.de/krfb">VNC for KDE</a></h3>
+      <p>Tim Jansen created KRFB, which is x11vnc integrated into KDE.</p>
+      <h3 id="arecibo-radio-telescope"><a href="http://alfa.naic.edu">Arecibo Radio Telescope</a></h3>
+      <p>Jeff Mock of the world’s largest radio telescope in Arecibo sent Dscho a nice <a href="/alfa-vnc.gif">screenshot</a>, describing his use of LibVNCServer:</p>
+      <blockquote>
+	  <p>I’ve been using it for about 4 months on a project to build a new spectrometer for the radio telescope at Arecibo. Arecibo is the largest radio telescope in the world (305m!) in Puerto Rico. It has 10-times the collecting area of the second largest telescope in Effelsburg (maybe near you?).</p>
+      </blockquote>
+      <blockquote>
+	  <p>The project is an embedded linux box that boots from a compact flash card. The root filesystem is only about 5MB. X wasn’t reasonable for such a small embedded system, but libvncserver was perfect. On the console we run graphical diagnostics that write directly to the frame buffer. It was a simple matter to hook this direct-framebuffer application to libvncserver. This way we can easily view the diagnostics for the spectrometer from the control room (or anyplace else for that matter).</p>
+      </blockquote>
+      <h3 id="lcd4linux"><a href="http://ssl.bulix.org/projects/lcd4linux/">LCD4Linux</a></h3>
+      <p>Small program that grabs information from the kernel and some subsystems and displays it on an external liquid crystal display. Michu let Dscho know that LCD4Linux has a VNC backend using LibVNCServer.</p>
+      <h3 id="kcemu"><a href="http://kcemu.sf.net">KCEmu</a></h3>
+      <p>KCemu is an emulator for the KC85 homecomputer series and other Z80 based microcomputers like Z1013, LC80, Polycomputer 880 and BIC A5105.</p>
+      <h3 id="android-vnc-server"><a href="http://code.google.com/p/android-vnc-server/">android-vnc-server</a></h3>
+      <p>android-vnc-server, a VNC server specifically for the Android mobile platform, forked from android-vnc project on google code. Unlike the original android-vnc, it doesn’t need a special keyboard driver built into the kernel.</p>
+      <h3 id="veency"><a href="http://cydia.saurik.com/info/veency/">Veency</a></h3>
+      <p>Veency is a VNC server for iPhones.</p>
+      <h3 id="gemsvnc"><a href="http://www.elilabs.com/~rj/gemsvnc/">GemsVNC</a></h3>
+      <p>An X11 vnc server for remote control, with some special features over x11vnc.</p>
+      <h3 id="vnc-for-netware"><a href="https://www.novell.com/coolsolutions/feature/431.html">VNC for Netware</a></h3>
+      <p>VNCSRV.NLM (the VNC Server NLM for NetWare) is a prototype release of a VNC server for NetWare based on LibVNCServer.</p>
+      <h3 id="virtualbox"><a href="https://www.virtualbox.org/">VirtualBox</a></h3>
+      <p>VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. VirtualBox uses LibVNCServer as its built-in VNC server.</p>
+      <h3 id="veyon"><a href="https://veyon.io">Veyon</a></h3>
+      <p>Veyon is a free and Open Source software for computer monitoring and classroom management supporting Linux and Windows.</p>
+      <h3 id="gnome-remote-desktop"><a href="https://wiki.gnome.org/Projects/Mutter/RemoteDesktop">GNOME Remote Desktop</a></h3>
+      <p>Remote desktop and screen casting in Wayland.</p>
+      <h2 id="libvncclient">LibVNCClient</h2>
+      <h3 id="aqemu"><a href="http://aqemu.sourceforge.net/">AQEMU</a></h3>
+      <p>AQEMU is a GUI for virtual machines using QEMU as the backend.</p>
+      <h3 id="remmina"><a href="https://remmina.org/">Remmina</a></h3>
+      <p>Use other desktops remotely, from a tiny screen or large monitors. Remmina uses LibVNCClient for its VNC plugin.</p>
+      <h3 id="krdc"><a href="http://kde.org/applications/internet/krdc/">KRDC</a></h3>
+      <p>KRDC is KDEs remote desktop client.</p>
+      <h3 id="vncpp"><a href="https://github.com/ocrespo/VNCpp">VNCpp</a></h3>
+      <p>A VNC viewer for Android powered by LibVNCClient.</p>
+      <h3 id="multivnc"><a href="https://github.com/bk138/multivnc">MultiVNC</a></h3>
+      <p>MultiVNC is a cross-platform wxWidgets VNC viewer based on LibVNCClient.</p>
+
+      <div class="center">
+	  <br/>      
+	  <strong><a href="https://github.com/LibVNC/LibVNC.github.io/issues">Create an issue</a> if your project is missing!</strong></div>
+      <br/>      <br/>
+      
    </div>
   </div>
 </body>
