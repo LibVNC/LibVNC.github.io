@@ -1,5 +1,5 @@
 <map id="ZRLE_ENCODE_TILE" name="ZRLE_ENCODE_TILE">
-<area shape="rect" id="node2" href="$zrlepalettehelper_8c.html#ad61de6f865bdd3fde8afb938a61beda9" title="zrlePaletteHelperInit" alt="" coords="211,5,361,32"/>
-<area shape="rect" id="node3" href="$zrlepalettehelper_8c.html#a88b3d2224b1b6fb2536225704d361964" title="zrlePaletteHelperInsert" alt="" coords="203,56,369,83"/>
-<area shape="rect" id="node4" href="$zrleoutstream_8c.html#abfc498fdeeac8998855b5330fa38b4bc" title="zrleOutStreamWriteU8" alt="" coords="203,107,369,133"/>
+<area shape="rect" id="node2" href="$zrlepalettehelper_8c.html#ad61de6f865bdd3fde8afb938a61beda9" title="zrlePaletteHelperInit" alt="" coords="212,5,367,32"/>
+<area shape="rect" id="node3" href="$zrlepalettehelper_8c.html#a88b3d2224b1b6fb2536225704d361964" title="zrlePaletteHelperInsert" alt="" coords="204,56,375,83"/>
+<area shape="rect" id="node4" href="$zrleoutstream_8c.html#abfc498fdeeac8998855b5330fa38b4bc" title="zrleOutStreamWriteU8" alt="" coords="205,107,373,133"/>
 </map>

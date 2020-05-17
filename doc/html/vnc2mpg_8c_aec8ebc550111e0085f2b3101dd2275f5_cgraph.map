@@ -1,10 +1,10 @@
 <map id="vnc_malloc_fb" name="vnc_malloc_fb">
-<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75" title="movie_close" alt="" coords="172,56,273,83"/>
-<area shape="rect" id="node5" href="$vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441" title="movie_open" alt="" coords="173,107,273,133"/>
-<area shape="rect" id="node9" href="$vnc2mpg_8c.html#a3b527c56ed133ee6815bfbc625e757af" title="signal_handler" alt="" coords="165,157,280,184"/>
-<area shape="rect" id="node3" href="$vnc2mpg_8c.html#aacbcd28b0790f8720d4071b76f553458" title="write_final_video_frame" alt="" coords="328,5,499,32"/>
-<area shape="rect" id="node4" href="$vnc2mpg_8c.html#af8b75d30beeb1528c92f7fe0487e620e" title="close_video_stream" alt="" coords="339,56,488,83"/>
-<area shape="rect" id="node6" href="$vnc2mpg_8c.html#abc6889a1426b82361498b7bdd23cdfd4" title="add_video_stream" alt="" coords="343,107,483,133"/>
-<area shape="rect" id="node7" href="$vnc2mpg_8c.html#a8e56ffdf2b7120254398781ba2b40e21" title="open_video" alt="" coords="366,157,461,184"/>
-<area shape="rect" id="node8" href="$vnc2mpg_8c.html#a6617ea96debf017c216c5ae98c6e1ef1" title="alloc_picture" alt="" coords="547,157,649,184"/>
+<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75" title="movie_close" alt="" coords="176,56,280,83"/>
+<area shape="rect" id="node5" href="$vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441" title="movie_open" alt="" coords="177,107,279,133"/>
+<area shape="rect" id="node9" href="$vnc2mpg_8c.html#a3b527c56ed133ee6815bfbc625e757af" title="signal_handler" alt="" coords="169,157,287,184"/>
+<area shape="rect" id="node3" href="$vnc2mpg_8c.html#aacbcd28b0790f8720d4071b76f553458" title="write_final_video_frame" alt="" coords="335,5,513,32"/>
+<area shape="rect" id="node4" href="$vnc2mpg_8c.html#af8b75d30beeb1528c92f7fe0487e620e" title="close_video_stream" alt="" coords="348,56,500,83"/>
+<area shape="rect" id="node6" href="$vnc2mpg_8c.html#abc6889a1426b82361498b7bdd23cdfd4" title="add_video_stream" alt="" coords="353,107,495,133"/>
+<area shape="rect" id="node7" href="$vnc2mpg_8c.html#a8e56ffdf2b7120254398781ba2b40e21" title="open_video" alt="" coords="375,157,473,184"/>
+<area shape="rect" id="node8" href="$vnc2mpg_8c.html#a6617ea96debf017c216c5ae98c6e1ef1" title="alloc_picture" alt="" coords="561,157,667,184"/>
 </map>

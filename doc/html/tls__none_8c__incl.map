@@ -1,6 +1,6 @@
 <map id="libvncclient/tls_none.c" name="libvncclient/tls_none.c">
-<area shape="rect" id="node2" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="169,80,275,107"/>
-<area shape="rect" id="node11" href="$tls_8h.html" title="tls.h" alt="" coords="392,80,441,107"/>
-<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,155,389,181"/>
-<area shape="rect" id="node9" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="413,155,517,181"/>
+<area shape="rect" id="node2" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="245,80,355,107"/>
+<area shape="rect" id="node16" href="$tls_8h.html" title="tls.h" alt="" coords="472,80,523,107"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="338,155,446,181"/>
+<area shape="rect" id="node13" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="470,155,578,181"/>
 </map>

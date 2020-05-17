@@ -1,12 +1,12 @@
 <map id="InitialiseRFBConnection" name="InitialiseRFBConnection">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="247,81,397,108"/>
-<area shape="rect" id="node6" href="$rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="469,259,668,285"/>
-<area shape="rect" id="node9" href="$rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="223,189,421,230"/>
-<area shape="rect" id="node10" href="$rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="223,306,421,347"/>
-<area shape="rect" id="node11" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="256,372,388,399"/>
-<area shape="rect" id="node3" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="515,5,623,32"/>
-<area shape="rect" id="node4" href="$sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="509,56,628,83"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="506,107,631,133"/>
-<area shape="rect" id="node7" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="716,284,847,311"/>
-<area shape="rect" id="node8" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="716,233,847,260"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="253,81,406,108"/>
+<area shape="rect" id="node6" href="$rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="477,259,677,285"/>
+<area shape="rect" id="node9" href="$rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="229,189,429,230"/>
+<area shape="rect" id="node10" href="$rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="229,306,429,347"/>
+<area shape="rect" id="node11" href="$group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="261,372,398,399"/>
+<area shape="rect" id="node3" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="523,5,632,32"/>
+<area shape="rect" id="node4" href="$sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="518,56,637,83"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="513,107,641,133"/>
+<area shape="rect" id="node7" href="$rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="725,284,856,311"/>
+<area shape="rect" id="node8" href="$rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="725,233,856,260"/>
 </map>

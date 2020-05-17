@@ -1,0 +1,5 @@
+<map id="ConnectClientToTcpAddr6" name="ConnectClientToTcpAddr6">
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gaa9642294e2aa024d38cf4555d33819aa" title="Tries to connect to an IPv4 or IPv6 host using the given timeout value. " alt="" coords="240,5,456,47"/>
+<area shape="rect" id="node4" href="$group__libvncclient__api.html#gad1674f8bbbdc6f0211ec91f0d3ff9b58" title="SetBlocking" alt="" coords="299,71,397,98"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="504,13,629,39"/>
+</map>

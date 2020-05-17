@@ -1,6 +1,6 @@
 <map id="libvncserver/main.c" name="libvncserver/main.c">
-<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="139,80,211,107"/>
-<area shape="rect" id="node9" href="$rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="235,80,347,107"/>
-<area shape="rect" id="node10" href="$private_8h.html" title="private.h" alt="" coords="372,80,451,107"/>
-<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,155,389,181"/>
+<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,80,320,107"/>
+<area shape="rect" id="node15" href="$rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="344,80,459,107"/>
+<area shape="rect" id="node16" href="$private_8h.html" title="private.h" alt="" coords="483,80,563,107"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,155,394,181"/>
 </map>

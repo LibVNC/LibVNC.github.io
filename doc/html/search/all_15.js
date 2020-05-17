@@ -7,6 +7,7 @@ var searchData=
   ['videooutputstream',['VideoOutputStream',['../struct_video_output_stream.html',1,'']]],
   ['viewonly',['viewOnly',['../structrfb_client_rec.html#afbe273c3d3bca991f85c09044103decc',1,'rfbClientRec::viewOnly()'],['../struct_app_data.html#afbe273c3d3bca991f85c09044103decc',1,'AppData::viewOnly()']]],
   ['vnc2mpg_2ec',['vnc2mpg.c',['../vnc2mpg_8c.html',1,'']]],
+  ['vnc_5fencode_5fzlib_5fmin_5fcomp_5fsize',['VNC_ENCODE_ZLIB_MIN_COMP_SIZE',['../group__libvncserver__api.html#ga36e6132da1ef2aa351b7b0d40d30cecf',1,'rfb.h']]],
   ['vnc_5fmalloc_5ffb',['vnc_malloc_fb',['../vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5',1,'vnc2mpg.c']]],
   ['vnc_5fpix_5ffmt',['VNC_PIX_FMT',['../vnc2mpg_8c.html#aa6d8f1b861b8dc222ea39a7cc11ffd07',1,'vnc2mpg.c']]],
   ['vnc_5fupdate',['vnc_update',['../vnc2mpg_8c.html#adb067ba28d5ec81498f818b5f651e949',1,'vnc2mpg.c']]],

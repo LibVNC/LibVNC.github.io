@@ -1,7 +1,7 @@
 <map id="WaitForMessage" name="WaitForMessage">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="179,81,329,108"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="388,5,557,32"/>
-<area shape="rect" id="node4" href="$rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="397,56,549,83"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="388,107,557,133"/>
-<area shape="rect" id="node6" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="377,157,568,184"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="181,81,335,108"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="393,5,565,32"/>
+<area shape="rect" id="node4" href="$rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="401,56,557,83"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="391,107,567,133"/>
+<area shape="rect" id="node6" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="383,157,575,184"/>
 </map>

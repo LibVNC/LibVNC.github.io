@@ -1,6 +1,6 @@
 <map id="rfbHandleAuthResult" name="rfbHandleAuthResult">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="205,56,356,83"/>
-<area shape="rect" id="node3" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="413,5,521,32"/>
-<area shape="rect" id="node4" href="$sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="407,56,526,83"/>
-<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="404,107,529,133"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="209,56,363,83"/>
+<area shape="rect" id="node3" href="$tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="420,5,529,32"/>
+<area shape="rect" id="node4" href="$sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="415,56,534,83"/>
+<area shape="rect" id="node5" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="411,107,539,133"/>
 </map>

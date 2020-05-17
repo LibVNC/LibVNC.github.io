@@ -24,6 +24,7 @@ var searchData=
   ['down',['down',['../structrfb_key_event_msg.html#a957456ebb10d8e0ec184480894c0b885',1,'rfbKeyEventMsg']]],
   ['downloadfd',['downloadFD',['../structrfb_client_file_download.html#a335e917d14351da66f710d22ca5cb1ea',1,'rfbClientFileDownload']]],
   ['downloadinprogress',['downloadInProgress',['../structrfb_client_file_download.html#a26ec4f4d579d7db60103108df71a8968',1,'rfbClientFileDownload']]],
+  ['downloadthread',['downloadThread',['../structrfb_client_file_download.html#a187e5fc1d92caa0a44daca34a538d433',1,'rfbClientFileDownload']]],
   ['dwfileattributes',['dwFileAttributes',['../struct_r_f_b___f_i_n_d___d_a_t_a.html#a3e86069f7a8cdd563dc41a1e70e84317',1,'RFB_FIND_DATA']]],
   ['dwhighdatetime',['dwHighDateTime',['../struct_r_f_b___f_i_l_e_t_i_m_e.html#a81709ef4873a633eda6512f395186e72',1,'RFB_FILETIME']]],
   ['dwlowdatetime',['dwLowDateTime',['../struct_r_f_b___f_i_l_e_t_i_m_e.html#abab3640b11537780502dd4333427147c',1,'RFB_FILETIME']]],

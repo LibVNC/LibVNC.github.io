@@ -1,0 +1,4 @@
+<map id="ConnectClientToTcpAddrWithTimeout" name="ConnectClientToTcpAddrWithTimeout">
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="265,5,437,32"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga22031a3e1c2573dcd34f12098103d432" title="Tries to connect to an IPv4 host. " alt="" coords="261,56,440,83"/>
+</map>

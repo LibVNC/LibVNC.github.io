@@ -15,6 +15,5 @@ var searchData=
   ['gethomedir',['GetHomeDir',['../handlefiletransferrequest_8c.html#adcc0b245f325acd8ac3bcdf9d5785bf6',1,'handlefiletransferrequest.c']]],
   ['getpassword',['getpassword',['../ppmtest_8c.html#acb9be5d6582ce9944db4b8a26cc9737e',1,'ppmtest.c']]],
   ['getsumoffilenameslength',['GetSumOfFileNamesLength',['../filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578',1,'GetSumOfFileNamesLength(FileListInfo fileListInfo):&#160;filelistinfo.c'],['../filelistinfo_8h.html#a95f31a78f2dd6a6d8b660734760d1578',1,'GetSumOfFileNamesLength(FileListInfo fileListInfo):&#160;filelistinfo.c']]],
-  ['gettimeofday',['gettimeofday',['../main_8c.html#adc9835fab042c6614119d9b22342dae0',1,'main.c']]],
   ['getuser',['getuser',['../ppmtest_8c.html#aee112f3ce669ae4eb8dcd97f13f69279',1,'ppmtest.c']]]
 ];

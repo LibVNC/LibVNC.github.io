@@ -1,10 +1,5 @@
 <map id="rfbLogPerror" name="rfbLogPerror">
-<area shape="rect" id="node2" href="$group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6" title="rfbProcessNewConnection" alt="" coords="155,5,343,32"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290" title="rfbConnect" alt="" coords="413,107,505,133"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga28afa9b471b819e9a2c119dd509227ea" title="rfbListenOnTCP6Port" alt="" coords="173,208,325,235"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga555afb1ffb32be16d4fd89d2c977ef3a" title="rfbHttpInitSockets" alt="" coords="391,233,528,260"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571" title="rfbConnectToTcpAddr" alt="" coords="171,107,326,133"/>
-<area shape="rect" id="node8" href="$group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e" title="rfbSetNonBlocking" alt="" coords="179,157,319,184"/>
-<area shape="rect" id="node9" href="$group__libvncserver__api.html#ga10a66fc12cbd42fd462cec62ae481c48" title="rfbHttpCheckFds" alt="" coords="185,309,313,336"/>
-<area shape="rect" id="node6" href="$group__libvncserver__api.html#ga0fb612a193a96424b82b9a5e7b494e73" title="rfbInitServer" alt="" coords="576,233,676,260"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga9611ba339fbc6eb64b3f21ed2569c625" title="rfbListenOnTCP6Port" alt="" coords="158,5,313,32"/>
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#gabde2e92d745a9c16ada18bb697af09f6" title="rfbConnectToTcpAddr" alt="" coords="156,56,315,83"/>
+<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga441ee3ed4bb634dbb1d12231b046e8c3" title="rfbSetNonBlocking" alt="" coords="164,107,307,133"/>
 </map>

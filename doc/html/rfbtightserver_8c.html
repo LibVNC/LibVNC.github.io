@@ -73,6 +73,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;<a class="el" href="rfb_8h_source.html">rfb/rfb.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="rfbtightproto_8h_source.html">rfbtightproto.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="handlefiletransferrequest_8h_source.html">handlefiletransferrequest.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="filetransfermsg_8h_source.html">filetransfermsg.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for rfbtightserver.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -80,10 +81,11 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rfbtightserver_8c__incl.png" border="0" usemap="#libvncserver_2tightvnc-filetransfer_2rfbtightserver_8c" alt=""/></div>
 <map name="libvncserver_2tightvnc-filetransfer_2rfbtightserver_8c" id="libvncserver_2tightvnc-filetransfer_2rfbtightserver_8c">
-<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="139,169,211,196"/>
-<area shape="rect" id="node9" href="rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="297,95,411,121"/>
-<area shape="rect" id="node11" href="handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="78,95,273,121"/>
-<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,244,389,271"/>
+<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,169,320,196"/>
+<area shape="rect" id="node15" href="rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="406,95,522,121"/>
+<area shape="rect" id="node17" href="handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="183,95,382,121"/>
+<area shape="rect" id="node18" href="filetransfermsg_8h.html" title="filetransfermsg.h" alt="" coords="547,95,680,121"/>
+<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,244,394,271"/>
 </map>
 </div>
 </div>
@@ -147,7 +149,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00267">267</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00268">268</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -163,7 +165,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00268">268</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00269">269</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -179,7 +181,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00266">266</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00267">267</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -194,11 +196,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (cl-&gt;protocolMajorVersion==3 &amp;&amp; cl-&gt;protocolMinorVersion &gt; 7) { \</div><div class="line">                uint32_t authResult; \</div><div class="line">                rfbLog(<span class="stringliteral">&quot;rfbProcessClientSecurityType: returning securityResult for client rfb version &gt;= 3.8\n&quot;</span>); \</div><div class="line">                authResult = <a class="code" href="group__libvncserver__api.html#ga40be30e9d614295c1d42977dc9fb5874">Swap32IfLE</a>(<a class="code" href="rfbproto_8h.html#ad421387dbfe7907b1b9d5c149a788d85">rfbVncAuthOK</a>); \</div><div class="line">                if (<a class="code" href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">rfbWriteExact</a>(cl, (<span class="keywordtype">char</span> *)&amp;authResult, 4) &lt; 0) { \</div><div class="line">                        rfbLogPerror(<span class="stringliteral">&quot;rfbAuthProcessClientMessage: write&quot;</span>); \</div><div class="line">                        rfbCloseClient(cl); \</div><div class="line">                        return; \</div><div class="line">                } \</div><div class="line">        }</div><div class="ttc" id="group__libvncserver__api_html_ga40be30e9d614295c1d42977dc9fb5874"><div class="ttname"><a href="group__libvncserver__api.html#ga40be30e9d614295c1d42977dc9fb5874">Swap32IfLE</a></div><div class="ttdeci">#define Swap32IfLE(l)</div><div class="ttdef"><b>Definition:</b> <a href="rfb_8h_source.html#l00729">rfb.h:729</a></div></div>
-<div class="ttc" id="group__libvncserver__api_html_gac32abbefcac48245e9bb69abca28e8d4"><div class="ttname"><a href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">rfbWriteExact</a></div><div class="ttdeci">int rfbWriteExact(rfbClientPtr cl, const char *buf, int len)</div><div class="ttdef"><b>Definition:</b> <a href="libvncserver_2sockets_8c_source.html#l00767">sockets.c:767</a></div></div>
-<div class="ttc" id="rfbproto_8h_html_ad421387dbfe7907b1b9d5c149a788d85"><div class="ttname"><a href="rfbproto_8h.html#ad421387dbfe7907b1b9d5c149a788d85">rfbVncAuthOK</a></div><div class="ttdeci">#define rfbVncAuthOK</div><div class="ttdef"><b>Definition:</b> <a href="rfbproto_8h_source.html#l00325">rfbproto.h:325</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (cl-&gt;protocolMajorVersion==3 &amp;&amp; cl-&gt;protocolMinorVersion &gt; 7) { \</div><div class="line">                uint32_t authResult; \</div><div class="line">                rfbLog(<span class="stringliteral">&quot;rfbProcessClientSecurityType: returning securityResult for client rfb version &gt;= 3.8\n&quot;</span>); \</div><div class="line">                authResult = <a class="code" href="group__libvncserver__api.html#ga40be30e9d614295c1d42977dc9fb5874">Swap32IfLE</a>(<a class="code" href="rfbproto_8h.html#ad421387dbfe7907b1b9d5c149a788d85">rfbVncAuthOK</a>); \</div><div class="line">                if (<a class="code" href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">rfbWriteExact</a>(cl, (<span class="keywordtype">char</span> *)&amp;authResult, 4) &lt; 0) { \</div><div class="line">                        rfbLogPerror(<span class="stringliteral">&quot;rfbAuthProcessClientMessage: write&quot;</span>); \</div><div class="line">                        rfbCloseClient(cl); \</div><div class="line">                        return; \</div><div class="line">                } \</div><div class="line">        }</div><div class="ttc" id="group__libvncserver__api_html_ga40be30e9d614295c1d42977dc9fb5874"><div class="ttname"><a href="group__libvncserver__api.html#ga40be30e9d614295c1d42977dc9fb5874">Swap32IfLE</a></div><div class="ttdeci">#define Swap32IfLE(l)</div><div class="ttdef"><b>Definition:</b> <a href="rfb_8h_source.html#l00718">rfb.h:718</a></div></div>
+<div class="ttc" id="group__libvncserver__api_html_gac32abbefcac48245e9bb69abca28e8d4"><div class="ttname"><a href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">rfbWriteExact</a></div><div class="ttdeci">int rfbWriteExact(rfbClientPtr cl, const char *buf, int len)</div><div class="ttdef"><b>Definition:</b> <a href="libvncserver_2sockets_8c_source.html#l00792">sockets.c:792</a></div></div>
+<div class="ttc" id="rfbproto_8h_html_ad421387dbfe7907b1b9d5c149a788d85"><div class="ttname"><a href="rfbproto_8h.html#ad421387dbfe7907b1b9d5c149a788d85">rfbVncAuthOK</a></div><div class="ttdeci">#define rfbVncAuthOK</div><div class="ttdef"><b>Definition:</b> <a href="rfbproto_8h_source.html#l00331">rfbproto.h:331</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00084">84</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00085">85</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -214,7 +216,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00099">99</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00100">100</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -235,7 +237,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00041">41</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00042">42</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -255,7 +257,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00495">495</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00498">498</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -275,7 +277,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00106">106</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00107">107</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -295,7 +297,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00166">166</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00167">167</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -315,7 +317,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00271">271</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00272">272</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -345,7 +347,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00449">449</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00450">450</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -375,7 +377,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00364">364</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00365">365</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -411,7 +413,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00395">395</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00396">396</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -441,7 +443,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00465">465</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00468">468</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -449,11 +451,11 @@ Variables</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rfbtightserver_8c_a9dc26b72b9cc9198baffa0630f2ad230_cgraph.png" border="0" usemap="#rfbtightserver_8c_a9dc26b72b9cc9198baffa0630f2ad230_cgraph" alt=""/></div>
 <map name="rfbtightserver_8c_a9dc26b72b9cc9198baffa0630f2ad230_cgraph" id="rfbtightserver_8c_a9dc26b72b9cc9198baffa0630f2ad230_cgraph">
-<area shape="rect" id="node2" href="handlefiletransferrequest_8c.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="208,56,319,83"/>
-<area shape="rect" id="node4" href="handlefiletransferrequest_8c.html#ab761869aecb5d47d985a71bd6e49c544" title="SetFtpRoot" alt="" coords="386,107,478,133"/>
-<area shape="rect" id="node6" href="handlefiletransferrequest_8c.html#abbfaade077bbfd4a00fcaf82b2a9275e" title="EnableFileTransfer" alt="" coords="196,157,331,184"/>
-<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#adcc0b245f325acd8ac3bcdf9d5785bf6" title="GetHomeDir" alt="" coords="381,5,483,32"/>
-<area shape="rect" id="node5" href="handlefiletransferrequest_8c.html#a051b3f8f20a64b56884761cd3497bb56" title="FreeHomeDir" alt="" coords="379,56,485,83"/>
+<area shape="rect" id="node2" href="handlefiletransferrequest_8c.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="210,56,327,83"/>
+<area shape="rect" id="node4" href="handlefiletransferrequest_8c.html#ab761869aecb5d47d985a71bd6e49c544" title="SetFtpRoot" alt="" coords="394,107,486,133"/>
+<area shape="rect" id="node6" href="handlefiletransferrequest_8c.html#abbfaade077bbfd4a00fcaf82b2a9275e" title="EnableFileTransfer" alt="" coords="199,157,339,184"/>
+<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#adcc0b245f325acd8ac3bcdf9d5785bf6" title="GetHomeDir" alt="" coords="389,5,491,32"/>
+<area shape="rect" id="node5" href="handlefiletransferrequest_8c.html#a051b3f8f20a64b56884761cd3497bb56" title="FreeHomeDir" alt="" coords="387,56,493,83"/>
 </map>
 </div>
 
@@ -475,7 +477,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00457">457</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00460">460</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
@@ -491,20 +493,20 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        NULL,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a5496b2a8f855b28bcc22f95722ccbc3b">rfbTightExtensionInit</a>,</div><div class="line">        NULL,</div><div class="line">        NULL,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7">rfbTightExtensionMsgHandler</a>,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a34036f3260abe84829e95d49b1986090">rfbTightExtensionClientClose</a>,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a901d2f279468af4e21530566d5c17efa">rfbTightUsage</a>,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230">rfbTightProcessArg</a>,</div><div class="line">        NULL</div><div class="line">}</div><div class="ttc" id="rfbtightserver_8c_html_a901d2f279468af4e21530566d5c17efa"><div class="ttname"><a href="rfbtightserver_8c.html#a901d2f279468af4e21530566d5c17efa">rfbTightUsage</a></div><div class="ttdeci">void rfbTightUsage(void)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00457">rfbtightserver.c:457</a></div></div>
-<div class="ttc" id="rfbtightserver_8c_html_a5496b2a8f855b28bcc22f95722ccbc3b"><div class="ttname"><a href="rfbtightserver_8c.html#a5496b2a8f855b28bcc22f95722ccbc3b">rfbTightExtensionInit</a></div><div class="ttdeci">rfbBool rfbTightExtensionInit(rfbClientPtr cl, void *data)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00364">rfbtightserver.c:364</a></div></div>
-<div class="ttc" id="rfbtightserver_8c_html_a9dc26b72b9cc9198baffa0630f2ad230"><div class="ttname"><a href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230">rfbTightProcessArg</a></div><div class="ttdeci">int rfbTightProcessArg(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00465">rfbtightserver.c:465</a></div></div>
-<div class="ttc" id="rfbtightserver_8c_html_ae444f7d5c1a0af8f6d07e73d41b940c7"><div class="ttname"><a href="rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7">rfbTightExtensionMsgHandler</a></div><div class="ttdeci">rfbBool rfbTightExtensionMsgHandler(struct _rfbClientRec *cl, void *data, const rfbClientToServerMsg *msg)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00395">rfbtightserver.c:395</a></div></div>
-<div class="ttc" id="rfbtightserver_8c_html_a34036f3260abe84829e95d49b1986090"><div class="ttname"><a href="rfbtightserver_8c.html#a34036f3260abe84829e95d49b1986090">rfbTightExtensionClientClose</a></div><div class="ttdeci">void rfbTightExtensionClientClose(rfbClientPtr cl, void *data)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00449">rfbtightserver.c:449</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        NULL,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a5496b2a8f855b28bcc22f95722ccbc3b">rfbTightExtensionInit</a>,</div><div class="line">        NULL,</div><div class="line">        NULL,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7">rfbTightExtensionMsgHandler</a>,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a34036f3260abe84829e95d49b1986090">rfbTightExtensionClientClose</a>,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a901d2f279468af4e21530566d5c17efa">rfbTightUsage</a>,</div><div class="line">        <a class="code" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230">rfbTightProcessArg</a>,</div><div class="line">        NULL</div><div class="line">}</div><div class="ttc" id="rfbtightserver_8c_html_a901d2f279468af4e21530566d5c17efa"><div class="ttname"><a href="rfbtightserver_8c.html#a901d2f279468af4e21530566d5c17efa">rfbTightUsage</a></div><div class="ttdeci">void rfbTightUsage(void)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00460">rfbtightserver.c:460</a></div></div>
+<div class="ttc" id="rfbtightserver_8c_html_a5496b2a8f855b28bcc22f95722ccbc3b"><div class="ttname"><a href="rfbtightserver_8c.html#a5496b2a8f855b28bcc22f95722ccbc3b">rfbTightExtensionInit</a></div><div class="ttdeci">rfbBool rfbTightExtensionInit(rfbClientPtr cl, void *data)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00365">rfbtightserver.c:365</a></div></div>
+<div class="ttc" id="rfbtightserver_8c_html_a9dc26b72b9cc9198baffa0630f2ad230"><div class="ttname"><a href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230">rfbTightProcessArg</a></div><div class="ttdeci">int rfbTightProcessArg(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00468">rfbtightserver.c:468</a></div></div>
+<div class="ttc" id="rfbtightserver_8c_html_ae444f7d5c1a0af8f6d07e73d41b940c7"><div class="ttname"><a href="rfbtightserver_8c.html#ae444f7d5c1a0af8f6d07e73d41b940c7">rfbTightExtensionMsgHandler</a></div><div class="ttdeci">rfbBool rfbTightExtensionMsgHandler(struct _rfbClientRec *cl, void *data, const rfbClientToServerMsg *msg)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00396">rfbtightserver.c:396</a></div></div>
+<div class="ttc" id="rfbtightserver_8c_html_a34036f3260abe84829e95d49b1986090"><div class="ttname"><a href="rfbtightserver_8c.html#a34036f3260abe84829e95d49b1986090">rfbTightExtensionClientClose</a></div><div class="ttdeci">void rfbTightExtensionClientClose(rfbClientPtr cl, void *data)</div><div class="ttdef"><b>Definition:</b> <a href="rfbtightserver_8c_source.html#l00450">rfbtightserver.c:450</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00518">518</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbtightserver_8c_source.html#l00521">521</a> of file <a class="el" href="rfbtightserver_8c_source.html">rfbtightserver.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

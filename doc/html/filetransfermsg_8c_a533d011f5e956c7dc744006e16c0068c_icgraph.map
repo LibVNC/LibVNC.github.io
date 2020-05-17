@@ -1,5 +1,5 @@
 <map id="CreateFileDownloadBlockSizeDataMsg" name="CreateFileDownloadBlockSizeDataMsg">
-<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="261,31,395,57"/>
-<area shape="rect" id="node3" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="457,5,603,32"/>
-<area shape="rect" id="node4" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="443,56,617,83"/>
+<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="268,31,404,57"/>
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="467,5,616,32"/>
+<area shape="rect" id="node4" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="452,56,631,83"/>
 </map>

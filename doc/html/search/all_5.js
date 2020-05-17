@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['eds',['eds',['../unionrfb_server_to_client_msg.html#a78c8cdd85e87d28044cdc04438458583',1,'rfbServerToClientMsg']]],
   ['enablecursorposupdates',['enableCursorPosUpdates',['../structrfb_client_rec.html#a5e1875bd2325a0b3ee239d47d17293ce',1,'rfbClientRec']]],
   ['enablecursorshapeupdates',['enableCursorShapeUpdates',['../structrfb_client_rec.html#a2a7dcfae216a65598a0252025d013f2a',1,'rfbClientRec']]],
   ['enablefiletransfer',['EnableFileTransfer',['../handlefiletransferrequest_8c.html#abbfaade077bbfd4a00fcaf82b2a9275e',1,'EnableFileTransfer(rfbBool enable):&#160;handlefiletransferrequest.c'],['../handlefiletransferrequest_8h.html#abbfaade077bbfd4a00fcaf82b2a9275e',1,'EnableFileTransfer(rfbBool enable):&#160;handlefiletransferrequest.c']]],

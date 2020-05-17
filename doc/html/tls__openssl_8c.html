@@ -63,21 +63,18 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">tls_openssl.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="rfbclient_8h_source.html">rfb/rfbclient.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="rfbclient_8h_source.html">rfb/rfbclient.h</a>&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;openssl/err.h&gt;</code><br />
 <code>#include &lt;openssl/ssl.h&gt;</code><br />
 <code>#include &lt;openssl/x509.h&gt;</code><br />
 <code>#include &lt;openssl/rand.h&gt;</code><br />
-<code>#include &lt;pthread.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="tls_8h_source.html">tls.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for tls_openssl.c:</div>
@@ -86,40 +83,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="tls__openssl_8c__incl.png" border="0" usemap="#libvncclient_2tls__openssl_8c" alt=""/></div>
 <map name="libvncclient_2tls__openssl_8c" id="libvncclient_2tls__openssl_8c">
-<area shape="rect" id="node2" href="rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="169,80,275,107"/>
-<area shape="rect" id="node16" href="tls_8h.html" title="tls.h" alt="" coords="1040,80,1089,107"/>
-<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,155,389,181"/>
-<area shape="rect" id="node9" href="keysym_8h.html" title="rfb/keysym.h" alt="" coords="413,155,517,181"/>
+<area shape="rect" id="node3" href="rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="207,80,318,107"/>
+<area shape="rect" id="node20" href="tls_8h.html" title="tls.h" alt="" coords="980,80,1031,107"/>
+<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="338,155,446,181"/>
+<area shape="rect" id="node13" href="keysym_8h.html" title="rfb/keysym.h" alt="" coords="470,155,578,181"/>
 </map>
 </div>
 </div>
 <p><a href="tls__openssl_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_r_y_p_t_o__dynlock__value.html">CRYPTO_dynlock_value</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a78c99ffd76a7bb3c8c74db76207e9ab4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a78c99ffd76a7bb3c8c74db76207e9ab4">_XOPEN_SOURCE</a>&#160;&#160;&#160;500</td></tr>
-<tr class="separator:a78c99ffd76a7bb3c8c74db76207e9ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1c5c6979966fd93c9288baac34a0a07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#ac1c5c6979966fd93c9288baac34a0a07">MUTEX_INIT</a>(mutex)</td></tr>
-<tr class="separator:ac1c5c6979966fd93c9288baac34a0a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab85ee6effceec43698a8f6033a50b7c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#ab85ee6effceec43698a8f6033a50b7c1">MUTEX_FREE</a>(mutex)&#160;&#160;&#160;pthread_mutex_destroy(&amp;mutex)</td></tr>
-<tr class="separator:ab85ee6effceec43698a8f6033a50b7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee06b78aa983e0c386113767604af10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#acee06b78aa983e0c386113767604af10">MUTEX_LOCK</a>(mutex)&#160;&#160;&#160;pthread_mutex_lock(&amp;mutex)</td></tr>
-<tr class="separator:acee06b78aa983e0c386113767604af10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d6bd003d684d61b6e86d364d91e7a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a28d6bd003d684d61b6e86d364d91e7a8">MUTEX_UNLOCK</a>(mutex)&#160;&#160;&#160;pthread_mutex_unlock(&amp;mutex)</td></tr>
-<tr class="separator:a28d6bd003d684d61b6e86d364d91e7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56fcaceac03ee71fea05d9a15ce8dac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#ad56fcaceac03ee71fea05d9a15ce8dac">CURRENT_THREAD_ID</a>&#160;&#160;&#160;pthread_self()</td></tr>
-<tr class="separator:ad56fcaceac03ee71fea05d9a15ce8dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad8f018820dfdfa53e083c05327885906"><td class="memItemLeft" align="right" valign="top">typedef pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#ad8f018820dfdfa53e083c05327885906">MUTEX_TYPE</a></td></tr>
-<tr class="separator:ad8f018820dfdfa53e083c05327885906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a520b8bbe83b889a11a24199a20df0a0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a520b8bbe83b889a11a24199a20df0a0b">HandleAnonTLSAuth</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>)</td></tr>
@@ -128,141 +100,11 @@ Functions</h2></td></tr>
 <tr class="separator:a64cfa84eeb071db3775670c6db100f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fa159580d9a687173bf0e507a417ff0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a1fa159580d9a687173bf0e507a417ff0">ReadFromTLS</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, char *out, unsigned int n)</td></tr>
 <tr class="separator:a1fa159580d9a687173bf0e507a417ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0cfe74a748174418e500f34d106df1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a4d0cfe74a748174418e500f34d106df1">WriteToTLS</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, char *buf, unsigned int n)</td></tr>
-<tr class="separator:a4d0cfe74a748174418e500f34d106df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a0485275909c1673be7e7f7136c22d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a60a0485275909c1673be7e7f7136c22d">WriteToTLS</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, const char *buf, unsigned int n)</td></tr>
+<tr class="separator:a60a0485275909c1673be7e7f7136c22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a544b05c0d93af06c61dd57b0d32b9d7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tls__openssl_8c.html#a544b05c0d93af06c61dd57b0d32b9d7e">FreeTLS</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>)</td></tr>
 <tr class="separator:a544b05c0d93af06c61dd57b0d32b9d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a78c99ffd76a7bb3c8c74db76207e9ab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78c99ffd76a7bb3c8c74db76207e9ab4">&#9670;&nbsp;</a></span>_XOPEN_SOURCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _XOPEN_SOURCE&#160;&#160;&#160;500</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00022">22</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
-<a id="ad56fcaceac03ee71fea05d9a15ce8dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56fcaceac03ee71fea05d9a15ce8dac">&#9670;&nbsp;</a></span>CURRENT_THREAD_ID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CURRENT_THREAD_ID&#160;&#160;&#160;pthread_self()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00052">52</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
-<a id="ab85ee6effceec43698a8f6033a50b7c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab85ee6effceec43698a8f6033a50b7c1">&#9670;&nbsp;</a></span>MUTEX_FREE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MUTEX_FREE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mutex</td><td>)</td>
-          <td>&#160;&#160;&#160;pthread_mutex_destroy(&amp;mutex)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00049">49</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
-<a id="ac1c5c6979966fd93c9288baac34a0a07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1c5c6979966fd93c9288baac34a0a07">&#9670;&nbsp;</a></span>MUTEX_INIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MUTEX_INIT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mutex</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{\</div><div class="line">        pthread_mutexattr_t mutexAttr;\</div><div class="line">        pthread_mutexattr_init(&amp;mutexAttr);\</div><div class="line">        pthread_mutexattr_settype(&amp;mutexAttr, PTHREAD_MUTEX_RECURSIVE);\</div><div class="line">        pthread_mutex_init(&amp;mutex, &amp;mutexAttr);\</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00043">43</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
-<a id="acee06b78aa983e0c386113767604af10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee06b78aa983e0c386113767604af10">&#9670;&nbsp;</a></span>MUTEX_LOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MUTEX_LOCK</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mutex</td><td>)</td>
-          <td>&#160;&#160;&#160;pthread_mutex_lock(&amp;mutex)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00050">50</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
-<a id="a28d6bd003d684d61b6e86d364d91e7a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28d6bd003d684d61b6e86d364d91e7a8">&#9670;&nbsp;</a></span>MUTEX_UNLOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MUTEX_UNLOCK</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mutex</td><td>)</td>
-          <td>&#160;&#160;&#160;pthread_mutex_unlock(&amp;mutex)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00051">51</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ad8f018820dfdfa53e083c05327885906"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8f018820dfdfa53e083c05327885906">&#9670;&nbsp;</a></span>MUTEX_TYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef pthread_mutex_t <a class="el" href="tls__openssl_8c.html#ad8f018820dfdfa53e083c05327885906">MUTEX_TYPE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00042">42</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a544b05c0d93af06c61dd57b0d32b9d7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a544b05c0d93af06c61dd57b0d32b9d7e">&#9670;&nbsp;</a></span>FreeTLS()</h2>
@@ -280,7 +122,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00668">668</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00669">669</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -288,7 +130,7 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="tls__openssl_8c_a544b05c0d93af06c61dd57b0d32b9d7e_icgraph.png" border="0" usemap="#tls__openssl_8c_a544b05c0d93af06c61dd57b0d32b9d7e_icgraph" alt=""/></div>
 <map name="tls__openssl_8c_a544b05c0d93af06c61dd57b0d32b9d7e_icgraph" id="tls__openssl_8c_a544b05c0d93af06c61dd57b0d32b9d7e_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga71e4dac37ff9a25e1cf5ab06a068bcc3" title="Cleans up the client structure and releases the memory allocated for it. " alt="" coords="125,5,252,32"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga71e4dac37ff9a25e1cf5ab06a068bcc3" title="Cleans up the client structure and releases the memory allocated for it. " alt="" coords="125,5,256,32"/>
 </map>
 </div>
 
@@ -310,7 +152,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00512">512</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00505">505</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
 
 </div>
 </div>
@@ -330,7 +172,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00532">532</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00525">525</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
 
 </div>
 </div>
@@ -366,7 +208,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00623">623</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00616">616</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -374,18 +216,18 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="tls__openssl_8c_a1fa159580d9a687173bf0e507a417ff0_icgraph.png" border="0" usemap="#tls__openssl_8c_a1fa159580d9a687173bf0e507a417ff0_icgraph" alt=""/></div>
 <map name="tls__openssl_8c_a1fa159580d9a687173bf0e507a417ff0_icgraph" id="tls__openssl_8c_a1fa159580d9a687173bf0e507a417ff0_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="161,81,312,108"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="371,5,540,32"/>
-<area shape="rect" id="node4" href="rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="379,56,531,83"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="371,107,540,133"/>
-<area shape="rect" id="node6" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="360,157,551,184"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="163,81,316,108"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="374,5,546,32"/>
+<area shape="rect" id="node4" href="rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="382,56,538,83"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="372,107,548,133"/>
+<area shape="rect" id="node6" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="364,157,556,184"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a4d0cfe74a748174418e500f34d106df1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0cfe74a748174418e500f34d106df1">&#9670;&nbsp;</a></span>WriteToTLS()</h2>
+<a id="a60a0485275909c1673be7e7f7136c22d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60a0485275909c1673be7e7f7136c22d">&#9670;&nbsp;</a></span>WriteToTLS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,7 +241,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
         <tr>
@@ -416,14 +258,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00643">643</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tls__openssl_8c_source.html#l00641">641</a> of file <a class="el" href="tls__openssl_8c_source.html">tls_openssl.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

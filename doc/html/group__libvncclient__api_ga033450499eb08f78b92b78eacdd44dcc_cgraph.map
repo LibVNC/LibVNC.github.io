@@ -1,4 +1,4 @@
 <map id="SendClientCutText" name="SendClientCutText">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="192,5,359,32"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="209,56,341,83"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="195,5,361,32"/>
+<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="209,56,347,83"/>
 </map>

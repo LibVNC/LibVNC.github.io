@@ -1,6 +1,6 @@
 <map id="SetServer2Client" name="SetServer2Client">
-<area shape="rect" id="node2" href="$rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="184,71,383,98"/>
-<area shape="rect" id="node3" href="$rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="431,5,629,47"/>
-<area shape="rect" id="node5" href="$rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="431,123,629,164"/>
-<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="677,71,847,98"/>
+<area shape="rect" id="node2" href="$rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="184,71,384,98"/>
+<area shape="rect" id="node3" href="$rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="432,5,632,47"/>
+<area shape="rect" id="node5" href="$rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="432,123,632,164"/>
+<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="680,71,856,98"/>
 </map>

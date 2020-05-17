@@ -1,7 +1,7 @@
 <map id="libvncserver/rfbserver.c" name="libvncserver/rfbserver.c">
-<area shape="rect" id="node4" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="207,80,279,107"/>
-<area shape="rect" id="node9" href="$rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="465,80,577,107"/>
-<area shape="rect" id="node10" href="$private_8h.html" title="private.h" alt="" coords="601,80,680,107"/>
-<area shape="rect" id="node13" href="$scale_8h.html" title="scale.h" alt="" coords="886,80,953,107"/>
-<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="190,155,297,181"/>
+<area shape="rect" id="node4" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="311,80,385,107"/>
+<area shape="rect" id="node15" href="$rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="701,80,816,107"/>
+<area shape="rect" id="node16" href="$private_8h.html" title="private.h" alt="" coords="840,80,920,107"/>
+<area shape="rect" id="node20" href="$scale_8h.html" title="scale.h" alt="" coords="1238,80,1306,107"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="407,155,515,181"/>
 </map>

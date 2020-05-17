@@ -121,6 +121,9 @@ $(function() {
 <li>RFB_FILE_ATTRIBUTE_TEMPORARY
 : <a class="el" href="rfbserver_8c.html#ad7fb605ec833bab3affc9b6a60a6a6bd">rfbserver.c</a>
 </li>
+<li>RFB_INVALID_SOCKET
+: <a class="el" href="rfbproto_8h.html#afa2f89ccd2a2a3c211df6ea88439c4bb">rfbproto.h</a>
+</li>
 <li>RFB_SOCKET_INIT
 : <a class="el" href="group__libvncserver__api.html#gga5c4fe6ff82c2ccb57272a64a3c3a444da620f6a2174eb29950b527ee3ef99d036">rfb.h</a>
 </li>
@@ -315,6 +318,9 @@ $(function() {
 : <a class="el" href="group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e">sockets.c</a>
 </li>
+<li>rfbCloseSocket
+: <a class="el" href="rfbproto_8h.html#a7e28cb8bed2acae9287b4d5d28201f0f">rfbproto.h</a>
+</li>
 <li>rfbCommand
 : <a class="el" href="rfbproto_8h.html#ab660236b0b35bb65d3b9ba0b7634b236">rfbproto.h</a>
 </li>
@@ -322,12 +328,12 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#a48ef1386b768dcc714b470d07fdaf31f">rfbproto.h</a>
 </li>
 <li>rfbConnect()
-: <a class="el" href="group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#gabc0687b978cd42c3a8fbc65dcd00e9ba">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gabc0687b978cd42c3a8fbc65dcd00e9ba">sockets.c</a>
 </li>
 <li>rfbConnectToTcpAddr()
-: <a class="el" href="group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#gabde2e92d745a9c16ada18bb697af09f6">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gabde2e92d745a9c16ada18bb697af09f6">sockets.c</a>
 </li>
 <li>rfbConnFailed
 : <a class="el" href="rfbproto_8h.html#ae3d6f0fa5d10732f8061d1116421f356">rfbproto.h</a>
@@ -335,9 +341,6 @@ $(function() {
 <li>rfbConvertLSBCursorBitmapOrMask()
 : <a class="el" href="group__libvncserver__api.html#ga695a57b68609c865af753a74fa972a71">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga695a57b68609c865af753a74fa972a71">cursor.c</a>
-</li>
-<li>rfbCPKey
-: <a class="el" href="rfbproto_8c.html#a091173cc0eefeca38a163d41c7edb2c0">rfbproto.c</a>
 </li>
 <li>rfbCredentialTypeUser
 : <a class="el" href="group__libvncclient__api.html#gad8b6486221b0f74c5c9842a7fe51665c">rfbclient.h</a>
@@ -480,6 +483,9 @@ $(function() {
 </li>
 <li>rfbEncodingCoRRE
 : <a class="el" href="rfbproto_8h.html#a691c302fbb407bdc1883e43445caa733">rfbproto.h</a>
+</li>
+<li>rfbEncodingExtDesktopSize
+: <a class="el" href="rfbproto_8h.html#a5322894bc97f20c01b2ec30c6f9cea54">rfbproto.h</a>
 </li>
 <li>rfbEncodingFineQualityLevel0
 : <a class="el" href="rfbproto_8h.html#ada847e9c53b73e2cf62c607fb7a7635c">rfbproto.h</a>
@@ -643,6 +649,27 @@ $(function() {
 : <a class="el" href="group__libvncserver__api.html#ga00d1a8593444e51e0cc512d58836025f">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga00d1a8593444e51e0cc512d58836025f">main.c</a>
 </li>
+<li>rfbExtDesktopSize_ClientRequestedChange
+: <a class="el" href="rfbproto_8h.html#afda2d0545a35806701eb0e9489479b82">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_GenericChange
+: <a class="el" href="rfbproto_8h.html#a61482dcfcf03c81004fddfc69dab6805">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_InvalidScreenLayout
+: <a class="el" href="rfbproto_8h.html#add7d4497590f3dcb06ccddf2174524de">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_OtherClientRequestedChange
+: <a class="el" href="rfbproto_8h.html#af3086475f1d57c8fffcb7604529f1ca6">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_OutOfResources
+: <a class="el" href="rfbproto_8h.html#a5233f508622ea825059454fabd0e86f9">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_ResizeProhibited
+: <a class="el" href="rfbproto_8h.html#a14a90f1e2a68a17af04cfac44ef30b9b">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_Success
+: <a class="el" href="rfbproto_8h.html#a52d8b64f87e4a06329f72d22d1b14827">rfbproto.h</a>
+</li>
 <li>rfbFileAcceptHeader
 : <a class="el" href="rfbproto_8h.html#ab1f4fcc92927df19f726000fdc8aa137">rfbproto.h</a>
 </li>
@@ -754,6 +781,9 @@ $(function() {
 </li>
 <li>rfbGetClientIteratorWithClosed()
 : <a class="el" href="rfbserver_8c.html#a807a6797458158198edfb5e3ce8058e5">rfbserver.c</a>
+</li>
+<li>rfbGetExtDesktopScreenPtr
+: <a class="el" href="group__libvncserver__api.html#ga0790c1326f1c7d9b8f0327f92601cf03">rfb.h</a>
 </li>
 <li>rfbGetExtensionClientData()
 : <a class="el" href="group__libvncserver__api.html#ga9779d2d83bed62b5ac82e080cfd06b72">rfb.h</a>
@@ -924,16 +954,16 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#a3f1bab9e57e1615d0edc6e4bd391f2af">rfbproto.h</a>
 </li>
 <li>rfbListenOnTCP6Port()
-: <a class="el" href="group__libvncserver__api.html#ga28afa9b471b819e9a2c119dd509227ea">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga28afa9b471b819e9a2c119dd509227ea">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga9611ba339fbc6eb64b3f21ed2569c625">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga9611ba339fbc6eb64b3f21ed2569c625">sockets.c</a>
 </li>
 <li>rfbListenOnTCPPort()
-: <a class="el" href="group__libvncserver__api.html#ga78439c3ee641e665e25b0ffae7b00ee3">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga78439c3ee641e665e25b0ffae7b00ee3">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga34b5801c8bde0e2791e189063b9d2cd7">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga34b5801c8bde0e2791e189063b9d2cd7">sockets.c</a>
 </li>
 <li>rfbListenOnUDPPort()
-: <a class="el" href="group__libvncserver__api.html#ga4837125e4de382c8d3039a25c7def99d">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga4837125e4de382c8d3039a25c7def99d">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#gae6199575290ccd38f0c50769c69649f3">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gae6199575290ccd38f0c50769c69649f3">sockets.c</a>
 </li>
 <li>rfbLoadConsoleFont()
 : <a class="el" href="group__libvncserver__api.html#ga466675a96ecfa7169f1223be7a816de1">rfb.h</a>
@@ -993,15 +1023,15 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#a6d58d1e4afbb434c8302647ffd8a24ce">rfbproto.h</a>
 </li>
 <li>rfbNewClient()
-: <a class="el" href="group__libvncserver__api.html#ga930cb358aae50529f715be516085336c">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga930cb358aae50529f715be516085336c">rfbserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#gad4629bba1dc2874e6281b724ad1b1007">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gad4629bba1dc2874e6281b724ad1b1007">rfbserver.c</a>
 </li>
 <li>rfbNewClientAction
 : <a class="el" href="group__libvncserver__api.html#gaea78cee50a53139ef6a0ce2c058dd688">rfb.h</a>
 </li>
 <li>rfbNewClientConnection()
-: <a class="el" href="group__libvncserver__api.html#ga91cc6fb70a3126373a5bc9a67356462f">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga91cc6fb70a3126373a5bc9a67356462f">rfbserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga4d47fdb3198b60bfa7998d3af4179f96">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga4d47fdb3198b60bfa7998d3af4179f96">rfbserver.c</a>
 </li>
 <li>rfbNewClientHookPtr
 : <a class="el" href="group__libvncserver__api.html#gab06d8cc964c1bcf99de2e41c3405dfa1">rfb.h</a>
@@ -1015,8 +1045,8 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#ga20091daffb56a19c59a29dd47a49289f">rfbserver.c</a>
 </li>
 <li>rfbNewUDPConnection()
-: <a class="el" href="group__libvncserver__api.html#gabcea396f71c319d19dadc5ce5c5cc6ff">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gabcea396f71c319d19dadc5ce5c5cc6ff">rfbserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga8b86dae91b0e256992966c086d065419">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga8b86dae91b0e256992966c086d065419">rfbserver.c</a>
 </li>
 <li>rfbNoAuth
 : <a class="el" href="rfbproto_8h.html#af0e5097db7df699eeae3a5b783764253">rfbproto.h</a>
@@ -1024,8 +1054,12 @@ $(function() {
 <li>rfbNoTunneling
 : <a class="el" href="rfbtightproto_8h.html#a43f8e90e06c0f61b893a9e4e23ee10ad">rfbtightproto.h</a>
 </li>
+<li>rfbNumberOfExtDesktopScreensPtr
+: <a class="el" href="group__libvncserver__api.html#ga93bf8a4b3a3689c536e96e7e50a5eb29">rfb.h</a>
+</li>
 <li>rfbNumCodedRectsTight()
-: <a class="el" href="libvncserver_2tight_8c.html#a0843886f1201dd27d1fdb9e4fce47477">tight.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga0843886f1201dd27d1fdb9e4fce47477">tight.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga0843886f1201dd27d1fdb9e4fce47477">rfb.h</a>
 </li>
 <li>rfbPalmVNCReSizeFrameBuffer
 : <a class="el" href="rfbproto_8h.html#afa3b55a90b5f8837a1b7793b9756e3ba">rfbproto.h</a>
@@ -1068,8 +1102,8 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#a6bde336e54a8400cc29172f4a3f0f7a5">rfbproto.h</a>
 </li>
 <li>rfbPrintStats()
-: <a class="el" href="group__libvncserver__api.html#gad3f82c6dfabac23e6e344d735ed5bde7">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gad3f82c6dfabac23e6e344d735ed5bde7">stats.c</a>
+: <a class="el" href="group__libvncserver__api.html#gad3f82c6dfabac23e6e344d735ed5bde7">stats.c</a>
+, <a class="el" href="group__libvncserver__api.html#gad3f82c6dfabac23e6e344d735ed5bde7">rfb.h</a>
 </li>
 <li>rfbProcessArguments()
 : <a class="el" href="group__libvncserver__api.html#ga5fb33ee8958185eca06eb9611f41924a">rfb.h</a>
@@ -1102,16 +1136,16 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#ga3e0a84ddf4f229a98a1b2c9466f37f5a">rfbserver.c</a>
 </li>
 <li>rfbProcessNewConnection()
-: <a class="el" href="group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6">sockets.c</a>
+, <a class="el" href="group__libvncserver__api.html#gac4b10dae912ecfeb84e88ab57519c0c6">rfb.h</a>
 </li>
 <li>rfbProcessSizeArguments()
 : <a class="el" href="group__libvncserver__api.html#ga65066bb3104a39bc2247c6f48276f732">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga65066bb3104a39bc2247c6f48276f732">cargs.c</a>
 </li>
 <li>rfbProcessUDPInput()
-: <a class="el" href="group__libvncserver__api.html#gaf463b46888ae35fd8c0fde7d2c54cf18">rfbserver.c</a>
-, <a class="el" href="group__libvncserver__api.html#gaf463b46888ae35fd8c0fde7d2c54cf18">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gaf463b46888ae35fd8c0fde7d2c54cf18">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gaf463b46888ae35fd8c0fde7d2c54cf18">rfbserver.c</a>
 </li>
 <li>rfbProtocolMajorVersion
 : <a class="el" href="rfbproto_8h.html#ad5ad640fe5ebd3aa98abc6b0a0706373">rfbproto.h</a>
@@ -1154,8 +1188,8 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#a9738738a628ce74d0e3586f1f0ea2d6f">rfbproto.h</a>
 </li>
 <li>rfbReadExact()
-: <a class="el" href="group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c">sockets.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c">sockets.c</a>
 </li>
 <li>rfbReadExactTimeout()
 : <a class="el" href="group__libvncserver__api.html#gad8d47e03686c65f6b4733bf8339fae16">rfb.h</a>
@@ -1178,16 +1212,16 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#gaf62b38a45011a8afc5f18d8f10f1eb35">auth.c</a>
 </li>
 <li>rfbRegisterTightVNCFileTransferExtension()
-: <a class="el" href="group__libvncserver__api.html#ga01c5678801521e7dadb2d62426ae8447">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga01c5678801521e7dadb2d62426ae8447">rfbtightserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga01c5678801521e7dadb2d62426ae8447">rfbtightserver.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga01c5678801521e7dadb2d62426ae8447">rfb.h</a>
 </li>
 <li>rfbReleaseClientIterator()
 : <a class="el" href="group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2">rfbserver.c</a>
 </li>
 <li>rfbReleaseExtensionIterator()
-: <a class="el" href="group__libvncserver__api.html#ga32fbe0c45fbc80bfa1e31ecc56824e4e">main.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga32fbe0c45fbc80bfa1e31ecc56824e4e">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga32fbe0c45fbc80bfa1e31ecc56824e4e">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga32fbe0c45fbc80bfa1e31ecc56824e4e">main.c</a>
 </li>
 <li>rfbRErrorCmd
 : <a class="el" href="rfbproto_8h.html#a89483c6836056432244b2a7f118dead1">rfbproto.h</a>
@@ -1222,30 +1256,30 @@ $(function() {
 , <a class="el" href="scale_8h.html#ac5c8c788237531f41575fe50f59f0439">scale.h</a>
 </li>
 <li>rfbScaledScreenAllocate()
-: <a class="el" href="scale_8h.html#a9e4226d2a6bd008d6f4aa04639fdfd37">scale.h</a>
-, <a class="el" href="scale_8c.html#a9e4226d2a6bd008d6f4aa04639fdfd37">scale.c</a>
+: <a class="el" href="scale_8c.html#a9e4226d2a6bd008d6f4aa04639fdfd37">scale.c</a>
+, <a class="el" href="scale_8h.html#a9e4226d2a6bd008d6f4aa04639fdfd37">scale.h</a>
 </li>
 <li>rfbScaledScreenUpdate()
-: <a class="el" href="libvncserver_2cursor_8c.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa">cursor.c</a>
+: <a class="el" href="scale_8h.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa">scale.h</a>
+, <a class="el" href="libvncserver_2cursor_8c.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa">cursor.c</a>
 , <a class="el" href="main_8c.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa">main.c</a>
 , <a class="el" href="scale_8c.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa">scale.c</a>
-, <a class="el" href="scale_8h.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa">scale.h</a>
 </li>
 <li>rfbScaledScreenUpdateRect()
 : <a class="el" href="scale_8c.html#ad2eebed1c78b7f5d28ca06d7caf95d6e">scale.c</a>
 , <a class="el" href="scale_8h.html#ad2eebed1c78b7f5d28ca06d7caf95d6e">scale.h</a>
 </li>
 <li>rfbScalingFind()
-: <a class="el" href="scale_8c.html#aece30976d1819284fb4ce8955ef308c7">scale.c</a>
-, <a class="el" href="scale_8h.html#aece30976d1819284fb4ce8955ef308c7">scale.h</a>
+: <a class="el" href="scale_8h.html#aece30976d1819284fb4ce8955ef308c7">scale.h</a>
+, <a class="el" href="scale_8c.html#aece30976d1819284fb4ce8955ef308c7">scale.c</a>
 </li>
 <li>rfbScalingSetup()
 : <a class="el" href="scale_8c.html#aa36097867f262a9d0df272181590e270">scale.c</a>
 , <a class="el" href="scale_8h.html#aa36097867f262a9d0df272181590e270">scale.h</a>
 </li>
 <li>rfbScheduleCopyRect()
-: <a class="el" href="group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333">main.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333">main.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333">rfb.h</a>
 </li>
 <li>rfbScheduleCopyRegion()
 : <a class="el" href="group__libvncserver__api.html#ga444fdc5b55fc40ed873674e7cb1f502d">rfb.h</a>
@@ -1276,7 +1310,8 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#gafaa6ce29830fc432bff8599c4565cfa9">rfb.h</a>
 </li>
 <li>rfbSendCompressedDataTight()
-: <a class="el" href="libvncserver_2tight_8c.html#abee2f89865105fb864c55b83784d7f40">tight.c</a>
+: <a class="el" href="group__libvncserver__api.html#gabee2f89865105fb864c55b83784d7f40">tight.c</a>
+, <a class="el" href="group__libvncserver__api.html#gabee2f89865105fb864c55b83784d7f40">rfb.h</a>
 </li>
 <li>rfbSendCopyRegion()
 : <a class="el" href="group__libvncserver__api.html#gafb3509a6b0f46fb8d619f897811e59d5">rfbserver.c</a>
@@ -1287,24 +1322,28 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#ga769f5d3434e867fbabb8638316ed7ecb">cursor.c</a>
 </li>
 <li>rfbSendCursorShape()
-: <a class="el" href="group__libvncserver__api.html#ga7c5fce8d751e0a4a8062f99a46bc77e4">cursor.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga7c5fce8d751e0a4a8062f99a46bc77e4">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga7c5fce8d751e0a4a8062f99a46bc77e4">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga7c5fce8d751e0a4a8062f99a46bc77e4">cursor.c</a>
 </li>
 <li>rfbSendDirContent()
 : <a class="el" href="group__libvncserver__api.html#ga935445b2e8bf60cdde75836c62e90140">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga935445b2e8bf60cdde75836c62e90140">rfbserver.c</a>
+</li>
+<li>rfbSendExtDesktopSize()
+: <a class="el" href="group__libvncserver__api.html#gad4c2057dcd19c4f1f314044e92e45708">rfbserver.c</a>
+, <a class="el" href="group__libvncserver__api.html#gad4c2057dcd19c4f1f314044e92e45708">rfb.h</a>
 </li>
 <li>rfbSendFileTransferChunk()
 : <a class="el" href="group__libvncserver__api.html#ga2e1dd04a2f45e25c348fe413aa57d075">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga2e1dd04a2f45e25c348fe413aa57d075">rfbserver.c</a>
 </li>
 <li>rfbSendFileTransferMessage()
-: <a class="el" href="group__libvncserver__api.html#ga8894d97a563a2299ec44fca90cd2700e">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga8894d97a563a2299ec44fca90cd2700e">rfbserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga8894d97a563a2299ec44fca90cd2700e">rfbserver.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga8894d97a563a2299ec44fca90cd2700e">rfb.h</a>
 </li>
 <li>rfbSendFramebufferUpdate()
-: <a class="el" href="group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562">rfbserver.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga518333367aceff718c278bc6e4f71562">rfbserver.c</a>
 </li>
 <li>rfbSendInteractionCaps()
 : <a class="el" href="rfbtightserver_8c.html#a09828684789f10656710e7f2dd3b622c">rfbtightserver.c</a>
@@ -1317,8 +1356,8 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#ga60853c0f6b26b11fd1a067ecc3cdc49f">rfbserver.c</a>
 </li>
 <li>rfbSendNewFBSize()
-: <a class="el" href="group__libvncserver__api.html#gad861d3bf0bb9284b6a55a5be8c2e2e84">rfbserver.c</a>
-, <a class="el" href="group__libvncserver__api.html#gad861d3bf0bb9284b6a55a5be8c2e2e84">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gad861d3bf0bb9284b6a55a5be8c2e2e84">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gad861d3bf0bb9284b6a55a5be8c2e2e84">rfbserver.c</a>
 </li>
 <li>rfbSendNewScaleSize()
 : <a class="el" href="scale_8c.html#ad01190579a004e161f5fe81d2fb5b919">scale.c</a>
@@ -1333,39 +1372,43 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#gaa0159e6e27182eb05b46f073eeed10ec">hextile.c</a>
 </li>
 <li>rfbSendRectEncodingRaw()
-: <a class="el" href="group__libvncserver__api.html#ga11f9b269a53ccff089bbe23e5ac72146">rfbserver.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga11f9b269a53ccff089bbe23e5ac72146">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga11f9b269a53ccff089bbe23e5ac72146">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga11f9b269a53ccff089bbe23e5ac72146">rfbserver.c</a>
 </li>
 <li>rfbSendRectEncodingRRE()
-: <a class="el" href="group__libvncserver__api.html#ga64802cfce5b715c1926f07195b3dafaf">rre.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga64802cfce5b715c1926f07195b3dafaf">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga64802cfce5b715c1926f07195b3dafaf">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga64802cfce5b715c1926f07195b3dafaf">rre.c</a>
 </li>
 <li>rfbSendRectEncodingTight()
-: <a class="el" href="libvncserver_2tight_8c.html#a3c9b83bf36bc1c7b347689946e1f4148">tight.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga3c9b83bf36bc1c7b347689946e1f4148">tight.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga3c9b83bf36bc1c7b347689946e1f4148">rfb.h</a>
 </li>
 <li>rfbSendRectEncodingTightPng()
-: <a class="el" href="libvncserver_2tight_8c.html#ad5c817fcf9a9535841859ba90e729a64">tight.c</a>
+: <a class="el" href="group__libvncserver__api.html#gad5c817fcf9a9535841859ba90e729a64">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gad5c817fcf9a9535841859ba90e729a64">tight.c</a>
 </li>
 <li>rfbSendRectEncodingUltra()
 : <a class="el" href="group__libvncserver__api.html#ga7c2213e24518b3556f81d06ac4ef7e16">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga7c2213e24518b3556f81d06ac4ef7e16">ultra.c</a>
 </li>
 <li>rfbSendRectEncodingZlib()
-: <a class="el" href="libvncserver_2zlib_8c.html#aef3a327d190961712c6181323daf9cb7">zlib.c</a>
+: <a class="el" href="group__libvncserver__api.html#gaef3a327d190961712c6181323daf9cb7">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gaef3a327d190961712c6181323daf9cb7">zlib.c</a>
 </li>
 <li>rfbSendRectEncodingZRLE()
-: <a class="el" href="libvncserver_2zrle_8c.html#aba32d5b02fde2f2ca5daca6cec3a345c">zrle.c</a>
+: <a class="el" href="group__libvncserver__api.html#gaba32d5b02fde2f2ca5daca6cec3a345c">zrle.c</a>
+, <a class="el" href="group__libvncserver__api.html#gaba32d5b02fde2f2ca5daca6cec3a345c">rfb.h</a>
 </li>
 <li>rfbSendServerCutText()
-: <a class="el" href="group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988">rfbserver.c</a>
-, <a class="el" href="group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988">rfbserver.c</a>
 </li>
 <li>rfbSendServerIdentity()
 : <a class="el" href="rfbserver_8c.html#a0f0c449dba2a25789a4cde13d9ffe690">rfbserver.c</a>
 </li>
 <li>rfbSendSetColourMapEntries()
-: <a class="el" href="group__libvncserver__api.html#ga5889aed9d497bd75f90229076f40198a">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga5889aed9d497bd75f90229076f40198a">rfbserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga5889aed9d497bd75f90229076f40198a">rfbserver.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga5889aed9d497bd75f90229076f40198a">rfb.h</a>
 </li>
 <li>rfbSendSupportedEncodings()
 : <a class="el" href="rfbserver_8c.html#a607ba5c0b182153b4ef6571d7be0dceb">rfbserver.c</a>
@@ -1374,11 +1417,12 @@ $(function() {
 : <a class="el" href="rfbserver_8c.html#a60189efc698a2d3212157e62784ea0dc">rfbserver.c</a>
 </li>
 <li>rfbSendTextChatMessage()
-: <a class="el" href="group__libvncserver__api.html#ga45dba2c00982dca1e96b336e0c968b13">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga45dba2c00982dca1e96b336e0c968b13">rfbserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga45dba2c00982dca1e96b336e0c968b13">rfbserver.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga45dba2c00982dca1e96b336e0c968b13">rfb.h</a>
 </li>
 <li>rfbSendTightHeader()
-: <a class="el" href="libvncserver_2tight_8c.html#a653bf508d19dc1b924abb2aa49ab8015">tight.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga653bf508d19dc1b924abb2aa49ab8015">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga653bf508d19dc1b924abb2aa49ab8015">tight.c</a>
 </li>
 <li>rfbSendUpdateBuf()
 : <a class="el" href="group__libvncserver__api.html#ga32c99de46885cdee380c8a4331f9003c">rfbserver.c</a>
@@ -1398,8 +1442,8 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#ga6114598cb8cf16c62bd18356bbd3da99">translate.c</a>
 </li>
 <li>rfbSetClientColourMaps()
-: <a class="el" href="group__libvncserver__api.html#gac479a87dfde93551b8a2271551c314e2">translate.c</a>
-, <a class="el" href="group__libvncserver__api.html#gac479a87dfde93551b8a2271551c314e2">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gac479a87dfde93551b8a2271551c314e2">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gac479a87dfde93551b8a2271551c314e2">translate.c</a>
 </li>
 <li>rfbSetColourMapEntries
 : <a class="el" href="rfbproto_8h.html#a80876221df8ea7a4cca4d82c1381e567">rfbproto.h</a>
@@ -1408,19 +1452,25 @@ $(function() {
 : <a class="el" href="group__libvncserver__api.html#ga04b4ad9130d8b7a4cc97d03fc3cbc159">cursor.c</a>
 , <a class="el" href="group__libvncserver__api.html#ga04b4ad9130d8b7a4cc97d03fc3cbc159">rfb.h</a>
 </li>
+<li>rfbSetDesktopSize
+: <a class="el" href="rfbproto_8h.html#af8d4e1f9814bcb71597d01308232c585">rfbproto.h</a>
+</li>
+<li>rfbSetDesktopSizeHookPtr
+: <a class="el" href="group__libvncserver__api.html#gad87d19608ddcecb4560cb5738d3a5cc0">rfb.h</a>
+</li>
 <li>rfbSetEncodings
 : <a class="el" href="rfbproto_8h.html#ae17003c8ad4600f9a137501bae03b5a7">rfbproto.h</a>
 </li>
 <li>rfbSetNonBlocking()
-: <a class="el" href="group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga441ee3ed4bb634dbb1d12231b046e8c3">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga441ee3ed4bb634dbb1d12231b046e8c3">sockets.c</a>
 </li>
 <li>rfbSetPixelFormat
 : <a class="el" href="rfbproto_8h.html#a8a0981d6e5c922ff45e2c4df15a743c7">rfbproto.h</a>
 </li>
 <li>rfbSetProtocolVersion()
-: <a class="el" href="group__libvncserver__api.html#ga46720026fdead1e1fb13a08b771db5c3">rfbserver.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga46720026fdead1e1fb13a08b771db5c3">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga46720026fdead1e1fb13a08b771db5c3">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga46720026fdead1e1fb13a08b771db5c3">rfbserver.c</a>
 </li>
 <li>rfbSetScale
 : <a class="el" href="rfbproto_8h.html#ae73bb27c93d5ef1f8a07738f430ca13b">rfbproto.h</a>
@@ -1445,8 +1495,8 @@ $(function() {
 : <a class="el" href="group__libvncserver__api.html#gae020bbf5a77ed9ebc003f112aa490edd">rfb.h</a>
 </li>
 <li>rfbSetTranslateFunction()
-: <a class="el" href="group__libvncserver__api.html#ga15e5a5ffebe789a4c03496a9a494b011">translate.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga15e5a5ffebe789a4c03496a9a494b011">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga15e5a5ffebe789a4c03496a9a494b011">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga15e5a5ffebe789a4c03496a9a494b011">translate.c</a>
 </li>
 <li>rfbSetTranslateFunctionProcPtr
 : <a class="el" href="group__libvncserver__api.html#ga162b997f68eb55c84e3d3ac7c4e88e19">rfb.h</a>
@@ -1463,53 +1513,56 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#ga69b57fe0447eac66fe216430bcda5859">rfb.h</a>
 </li>
 <li>rfbShutdownSockets()
-: <a class="el" href="group__libvncserver__api.html#gafadf5c8e4dafb539cad5f15170f07ff2">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gafadf5c8e4dafb539cad5f15170f07ff2">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#gafadf5c8e4dafb539cad5f15170f07ff2">sockets.c</a>
+, <a class="el" href="group__libvncserver__api.html#gafadf5c8e4dafb539cad5f15170f07ff2">rfb.h</a>
+</li>
+<li>rfbSocket
+: <a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbproto.h</a>
 </li>
 <li>rfbSocketState
 : <a class="el" href="group__libvncserver__api.html#ga5c4fe6ff82c2ccb57272a64a3c3a444d">rfb.h</a>
 </li>
 <li>rfbssl_destroy()
-: <a class="el" href="rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl.h</a>
-, <a class="el" href="rfbssl__openssl_8c.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl_openssl.c</a>
-, <a class="el" href="rfbssl__gnutls_8c.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl_gnutls.c</a>
+: <a class="el" href="rfbssl__gnutls_8c.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl_gnutls.c</a>
+, <a class="el" href="rfbssl_8h.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl.h</a>
 , <a class="el" href="rfbssl__none_8c.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl_none.c</a>
+, <a class="el" href="rfbssl__openssl_8c.html#a3b19e90c2651d2fddce01e24973e8b23">rfbssl_openssl.c</a>
 </li>
 <li>rfbssl_init()
-: <a class="el" href="rfbssl_8h.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl.h</a>
-, <a class="el" href="rfbssl__openssl_8c.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl_openssl.c</a>
+: <a class="el" href="rfbssl__gnutls_8c.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl_gnutls.c</a>
+, <a class="el" href="rfbssl_8h.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl.h</a>
 , <a class="el" href="rfbssl__none_8c.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl_none.c</a>
-, <a class="el" href="rfbssl__gnutls_8c.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl_gnutls.c</a>
+, <a class="el" href="rfbssl__openssl_8c.html#a60dc1d61027a24ce3584b7ba0820570a">rfbssl_openssl.c</a>
 </li>
 <li>rfbssl_init_global()
-: <a class="el" href="rfbssl__gnutls_8c.html#a885cfe7ff139df26429fbc25323ec066">rfbssl_gnutls.c</a>
-, <a class="el" href="rfbssl__none_8c.html#a885cfe7ff139df26429fbc25323ec066">rfbssl_none.c</a>
+: <a class="el" href="rfbssl__none_8c.html#a885cfe7ff139df26429fbc25323ec066">rfbssl_none.c</a>
+, <a class="el" href="rfbssl__gnutls_8c.html#a885cfe7ff139df26429fbc25323ec066">rfbssl_gnutls.c</a>
 </li>
 <li>rfbssl_log_func()
 : <a class="el" href="rfbssl__gnutls_8c.html#a33c4d7cfc6cfadc0974849af54c4b2d2">rfbssl_gnutls.c</a>
 </li>
 <li>rfbssl_peek()
-: <a class="el" href="rfbssl__gnutls_8c.html#a3d953fca2145875d9076d4bf5c7c37a1">rfbssl_gnutls.c</a>
+: <a class="el" href="rfbssl__none_8c.html#a3d953fca2145875d9076d4bf5c7c37a1">rfbssl_none.c</a>
 , <a class="el" href="rfbssl_8h.html#a3d953fca2145875d9076d4bf5c7c37a1">rfbssl.h</a>
+, <a class="el" href="rfbssl__gnutls_8c.html#a3d953fca2145875d9076d4bf5c7c37a1">rfbssl_gnutls.c</a>
 , <a class="el" href="rfbssl__openssl_8c.html#a3d953fca2145875d9076d4bf5c7c37a1">rfbssl_openssl.c</a>
-, <a class="el" href="rfbssl__none_8c.html#a3d953fca2145875d9076d4bf5c7c37a1">rfbssl_none.c</a>
 </li>
 <li>rfbssl_pending()
-: <a class="el" href="rfbssl__gnutls_8c.html#a8e8c36ccf5704a8216eaf701eea537a8">rfbssl_gnutls.c</a>
+: <a class="el" href="rfbssl__openssl_8c.html#a8e8c36ccf5704a8216eaf701eea537a8">rfbssl_openssl.c</a>
 , <a class="el" href="rfbssl_8h.html#a8e8c36ccf5704a8216eaf701eea537a8">rfbssl.h</a>
-, <a class="el" href="rfbssl__openssl_8c.html#a8e8c36ccf5704a8216eaf701eea537a8">rfbssl_openssl.c</a>
 , <a class="el" href="rfbssl__none_8c.html#a8e8c36ccf5704a8216eaf701eea537a8">rfbssl_none.c</a>
+, <a class="el" href="rfbssl__gnutls_8c.html#a8e8c36ccf5704a8216eaf701eea537a8">rfbssl_gnutls.c</a>
 </li>
 <li>rfbssl_read()
-: <a class="el" href="rfbssl__gnutls_8c.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl_gnutls.c</a>
-, <a class="el" href="rfbssl__openssl_8c.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl_openssl.c</a>
+: <a class="el" href="rfbssl_8h.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl.h</a>
 , <a class="el" href="rfbssl__none_8c.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl_none.c</a>
-, <a class="el" href="rfbssl_8h.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl.h</a>
+, <a class="el" href="rfbssl__gnutls_8c.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl_gnutls.c</a>
+, <a class="el" href="rfbssl__openssl_8c.html#af141e18074ba4af73ffaeec8cea33f58">rfbssl_openssl.c</a>
 </li>
 <li>rfbssl_write()
-: <a class="el" href="rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42">rfbssl.h</a>
+: <a class="el" href="rfbssl__gnutls_8c.html#a21e6252d031270aa99c5010dd0762d42">rfbssl_gnutls.c</a>
 , <a class="el" href="rfbssl__none_8c.html#a21e6252d031270aa99c5010dd0762d42">rfbssl_none.c</a>
-, <a class="el" href="rfbssl__gnutls_8c.html#a21e6252d031270aa99c5010dd0762d42">rfbssl_gnutls.c</a>
+, <a class="el" href="rfbssl_8h.html#a21e6252d031270aa99c5010dd0762d42">rfbssl.h</a>
 , <a class="el" href="rfbssl__openssl_8c.html#a21e6252d031270aa99c5010dd0762d42">rfbssl_openssl.c</a>
 </li>
 <li>rfbSslCtx
@@ -1525,8 +1578,8 @@ $(function() {
 : <a class="el" href="rfbtightproto_8h.html#a6f853d8243b7c793fdbca8c5f6930cb1">rfbtightproto.h</a>
 </li>
 <li>rfbStartOnHoldClient()
-: <a class="el" href="group__libvncserver__api.html#ga1c9f843a5aab4c452061786d322fd79b">main.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga1c9f843a5aab4c452061786d322fd79b">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga1c9f843a5aab4c452061786d322fd79b">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga1c9f843a5aab4c452061786d322fd79b">main.c</a>
 </li>
 <li>rfbStatGetEncodingCountRcvd()
 : <a class="el" href="group__libvncserver__api.html#ga3c58026ae049abbc0586b76f0999521f">stats.c</a>
@@ -1541,44 +1594,44 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#gad9d96311f9d49eceb5dc1e360e09bd55">stats.c</a>
 </li>
 <li>rfbStatGetMessageCountSent()
-: <a class="el" href="group__libvncserver__api.html#ga0f120c3dadf409408ba4cf4781e0e1fc">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga0f120c3dadf409408ba4cf4781e0e1fc">stats.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga0f120c3dadf409408ba4cf4781e0e1fc">stats.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga0f120c3dadf409408ba4cf4781e0e1fc">rfb.h</a>
 </li>
 <li>rfbStatGetRcvdBytes()
 : <a class="el" href="group__libvncserver__api.html#ga6858cd0b4b9eca06a4d62897e4c3750a">stats.c</a>
 , <a class="el" href="group__libvncserver__api.html#ga6858cd0b4b9eca06a4d62897e4c3750a">rfb.h</a>
 </li>
 <li>rfbStatGetRcvdBytesIfRaw()
-: <a class="el" href="group__libvncserver__api.html#gafd34d3c39856b63551edd8d4f28f19e0">stats.c</a>
-, <a class="el" href="group__libvncserver__api.html#gafd34d3c39856b63551edd8d4f28f19e0">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gafd34d3c39856b63551edd8d4f28f19e0">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gafd34d3c39856b63551edd8d4f28f19e0">stats.c</a>
 </li>
 <li>rfbStatGetSentBytes()
-: <a class="el" href="group__libvncserver__api.html#gac5b75cc7f0ba16dedb4d5f272a71f057">stats.c</a>
-, <a class="el" href="group__libvncserver__api.html#gac5b75cc7f0ba16dedb4d5f272a71f057">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gac5b75cc7f0ba16dedb4d5f272a71f057">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gac5b75cc7f0ba16dedb4d5f272a71f057">stats.c</a>
 </li>
 <li>rfbStatGetSentBytesIfRaw()
-: <a class="el" href="group__libvncserver__api.html#ga16d5fc50c24a5a44f6c666186ded37f7">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga16d5fc50c24a5a44f6c666186ded37f7">stats.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga16d5fc50c24a5a44f6c666186ded37f7">stats.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga16d5fc50c24a5a44f6c666186ded37f7">rfb.h</a>
 </li>
 <li>rfbStatLookupEncoding()
 : <a class="el" href="group__libvncserver__api.html#ga53c830f38aed163bd1746ca6cfb13ad4">stats.c</a>
 , <a class="el" href="group__libvncserver__api.html#ga53c830f38aed163bd1746ca6cfb13ad4">rfb.h</a>
 </li>
 <li>rfbStatLookupMessage()
-: <a class="el" href="group__libvncserver__api.html#ga429aa011ed355c2ee5cf5f123b599ac7">stats.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga429aa011ed355c2ee5cf5f123b599ac7">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga429aa011ed355c2ee5cf5f123b599ac7">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga429aa011ed355c2ee5cf5f123b599ac7">stats.c</a>
 </li>
 <li>rfbStatRecordEncodingRcvd()
 : <a class="el" href="group__libvncserver__api.html#gae60cd4cc82df526a4c745f34198cf920">stats.c</a>
 , <a class="el" href="group__libvncserver__api.html#gae60cd4cc82df526a4c745f34198cf920">rfb.h</a>
 </li>
 <li>rfbStatRecordEncodingSent()
-: <a class="el" href="group__libvncserver__api.html#gafbc8caaa32d18d84e3404eb26a503f03">stats.c</a>
-, <a class="el" href="group__libvncserver__api.html#gafbc8caaa32d18d84e3404eb26a503f03">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#gafbc8caaa32d18d84e3404eb26a503f03">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#gafbc8caaa32d18d84e3404eb26a503f03">stats.c</a>
 </li>
 <li>rfbStatRecordEncodingSentAdd()
-: <a class="el" href="group__libvncserver__api.html#ga69f2755e2bc7723fb1aa014e17391bac">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga69f2755e2bc7723fb1aa014e17391bac">stats.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga69f2755e2bc7723fb1aa014e17391bac">stats.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga69f2755e2bc7723fb1aa014e17391bac">rfb.h</a>
 </li>
 <li>rfbStatRecordMessageRcvd()
 : <a class="el" href="group__libvncserver__api.html#ga63701c37029f12509cee2d6c570d1657">stats.c</a>
@@ -1589,9 +1642,9 @@ $(function() {
 , <a class="el" href="group__libvncserver__api.html#gac5765c726716d39945dedaab4f7418f4">stats.c</a>
 </li>
 <li>rfbStringToAddr()
-: <a class="el" href="group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973">cargs.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973">cargs.c</a>
 , <a class="el" href="group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973">sockets.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973">rfb.h</a>
 </li>
 <li>rfbTextChat
 : <a class="el" href="rfbproto_8h.html#adf94f49c72c3be1068077b228d7f7ea9">rfbproto.h</a>
@@ -1614,6 +1667,9 @@ $(function() {
 <li>rfbTightCleanup()
 : <a class="el" href="libvncserver_2tight_8c.html#ac5186d6b671607265ebc7ba61458ac9e">tight.c</a>
 </li>
+<li>rfbTightDisableGradient
+: <a class="el" href="group__libvncserver__api.html#gadb1e2f6d906d82302750f6b472658f98">rfb.h</a>
+</li>
 <li>rfbTightExtensionClientClose()
 : <a class="el" href="rfbtightserver_8c.html#a34036f3260abe84829e95d49b1986090">rfbtightserver.c</a>
 </li>
@@ -1630,8 +1686,8 @@ $(function() {
 : <a class="el" href="rfbtightproto_8h.html#a51fc91f654bee0f19c93a65212eceba9">rfbtightproto.h</a>
 </li>
 <li>rfbTightUsage()
-: <a class="el" href="rfbtightproto_8h.html#a901d2f279468af4e21530566d5c17efa">rfbtightproto.h</a>
-, <a class="el" href="rfbtightserver_8c.html#a901d2f279468af4e21530566d5c17efa">rfbtightserver.c</a>
+: <a class="el" href="rfbtightserver_8c.html#a901d2f279468af4e21530566d5c17efa">rfbtightserver.c</a>
+, <a class="el" href="rfbtightproto_8h.html#a901d2f279468af4e21530566d5c17efa">rfbtightproto.h</a>
 </li>
 <li>rfbTightVncVendor
 : <a class="el" href="rfbtightproto_8h.html#ad7f2a85eb1b2683c44ecc494db2b3af8">rfbtightproto.h</a>
@@ -1671,24 +1727,24 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#aa9c947387eb139458144b61eee1f51ad">rfbproto.h</a>
 </li>
 <li>rfbUnregisterProtocolExtension()
-: <a class="el" href="group__libvncserver__api.html#ga297a3e423a5ac429de8b3bf6346cdede">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga297a3e423a5ac429de8b3bf6346cdede">main.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga297a3e423a5ac429de8b3bf6346cdede">main.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga297a3e423a5ac429de8b3bf6346cdede">rfb.h</a>
 </li>
 <li>rfbUnregisterSecurityHandler()
 : <a class="el" href="group__libvncserver__api.html#ga623888d606a30e572133e3f7f5967d2b">rfb.h</a>
 , <a class="el" href="group__libvncserver__api.html#ga623888d606a30e572133e3f7f5967d2b">auth.c</a>
 </li>
 <li>rfbUnregisterTightVNCFileTransferExtension()
-: <a class="el" href="group__libvncserver__api.html#ga312cf567016ee480dc3fcc681a0a1a0e">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga312cf567016ee480dc3fcc681a0a1a0e">rfbtightserver.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga312cf567016ee480dc3fcc681a0a1a0e">rfbtightserver.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga312cf567016ee480dc3fcc681a0a1a0e">rfb.h</a>
 </li>
 <li>rfbUpdateClient()
-: <a class="el" href="group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f">main.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f">main.c</a>
 </li>
 <li>rfbUsage()
-: <a class="el" href="group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c">cargs.c</a>
+: <a class="el" href="group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c">cargs.c</a>
+, <a class="el" href="group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c">rfb.h</a>
 </li>
 <li>rfbUseKey
 : <a class="el" href="rfbproto_8c.html#a9c415f626fbc83723dfa4161da25b433">rfbproto.c</a>
@@ -1742,20 +1798,20 @@ $(function() {
 : <a class="el" href="rfbproto_8h.html#aedb66e425a8d166242c514aad34c0cb1">rfbproto.h</a>
 </li>
 <li>rfbWholeFontBBox()
-: <a class="el" href="group__libvncserver__api.html#ga56addaff8375573cb2f3046a34131c5d">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga56addaff8375573cb2f3046a34131c5d">font.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga56addaff8375573cb2f3046a34131c5d">font.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga56addaff8375573cb2f3046a34131c5d">rfb.h</a>
 </li>
 <li>rfbWidthOfChar()
-: <a class="el" href="group__libvncserver__api.html#ga7a3f2680bd611cfe08629353f2282d34">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#ga7a3f2680bd611cfe08629353f2282d34">font.c</a>
+: <a class="el" href="group__libvncserver__api.html#ga7a3f2680bd611cfe08629353f2282d34">font.c</a>
+, <a class="el" href="group__libvncserver__api.html#ga7a3f2680bd611cfe08629353f2282d34">rfb.h</a>
 </li>
 <li>rfbWidthOfString()
-: <a class="el" href="group__libvncserver__api.html#ga53bec8b1db55844410efd7f514ef3d25">font.c</a>
-, <a class="el" href="group__libvncserver__api.html#ga53bec8b1db55844410efd7f514ef3d25">rfb.h</a>
+: <a class="el" href="group__libvncserver__api.html#ga53bec8b1db55844410efd7f514ef3d25">rfb.h</a>
+, <a class="el" href="group__libvncserver__api.html#ga53bec8b1db55844410efd7f514ef3d25">font.c</a>
 </li>
 <li>rfbWriteExact()
-: <a class="el" href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">rfb.h</a>
-, <a class="el" href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">sockets.c</a>
+: <a class="el" href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">sockets.c</a>
+, <a class="el" href="group__libvncserver__api.html#gac32abbefcac48245e9bb69abca28e8d4">rfb.h</a>
 </li>
 <li>rfbX509CrlVerifyAll
 : <a class="el" href="group__libvncclient__api.html#ga4c8b953e4e227804b47b2845b504a39a">rfbclient.h</a>
@@ -1809,7 +1865,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:45 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

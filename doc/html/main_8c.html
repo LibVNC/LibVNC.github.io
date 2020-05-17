@@ -75,14 +75,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="private_8h_source.html">private.h</a>&quot;</code><br />
 <code>#include &lt;stdarg.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;sys/socket.h&gt;</code><br />
-<code>#include &lt;netinet/in.h&gt;</code><br />
-<code>#include &lt;unistd.h&gt;</code><br />
 <code>#include &lt;signal.h&gt;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
-<code>#include &lt;fcntl.h&gt;</code><br />
-<code>#include &lt;conio.h&gt;</code><br />
-<code>#include &lt;sys/timeb.h&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for main.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -90,10 +84,10 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="main_8c__incl.png" border="0" usemap="#libvncserver_2main_8c" alt=""/></div>
 <map name="libvncserver_2main_8c" id="libvncserver_2main_8c">
-<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="139,80,211,107"/>
-<area shape="rect" id="node9" href="rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="235,80,347,107"/>
-<area shape="rect" id="node10" href="private_8h.html" title="private.h" alt="" coords="372,80,451,107"/>
-<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,155,389,181"/>
+<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,80,320,107"/>
+<area shape="rect" id="node15" href="rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="344,80,459,107"/>
+<area shape="rect" id="node16" href="private_8h.html" title="private.h" alt="" coords="483,80,563,107"/>
+<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,155,394,181"/>
 </map>
 </div>
 </div>
@@ -164,8 +158,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga0fb612a193a96424b82b9a5e7b494e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga69b57fe0447eac66fe216430bcda5859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga69b57fe0447eac66fe216430bcda5859">rfbShutdownServer</a> (rfbScreenInfoPtr screen, <a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> disconnectClients)</td></tr>
 <tr class="separator:ga69b57fe0447eac66fe216430bcda5859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc9835fab042c6614119d9b22342dae0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#adc9835fab042c6614119d9b22342dae0">gettimeofday</a> (struct timeval *tv, char *dummy)</td></tr>
-<tr class="separator:adc9835fab042c6614119d9b22342dae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga94e550459ace749f762f8e891930d55b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b">rfbProcessEvents</a> (rfbScreenInfoPtr screen, long usec)</td></tr>
 <tr class="separator:ga94e550459ace749f762f8e891930d55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7992ec3c438517ab31d7bcf485db984f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga7992ec3c438517ab31d7bcf485db984f">rfbUpdateClient</a> (rfbClientPtr cl)</td></tr>
@@ -236,48 +228,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="adc9835fab042c6614119d9b22342dae0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc9835fab042c6614119d9b22342dae0">&#9670;&nbsp;</a></span>gettimeofday()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gettimeofday </td>
-          <td>(</td>
-          <td class="paramtype">struct timeval *&#160;</td>
-          <td class="paramname"><em>tv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>dummy</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="camera_8c-example.html#a1">camera.c</a>.</dd>
-</dl>
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l01105">1105</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="main_8c_adc9835fab042c6614119d9b22342dae0_icgraph.png" border="0" usemap="#main_8c_adc9835fab042c6614119d9b22342dae0_icgraph" alt=""/></div>
-<map name="main_8c_adc9835fab042c6614119d9b22342dae0_icgraph" id="main_8c_adc9835fab042c6614119d9b22342dae0_icgraph">
-<area shape="rect" id="node2" href="camera_8c.html#af6f08e3c92a8e79780b52c8438e0363c" title="TimeToTakePicture" alt="" coords="160,5,299,32"/>
-<area shape="rect" id="node3" href="camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="347,5,401,32"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="afc4d53d9a9a2432bf9d59d1ba2af5dfa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc4d53d9a9a2432bf9d59d1ba2af5dfa">&#9670;&nbsp;</a></span>rfbScaledScreenUpdate()</h2>
 
@@ -322,16 +272,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scale_8c_source.html#l00274">274</a> of file <a class="el" href="scale_8c_source.html">scale.c</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="scale_8c_source.html#l00258">258</a> of file <a class="el" href="scale_8c_source.html">scale.c</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="main_8c_afc4d53d9a9a2432bf9d59d1ba2af5dfa_icgraph.png" border="0" usemap="#main_8c_afc4d53d9a9a2432bf9d59d1ba2af5dfa_icgraph" alt=""/></div>
 <map name="main_8c_afc4d53d9a9a2432bf9d59d1ba2af5dfa_icgraph" id="main_8c_afc4d53d9a9a2432bf9d59d1ba2af5dfa_icgraph">
-<area shape="rect" id="node2" href="group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="228,5,395,32"/>
-<area shape="rect" id="node3" href="camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="443,5,497,32"/>
+<area shape="rect" id="node2" href="group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="228,5,399,32"/>
+<area shape="rect" id="node3" href="camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="447,5,501,32"/>
 </map>
 </div>
 
@@ -340,7 +290,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -63,7 +63,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -72,6 +71,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="rfb_8h_source.html">rfb/rfb.h</a>&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
+<code>#include &quot;sockets.h&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for sockets.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -79,18 +79,13 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="libvncserver_2sockets_8c__incl.png" border="0" usemap="#libvncserver_2sockets_8c" alt=""/></div>
 <map name="libvncserver_2sockets_8c" id="libvncserver_2sockets_8c">
-<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="139,80,211,107"/>
-<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,155,389,181"/>
+<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,80,320,107"/>
+<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,155,394,181"/>
 </map>
 </div>
 </div>
 <p><a href="libvncserver_2sockets_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:afdbb9d84bd17efd2ae7290e664992c48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libvncserver_2sockets_8c.html#afdbb9d84bd17efd2ae7290e664992c48">closesocket</a>&#160;&#160;&#160;close</td></tr>
-<tr class="separator:afdbb9d84bd17efd2ae7290e664992c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaffbc6830eeb53ad7bb1950937e9eefd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaffbc6830eeb53ad7bb1950937e9eefd3">rfbInitSockets</a> (rfbScreenInfoPtr rfbScreen)</td></tr>
@@ -105,8 +100,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga1130b88632f9c351d7e756400cbe5607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga28b0ca0b1ed42fc327108c962f62928e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga28b0ca0b1ed42fc327108c962f62928e">rfbCloseClient</a> (rfbClientPtr cl)</td></tr>
 <tr class="separator:ga28b0ca0b1ed42fc327108c962f62928e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6ab30a257081ed8c4d7f5896e6058290"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga6ab30a257081ed8c4d7f5896e6058290">rfbConnect</a> (rfbScreenInfoPtr rfbScreen, char *host, int port)</td></tr>
-<tr class="separator:ga6ab30a257081ed8c4d7f5896e6058290"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc0687b978cd42c3a8fbc65dcd00e9ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gabc0687b978cd42c3a8fbc65dcd00e9ba">rfbConnect</a> (rfbScreenInfoPtr rfbScreen, char *host, int port)</td></tr>
+<tr class="separator:gabc0687b978cd42c3a8fbc65dcd00e9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad8d47e03686c65f6b4733bf8339fae16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad8d47e03686c65f6b4733bf8339fae16">rfbReadExactTimeout</a> (rfbClientPtr cl, char *buf, int len, int timeout)</td></tr>
 <tr class="separator:gad8d47e03686c65f6b4733bf8339fae16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga398ac2f1b2034777e4020f302011aa1c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga398ac2f1b2034777e4020f302011aa1c">rfbReadExact</a> (rfbClientPtr cl, char *buf, int len)</td></tr>
@@ -117,43 +112,26 @@ Functions</h2></td></tr>
 <tr class="separator:gac32abbefcac48245e9bb69abca28e8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6fcf93c784bcc8e7fafd4d9a046dd973"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973">rfbStringToAddr</a> (char *str, in_addr_t *addr)</td></tr>
 <tr class="separator:ga6fcf93c784bcc8e7fafd4d9a046dd973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga78439c3ee641e665e25b0ffae7b00ee3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga78439c3ee641e665e25b0ffae7b00ee3">rfbListenOnTCPPort</a> (int port, in_addr_t iface)</td></tr>
-<tr class="separator:ga78439c3ee641e665e25b0ffae7b00ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28afa9b471b819e9a2c119dd509227ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga28afa9b471b819e9a2c119dd509227ea">rfbListenOnTCP6Port</a> (int port, const char *iface)</td></tr>
-<tr class="separator:ga28afa9b471b819e9a2c119dd509227ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2b348c911d7378877c44724943dc571"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad2b348c911d7378877c44724943dc571">rfbConnectToTcpAddr</a> (char *host, int port)</td></tr>
-<tr class="separator:gad2b348c911d7378877c44724943dc571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4837125e4de382c8d3039a25c7def99d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga4837125e4de382c8d3039a25c7def99d">rfbListenOnUDPPort</a> (int port, in_addr_t iface)</td></tr>
-<tr class="separator:ga4837125e4de382c8d3039a25c7def99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga33f4fcf08eb451671aa781ba11cb8c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga33f4fcf08eb451671aa781ba11cb8c8e">rfbSetNonBlocking</a> (int sock)</td></tr>
-<tr class="separator:ga33f4fcf08eb451671aa781ba11cb8c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34b5801c8bde0e2791e189063b9d2cd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga34b5801c8bde0e2791e189063b9d2cd7">rfbListenOnTCPPort</a> (int port, in_addr_t iface)</td></tr>
+<tr class="separator:ga34b5801c8bde0e2791e189063b9d2cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9611ba339fbc6eb64b3f21ed2569c625"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga9611ba339fbc6eb64b3f21ed2569c625">rfbListenOnTCP6Port</a> (int port, const char *iface)</td></tr>
+<tr class="separator:ga9611ba339fbc6eb64b3f21ed2569c625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabde2e92d745a9c16ada18bb697af09f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gabde2e92d745a9c16ada18bb697af09f6">rfbConnectToTcpAddr</a> (char *host, int port)</td></tr>
+<tr class="separator:gabde2e92d745a9c16ada18bb697af09f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6199575290ccd38f0c50769c69649f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gae6199575290ccd38f0c50769c69649f3">rfbListenOnUDPPort</a> (int port, in_addr_t iface)</td></tr>
+<tr class="separator:gae6199575290ccd38f0c50769c69649f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga441ee3ed4bb634dbb1d12231b046e8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga441ee3ed4bb634dbb1d12231b046e8c3">rfbSetNonBlocking</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:ga441ee3ed4bb634dbb1d12231b046e8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:gaad72681b3673862735e4199a9cd9a2c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaad72681b3673862735e4199a9cd9a2c2">rfbMaxClientWait</a> = 20000</td></tr>
 <tr class="separator:gaad72681b3673862735e4199a9cd9a2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="afdbb9d84bd17efd2ae7290e664992c48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdbb9d84bd17efd2ae7290e664992c48">&#9670;&nbsp;</a></span>closesocket</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closesocket&#160;&#160;&#160;close</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="libvncserver_2sockets_8c_source.html#l00116">116</a> of file <a class="el" href="libvncserver_2sockets_8c_source.html">sockets.c</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

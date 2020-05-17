@@ -96,6 +96,9 @@ $(function() {
 <li>RFB_FILE_ATTRIBUTE_TEMPORARY
 : <a class="el" href="rfbserver_8c.html#ad7fb605ec833bab3affc9b6a60a6a6bd">rfbserver.c</a>
 </li>
+<li>RFB_INVALID_SOCKET
+: <a class="el" href="rfbproto_8h.html#afa2f89ccd2a2a3c211df6ea88439c4bb">rfbproto.h</a>
+</li>
 <li>rfbAbortFileTransfer
 : <a class="el" href="rfbproto_8h.html#a94edff5beed0401dcddc7901151107a6">rfbproto.h</a>
 </li>
@@ -198,6 +201,9 @@ $(function() {
 <li>rfbClientSwap64IfLE
 : <a class="el" href="group__libvncclient__api.html#ga3f88603797d1b3a24a235b02ee43bc0c">rfbclient.h</a>
 </li>
+<li>rfbCloseSocket
+: <a class="el" href="rfbproto_8h.html#a7e28cb8bed2acae9287b4d5d28201f0f">rfbproto.h</a>
+</li>
 <li>rfbCommand
 : <a class="el" href="rfbproto_8h.html#ab660236b0b35bb65d3b9ba0b7634b236">rfbproto.h</a>
 </li>
@@ -206,9 +212,6 @@ $(function() {
 </li>
 <li>rfbConnFailed
 : <a class="el" href="rfbproto_8h.html#ae3d6f0fa5d10732f8061d1116421f356">rfbproto.h</a>
-</li>
-<li>rfbCPKey
-: <a class="el" href="rfbproto_8c.html#a091173cc0eefeca38a163d41c7edb2c0">rfbproto.c</a>
 </li>
 <li>rfbCredentialTypeUser
 : <a class="el" href="group__libvncclient__api.html#gad8b6486221b0f74c5c9842a7fe51665c">rfbclient.h</a>
@@ -278,6 +281,9 @@ $(function() {
 </li>
 <li>rfbEncodingCoRRE
 : <a class="el" href="rfbproto_8h.html#a691c302fbb407bdc1883e43445caa733">rfbproto.h</a>
+</li>
+<li>rfbEncodingExtDesktopSize
+: <a class="el" href="rfbproto_8h.html#a5322894bc97f20c01b2ec30c6f9cea54">rfbproto.h</a>
 </li>
 <li>rfbEncodingFineQualityLevel0
 : <a class="el" href="rfbproto_8h.html#ada847e9c53b73e2cf62c607fb7a7635c">rfbproto.h</a>
@@ -428,6 +434,27 @@ $(function() {
 </li>
 <li>rfbEndOfFile
 : <a class="el" href="rfbproto_8h.html#adf2d35c6ba09d06e11d6d3403280970f">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_ClientRequestedChange
+: <a class="el" href="rfbproto_8h.html#afda2d0545a35806701eb0e9489479b82">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_GenericChange
+: <a class="el" href="rfbproto_8h.html#a61482dcfcf03c81004fddfc69dab6805">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_InvalidScreenLayout
+: <a class="el" href="rfbproto_8h.html#add7d4497590f3dcb06ccddf2174524de">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_OtherClientRequestedChange
+: <a class="el" href="rfbproto_8h.html#af3086475f1d57c8fffcb7604529f1ca6">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_OutOfResources
+: <a class="el" href="rfbproto_8h.html#a5233f508622ea825059454fabd0e86f9">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_ResizeProhibited
+: <a class="el" href="rfbproto_8h.html#a14a90f1e2a68a17af04cfac44ef30b9b">rfbproto.h</a>
+</li>
+<li>rfbExtDesktopSize_Success
+: <a class="el" href="rfbproto_8h.html#a52d8b64f87e4a06329f72d22d1b14827">rfbproto.h</a>
 </li>
 <li>rfbFileAcceptHeader
 : <a class="el" href="rfbproto_8h.html#ab1f4fcc92927df19f726000fdc8aa137">rfbproto.h</a>
@@ -690,6 +717,9 @@ $(function() {
 <li>rfbSetColourMapEntries
 : <a class="el" href="rfbproto_8h.html#a80876221df8ea7a4cca4d82c1381e567">rfbproto.h</a>
 </li>
+<li>rfbSetDesktopSize
+: <a class="el" href="rfbproto_8h.html#af8d4e1f9814bcb71597d01308232c585">rfbproto.h</a>
+</li>
 <li>rfbSetEncodings
 : <a class="el" href="rfbproto_8h.html#ae17003c8ad4600f9a137501bae03b5a7">rfbproto.h</a>
 </li>
@@ -704,6 +734,9 @@ $(function() {
 </li>
 <li>rfbSetSW
 : <a class="el" href="rfbproto_8h.html#a0859247e9a14f69dd6d463b619bd15e3">rfbproto.h</a>
+</li>
+<li>rfbSocket
+: <a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbproto.h</a>
 </li>
 <li>rfbSSPI
 : <a class="el" href="rfbproto_8h.html#a12087b30236d81fc57279091f177dc99">rfbproto.h</a>
@@ -856,7 +889,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:45 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

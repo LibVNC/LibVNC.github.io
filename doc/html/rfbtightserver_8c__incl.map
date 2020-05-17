@@ -1,6 +1,7 @@
 <map id="libvncserver/tightvnc&#45;filetransfer/rfbtightserver.c" name="libvncserver/tightvnc&#45;filetransfer/rfbtightserver.c">
-<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="139,169,211,196"/>
-<area shape="rect" id="node9" href="$rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="297,95,411,121"/>
-<area shape="rect" id="node11" href="$handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="78,95,273,121"/>
-<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,244,389,271"/>
+<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,169,320,196"/>
+<area shape="rect" id="node15" href="$rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="406,95,522,121"/>
+<area shape="rect" id="node17" href="$handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="183,95,382,121"/>
+<area shape="rect" id="node18" href="$filetransfermsg_8h.html" title="filetransfermsg.h" alt="" coords="547,95,680,121"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,244,394,271"/>
 </map>

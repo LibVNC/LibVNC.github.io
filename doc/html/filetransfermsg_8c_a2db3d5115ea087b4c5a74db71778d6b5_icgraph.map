@@ -1,8 +1,8 @@
 <map id="CreateFileDownloadErrMsg" name="CreateFileDownloadErrMsg">
-<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="294,31,427,57"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8h.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="273,81,448,108"/>
-<area shape="rect" id="node6" href="$filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="244,132,477,159"/>
-<area shape="rect" id="node7" href="$filetransfermsg_8h.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="266,183,455,225"/>
-<area shape="rect" id="node3" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="540,5,685,32"/>
-<area shape="rect" id="node4" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="525,56,700,83"/>
+<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="301,31,437,57"/>
+<area shape="rect" id="node5" href="$filetransfermsg_8h.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="279,81,458,108"/>
+<area shape="rect" id="node6" href="$filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="249,132,488,159"/>
+<area shape="rect" id="node7" href="$filetransfermsg_8h.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="271,183,466,225"/>
+<area shape="rect" id="node3" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="551,5,700,32"/>
+<area shape="rect" id="node4" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="536,56,715,83"/>
 </map>

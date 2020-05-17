@@ -1,6 +1,9 @@
 var searchData=
 [
   ['zlib_2ec',['zlib.c',['../libvncclient_2zlib_8c.html',1,'(Global Namespace)'],['../libvncserver_2zlib_8c.html',1,'(Global Namespace)']]],
+  ['zlib_5fmax_5frect_5fsize',['ZLIB_MAX_RECT_SIZE',['../group__libvncserver__api.html#ga849dffcc297e113bfb2d77d512e077fa',1,'rfb.h']]],
+  ['zlib_5fmax_5fsize',['ZLIB_MAX_SIZE',['../group__libvncserver__api.html#gad6b863deb0b7d428eb1db274e581eba3',1,'rfb.h']]],
+  ['zlibcompresslevel',['zlibCompressLevel',['../structrfb_client_rec.html#acf34043b83451a4ab2f3b592130a6875',1,'rfbClientRec']]],
   ['zrle_2ec',['zrle.c',['../libvncclient_2zrle_8c.html',1,'(Global Namespace)'],['../libvncserver_2zrle_8c.html',1,'(Global Namespace)']]],
   ['zrle_5fbuffer_5flength',['ZRLE_BUFFER_LENGTH',['../zrleoutstream_8h.html#af8b7987aa2985c6b2d88a3ddc0bff9a6',1,'zrleoutstream.h']]],
   ['zrle_5fencode',['ZRLE_ENCODE',['../zrleencodetemplate_8c.html#a27ea48185a252a7e116bc3a2bd5b18e5',1,'zrleencodetemplate.c']]],
@@ -18,6 +21,7 @@ var searchData=
   ['zrle_5fu8',['zrle_U8',['../zrletypes_8h.html#aae3c9dee3e2ef9724aeba2d65a5d27c8',1,'zrletypes.h']]],
   ['zrlebeforebuf',['zrleBeforeBuf',['../structrfb_client_rec.html#a1b97ae12001c551d4f423e797105174c',1,'rfbClientRec']]],
   ['zrlebuffer',['zrleBuffer',['../structzrle_buffer.html',1,'']]],
+  ['zrledata',['zrleData',['../structrfb_client_rec.html#a1beac8c658b49159d681f7c822fcdaa5',1,'rfbClientRec']]],
   ['zrleencodetemplate_2ec',['zrleencodetemplate.c',['../zrleencodetemplate_8c.html',1,'']]],
   ['zrleoutstream',['zrleOutStream',['../structzrle_out_stream.html',1,'']]],
   ['zrleoutstream_2ec',['zrleoutstream.c',['../zrleoutstream_8c.html',1,'']]],
@@ -41,6 +45,11 @@ var searchData=
   ['zrlepalettehelperlookup',['zrlePaletteHelperLookup',['../zrlepalettehelper_8c.html#a99a9eb82addb57ada7ae13a8fc029b5a',1,'zrlePaletteHelperLookup(zrlePaletteHelper *helper, zrle_U32 pix):&#160;zrlepalettehelper.c'],['../zrlepalettehelper_8h.html#a99a9eb82addb57ada7ae13a8fc029b5a',1,'zrlePaletteHelperLookup(zrlePaletteHelper *helper, zrle_U32 pix):&#160;zrlepalettehelper.c']]],
   ['zrletypes_2eh',['zrletypes.h',['../zrletypes_8h.html',1,'']]],
   ['zs',['zs',['../structzrle_out_stream.html#a20a4a45dc1eba85dfdde4fea53e1a03e',1,'zrleOutStream']]],
+  ['zsactive',['zsActive',['../structrfb_client_rec.html#a4cb2b6a90e1d9b0e54404ebb89e998a2',1,'rfbClientRec']]],
+  ['zslevel',['zsLevel',['../structrfb_client_rec.html#a62015ef94b450540819ab7b151c11e09',1,'rfbClientRec']]],
+  ['zsstruct',['zsStruct',['../structrfb_client_rec.html#a774780f2069b769442f09f9656cec1e3',1,'rfbClientRec']]],
   ['zywrle_5fencode',['ZYWRLE_ENCODE',['../zrleencodetemplate_8c.html#a9bd3cf04d311e29e9b6369fcecefcf83',1,'zrleencodetemplate.c']]],
-  ['zywrle_5fendian',['ZYWRLE_ENDIAN',['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c']]]
+  ['zywrle_5fendian',['ZYWRLE_ENDIAN',['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c'],['../libvncserver_2zrle_8c.html#a23fdab29362293089429aa10268a8b89',1,'ZYWRLE_ENDIAN():&#160;zrle.c']]],
+  ['zywrlebuf',['zywrleBuf',['../structrfb_client_rec.html#aa344019b424cc2e904855f5f8f0e0c8c',1,'rfbClientRec']]],
+  ['zywrlelevel',['zywrleLevel',['../structrfb_client_rec.html#ad48fea978cef422782c32ce5ef78b74b',1,'rfbClientRec']]]
 ];

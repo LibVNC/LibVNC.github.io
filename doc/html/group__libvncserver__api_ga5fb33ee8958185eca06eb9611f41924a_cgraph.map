@@ -1,8 +1,0 @@
-<map id="rfbProcessArguments" name="rfbProcessArguments">
-<area shape="rect" id="node2" href="$group__libvncserver__api.html#gae1698921d612dc1b6986722ee1634b5c" title="rfbUsage" alt="" coords="261,39,341,65"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga713c7145c81b88c2d9d0e1cca4294e61" title="rfbGetExtensionIterator" alt="" coords="449,13,620,40"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga32fbe0c45fbc80bfa1e31ecc56824e4e" title="rfbReleaseExtensionIterator" alt="" coords="436,76,633,103"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#gae4a556ffd945ad86ab47b6f5b8591bb4" title="to check against plain passwords " alt="" coords="213,140,388,167"/>
-<area shape="rect" id="node6" href="$group__libvncserver__api.html#ga6fcf93c784bcc8e7fafd4d9a046dd973" title="rfbStringToAddr" alt="" coords="241,191,361,217"/>
-<area shape="rect" id="node7" href="$group__libvncserver__api.html#ga05a4019e7dfb3dcd2c8ab8e96cb35138" title="rfbPurgeArguments" alt="" coords="227,241,374,268"/>
-</map>

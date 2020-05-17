@@ -79,10 +79,15 @@ Data Fields</h2></td></tr>
 <tr class="separator:ab21f7fdaaa455188b393185a43d002b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9529037c6f260d6bc21c36a5a1f3ae4e"><td class="memItemLeft" align="right" valign="top">struct _rfbClientProtocolExtension *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_protocol_extension.html#a9529037c6f260d6bc21c36a5a1f3ae4e">next</a></td></tr>
 <tr class="separator:a9529037c6f260d6bc21c36a5a1f3ae4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fb22cb8742e1b6f02ff170a4052210"><td class="memItemLeft" align="right" valign="top">uint32_t const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_protocol_extension.html#a28fb22cb8742e1b6f02ff170a4052210">securityTypes</a></td></tr>
+<tr class="separator:a28fb22cb8742e1b6f02ff170a4052210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d2e1bdd0afaf2d985af9358c140f39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_protocol_extension.html#a70d2e1bdd0afaf2d985af9358c140f39">handleAuthentication</a> )(<a class="el" href="structrfb_client.html">rfbClient</a> *cl, uint32_t authScheme)</td></tr>
+<tr class="memdesc:a70d2e1bdd0afaf2d985af9358c140f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns TRUE if it handled the authentication  <a href="#a70d2e1bdd0afaf2d985af9358c140f39">More...</a><br /></td></tr>
+<tr class="separator:a70d2e1bdd0afaf2d985af9358c140f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00614">614</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00654">654</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a388004f4e1e6c6d0ce53a42b558e42a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a388004f4e1e6c6d0ce53a42b558e42a5">&#9670;&nbsp;</a></span>encodings</h2>
@@ -96,7 +101,25 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00615">615</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00655">655</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+
+</div>
+</div>
+<a id="a70d2e1bdd0afaf2d985af9358c140f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d2e1bdd0afaf2d985af9358c140f39">&#9670;&nbsp;</a></span>handleAuthentication</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>(* handleAuthentication) (<a class="el" href="structrfb_client.html">rfbClient</a> *cl, uint32_t authScheme)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns TRUE if it handled the authentication </p>
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00665">665</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -114,7 +137,7 @@ Data Fields</h2></td></tr>
 
 <p>returns TRUE if the encoding was handled </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00617">617</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00657">657</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -132,7 +155,7 @@ Data Fields</h2></td></tr>
 
 <p>returns TRUE if it handled the message </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00620">620</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00660">660</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -148,7 +171,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00622">622</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00662">662</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+
+</div>
+</div>
+<a id="a28fb22cb8742e1b6f02ff170a4052210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28fb22cb8742e1b6f02ff170a4052210">&#9670;&nbsp;</a></span>securityTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t const* securityTypes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00663">663</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -158,7 +197,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:45 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

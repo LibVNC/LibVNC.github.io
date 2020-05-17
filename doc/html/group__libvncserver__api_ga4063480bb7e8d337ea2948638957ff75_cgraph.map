@@ -1,7 +1,7 @@
 <map id="rfbMarkRectAsModified" name="rfbMarkRectAsModified">
-<area shape="rect" id="node2" href="$main_8c.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa" title="rfbScaledScreenUpdate" alt="" coords="223,5,398,32"/>
-<area shape="rect" id="node3" href="$rfbregion_8h.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="243,56,379,83"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga2939d940b9dad65c6308f9d8a7163a18" title="rfbMarkRegionAsModified" alt="" coords="220,107,401,133"/>
-<area shape="rect" id="node5" href="$rfbregion_8h.html#a596e83a5a0244b65bd7f5c216987b261" title="sraRgnDestroy" alt="" coords="253,157,369,184"/>
-<area shape="rect" id="node6" href="$rfbregion_8c.html#a1836e6c639e0567a59e5a10496318180" title="sraSpanListDestroy" alt="" coords="449,157,596,184"/>
+<area shape="rect" id="node2" href="$main_8c.html#afc4d53d9a9a2432bf9d59d1ba2af5dfa" title="rfbScaledScreenUpdate" alt="" coords="230,5,405,32"/>
+<area shape="rect" id="node3" href="$rfbregion_8h.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="248,56,387,83"/>
+<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga2939d940b9dad65c6308f9d8a7163a18" title="rfbMarkRegionAsModified" alt="" coords="224,107,411,133"/>
+<area shape="rect" id="node5" href="$rfbregion_8h.html#a596e83a5a0244b65bd7f5c216987b261" title="sraRgnDestroy" alt="" coords="258,157,377,184"/>
+<area shape="rect" id="node6" href="$rfbregion_8c.html#a1836e6c639e0567a59e5a10496318180" title="sraSpanListDestroy" alt="" coords="459,157,607,184"/>
 </map>

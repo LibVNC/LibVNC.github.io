@@ -1,5 +1,0 @@
-<map id="SetNonBlocking" name="SetNonBlocking">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="176,5,389,32"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="176,57,389,98"/>
-<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="198,123,367,149"/>
-</map>

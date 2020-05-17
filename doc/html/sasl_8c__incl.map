@@ -1,7 +1,7 @@
 <map id="libvncclient/sasl.c" name="libvncclient/sasl.c">
-<area shape="rect" id="node3" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="169,80,275,107"/>
-<area shape="rect" id="node12" href="$sasl_8h.html" title="sasl.h" alt="" coords="414,80,473,107"/>
-<area shape="rect" id="node13" href="$tls_8h.html" title="tls.h" alt="" coords="497,80,547,107"/>
-<area shape="rect" id="node7" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="282,155,389,181"/>
-<area shape="rect" id="node10" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="413,155,517,181"/>
+<area shape="rect" id="node3" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="245,80,355,107"/>
+<area shape="rect" id="node17" href="$sasl_8h.html" title="sasl.h" alt="" coords="487,80,547,107"/>
+<area shape="rect" id="node18" href="$tls_8h.html" title="tls.h" alt="" coords="572,80,623,107"/>
+<area shape="rect" id="node7" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="338,155,446,181"/>
+<area shape="rect" id="node14" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="470,155,578,181"/>
 </map>

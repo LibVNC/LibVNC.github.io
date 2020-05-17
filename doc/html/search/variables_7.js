@@ -2,6 +2,7 @@ var searchData=
 [
   ['getcredential',['GetCredential',['../structrfb_client.html#a9ecf8afa9286879a5fb89b40f85ba9f6',1,'rfbClient']]],
   ['getcursorptr',['getCursorPtr',['../structrfb_screen_info.html#a2698ecd42f7381afb1622817b7f600c6',1,'rfbScreenInfo']]],
+  ['getextdesktopscreenhook',['getExtDesktopScreenHook',['../structrfb_screen_info.html#a8b2ac16829f5cc1e42d0185b3cae586e',1,'rfbScreenInfo']]],
   ['getfiletransferpermission',['getFileTransferPermission',['../structrfb_screen_info.html#afc1c85ae3150dcfc94cf4f4af363b88d',1,'rfbScreenInfo']]],
   ['getkeyboardledstatehook',['getKeyboardLedStateHook',['../structrfb_screen_info.html#a6bf56fb41e6bf1b684e0fbec173f7ba5',1,'rfbScreenInfo']]],
   ['getpassword',['GetPassword',['../structrfb_client.html#abe4a6ddd976f910142379b0d24691f1f',1,'rfbClient']]],

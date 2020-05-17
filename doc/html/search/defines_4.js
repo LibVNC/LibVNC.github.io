@@ -1,6 +1,7 @@
 var searchData=
 [
   ['debugproto',['DEBUGPROTO',['../rfbserver_8c.html#aa007c80370618de8903fbea292d3ffaf',1,'DEBUGPROTO():&#160;rfbserver.c'],['../scale_8c.html#aa007c80370618de8903fbea292d3ffaf',1,'DEBUGPROTO():&#160;scale.c']]],
+  ['defaultfont',['DEFAULTFONT',['../fontsel_8c.html#a09ce38202f540d3c07b09f24c1199027',1,'fontsel.c']]],
   ['define_5fcheck_5fsolid_5ffunction',['DEFINE_CHECK_SOLID_FUNCTION',['../libvncserver_2tight_8c.html#adb19093cdf7ae158144ceb7adb79e071',1,'tight.c']]],
   ['define_5ffast_5ffill_5fpalette_5ffunction',['DEFINE_FAST_FILL_PALETTE_FUNCTION',['../libvncserver_2tight_8c.html#aabf8a2820638f68ad1b930205bd62e31',1,'tight.c']]],
   ['define_5ffill_5fpalette_5ffunction',['DEFINE_FILL_PALETTE_FUNCTION',['../libvncserver_2tight_8c.html#ac959d61b9f4af7d70cafb1cef4dcd573',1,'tight.c']]],

@@ -60,6 +60,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">rfbClientPtr Struct Reference<div class="ingroups"><a class="el" href="group__libvncserver__api.html">LibVNCServer API Reference</a></div></div>  </div>
@@ -83,6 +84,21 @@ Public Types</h2></td></tr>
 </td></tr>
 <tr class="separator:adf764cbdea00d65edcd07bb9953ad2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6d5f2e846fb571d8fd6041e8fb918153"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a6d5f2e846fb571d8fd6041e8fb918153">MUTEX</a> (refCountMutex)</td></tr>
+<tr class="separator:a6d5f2e846fb571d8fd6041e8fb918153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1dad5dbe676e3a0f2bcbbe788cc3826"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ae1dad5dbe676e3a0f2bcbbe788cc3826">COND</a> (deleteCond)</td></tr>
+<tr class="separator:ae1dad5dbe676e3a0f2bcbbe788cc3826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e0cb1935046b27287278ff6dbbb44f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a3e0cb1935046b27287278ff6dbbb44f7">MUTEX</a> (outputMutex)</td></tr>
+<tr class="separator:a3e0cb1935046b27287278ff6dbbb44f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3cdbe982ae7599bdb4528308686d0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#abc3cdbe982ae7599bdb4528308686d0f">MUTEX</a> (updateMutex)</td></tr>
+<tr class="separator:abc3cdbe982ae7599bdb4528308686d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97a94c3749e9fcc06df4f9de8c93f252"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a97a94c3749e9fcc06df4f9de8c93f252">COND</a> (updateCond)</td></tr>
+<tr class="separator:a97a94c3749e9fcc06df4f9de8c93f252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e21ded1689e4dbd65e72e7269dfe3bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a6e21ded1689e4dbd65e72e7269dfe3bb">MUTEX</a> (sendMutex)</td></tr>
+<tr class="separator:a6e21ded1689e4dbd65e72e7269dfe3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:aec81ceb5c74e15a16fed99696da53ced"><td class="memItemLeft" align="right" valign="top">rfbScreenInfoPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#aec81ceb5c74e15a16fed99696da53ced">screen</a></td></tr>
@@ -99,14 +115,16 @@ Data Fields</h2></td></tr>
 <tr class="separator:a31433b6f2825807bd6d9c0675ff7c4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a926fe278b734500c99b2d9b8d99f8662"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncserver__api.html#ga59ffdd8377ad4f28b647ecc5c08dae88">ClientGoneHookPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a926fe278b734500c99b2d9b8d99f8662">clientGoneHook</a></td></tr>
 <tr class="separator:a926fe278b734500c99b2d9b8d99f8662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e91849780a994f2adde299b33642829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#aff55fe551a9992a54ec54621c524d0a4">SOCKET</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a6e91849780a994f2adde299b33642829">sock</a></td></tr>
-<tr class="separator:a6e91849780a994f2adde299b33642829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafef3bf34dff6e753cb11f21364f61dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#aafef3bf34dff6e753cb11f21364f61dd">sock</a></td></tr>
+<tr class="separator:aafef3bf34dff6e753cb11f21364f61dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c2046dcb30a629d6d9f45ff8f403f12"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a1c2046dcb30a629d6d9f45ff8f403f12">host</a></td></tr>
 <tr class="separator:a1c2046dcb30a629d6d9f45ff8f403f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6185cbb1f91fb81aceefaeae20e141cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a6185cbb1f91fb81aceefaeae20e141cf">protocolMajorVersion</a></td></tr>
 <tr class="separator:a6185cbb1f91fb81aceefaeae20e141cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7c5986dba1e251780d0356544252411"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ae7c5986dba1e251780d0356544252411">protocolMinorVersion</a></td></tr>
 <tr class="separator:ae7c5986dba1e251780d0356544252411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfc911fa7f2806d8742f1b4eb6e8ffd"><td class="memItemLeft" align="right" valign="top">pthread_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#aadfc911fa7f2806d8742f1b4eb6e8ffd">client_thread</a></td></tr>
+<tr class="separator:aadfc911fa7f2806d8742f1b4eb6e8ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17281b91a8b48ef3da1ed0bf68295dff"><td class="memItemLeft" align="right" valign="top">enum rfbClientRec:: { ... } &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a17281b91a8b48ef3da1ed0bf68295dff">state</a></td></tr>
 <tr class="memdesc:a17281b91a8b48ef3da1ed0bf68295dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible client states:  <a href="#a17281b91a8b48ef3da1ed0bf68295dff">More...</a><br /></td></tr>
 <tr class="separator:a17281b91a8b48ef3da1ed0bf68295dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,6 +189,23 @@ Data Fields</h2></td></tr>
 <tr class="separator:a6d1da5a67302f006af4e113c98262d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7698fd1b2108fc3fd711cc30c2fb9d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ad7698fd1b2108fc3fd711cc30c2fb9d8">bytesSent</a></td></tr>
 <tr class="separator:ad7698fd1b2108fc3fd711cc30c2fb9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af28468a251516dfff911eaef029ecbe8"><td class="memItemLeft" align="right" valign="top">struct z_stream_s&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#af28468a251516dfff911eaef029ecbe8">compStream</a></td></tr>
+<tr class="separator:af28468a251516dfff911eaef029ecbe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d3187d72ea02e9f2c67c5f962e19487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a6d3187d72ea02e9f2c67c5f962e19487">compStreamInited</a></td></tr>
+<tr class="separator:a6d3187d72ea02e9f2c67c5f962e19487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf34043b83451a4ab2f3b592130a6875"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#acf34043b83451a4ab2f3b592130a6875">zlibCompressLevel</a></td></tr>
+<tr class="separator:acf34043b83451a4ab2f3b592130a6875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a15e6be0dcd95b7d586dd1ae00c77b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ad6a15e6be0dcd95b7d586dd1ae00c77b">tightQualityLevel</a></td></tr>
+<tr class="memdesc:ad6a15e6be0dcd95b7d586dd1ae00c77b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the quality level is also used by ZYWRLE and TightPng  <a href="#ad6a15e6be0dcd95b7d586dd1ae00c77b">More...</a><br /></td></tr>
+<tr class="separator:ad6a15e6be0dcd95b7d586dd1ae00c77b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774780f2069b769442f09f9656cec1e3"><td class="memItemLeft" align="right" valign="top">z_stream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a774780f2069b769442f09f9656cec1e3">zsStruct</a> [4]</td></tr>
+<tr class="separator:a774780f2069b769442f09f9656cec1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb2b6a90e1d9b0e54404ebb89e998a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a4cb2b6a90e1d9b0e54404ebb89e998a2">zsActive</a> [4]</td></tr>
+<tr class="separator:a4cb2b6a90e1d9b0e54404ebb89e998a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62015ef94b450540819ab7b151c11e09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a62015ef94b450540819ab7b151c11e09">zsLevel</a> [4]</td></tr>
+<tr class="separator:a62015ef94b450540819ab7b151c11e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9575af6359965bee51f8034b91e5b3b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a9575af6359965bee51f8034b91e5b3b2">tightCompressLevel</a></td></tr>
+<tr class="separator:a9575af6359965bee51f8034b91e5b3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0282dadf1fea9502c0a841a225f2bf9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a0282dadf1fea9502c0a841a225f2bf9f">compStreamInitedLZO</a></td></tr>
 <tr class="separator:a0282dadf1fea9502c0a841a225f2bf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84db2af3851be667349334433923a5dd"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a84db2af3851be667349334433923a5dd">lzoWrkMem</a></td></tr>
@@ -225,6 +260,15 @@ Data Fields</h2></td></tr>
 <tr class="separator:a03d88d79e17c6ed6394ddcee0ecd1140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15ca723d8d708d10dab961510a7fd4ec"><td class="memItemLeft" align="right" valign="top">struct _rfbClientRec *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a15ca723d8d708d10dab961510a7fd4ec">next</a></td></tr>
 <tr class="separator:a15ca723d8d708d10dab961510a7fd4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ab0d8eafd71383b2233bdee65911de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a43ab0d8eafd71383b2233bdee65911de">refCount</a></td></tr>
+<tr class="memdesc:a43ab0d8eafd71383b2233bdee65911de"><td class="mdescLeft">&#160;</td><td class="mdescRight">whenever a client is referenced, the refCount has to be incremented and afterwards decremented, so that the client is not cleaned up while being referenced.  <a href="#a43ab0d8eafd71383b2233bdee65911de">More...</a><br /></td></tr>
+<tr class="separator:a43ab0d8eafd71383b2233bdee65911de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1beac8c658b49159d681f7c822fcdaa5"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a1beac8c658b49159d681f7c822fcdaa5">zrleData</a></td></tr>
+<tr class="separator:a1beac8c658b49159d681f7c822fcdaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48fea978cef422782c32ce5ef78b74b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ad48fea978cef422782c32ce5ef78b74b">zywrleLevel</a></td></tr>
+<tr class="separator:ad48fea978cef422782c32ce5ef78b74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa344019b424cc2e904855f5f8f0e0c8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#aa344019b424cc2e904855f5f8f0e0c8c">zywrleBuf</a> [<a class="el" href="rfbproto_8h.html#aa2bb49f3db4c4abe61ea7e8a63eed603">rfbZRLETileWidth</a> *<a class="el" href="rfbproto_8h.html#a6e942be35d07a281583854660296d633">rfbZRLETileHeight</a>]</td></tr>
+<tr class="separator:aa344019b424cc2e904855f5f8f0e0c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5157ab5497bedc87aa6608c39fc2363f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a5157ab5497bedc87aa6608c39fc2363f">progressiveSliceY</a></td></tr>
 <tr class="memdesc:a5157ab5497bedc87aa6608c39fc2363f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if progressive updating is on, this variable holds the current y coordinate of the progressive slice.  <a href="#a5157ab5497bedc87aa6608c39fc2363f">More...</a><br /></td></tr>
 <tr class="separator:a5157ab5497bedc87aa6608c39fc2363f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,7 +280,6 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ace7186ddb90dd78d9a88d316acee3550"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ace7186ddb90dd78d9a88d316acee3550">paletteHelper</a></td></tr>
 <tr class="separator:ace7186ddb90dd78d9a88d316acee3550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fde6822c6f3ebf1871548a4d08f2065"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a3fde6822c6f3ebf1871548a4d08f2065">beforeEncBuf</a></td></tr>
-<tr class="memdesc:a3fde6822c6f3ebf1871548a4d08f2065"><td class="mdescLeft">&#160;</td><td class="mdescRight">for thread safety for rfbSendFBUpdate()  <a href="#a3fde6822c6f3ebf1871548a4d08f2065">More...</a><br /></td></tr>
 <tr class="separator:a3fde6822c6f3ebf1871548a4d08f2065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4f041b5b01fb0fafdc43f4c40d46095"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ae4f041b5b01fb0fafdc43f4c40d46095">beforeEncBufSize</a></td></tr>
 <tr class="separator:ae4f041b5b01fb0fafdc43f4c40d46095"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,16 +289,33 @@ Data Fields</h2></td></tr>
 <tr class="separator:a4744f397324fabfb751de341f03cd739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a38f61e439aa0241ebc31ebf0b7111b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a3a38f61e439aa0241ebc31ebf0b7111b">afterEncBufLen</a></td></tr>
 <tr class="separator:a3a38f61e439aa0241ebc31ebf0b7111b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872bd30981a439ad09a9bc706cc9351e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a872bd30981a439ad09a9bc706cc9351e">tightEncoding</a></td></tr>
+<tr class="separator:a872bd30981a439ad09a9bc706cc9351e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86494bf8464f153c11e15302f5c58674"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a86494bf8464f153c11e15302f5c58674">turboSubsampLevel</a></td></tr>
+<tr class="separator:a86494bf8464f153c11e15302f5c58674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ce5123cba83106b087b34e0089e3a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a36ce5123cba83106b087b34e0089e3a8">turboQualityLevel</a></td></tr>
+<tr class="separator:a36ce5123cba83106b087b34e0089e3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a213fb20a05b033bb256a910a54edd61f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncserver__api.html#gac18e13762a44983abf70f74d3bea49a8">rfbSslCtx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a213fb20a05b033bb256a910a54edd61f">sslctx</a></td></tr>
 <tr class="separator:a213fb20a05b033bb256a910a54edd61f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa297a9330a6b811ecbb153cebfffc34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncserver__api.html#ga2384718f38f8682ec395b056171d91cc">wsCtx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#aaa297a9330a6b811ecbb153cebfffc34">wsctx</a></td></tr>
 <tr class="separator:aaa297a9330a6b811ecbb153cebfffc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45311f59ec207c2d55cfa9e2d0d4de64"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a45311f59ec207c2d55cfa9e2d0d4de64">wspath</a></td></tr>
 <tr class="separator:a45311f59ec207c2d55cfa9e2d0d4de64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9896549bd6bb32afe748a3d469bece"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a9e9896549bd6bb32afe748a3d469bece">pipe_notify_client_thread</a> [2]</td></tr>
+<tr class="separator:a9e9896549bd6bb32afe748a3d469bece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3f2a299b5b48895dfcec98f02813f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncserver__api.html#ga6df26448458ffccbcea36790b5a1eb4e">ClientFramebufferUpdateRequestHookPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a1d3f2a299b5b48895dfcec98f02813f6">clientFramebufferUpdateRequestHook</a></td></tr>
+<tr class="memdesc:a1d3f2a299b5b48895dfcec98f02813f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">clientFramebufferUpdateRequestHook is called when a client requests a frame buffer update.  <a href="#a1d3f2a299b5b48895dfcec98f02813f6">More...</a><br /></td></tr>
+<tr class="separator:a1d3f2a299b5b48895dfcec98f02813f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5606010b25f4f23fe9ad2b5ad7b0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#a6e5606010b25f4f23fe9ad2b5ad7b0e8">useExtDesktopSize</a></td></tr>
+<tr class="separator:a6e5606010b25f4f23fe9ad2b5ad7b0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0b127f9dad628f97f4d2d36637ce4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ade0b127f9dad628f97f4d2d36637ce4d">requestedDesktopSizeChange</a></td></tr>
+<tr class="separator:ade0b127f9dad628f97f4d2d36637ce4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade59a6f4ca6229d024c217d2e83f6053"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client_rec.html#ade59a6f4ca6229d024c217d2e83f6053">lastDesktopSizeChangeError</a></td></tr>
+<tr class="separator:ade59a6f4ca6229d024c217d2e83f6053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00440">440</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00414">414</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="adf764cbdea00d65edcd07bb9953ad2b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf764cbdea00d65edcd07bb9953ad2b7">&#9670;&nbsp;</a></span>anonymous enum</h2>
@@ -285,7 +345,116 @@ Data Fields</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00497">497</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00473">473</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae1dad5dbe676e3a0f2bcbbe788cc3826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1dad5dbe676e3a0f2bcbbe788cc3826">&#9670;&nbsp;</a></span>COND() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">COND </td>
+          <td>(</td>
+          <td class="paramtype">deleteCond&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97a94c3749e9fcc06df4f9de8c93f252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a94c3749e9fcc06df4f9de8c93f252">&#9670;&nbsp;</a></span>COND() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">COND </td>
+          <td>(</td>
+          <td class="paramtype">updateCond&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d5f2e846fb571d8fd6041e8fb918153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d5f2e846fb571d8fd6041e8fb918153">&#9670;&nbsp;</a></span>MUTEX() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTEX </td>
+          <td>(</td>
+          <td class="paramtype">refCountMutex&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e0cb1935046b27287278ff6dbbb44f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e0cb1935046b27287278ff6dbbb44f7">&#9670;&nbsp;</a></span>MUTEX() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTEX </td>
+          <td>(</td>
+          <td class="paramtype">outputMutex&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc3cdbe982ae7599bdb4528308686d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc3cdbe982ae7599bdb4528308686d0f">&#9670;&nbsp;</a></span>MUTEX() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTEX </td>
+          <td>(</td>
+          <td class="paramtype">updateMutex&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e21ded1689e4dbd65e72e7269dfe3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e21ded1689e4dbd65e72e7269dfe3bb">&#9670;&nbsp;</a></span>MUTEX() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTEX </td>
+          <td>(</td>
+          <td class="paramtype">sendMutex&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -302,7 +471,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00680">680</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00656">656</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -318,7 +487,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00682">682</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00658">658</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -334,7 +503,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00681">681</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00657">657</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -350,7 +519,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00520">520</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00496">496</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -366,9 +535,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>for thread safety for rfbSendFBUpdate() </p>
-
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00678">678</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00654">654</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -384,7 +551,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00679">679</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00655">655</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -400,7 +567,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00591">591</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00567">567</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="aadfc911fa7f2806d8742f1b4eb6e8ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadfc911fa7f2806d8742f1b4eb6e8ffd">&#9670;&nbsp;</a></span>client_thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_t client_thread</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00442">442</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +603,25 @@ Data Fields</h2></td></tr>
 <p>You should put any application client specific data into a struct and let clientData point to it. Don't forget to free the struct via clientGoneHook!</p>
 <p>This is useful if the IO functions have to behave client specific. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00457">457</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00431">431</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d3f2a299b5b48895dfcec98f02813f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3f2a299b5b48895dfcec98f02813f6">&#9670;&nbsp;</a></span>clientFramebufferUpdateRequestHook</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__libvncserver__api.html#ga6df26448458ffccbcea36790b5a1eb4e">ClientFramebufferUpdateRequestHookPtr</a> clientFramebufferUpdateRequestHook</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clientFramebufferUpdateRequestHook is called when a client requests a frame buffer update. </p>
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00678">678</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -436,7 +637,39 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00458">458</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00432">432</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="af28468a251516dfff911eaef029ecbe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af28468a251516dfff911eaef029ecbe8">&#9670;&nbsp;</a></span>compStream</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct z_stream_s compStream</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00572">572</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a6d3187d72ea02e9f2c67c5f962e19487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d3187d72ea02e9f2c67c5f962e19487">&#9670;&nbsp;</a></span>compStreamInited</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> compStreamInited</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00573">573</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -452,7 +685,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00614">614</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00590">590</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -468,7 +701,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00546">546</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00522">522</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +719,7 @@ Data Fields</h2></td></tr>
 
 <p>the translation by which the copy happens </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00546">546</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00522">522</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -504,7 +737,7 @@ Data Fields</h2></td></tr>
 
 <p>the destination region of the copy </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00545">545</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00521">521</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -520,7 +753,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00515">515</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00491">491</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +769,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00515">515</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00491">491</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -554,7 +787,7 @@ Data Fields</h2></td></tr>
 
 <p>cursor shape update should be sent </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00628">628</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00604">604</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -572,7 +805,7 @@ Data Fields</h2></td></tr>
 
 <p>cursor position update should be sent </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00629">629</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00605">605</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -588,7 +821,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00630">630</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00606">606</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -606,7 +839,7 @@ Data Fields</h2></td></tr>
 
 <p>the coordinates of the cursor, if enableCursorShapeUpdates = FALSE </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00630">630</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00606">606</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -624,7 +857,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports cursor position updates </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00626">626</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00602">602</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -642,7 +875,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports cursor shape updates </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00625">625</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00601">601</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -660,7 +893,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports KeyboardState encoding </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00623">623</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00599">599</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -678,7 +911,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports LastRect encoding </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00624">624</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00600">600</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +929,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports ServerIdentity encoding </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00622">622</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00598">598</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -714,7 +947,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports SupportedEncodings encoding </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00621">621</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00597">597</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -732,7 +965,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports SupportedMessages encoding </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00620">620</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00596">596</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -748,7 +981,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00664">664</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00640">640</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -764,7 +997,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00617">617</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00593">593</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -780,7 +1013,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00574">574</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00550">550</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -796,7 +1029,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00461">461</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00435">435</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="ade59a6f4ca6229d024c217d2e83f6053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade59a6f4ca6229d024c217d2e83f6053">&#9670;&nbsp;</a></span>lastDesktopSizeChangeError</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lastDesktopSizeChangeError</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00682">682</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -814,7 +1063,7 @@ Data Fields</h2></td></tr>
 
 <p>keep track of last value so we can send <em>change</em> events </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00619">619</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00595">595</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -830,7 +1079,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00567">567</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00543">543</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -846,7 +1095,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00565">565</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00541">541</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -862,7 +1111,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00566">566</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00542">542</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -878,7 +1127,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00615">615</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00591">591</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -894,7 +1143,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00548">548</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00524">524</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -912,7 +1161,7 @@ Data Fields</h2></td></tr>
 
 <p>framebuffer size was changed </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00634">634</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00610">610</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -928,7 +1177,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00637">637</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00613">613</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -944,7 +1193,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00511">511</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00487">487</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -960,7 +1209,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00668">668</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00644">644</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -978,7 +1227,23 @@ Data Fields</h2></td></tr>
 
 <p>how did the client tell us it wanted the screen changed? Ultra style or palm style? </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00448">448</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00422">422</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a9e9896549bd6bb32afe748a3d469bece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9896549bd6bb32afe748a3d469bece">&#9670;&nbsp;</a></span>pipe_notify_client_thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pipe_notify_client_thread[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00671">671</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -994,7 +1259,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00514">514</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00490">490</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1275,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00636">636</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00612">612</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1028,7 +1293,7 @@ Data Fields</h2></td></tr>
 
 <p>if progressive updating is on, this variable holds the current y coordinate of the progressive slice. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00662">662</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00638">638</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1044,7 +1309,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00464">464</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00438">438</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1325,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00465">465</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00439">439</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1076,7 +1341,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00590">590</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00566">566</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1092,7 +1357,42 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00512">512</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00488">488</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a43ab0d8eafd71383b2233bdee65911de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ab0d8eafd71383b2233bdee65911de">&#9670;&nbsp;</a></span>refCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int refCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>whenever a client is referenced, the refCount has to be incremented and afterwards decremented, so that the client is not cleaned up while being referenced. </p>
+<p>Use the functions rfbIncrClientRef(cl) and rfbDecrClientRef(cl); </p>
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00621">621</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="ade0b127f9dad628f97f4d2d36637ce4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0b127f9dad628f97f4d2d36637ce4d">&#9670;&nbsp;</a></span>requestedDesktopSizeChange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int requestedDesktopSizeChange</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00681">681</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1411,7 @@ Data Fields</h2></td></tr>
 <p>As part of the FramebufferUpdateRequest, a client can express interest in a subrectangle of the whole framebuffer. </p>
 <p>This is stored in the requestedRegion member. In the normal case this is the whole framebuffer if the client is ready, empty if it's not. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00555">555</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00531">531</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1427,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00510">510</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00486">486</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1145,7 +1445,7 @@ Data Fields</h2></td></tr>
 
 <p>points to a scaled version of the screen buffer in cl-&gt;scaledScreenList </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00446">446</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00420">420</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1163,23 +1463,23 @@ Data Fields</h2></td></tr>
 
 <p>back pointer to the screen </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00443">443</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00417">417</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
-<a id="a6e91849780a994f2adde299b33642829"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e91849780a994f2adde299b33642829">&#9670;&nbsp;</a></span>sock</h2>
+<a id="aafef3bf34dff6e753cb11f21364f61dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafef3bf34dff6e753cb11f21364f61dd">&#9670;&nbsp;</a></span>sock</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="rfbproto_8h.html#aff55fe551a9992a54ec54621c524d0a4">SOCKET</a> sock</td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00460">460</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00434">434</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1195,7 +1495,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00691">691</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00667">667</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1216,7 +1516,7 @@ Data Fields</h2></td></tr>
 <li>when the framebuffer is modified and the client is ready, in most cases it is more efficient to defer sending the update by a few milliseconds so that several changes to the framebuffer can be combined into a single update. </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00563">563</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00539">539</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1532,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00564">564</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00540">540</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1264,7 +1564,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00588">588</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00564">564</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1280,7 +1580,57 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00589">589</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00565">565</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a9575af6359965bee51f8034b91e5b3b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9575af6359965bee51f8034b91e5b3b2">&#9670;&nbsp;</a></span>tightCompressLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tightCompressLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00585">585</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a872bd30981a439ad09a9bc706cc9351e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872bd30981a439ad09a9bc706cc9351e">&#9670;&nbsp;</a></span>tightEncoding</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t tightEncoding</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00660">660</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="ad6a15e6be0dcd95b7d586dd1ae00c77b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a15e6be0dcd95b7d586dd1ae00c77b">&#9670;&nbsp;</a></span>tightQualityLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tightQualityLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the quality level is also used by ZYWRLE and TightPng </p>
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00578">578</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1298,7 +1648,7 @@ Data Fields</h2></td></tr>
 
 <p>translateFn points to the translation function which is used to copy and translate a rectangle from the framebuffer to an output buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00572">572</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00548">548</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1314,7 +1664,39 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00573">573</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00549">549</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a36ce5123cba83106b087b34e0089e3a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36ce5123cba83106b087b34e0089e3a8">&#9670;&nbsp;</a></span>turboQualityLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int turboQualityLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00664">664</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a86494bf8464f153c11e15302f5c58674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86494bf8464f153c11e15302f5c58674">&#9670;&nbsp;</a></span>turboSubsampLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int turboSubsampLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00663">663</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1330,7 +1712,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00585">585</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00561">561</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1346,7 +1728,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00584">584</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00560">560</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1362,7 +1744,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00513">513</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00489">489</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a6e5606010b25f4f23fe9ad2b5ad7b0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e5606010b25f4f23fe9ad2b5ad7b0e8">&#9670;&nbsp;</a></span>useExtDesktopSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> useExtDesktopSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00680">680</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1778,7 @@ Data Fields</h2></td></tr>
 
 <p>client supports NewFBSize encoding </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00633">633</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00609">609</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1398,7 +1796,7 @@ Data Fields</h2></td></tr>
 
 <p>rfbEncodingRichCursor is preferred </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00627">627</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00603">603</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1414,7 +1812,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00517">517</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00493">493</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1430,7 +1828,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00692">692</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00668">668</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1446,7 +1844,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00693">693</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00669">669</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="acf34043b83451a4ab2f3b592130a6875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf34043b83451a4ab2f3b592130a6875">&#9670;&nbsp;</a></span>zlibCompressLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t zlibCompressLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00574">574</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1464,7 +1878,103 @@ Data Fields</h2></td></tr>
 
 <p>for threaded zrle </p>
 
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00667">667</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00643">643</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a1beac8c658b49159d681f7c822fcdaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1beac8c658b49159d681f7c822fcdaa5">&#9670;&nbsp;</a></span>zrleData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* zrleData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00631">631</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a4cb2b6a90e1d9b0e54404ebb89e998a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb2b6a90e1d9b0e54404ebb89e998a2">&#9670;&nbsp;</a></span>zsActive</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> zsActive[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00583">583</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a62015ef94b450540819ab7b151c11e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62015ef94b450540819ab7b151c11e09">&#9670;&nbsp;</a></span>zsLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int zsLevel[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00584">584</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="a774780f2069b769442f09f9656cec1e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a774780f2069b769442f09f9656cec1e3">&#9670;&nbsp;</a></span>zsStruct</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">z_stream zsStruct[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00582">582</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="aa344019b424cc2e904855f5f8f0e0c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa344019b424cc2e904855f5f8f0e0c8c">&#9670;&nbsp;</a></span>zywrleBuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int zywrleBuf[<a class="el" href="rfbproto_8h.html#aa2bb49f3db4c4abe61ea7e8a63eed603">rfbZRLETileWidth</a> *<a class="el" href="rfbproto_8h.html#a6e942be35d07a281583854660296d633">rfbZRLETileHeight</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00633">633</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
+
+</div>
+</div>
+<a id="ad48fea978cef422782c32ce5ef78b74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48fea978cef422782c32ce5ef78b74b">&#9670;&nbsp;</a></span>zywrleLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int zywrleLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00632">632</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1984,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:45 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

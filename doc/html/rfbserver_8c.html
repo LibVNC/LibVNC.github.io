@@ -78,13 +78,15 @@ $(function() {
 <code>#include &quot;<a class="el" href="private_8h_source.html">private.h</a>&quot;</code><br />
 <code>#include &quot;rfb/rfbconfig.h&quot;</code><br />
 <code>#include &lt;pwd.h&gt;</code><br />
+<code>#include &quot;sockets.h&quot;</code><br />
 <code>#include &lt;stdarg.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="scale_8h_source.html">scale.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="scale_8h_source.html">scale.h</a>&quot;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &lt;sys/stat.h&gt;</code><br />
 <code>#include &lt;dirent.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;limits.h&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for rfbserver.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -92,11 +94,11 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rfbserver_8c__incl.png" border="0" usemap="#libvncserver_2rfbserver_8c" alt=""/></div>
 <map name="libvncserver_2rfbserver_8c" id="libvncserver_2rfbserver_8c">
-<area shape="rect" id="node4" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="207,80,279,107"/>
-<area shape="rect" id="node9" href="rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="465,80,577,107"/>
-<area shape="rect" id="node10" href="private_8h.html" title="private.h" alt="" coords="601,80,680,107"/>
-<area shape="rect" id="node13" href="scale_8h.html" title="scale.h" alt="" coords="886,80,953,107"/>
-<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="190,155,297,181"/>
+<area shape="rect" id="node4" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="311,80,385,107"/>
+<area shape="rect" id="node15" href="rfbregion_8h.html" title="rfb/rfbregion.h" alt="" coords="701,80,816,107"/>
+<area shape="rect" id="node16" href="private_8h.html" title="private.h" alt="" coords="840,80,920,107"/>
+<area shape="rect" id="node20" href="scale_8h.html" title="scale.h" alt="" coords="1238,80,1306,107"/>
+<area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="407,155,515,181"/>
 </map>
 </div>
 </div>
@@ -156,15 +158,15 @@ Functions</h2></td></tr>
 <tr class="separator:gaa14312283c0782436cffcd7fb601f919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5324c767981d736ca9c48a91cf65d3b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2">rfbReleaseClientIterator</a> (rfbClientIteratorPtr iterator)</td></tr>
 <tr class="separator:ga5324c767981d736ca9c48a91cf65d3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga91cc6fb70a3126373a5bc9a67356462f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga91cc6fb70a3126373a5bc9a67356462f">rfbNewClientConnection</a> (rfbScreenInfoPtr rfbScreen, int sock)</td></tr>
-<tr class="separator:ga91cc6fb70a3126373a5bc9a67356462f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d47fdb3198b60bfa7998d3af4179f96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga4d47fdb3198b60bfa7998d3af4179f96">rfbNewClientConnection</a> (rfbScreenInfoPtr rfbScreen, <a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:ga4d47fdb3198b60bfa7998d3af4179f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga672984a7fc0c67f1d1a28d69ba140fae"><td class="memItemLeft" align="right" valign="top">rfbClientPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga672984a7fc0c67f1d1a28d69ba140fae">rfbReverseConnection</a> (rfbScreenInfoPtr rfbScreen, char *host, int port)</td></tr>
 <tr class="separator:ga672984a7fc0c67f1d1a28d69ba140fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga46720026fdead1e1fb13a08b771db5c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga46720026fdead1e1fb13a08b771db5c3">rfbSetProtocolVersion</a> (rfbScreenInfoPtr rfbScreen, int major_, int minor_)</td></tr>
 <tr class="memdesc:ga46720026fdead1e1fb13a08b771db5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set which version you want to advertise 3.3, 3.6, 3.7 and 3.8 are currently supported.  <a href="group__libvncserver__api.html#ga46720026fdead1e1fb13a08b771db5c3">More...</a><br /></td></tr>
 <tr class="separator:ga46720026fdead1e1fb13a08b771db5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga930cb358aae50529f715be516085336c"><td class="memItemLeft" align="right" valign="top">rfbClientPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga930cb358aae50529f715be516085336c">rfbNewClient</a> (rfbScreenInfoPtr rfbScreen, int sock)</td></tr>
-<tr class="separator:ga930cb358aae50529f715be516085336c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4629bba1dc2874e6281b724ad1b1007"><td class="memItemLeft" align="right" valign="top">rfbClientPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad4629bba1dc2874e6281b724ad1b1007">rfbNewClient</a> (rfbScreenInfoPtr rfbScreen, <a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:gad4629bba1dc2874e6281b724ad1b1007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga20091daffb56a19c59a29dd47a49289f"><td class="memItemLeft" align="right" valign="top">rfbClientPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga20091daffb56a19c59a29dd47a49289f">rfbNewUDPClient</a> (rfbScreenInfoPtr rfbScreen)</td></tr>
 <tr class="separator:ga20091daffb56a19c59a29dd47a49289f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e38113b588c9331ea474a495f540500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga5e38113b588c9331ea474a495f540500">rfbClientConnectionGone</a> (rfbClientPtr cl)</td></tr>
@@ -214,6 +216,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga60853c0f6b26b11fd1a067ecc3cdc49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad861d3bf0bb9284b6a55a5be8c2e2e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad861d3bf0bb9284b6a55a5be8c2e2e84">rfbSendNewFBSize</a> (rfbClientPtr cl, int w, int h)</td></tr>
 <tr class="separator:gad861d3bf0bb9284b6a55a5be8c2e2e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4c2057dcd19c4f1f314044e92e45708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad4c2057dcd19c4f1f314044e92e45708">rfbSendExtDesktopSize</a> (rfbClientPtr cl, int w, int h)</td></tr>
+<tr class="separator:gad4c2057dcd19c4f1f314044e92e45708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga32c99de46885cdee380c8a4331f9003c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga32c99de46885cdee380c8a4331f9003c">rfbSendUpdateBuf</a> (rfbClientPtr cl)</td></tr>
 <tr class="separator:ga32c99de46885cdee380c8a4331f9003c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5889aed9d497bd75f90229076f40198a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga5889aed9d497bd75f90229076f40198a">rfbSendSetColourMapEntries</a> (rfbClientPtr cl, int firstColour, int nColours)</td></tr>
@@ -222,8 +226,8 @@ Functions</h2></td></tr>
 <tr class="separator:gafaa6ce29830fc432bff8599c4565cfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf31a00d2e7b6d3ed01f2b6485e9bf988"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaf31a00d2e7b6d3ed01f2b6485e9bf988">rfbSendServerCutText</a> (rfbScreenInfoPtr rfbScreen, char *str, int len)</td></tr>
 <tr class="separator:gaf31a00d2e7b6d3ed01f2b6485e9bf988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabcea396f71c319d19dadc5ce5c5cc6ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gabcea396f71c319d19dadc5ce5c5cc6ff">rfbNewUDPConnection</a> (rfbScreenInfoPtr rfbScreen, int sock)</td></tr>
-<tr class="separator:gabcea396f71c319d19dadc5ce5c5cc6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b86dae91b0e256992966c086d065419"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga8b86dae91b0e256992966c086d065419">rfbNewUDPConnection</a> (rfbScreenInfoPtr rfbScreen, <a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:ga8b86dae91b0e256992966c086d065419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf463b46888ae35fd8c0fde7d2c54cf18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaf463b46888ae35fd8c0fde7d2c54cf18">rfbProcessUDPInput</a> (rfbScreenInfoPtr rfbScreen)</td></tr>
 <tr class="separator:gaf463b46888ae35fd8c0fde7d2c54cf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -249,7 +253,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00071">71</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00058">58</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -284,9 +288,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ((cl-&gt;screen-&gt;getFileTransferPermission != NULL \</div><div class="line">            &amp;&amp; cl-&gt;screen-&gt;getFileTransferPermission(cl) != <a class="code" href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>) \</div><div class="line">            || cl-&gt;screen-&gt;permitFileTransfer != <a class="code" href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>) { \</div><div class="line">                rfbLog(<span class="stringliteral">&quot;%sUltra File Transfer is disabled, dropping client: %s\n&quot;</span>, msg, cl-&gt;host); \</div><div class="line">                rfbCloseClient(cl); \</div><div class="line">                return ret; \</div><div class="line">        }</div><div class="ttc" id="rfbproto_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="rfbproto_8h_source.html#l00106">rfbproto.h:106</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> ((cl-&gt;screen-&gt;getFileTransferPermission != NULL \</div><div class="line">            &amp;&amp; cl-&gt;screen-&gt;getFileTransferPermission(cl) != <a class="code" href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>) \</div><div class="line">            || cl-&gt;screen-&gt;permitFileTransfer != <a class="code" href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>) { \</div><div class="line">                rfbLog(<span class="stringliteral">&quot;%sUltra File Transfer is disabled, dropping client: %s\n&quot;</span>, msg, cl-&gt;host); \</div><div class="line">                rfbCloseClient(cl); \</div><div class="line">                return ret; \</div><div class="line">        }</div><div class="ttc" id="rfbproto_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="rfbproto_8h_source.html#l00112">rfbproto.h:112</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01184">1184</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01188">1188</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -302,7 +306,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01237">1237</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01241">1241</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -318,7 +322,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01261">1261</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01265">1265</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -334,7 +338,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01264">1264</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01268">1268</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -350,7 +354,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01260">1260</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01264">1264</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -366,7 +370,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01258">1258</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01262">1262</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -382,7 +386,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01262">1262</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01266">1266</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -398,7 +402,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01257">1257</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01261">1261</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -414,7 +418,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01259">1259</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01263">1263</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -430,7 +434,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01263">1263</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01267">1267</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -460,7 +464,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00915">915</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00917">917</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -481,7 +485,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00201">201</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00189">189</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -489,8 +493,8 @@ Variables</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rfbserver_8c_a615a7287884f04e55e5cd24aef53e0f1_cgraph.png" border="0" usemap="#rfbserver_8c_a615a7287884f04e55e5cd24aef53e0f1_cgraph" alt=""/></div>
 <map name="rfbserver_8c_a615a7287884f04e55e5cd24aef53e0f1_cgraph" id="rfbserver_8c_a615a7287884f04e55e5cd24aef53e0f1_cgraph">
-<area shape="rect" id="node2" href="group__libvncserver__api.html#gaba44eeec109d8dc5c9fb75790c665c25" title="rfbDecrClientRef" alt="" coords="209,5,333,32"/>
-<area shape="rect" id="node3" href="group__libvncserver__api.html#ga84073ffa09fe65ca2899b1544b665657" title="rfbIncrClientRef" alt="" coords="213,56,330,83"/>
+<area shape="rect" id="node2" href="group__libvncserver__api.html#gaba44eeec109d8dc5c9fb75790c665c25" title="rfbDecrClientRef" alt="" coords="213,5,343,32"/>
+<area shape="rect" id="node3" href="group__libvncserver__api.html#ga84073ffa09fe65ca2899b1544b665657" title="rfbIncrClientRef" alt="" coords="217,56,339,83"/>
 </map>
 </div>
 
@@ -522,7 +526,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00712">712</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00714">714</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -558,7 +562,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01304">1304</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01308">1308</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -600,7 +604,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01266">1266</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01270">1270</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -620,7 +624,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00190">190</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00178">178</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -640,7 +644,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00887">887</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00889">889</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -660,7 +664,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01077">1077</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01081">1081</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -680,7 +684,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00989">989</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00992">992</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -700,7 +704,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00922">922</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l00924">924</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -736,7 +740,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01122">1122</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01126">1126</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
@@ -753,14 +757,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01193">1193</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbserver_8c_source.html#l01197">1197</a> of file <a class="el" href="rfbserver_8c_source.html">rfbserver.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

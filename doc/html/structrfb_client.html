@@ -59,6 +59,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">rfbClient Struct Reference<div class="ingroups"><a class="el" href="group__libvncclient__api.html">LibVNCClient API Reference</a></div></div>  </div>
@@ -67,6 +68,12 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3c9dcb16be8ba8a842b98b9d31ca350f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a3c9dcb16be8ba8a842b98b9d31ca350f">MUTEX</a> (tlsRwMutex)</td></tr>
+<tr class="memdesc:a3c9dcb16be8ba8a842b98b9d31ca350f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex to protect concurrent TLS read/write.  <a href="#a3c9dcb16be8ba8a842b98b9d31ca350f">More...</a><br /></td></tr>
+<tr class="separator:a3c9dcb16be8ba8a842b98b9d31ca350f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a9a2fdf82b1d05e2a1cbcb68ad1237ae4"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a9a2fdf82b1d05e2a1cbcb68ad1237ae4">frameBuffer</a></td></tr>
@@ -105,8 +112,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:a012d203b6136465db8315eb53177d195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9a3cff838e83b9e7d7e4fefc2409c8"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a8e9a3cff838e83b9e7d7e4fefc2409c8">buffer</a> [<a class="el" href="rfbclient_8h.html#ac412f3a457347b7904553fa763bbcbf5">RFB_BUFFER_SIZE</a>]</td></tr>
 <tr class="separator:a8e9a3cff838e83b9e7d7e4fefc2409c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5903d0b282fc5eae503de618f896b5e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a5903d0b282fc5eae503de618f896b5e1">sock</a></td></tr>
-<tr class="separator:a5903d0b282fc5eae503de618f896b5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafef3bf34dff6e753cb11f21364f61dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#aafef3bf34dff6e753cb11f21364f61dd">sock</a></td></tr>
+<tr class="separator:aafef3bf34dff6e753cb11f21364f61dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81dbf6e7d5eb2eab7d9dd93e680e5c75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a81dbf6e7d5eb2eab7d9dd93e680e5c75">canUseCoRRE</a></td></tr>
 <tr class="separator:a81dbf6e7d5eb2eab7d9dd93e680e5c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70d4ae789634c2efc88d353145c58690"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a70d4ae789634c2efc88d353145c58690">canUseHextile</a></td></tr>
@@ -121,8 +128,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:a91a262ad4c6da5cf3e473c3a747013c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73af7cc8382f2cf86c9854d8ee659ed1"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a73af7cc8382f2cf86c9854d8ee659ed1">bufoutptr</a></td></tr>
 <tr class="separator:a73af7cc8382f2cf86c9854d8ee659ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acadd259e995852292b356d2fcc3f9f6a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#acadd259e995852292b356d2fcc3f9f6a">buffered</a></td></tr>
-<tr class="separator:acadd259e995852292b356d2fcc3f9f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e5bd5d89208aa15934486500bf4348"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a94e5bd5d89208aa15934486500bf4348">buffered</a></td></tr>
+<tr class="separator:a94e5bd5d89208aa15934486500bf4348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94245b21294fe72de11d147470e8995e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a94245b21294fe72de11d147470e8995e">ultra_buffer_size</a></td></tr>
 <tr class="separator:a94245b21294fe72de11d147470e8995e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ea35d0ca2f22663a17c2504922409ad"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a0ea35d0ca2f22663a17c2504922409ad">ultra_buffer</a></td></tr>
@@ -205,14 +212,14 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aa14d24856056e8edac7c1d4a3e6c7fdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncclient__api.html#ga11950f9e12be306b14a5adf637baa8ec">HandleXvpMsgProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#aa14d24856056e8edac7c1d4a3e6c7fdf">HandleXvpMsg</a></td></tr>
 <tr class="memdesc:aa14d24856056e8edac7c1d4a3e6c7fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">hook to handle xvp server messages  <a href="#aa14d24856056e8edac7c1d4a3e6c7fdf">More...</a><br /></td></tr>
 <tr class="separator:aa14d24856056e8edac7c1d4a3e6c7fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6214381ff8828cc4a911276a6df7d53c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a6214381ff8828cc4a911276a6df7d53c">listenSock</a></td></tr>
-<tr class="separator:a6214381ff8828cc4a911276a6df7d53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2283de022856ac7bb77f9a6b7d4dec15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a2283de022856ac7bb77f9a6b7d4dec15">listenSock</a></td></tr>
+<tr class="separator:a2283de022856ac7bb77f9a6b7d4dec15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f9e5617db7587a6072cf97c01e59b3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncclient__api.html#ga1a649af5dd0d75fc974bb7510c0722cd">FinishedFrameBufferUpdateProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a7f9e5617db7587a6072cf97c01e59b3f">FinishedFrameBufferUpdate</a></td></tr>
 <tr class="separator:a7f9e5617db7587a6072cf97c01e59b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56110b1c82144cacc6a4c71f71682c7e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a56110b1c82144cacc6a4c71f71682c7e">listenAddress</a></td></tr>
 <tr class="separator:a56110b1c82144cacc6a4c71f71682c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ecc0f3479ba659b168cbe47c351dd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a23ecc0f3479ba659b168cbe47c351dd8">listen6Sock</a></td></tr>
-<tr class="separator:a23ecc0f3479ba659b168cbe47c351dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd595d37be462f360378048cd5449a16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#afd595d37be462f360378048cd5449a16">listen6Sock</a></td></tr>
+<tr class="separator:afd595d37be462f360378048cd5449a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96c13f39caa9e9c47bb036534e0cf052"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a96c13f39caa9e9c47bb036534e0cf052">listen6Address</a></td></tr>
 <tr class="separator:a96c13f39caa9e9c47bb036534e0cf052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27e99cf035d80e57e0b2ecdf686318d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a27e99cf035d80e57e0b2ecdf686318d7">listen6Port</a></td></tr>
@@ -220,7 +227,7 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a74b439fbc7e087d7d5a1e2357091c1b5"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a74b439fbc7e087d7d5a1e2357091c1b5">outputWindow</a></td></tr>
 <tr class="separator:a74b439fbc7e087d7d5a1e2357091c1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fa394ffaca9d51a1d003468c3342e48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncclient__api.html#gac1ccbd204ea6500b301d665880b0f47e">LockWriteToTLSProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a3fa394ffaca9d51a1d003468c3342e48">LockWriteToTLS</a></td></tr>
-<tr class="memdesc:a3fa394ffaca9d51a1d003468c3342e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hooks for optional protection <a class="el" href="tls_8h.html#a4d0cfe74a748174418e500f34d106df1">WriteToTLS()</a> by mutex.  <a href="#a3fa394ffaca9d51a1d003468c3342e48">More...</a><br /></td></tr>
+<tr class="memdesc:a3fa394ffaca9d51a1d003468c3342e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">These lock/unlock hooks are not used anymore.  <a href="#a3fa394ffaca9d51a1d003468c3342e48">More...</a><br /></td></tr>
 <tr class="separator:a3fa394ffaca9d51a1d003468c3342e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb26a7772b4d3d3d40b49533b0d0793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncclient__api.html#gae70582f97491063adaf66723cb5809d8">UnlockWriteToTLSProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a2eb26a7772b4d3d3d40b49533b0d0793">UnlockWriteToTLS</a></td></tr>
 <tr class="separator:a2eb26a7772b4d3d3d40b49533b0d0793"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,12 +239,39 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ae44be188221a1980a5b3d23e7cec570d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncclient__api.html#ga9a2b518a3a97421d72556576a82caa4c">GotJpegProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#ae44be188221a1980a5b3d23e7cec570d">GotJpeg</a></td></tr>
 <tr class="memdesc:ae44be188221a1980a5b3d23e7cec570d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for custom JPEG decoding and rendering.  <a href="#ae44be188221a1980a5b3d23e7cec570d">More...</a><br /></td></tr>
 <tr class="separator:ae44be188221a1980a5b3d23e7cec570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e136dec139c0f8e625569d468992630"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#a0e136dec139c0f8e625569d468992630">connectTimeout</a></td></tr>
+<tr class="separator:a0e136dec139c0f8e625569d468992630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82ca39fb15722f5a8f9a7b0b4c0ea57"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_client.html#ab82ca39fb15722f5a8f9a7b0b4c0ea57">readTimeout</a></td></tr>
+<tr class="separator:ab82ca39fb15722f5a8f9a7b0b4c0ea57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#_a0">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#_a17">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#_a23">vnc2mpg.c</a>.</dd>
+<div class="textblock"><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd></dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#_a0">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#_a17">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#_a23">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00218">218</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
-</div><h2 class="groupheader">Field Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00241">241</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3c9dcb16be8ba8a842b98b9d31ca350f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9dcb16be8ba8a842b98b9d31ca350f">&#9670;&nbsp;</a></span>MUTEX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTEX </td>
+          <td>(</td>
+          <td class="paramtype">tlsRwMutex&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mutex to protect concurrent TLS read/write. </p>
+<p>For internal use only. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
 <a id="aeabb297057c511dc1697a7f69f583fd5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeabb297057c511dc1697a7f69f583fd5">&#9670;&nbsp;</a></span>appData</h2>
 
@@ -250,7 +284,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00224">224</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00247">247</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -268,7 +302,7 @@ Data Fields</h2></td></tr>
 
 <p>The selected security types. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00355">355</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00378">378</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -284,7 +318,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00336">336</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00359">359</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +334,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00255">255</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00278">278</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -316,23 +350,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00242">242</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00265">265</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
-<a id="acadd259e995852292b356d2fcc3f9f6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acadd259e995852292b356d2fcc3f9f6a">&#9670;&nbsp;</a></span>buffered</h2>
+<a id="a94e5bd5d89208aa15934486500bf4348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e5bd5d89208aa15934486500bf4348">&#9670;&nbsp;</a></span>buffered</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int buffered</td>
+          <td class="memname">unsigned int buffered</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00257">257</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00280">280</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +382,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00256">256</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00279">279</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +399,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a127">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00323">323</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00346">346</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -381,7 +415,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00247">247</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00270">270</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +431,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00248">248</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00271">271</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -416,7 +450,7 @@ Data Fields</h2></td></tr>
 <p>The 0-terminated security types supported by the client. </p>
 <p>Set by function <a class="el" href="group__libvncclient__api.html#gacd70c6776ae3fdf4955ac3c82bdf92a0">SetClientAuthSchemes()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00370">370</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00393">393</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -434,7 +468,23 @@ Data Fields</h2></td></tr>
 
 <p>private data pointer </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00315">315</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00338">338</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+
+</div>
+</div>
+<a id="a0e136dec139c0f8e625569d468992630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e136dec139c0f8e625569d468992630">&#9670;&nbsp;</a></span>connectTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int connectTimeout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00463">463</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +500,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00321">321</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00344">344</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -467,7 +517,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a10">ppmtest.c</a>, and <a class="el" href="_s_d_lvncviewer_8c-example.html#a41">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00249">249</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00272">272</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +535,7 @@ Data Fields</h2></td></tr>
 
 <p>When the server is a repeater, this specifies the final destination. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00373">373</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00396">396</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -501,7 +551,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00374">374</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00397">397</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +567,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00222">222</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00245">245</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -533,7 +583,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00385">385</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00408">408</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -549,7 +599,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00230">230</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00253">253</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -566,7 +616,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a6">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a23">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a43">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00250">250</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00273">273</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +633,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a12">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a33">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a37">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00219">219</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00242">242</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -603,7 +653,7 @@ Data Fields</h2></td></tr>
 <p>Otherwise, it implicates that the caller application does not support it and related security types should be bypassed. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a132">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00366">366</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00389">389</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -622,7 +672,7 @@ Data Fields</h2></td></tr>
 <p>the pointer returned by GetPassword will be freed after use! </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a23">ppmtest.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00333">333</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00356">356</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -638,7 +688,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00409">409</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00437">437</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -654,7 +704,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00339">339</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00362">362</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -670,7 +720,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00338">338</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00361">361</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -693,7 +743,7 @@ Data Fields</h2></td></tr>
 <li>GotBitmap: copy the bitmap in the buffer into the framebuffer The client application should either set all three of these or none! </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00408">408</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00436">436</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -710,7 +760,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a24">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a128">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a51">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00331">331</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00354">354</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -728,7 +778,7 @@ Data Fields</h2></td></tr>
 
 <p>Hook for custom JPEG decoding and rendering. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00411">411</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00439">439</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -745,7 +795,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a131">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00335">335</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00358">358</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -762,7 +812,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a29">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00233">233</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00256">256</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -778,7 +828,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00328">328</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00351">351</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -795,7 +845,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a129">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00327">327</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00350">350</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -812,7 +862,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a130">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00326">326</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00349">349</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -830,7 +880,7 @@ Data Fields</h2></td></tr>
 
 <p>hook to handle xvp server messages </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00380">380</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00403">403</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -847,7 +897,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a11">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a22">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a36">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00220">220</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00243">243</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -863,7 +913,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00320">320</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00343">343</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -879,7 +929,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00390">390</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00413">413</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -896,23 +946,23 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a135">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00391">391</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00414">414</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
-<a id="a23ecc0f3479ba659b168cbe47c351dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ecc0f3479ba659b168cbe47c351dd8">&#9670;&nbsp;</a></span>listen6Sock</h2>
+<a id="afd595d37be462f360378048cd5449a16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd595d37be462f360378048cd5449a16">&#9670;&nbsp;</a></span>listen6Sock</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int listen6Sock</td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> listen6Sock</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00389">389</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00412">412</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -928,7 +978,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00387">387</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00410">410</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -945,23 +995,23 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a133">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00230">230</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00253">253</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
-<a id="a6214381ff8828cc4a911276a6df7d53c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6214381ff8828cc4a911276a6df7d53c">&#9670;&nbsp;</a></span>listenSock</h2>
+<a id="a2283de022856ac7bb77f9a6b7d4dec15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2283de022856ac7bb77f9a6b7d4dec15">&#9670;&nbsp;</a></span>listenSock</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int listenSock</td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> listenSock</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00383">383</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00406">406</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -977,7 +1027,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00229">229</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00252">252</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -993,9 +1043,11 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Hooks for optional protection <a class="el" href="tls_8h.html#a4d0cfe74a748174418e500f34d106df1">WriteToTLS()</a> by mutex. </p>
+<p>These lock/unlock hooks are not used anymore. </p>
+<p>LibVNCClient will now use platform-specific synchronization library to protect concurrent TLS R/W.</p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00397">397</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00425">425</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1065,7 @@ Data Fields</h2></td></tr>
 
 <p>negotiated protocol version </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00352">352</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00375">375</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1030,7 +1082,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a126">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a50">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00334">334</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00357">357</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1046,7 +1098,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00352">352</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00375">375</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +1114,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00394">394</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00417">417</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1078,7 +1130,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00226">226</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00249">249</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1148,7 @@ Data Fields</h2></td></tr>
 
 <p>the QoS IP DSCP for this client </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00377">377</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00400">400</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1164,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00271">271</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00294">294</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1128,7 +1180,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00270">270</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00293">293</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1144,7 +1196,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00312">312</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00335">335</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1162,7 +1214,23 @@ Data Fields</h2></td></tr>
 
 <p>Holds cursor shape data when received from server. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00312">312</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00335">335</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+
+</div>
+</div>
+<a id="ab82ca39fb15722f5a8f9a7b0b4c0ea57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82ca39fb15722f5a8f9a7b0b4c0ea57">&#9670;&nbsp;</a></span>readTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int readTimeout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00467">467</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1178,7 +1246,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00227">227</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00250">250</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1196,7 +1264,7 @@ Data Fields</h2></td></tr>
 
 <p>if -1, then use file recorded by vncrec </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00228">228</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00251">251</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1212,23 +1280,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00251">251</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00274">274</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
-<a id="a5903d0b282fc5eae503de618f896b5e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5903d0b282fc5eae503de618f896b5e1">&#9670;&nbsp;</a></span>sock</h2>
+<a id="aafef3bf34dff6e753cb11f21364f61dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafef3bf34dff6e753cb11f21364f61dd">&#9670;&nbsp;</a></span>sock</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int sock</td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00246">246</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00269">269</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1244,7 +1312,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00329">329</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00352">352</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1260,7 +1328,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00330">330</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00353">353</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1344,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00355">355</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00378">378</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1296,7 +1364,7 @@ Data Fields</h2></td></tr>
 <p>(If we can even detect the type of server)</p>
 <p>If the server supports the "rfbEncodingSupportedMessages" then this will be updated when the encoding is received to accurately reflect the servers capabilities. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00349">349</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00372">372</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1314,7 +1382,7 @@ Data Fields</h2></td></tr>
 
 <p>The TLS session for Anonymous TLS and VeNCrypt. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00358">358</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00381">381</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1330,7 +1398,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00268">268</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00291">291</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1346,7 +1414,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00267">267</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00290">290</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1362,7 +1430,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00398">398</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00426">426</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1393,7 +1461,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00317">317</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00340">340</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1410,7 +1478,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a28">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00233">233</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00256">256</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1427,7 +1495,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a8">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a20">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a35">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00220">220</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00243">243</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1512,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a26">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00233">233</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00256">256</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1461,7 +1529,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a27">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00233">233</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00256">256</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -1471,7 +1539,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:45 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

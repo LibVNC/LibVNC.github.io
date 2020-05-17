@@ -110,6 +110,10 @@ Macros</h2></td></tr>
 <tr class="separator:ga25d0da4b0a438fdbe75ea5723baa7568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3819ff824572066b02f85ae82f1bb24c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga3819ff824572066b02f85ae82f1bb24c">SERVER_PORT_OFFSET</a>&#160;&#160;&#160;5900</td></tr>
 <tr class="separator:ga3819ff824572066b02f85ae82f1bb24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa09b037094e9076947345865c0658d7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gaa09b037094e9076947345865c0658d7a">DEFAULT_CONNECT_TIMEOUT</a>&#160;&#160;&#160;60</td></tr>
+<tr class="separator:gaa09b037094e9076947345865c0658d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02512a062278612715110eb6900f983f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga02512a062278612715110eb6900f983f">DEFAULT_READ_TIMEOUT</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga02512a062278612715110eb6900f983f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2a857b1152463f64346b6c545fe27d1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga2a857b1152463f64346b6c545fe27d1a">DEFAULT_SSH_CMD</a>&#160;&#160;&#160;&quot;/usr/bin/ssh&quot;</td></tr>
 <tr class="separator:ga2a857b1152463f64346b6c545fe27d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae63a0e9d220fe0300e3e00c575db8d19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gae63a0e9d220fe0300e3e00c575db8d19">DEFAULT_TUNNEL_CMD</a>&#160;&#160;&#160;(<a class="el" href="group__libvncclient__api.html#ga2a857b1152463f64346b6c545fe27d1a">DEFAULT_SSH_CMD</a> &quot; -f -L %L:localhost:%R %H sleep 20&quot;)</td></tr>
@@ -144,8 +148,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gabe5766effcef540d2f41a281c7d9cb92"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gabe5766effcef540d2f41a281c7d9cb92">SoftCursorUnlockScreenProc</a>) (struct _rfbClient *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>)</td></tr>
 <tr class="separator:gabe5766effcef540d2f41a281c7d9cb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga98050b9d224238ac3331a23afaf85cc4"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga98050b9d224238ac3331a23afaf85cc4">GotFrameBufferUpdateProc</a>) (struct _rfbClient *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
+<tr class="memdesc:ga98050b9d224238ac3331a23afaf85cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback indicating that a rectangular area of the client's framebuffer was updated.  <a href="#ga98050b9d224238ac3331a23afaf85cc4">More...</a><br /></td></tr>
 <tr class="separator:ga98050b9d224238ac3331a23afaf85cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1a649af5dd0d75fc974bb7510c0722cd"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga1a649af5dd0d75fc974bb7510c0722cd">FinishedFrameBufferUpdateProc</a>) (struct _rfbClient *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>)</td></tr>
+<tr class="memdesc:ga1a649af5dd0d75fc974bb7510c0722cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback indicating that a client has completely processed an rfbFramebufferUpdate message sent by a server.  <a href="#ga1a649af5dd0d75fc974bb7510c0722cd">More...</a><br /></td></tr>
 <tr class="separator:ga1a649af5dd0d75fc974bb7510c0722cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac0c23e6519c9400780840cedb228d732"><td class="memItemLeft" align="right" valign="top">typedef char *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gac0c23e6519c9400780840cedb228d732">GetPasswordProc</a>) (struct _rfbClient *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>)</td></tr>
 <tr class="separator:gac0c23e6519c9400780840cedb228d732"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,30 +251,44 @@ Functions</h2></td></tr>
 <tr class="separator:gaa472f69d751c16b05ebf13f17e48625a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad54463304a4e2929c71f6d754337565d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d">ReadFromRFBServer</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, char *out, unsigned int n)</td></tr>
 <tr class="separator:gad54463304a4e2929c71f6d754337565d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09b7a813c4b523168b118706b09b085f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f">WriteToRFBServer</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, char *buf, int n)</td></tr>
-<tr class="separator:ga09b7a813c4b523168b118706b09b085f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e280a8ec1e6af121002f30f5d8e0bac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac">WriteToRFBServer</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, const char *buf, unsigned int n)</td></tr>
+<tr class="separator:ga1e280a8ec1e6af121002f30f5d8e0bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c371cc14d80cd286ccd6ffbed87877e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga6c371cc14d80cd286ccd6ffbed87877e">FindFreeTcpPort</a> (void)</td></tr>
 <tr class="separator:ga6c371cc14d80cd286ccd6ffbed87877e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae00ef3a48d980b9ff7284219fea112ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gae00ef3a48d980b9ff7284219fea112ac">ListenAtTcpPort</a> (int port)</td></tr>
-<tr class="separator:gae00ef3a48d980b9ff7284219fea112ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69c6bc02b34e74139dac22ed91060ae4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga69c6bc02b34e74139dac22ed91060ae4">ListenAtTcpPortAndAddress</a> (int port, const char *address)</td></tr>
-<tr class="separator:ga69c6bc02b34e74139dac22ed91060ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36c6f012f3b4a0e2e3d8c766b7026463"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga36c6f012f3b4a0e2e3d8c766b7026463">ConnectClientToTcpAddr</a> (unsigned int host, int port)</td></tr>
-<tr class="separator:ga36c6f012f3b4a0e2e3d8c766b7026463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a3393c31fc2d2c4d4b9a52683158a17"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga3a3393c31fc2d2c4d4b9a52683158a17">ConnectClientToTcpAddr6</a> (const char *hostname, int port)</td></tr>
-<tr class="separator:ga3a3393c31fc2d2c4d4b9a52683158a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafbcc99a23b84be80e703171e39dcc36d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gafbcc99a23b84be80e703171e39dcc36d">ConnectClientToUnixSock</a> (const char *sockFile)</td></tr>
-<tr class="separator:gafbcc99a23b84be80e703171e39dcc36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga923e422f147002ce7546dec6a6b4a786"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga923e422f147002ce7546dec6a6b4a786">AcceptTcpConnection</a> (int listenSock)</td></tr>
-<tr class="separator:ga923e422f147002ce7546dec6a6b4a786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga48ac5e49c2b88444ae4577767cdd0332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332">SetNonBlocking</a> (int sock)</td></tr>
-<tr class="separator:ga48ac5e49c2b88444ae4577767cdd0332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a989607734750c72470ae1d222458e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga6a989607734750c72470ae1d222458e0">SetDSCP</a> (int sock, int dscp)</td></tr>
-<tr class="separator:ga6a989607734750c72470ae1d222458e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99d194819f6f9b833d60c8fac347ded5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga99d194819f6f9b833d60c8fac347ded5">ListenAtTcpPort</a> (int port)</td></tr>
+<tr class="separator:ga99d194819f6f9b833d60c8fac347ded5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5759acea7d722d1391410c0dd93cf12d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d">ListenAtTcpPortAndAddress</a> (int port, const char *address)</td></tr>
+<tr class="separator:ga5759acea7d722d1391410c0dd93cf12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22031a3e1c2573dcd34f12098103d432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga22031a3e1c2573dcd34f12098103d432">ConnectClientToTcpAddr</a> (unsigned int host, int port)</td></tr>
+<tr class="memdesc:ga22031a3e1c2573dcd34f12098103d432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect to an IPv4 host.  <a href="#ga22031a3e1c2573dcd34f12098103d432">More...</a><br /></td></tr>
+<tr class="separator:ga22031a3e1c2573dcd34f12098103d432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga054b62220b4e153524f59223ecbb8943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga054b62220b4e153524f59223ecbb8943">ConnectClientToTcpAddr6</a> (const char *hostname, int port)</td></tr>
+<tr class="memdesc:ga054b62220b4e153524f59223ecbb8943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect to an IPv4 or IPv6 host.  <a href="#ga054b62220b4e153524f59223ecbb8943">More...</a><br /></td></tr>
+<tr class="separator:ga054b62220b4e153524f59223ecbb8943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2bb544e98a25a109a75bfac259125428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga2bb544e98a25a109a75bfac259125428">ConnectClientToUnixSock</a> (const char *sockFile)</td></tr>
+<tr class="memdesc:ga2bb544e98a25a109a75bfac259125428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect to a Unix socket.  <a href="#ga2bb544e98a25a109a75bfac259125428">More...</a><br /></td></tr>
+<tr class="separator:ga2bb544e98a25a109a75bfac259125428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd4701a48e213f5807e4964ad3dd25e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gabd4701a48e213f5807e4964ad3dd25e2">ConnectClientToTcpAddrWithTimeout</a> (unsigned int host, int port, unsigned int timeout)</td></tr>
+<tr class="memdesc:gabd4701a48e213f5807e4964ad3dd25e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect to an IPv4 host using the given timeout value.  <a href="#gabd4701a48e213f5807e4964ad3dd25e2">More...</a><br /></td></tr>
+<tr class="separator:gabd4701a48e213f5807e4964ad3dd25e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9642294e2aa024d38cf4555d33819aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gaa9642294e2aa024d38cf4555d33819aa">ConnectClientToTcpAddr6WithTimeout</a> (const char *hostname, int port, unsigned int timeout)</td></tr>
+<tr class="memdesc:gaa9642294e2aa024d38cf4555d33819aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect to an IPv4 or IPv6 host using the given timeout value.  <a href="#gaa9642294e2aa024d38cf4555d33819aa">More...</a><br /></td></tr>
+<tr class="separator:gaa9642294e2aa024d38cf4555d33819aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a39f4b121ae83dfc329e1f4ebc6253f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga1a39f4b121ae83dfc329e1f4ebc6253f">ConnectClientToUnixSockWithTimeout</a> (const char *sockFile, unsigned int timeout)</td></tr>
+<tr class="memdesc:ga1a39f4b121ae83dfc329e1f4ebc6253f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect to a Unix socket using the given timeout value.  <a href="#ga1a39f4b121ae83dfc329e1f4ebc6253f">More...</a><br /></td></tr>
+<tr class="separator:ga1a39f4b121ae83dfc329e1f4ebc6253f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga999107eaef4e6bb18181033634e81dd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga999107eaef4e6bb18181033634e81dd5">AcceptTcpConnection</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> listenSock)</td></tr>
+<tr class="separator:ga999107eaef4e6bb18181033634e81dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8786be007e2b0a36554d7098403633ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad">SetNonBlocking</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:ga8786be007e2b0a36554d7098403633ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1674f8bbbdc6f0211ec91f0d3ff9b58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gad1674f8bbbdc6f0211ec91f0d3ff9b58">SetBlocking</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:gad1674f8bbbdc6f0211ec91f0d3ff9b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga091495fca85ba9440a73983c228e6bc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga091495fca85ba9440a73983c228e6bc6">SetDSCP</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock, int dscp)</td></tr>
+<tr class="separator:ga091495fca85ba9440a73983c228e6bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaac22e57008d10f34a9d37c441db5f268"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gaac22e57008d10f34a9d37c441db5f268">StringToIPAddr</a> (const char *str, unsigned int *addr)</td></tr>
 <tr class="separator:gaac22e57008d10f34a9d37c441db5f268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga76a01adbf99e3e7bcd9aed691e59bbd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga76a01adbf99e3e7bcd9aed691e59bbd1">SameMachine</a> (int sock)</td></tr>
-<tr class="separator:ga76a01adbf99e3e7bcd9aed691e59bbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef73b983a7f67aca4a1bee1d51000bcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#gaef73b983a7f67aca4a1bee1d51000bcc">SameMachine</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
+<tr class="separator:gaef73b983a7f67aca4a1bee1d51000bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga154dcdd94ef439dc8d57dd14bf1e1c59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59">WaitForMessage</a> (<a class="el" href="structrfb_client.html">rfbClient</a> *<a class="el" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>, unsigned int usecs)</td></tr>
 <tr class="memdesc:ga154dcdd94ef439dc8d57dd14bf1e1c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for an RFB message to arrive from the server.  <a href="#ga154dcdd94ef439dc8d57dd14bf1e1c59">More...</a><br /></td></tr>
 <tr class="separator:ga154dcdd94ef439dc8d57dd14bf1e1c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,6 +315,38 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gaa09b037094e9076947345865c0658d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa09b037094e9076947345865c0658d7a">&#9670;&nbsp;</a></span>DEFAULT_CONNECT_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_CONNECT_TIMEOUT&#160;&#160;&#160;60</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00088">88</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+
+</div>
+</div>
+<a id="ga02512a062278612715110eb6900f983f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02512a062278612715110eb6900f983f">&#9670;&nbsp;</a></span>DEFAULT_READ_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_READ_TIMEOUT&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00089">89</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+
+</div>
+</div>
 <a id="ga2a857b1152463f64346b6c545fe27d1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2a857b1152463f64346b6c545fe27d1a">&#9670;&nbsp;</a></span>DEFAULT_SSH_CMD</h2>
 
@@ -307,7 +359,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00084">84</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00091">91</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -323,7 +375,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00085">85</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00092">92</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -339,7 +391,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00087">87</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00094">94</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -355,7 +407,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00079">79</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00083">83</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -372,7 +424,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a134">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00080">80</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00084">84</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -392,7 +444,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00060">60</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00064">64</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -412,9 +464,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(*(<span class="keywordtype">char</span> *)&amp;<a class="code" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>-&gt;<a class="code" href="structrfb_client.html#a1de00cb42390239b7574ba4367a3576a">endianTest</a> ? ((((l) &gt;&gt; 24) &amp; 0x000000ff) | \</div><div class="line">                             (((l) &amp; 0x00ff0000) &gt;&gt; 8)  | \</div><div class="line">                             (((l) &amp; 0x0000ff00) &lt;&lt; 8)  | \</div><div class="line">                             (((l) &amp; 0x000000ff) &lt;&lt; 24))  : (l))</div><div class="ttc" id="vnc2mpg_8c_html_ac37cb17b305822d8d05c6adf0d8036f1"><div class="ttname"><a href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a></div><div class="ttdeci">rfbClient * client</div><div class="ttdef"><b>Definition:</b> <a href="vnc2mpg_8c_source.html#l00357">vnc2mpg.c:357</a></div></div>
-<div class="ttc" id="structrfb_client_html_a1de00cb42390239b7574ba4367a3576a"><div class="ttname"><a href="structrfb_client.html#a1de00cb42390239b7574ba4367a3576a">rfbClient::endianTest</a></div><div class="ttdeci">int endianTest</div><div class="ttdef"><b>Definition:</b> <a href="rfbclient_8h_source.html#l00222">rfbclient.h:222</a></div></div>
+<div class="ttc" id="structrfb_client_html_a1de00cb42390239b7574ba4367a3576a"><div class="ttname"><a href="structrfb_client.html#a1de00cb42390239b7574ba4367a3576a">rfbClient::endianTest</a></div><div class="ttdeci">int endianTest</div><div class="ttdef"><b>Definition:</b> <a href="rfbclient_8h_source.html#l00245">rfbclient.h:245</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00063">63</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00067">67</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -434,9 +486,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(*(<span class="keywordtype">char</span> *)&amp;<a class="code" href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a>-&gt;<a class="code" href="structrfb_client.html#a1de00cb42390239b7574ba4367a3576a">endianTest</a> ? ((((l) &gt;&gt; 56 ) &amp; 0x00000000000000ffULL) | \</div><div class="line">                             (((l) &amp; 0x00ff000000000000ULL) &gt;&gt; 40)  | \</div><div class="line">                             (((l) &amp; 0x0000ff0000000000ULL) &gt;&gt; 24)  | \</div><div class="line">                             (((l) &amp; 0x000000ff00000000ULL) &gt;&gt; 8)  | \</div><div class="line">                             (((l) &amp; 0x00000000ff000000ULL) &lt;&lt; 8)  | \</div><div class="line">                             (((l) &amp; 0x0000000000ff0000ULL) &lt;&lt; 24)  | \</div><div class="line">                             (((l) &amp; 0x000000000000ff00ULL) &lt;&lt; 40)  | \</div><div class="line">                             (((l) &amp; 0x00000000000000ffULL) &lt;&lt; 56))  : (l))</div><div class="ttc" id="vnc2mpg_8c_html_ac37cb17b305822d8d05c6adf0d8036f1"><div class="ttname"><a href="vnc2mpg_8c.html#ac37cb17b305822d8d05c6adf0d8036f1">client</a></div><div class="ttdeci">rfbClient * client</div><div class="ttdef"><b>Definition:</b> <a href="vnc2mpg_8c_source.html#l00357">vnc2mpg.c:357</a></div></div>
-<div class="ttc" id="structrfb_client_html_a1de00cb42390239b7574ba4367a3576a"><div class="ttname"><a href="structrfb_client.html#a1de00cb42390239b7574ba4367a3576a">rfbClient::endianTest</a></div><div class="ttdeci">int endianTest</div><div class="ttdef"><b>Definition:</b> <a href="rfbclient_8h_source.html#l00222">rfbclient.h:222</a></div></div>
+<div class="ttc" id="structrfb_client_html_a1de00cb42390239b7574ba4367a3576a"><div class="ttname"><a href="structrfb_client.html#a1de00cb42390239b7574ba4367a3576a">rfbClient::endianTest</a></div><div class="ttdeci">int endianTest</div><div class="ttdef"><b>Definition:</b> <a href="rfbclient_8h_source.html#l00245">rfbclient.h:245</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00069">69</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00073">73</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -453,7 +505,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a123">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00155">155</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00162">162</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -469,7 +521,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00154">154</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00161">161</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +537,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00162">162</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00169">169</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -501,7 +553,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00161">161</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00168">168</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +569,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00160">160</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00167">167</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -533,7 +585,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00082">82</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00086">86</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -549,7 +601,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00081">81</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00085">85</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -566,7 +618,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00197">197</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00220">220</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +634,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00192">192</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p>Callback indicating that a client has completely processed an rfbFramebufferUpdate message sent by a server. </p>
+<p>This is called exactly once per each handled rfbFramebufferUpdate message. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client</td><td>The client which finished processing an rfbFramebufferUpdate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00215">215</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -598,7 +658,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00194">194</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00217">217</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -614,7 +674,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00193">193</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00216">216</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -630,7 +690,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00208">208</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00231">231</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -646,7 +706,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00206">206</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00229">229</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -665,7 +725,7 @@ Variables</h2></td></tr>
 <p>Called when a cursor shape update was received from the server. </p>
 <p>The decoded cursor shape will be in client-&gt;rcSource. It's up to the application to do something with this, e.g. draw into a viewer's window. If you want the server to draw the cursor into the framebuffer, be careful not to announce remote cursor support, i.e. not include rfbEncodingXCursor or rfbEncodingRichCursor in <a class="el" href="group__libvncclient__api.html#gaef68ecf341f38878a5a23da0cea878dd" title="Sends format and encoding parameters to the server. ">SetFormatAndEncodings()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00205">205</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00228">228</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -681,7 +741,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00207">207</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00230">230</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -697,7 +757,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00191">191</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p>Callback indicating that a rectangular area of the client's framebuffer was updated. </p>
+<p>As a server will usually send several rects per rfbFramebufferUpdate message, this callback is usually called multiple times per rfbFramebufferUpdate message. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client</td><td>The client whose framebuffer was (partially) updated </td></tr>
+    <tr><td class="paramname">x</td><td>The x-coordinate of the upper left corner of the updated rectangle </td></tr>
+    <tr><td class="paramname">y</td><td>The y-coordinate of the upper left corner of the updated rectangle </td></tr>
+    <tr><td class="paramname">w</td><td>The width of the updated rectangle </td></tr>
+    <tr><td class="paramname">h</td><td>The heigth of the updated rectangle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00208">208</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -713,7 +785,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00209">209</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00232">232</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -729,7 +801,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00196">196</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00219">219</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -745,7 +817,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00188">188</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00195">195</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -761,7 +833,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00187">187</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00194">194</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -787,7 +859,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00176">176</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00183">183</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -813,7 +885,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00186">186</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00193">193</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -829,7 +901,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00210">210</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00233">233</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -845,7 +917,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00195">195</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00218">218</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -861,7 +933,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00453">453</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00493">493</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -877,7 +949,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00189">189</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00196">196</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -893,7 +965,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00190">190</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00197">197</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
@@ -908,51 +980,52 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00211">211</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbclient_8h_source.html#l00234">234</a> of file <a class="el" href="rfbclient_8h_source.html">rfbclient.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga923e422f147002ce7546dec6a6b4a786"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga923e422f147002ce7546dec6a6b4a786">&#9670;&nbsp;</a></span>AcceptTcpConnection()</h2>
+<a id="ga999107eaef4e6bb18181033634e81dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga999107eaef4e6bb18181033634e81dd5">&#9670;&nbsp;</a></span>AcceptTcpConnection()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int AcceptTcpConnection </td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> AcceptTcpConnection </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td>
           <td class="paramname"><em>listenSock</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00647">647</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00697">697</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_ga923e422f147002ce7546dec6a6b4a786_icgraph.png" border="0" usemap="#group__libvncclient__api_ga923e422f147002ce7546dec6a6b4a786_icgraph" alt=""/></div>
-<map name="group__libvncclient__api_ga923e422f147002ce7546dec6a6b4a786_icgraph" id="group__libvncclient__api_ga923e422f147002ce7546dec6a6b4a786_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="212,5,425,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="212,57,425,98"/>
+<div class="center"><img src="group__libvncclient__api_ga999107eaef4e6bb18181033634e81dd5_icgraph.png" border="0" usemap="#group__libvncclient__api_ga999107eaef4e6bb18181033634e81dd5_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga999107eaef4e6bb18181033634e81dd5_icgraph" id="group__libvncclient__api_ga999107eaef4e6bb18181033634e81dd5_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="213,5,432,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="213,57,432,98"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga36c6f012f3b4a0e2e3d8c766b7026463"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga36c6f012f3b4a0e2e3d8c766b7026463">&#9670;&nbsp;</a></span>ConnectClientToTcpAddr()</h2>
+<a id="ga22031a3e1c2573dcd34f12098103d432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga22031a3e1c2573dcd34f12098103d432">&#9670;&nbsp;</a></span>ConnectClientToTcpAddr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ConnectClientToTcpAddr </td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ConnectClientToTcpAddr </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>host</em>, </td>
@@ -971,28 +1044,40 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00351">351</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p>Tries to connect to an IPv4 host. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>Binary IPv4 address </td></tr>
+    <tr><td class="paramname">port</td><td>Port </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A blocking socket or RFB_INVALID_SOCKET if the connection failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00354">354</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_ga36c6f012f3b4a0e2e3d8c766b7026463_icgraph.png" border="0" usemap="#group__libvncclient__api_ga36c6f012f3b4a0e2e3d8c766b7026463_icgraph" alt=""/></div>
-<map name="group__libvncclient__api_ga36c6f012f3b4a0e2e3d8c766b7026463_icgraph" id="group__libvncclient__api_ga36c6f012f3b4a0e2e3d8c766b7026463_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="228,5,397,32"/>
+<div class="center"><img src="group__libvncclient__api_ga22031a3e1c2573dcd34f12098103d432_cgraph.png" border="0" usemap="#group__libvncclient__api_ga22031a3e1c2573dcd34f12098103d432_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga22031a3e1c2573dcd34f12098103d432_cgraph" id="group__libvncclient__api_ga22031a3e1c2573dcd34f12098103d432_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gabd4701a48e213f5807e4964ad3dd25e2" title="Tries to connect to an IPv4 host using the given timeout value. " alt="" coords="232,5,440,47"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gad1674f8bbbdc6f0211ec91f0d3ff9b58" title="SetBlocking" alt="" coords="287,71,385,98"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="488,13,613,39"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga3a3393c31fc2d2c4d4b9a52683158a17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3a3393c31fc2d2c4d4b9a52683158a17">&#9670;&nbsp;</a></span>ConnectClientToTcpAddr6()</h2>
+<a id="ga054b62220b4e153524f59223ecbb8943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga054b62220b4e153524f59223ecbb8943">&#9670;&nbsp;</a></span>ConnectClientToTcpAddr6()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ConnectClientToTcpAddr6 </td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ConnectClientToTcpAddr6 </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>hostname</em>, </td>
@@ -1011,28 +1096,176 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00390">390</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p>Tries to connect to an IPv4 or IPv6 host. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hostname</td><td>A hostname or IP address </td></tr>
+    <tr><td class="paramname">port</td><td>Port </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A blocking socket or RFB_INVALID_SOCKET if the connection failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00409">409</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_ga3a3393c31fc2d2c4d4b9a52683158a17_icgraph.png" border="0" usemap="#group__libvncclient__api_ga3a3393c31fc2d2c4d4b9a52683158a17_icgraph" alt=""/></div>
-<map name="group__libvncclient__api_ga3a3393c31fc2d2c4d4b9a52683158a17_icgraph" id="group__libvncclient__api_ga3a3393c31fc2d2c4d4b9a52683158a17_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="236,5,405,32"/>
+<div class="center"><img src="group__libvncclient__api_ga054b62220b4e153524f59223ecbb8943_cgraph.png" border="0" usemap="#group__libvncclient__api_ga054b62220b4e153524f59223ecbb8943_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga054b62220b4e153524f59223ecbb8943_cgraph" id="group__libvncclient__api_ga054b62220b4e153524f59223ecbb8943_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaa9642294e2aa024d38cf4555d33819aa" title="Tries to connect to an IPv4 or IPv6 host using the given timeout value. " alt="" coords="240,5,456,47"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gad1674f8bbbdc6f0211ec91f0d3ff9b58" title="SetBlocking" alt="" coords="299,71,397,98"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="504,13,629,39"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="gafbcc99a23b84be80e703171e39dcc36d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafbcc99a23b84be80e703171e39dcc36d">&#9670;&nbsp;</a></span>ConnectClientToUnixSock()</h2>
+<a id="gaa9642294e2aa024d38cf4555d33819aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa9642294e2aa024d38cf4555d33819aa">&#9670;&nbsp;</a></span>ConnectClientToTcpAddr6WithTimeout()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ConnectClientToUnixSock </td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ConnectClientToTcpAddr6WithTimeout </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>hostname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tries to connect to an IPv4 or IPv6 host using the given timeout value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hostname</td><td>A hostname or IP address </td></tr>
+    <tr><td class="paramname">port</td><td>Port </td></tr>
+    <tr><td class="paramname">timeout</td><td>The time in seconds to wait for a connection </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A nonblocking socket or RFB_INVALID_SOCKET if the connection failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00420">420</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_cgraph.png" border="0" usemap="#group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_cgraph" id="group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="269,13,395,39"/>
+</map>
+</div>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_icgraph.png" border="0" usemap="#group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_icgraph" id="group__libvncclient__api_gaa9642294e2aa024d38cf4555d33819aa_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="277,5,449,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga054b62220b4e153524f59223ecbb8943" title="Tries to connect to an IPv4 or IPv6 host. " alt="" coords="269,56,456,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gabd4701a48e213f5807e4964ad3dd25e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd4701a48e213f5807e4964ad3dd25e2">&#9670;&nbsp;</a></span>ConnectClientToTcpAddrWithTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ConnectClientToTcpAddrWithTimeout </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>host</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tries to connect to an IPv4 host using the given timeout value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>Binary IPv4 address </td></tr>
+    <tr><td class="paramname">port</td><td>Port </td></tr>
+    <tr><td class="paramname">timeout</td><td>The time in seconds to wait for a connection </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A nonblocking socket or RFB_INVALID_SOCKET if the connection failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00365">365</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_cgraph.png" border="0" usemap="#group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_cgraph" id="group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="261,13,387,39"/>
+</map>
+</div>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_icgraph.png" border="0" usemap="#group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_icgraph" id="group__libvncclient__api_gabd4701a48e213f5807e4964ad3dd25e2_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="265,5,437,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga22031a3e1c2573dcd34f12098103d432" title="Tries to connect to an IPv4 host. " alt="" coords="261,56,440,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga2bb544e98a25a109a75bfac259125428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2bb544e98a25a109a75bfac259125428">&#9670;&nbsp;</a></span>ConnectClientToUnixSock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ConnectClientToUnixSock </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>sockFile</em></td><td>)</td>
@@ -1041,7 +1274,88 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00452">452</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p>Tries to connect to a Unix socket. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sockFile</td><td>Path of the socket file </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A blocking socket or RFB_INVALID_SOCKET if the connection failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00491">491</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga2bb544e98a25a109a75bfac259125428_cgraph.png" border="0" usemap="#group__libvncclient__api_ga2bb544e98a25a109a75bfac259125428_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga2bb544e98a25a109a75bfac259125428_cgraph" id="group__libvncclient__api_ga2bb544e98a25a109a75bfac259125428_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga1a39f4b121ae83dfc329e1f4ebc6253f" title="Tries to connect to a Unix socket using the given timeout value. " alt="" coords="241,5,460,47"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gad1674f8bbbdc6f0211ec91f0d3ff9b58" title="SetBlocking" alt="" coords="301,71,400,98"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="508,13,633,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga1a39f4b121ae83dfc329e1f4ebc6253f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a39f4b121ae83dfc329e1f4ebc6253f">&#9670;&nbsp;</a></span>ConnectClientToUnixSockWithTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ConnectClientToUnixSockWithTimeout </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sockFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tries to connect to a Unix socket using the given timeout value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sockFile</td><td>Path of the socket file </td></tr>
+    <tr><td class="paramname">timeout</td><td>The time in seconds to wait for a connection </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A nonblocking socket or RFB_INVALID_SOCKET if the connection failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00502">502</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_cgraph.png" border="0" usemap="#group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_cgraph" id="group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="272,13,397,39"/>
+</map>
+</div>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_icgraph.png" border="0" usemap="#group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_icgraph" id="group__libvncclient__api_ga1a39f4b121ae83dfc329e1f4ebc6253f_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2bb544e98a25a109a75bfac259125428" title="Tries to connect to a Unix socket. " alt="" coords="272,13,460,39"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1089,25 +1403,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00361">361</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00358">358</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga350e0f88ca685d162230609c93dde167_cgraph.png" border="0" usemap="#group__libvncclient__api_ga350e0f88ca685d162230609c93dde167_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga350e0f88ca685d162230609c93dde167_cgraph" id="group__libvncclient__api_ga350e0f88ca685d162230609c93dde167_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga3a3393c31fc2d2c4d4b9a52683158a17" title="ConnectClientToTcpAddr6" alt="" coords="223,5,405,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gaac22e57008d10f34a9d37c441db5f268" title="StringToIPAddr" alt="" coords="257,56,371,83"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga36c6f012f3b4a0e2e3d8c766b7026463" title="ConnectClientToTcpAddr" alt="" coords="227,107,401,133"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="253,157,375,184"/>
-<area shape="rect" id="node6" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="239,208,389,235"/>
-<area shape="rect" id="node10" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="248,259,380,285"/>
-<area shape="rect" id="node11" href="rfbproto_8c.html#ab01c3c1f7254c28d5956e78f6069c6f1" title="rfbClientEncryptBytes" alt="" coords="235,309,393,336"/>
-<area shape="rect" id="node12" href="rfbproto_8c.html#ac5861dc6996441ad5b426339513423f5" title="rfbClientEncryptBytes2" alt="" coords="231,360,397,387"/>
-<area shape="rect" id="node7" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="462,157,570,184"/>
-<area shape="rect" id="node8" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="457,208,575,235"/>
-<area shape="rect" id="node9" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="453,259,579,285"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaa9642294e2aa024d38cf4555d33819aa" title="Tries to connect to an IPv4 or IPv6 host using the given timeout value. " alt="" coords="225,5,441,47"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gaac22e57008d10f34a9d37c441db5f268" title="StringToIPAddr" alt="" coords="276,71,391,98"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#gabd4701a48e213f5807e4964ad3dd25e2" title="Tries to connect to an IPv4 host using the given timeout value. " alt="" coords="229,123,437,164"/>
+<area shape="rect" id="node6" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="257,189,410,215"/>
+<area shape="rect" id="node10" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="265,239,402,266"/>
+<area shape="rect" id="node11" href="rfbproto_8c.html#ab01c3c1f7254c28d5956e78f6069c6f1" title="rfbClientEncryptBytes" alt="" coords="251,290,415,317"/>
+<area shape="rect" id="node12" href="rfbproto_8c.html#ac5861dc6996441ad5b426339513423f5" title="rfbClientEncryptBytes2" alt="" coords="247,341,419,367"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="491,50,616,77"/>
+<area shape="rect" id="node7" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="499,138,608,165"/>
+<area shape="rect" id="node8" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="494,189,613,215"/>
+<area shape="rect" id="node9" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="489,239,617,266"/>
 </map>
 </div>
 
@@ -1145,7 +1459,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00294">294</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00293">293</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1479,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00487">487</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00545">545</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 
 </div>
 </div>
@@ -1222,15 +1536,15 @@ Variables</h2></td></tr>
 <p>Handles XCursor and RichCursor shape updates from the server. </p>
 <p>We emulate cursor operating on the frame buffer (that is why we call it "software cursor"). This decodes the received cursor shape and hands it over to GotCursorShapeProc, if set. </p>
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2cursor_8c_source.html#l00040">40</a> of file <a class="el" href="libvncclient_2cursor_8c_source.html">cursor.c</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2cursor_8c_source.html#l00042">42</a> of file <a class="el" href="libvncclient_2cursor_8c_source.html">cursor.c</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga180680663bb6ef69e69a9fc0cb06f352_icgraph.png" border="0" usemap="#group__libvncclient__api_ga180680663bb6ef69e69a9fc0cb06f352_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga180680663bb6ef69e69a9fc0cb06f352_icgraph" id="group__libvncclient__api_ga180680663bb6ef69e69a9fc0cb06f352_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="204,5,395,32"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="204,5,396,32"/>
 </map>
 </div>
 
@@ -1263,22 +1577,22 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the client was able to handle the RFB server messages, false otherwise </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a27">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a138">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a54">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01679">1679</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01606">1606</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gaa9ba8ed8e74e27e9c4095e0190d2aad9_cgraph.png" border="0" usemap="#group__libvncclient__api_gaa9ba8ed8e74e27e9c4095e0190d2aad9_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gaa9ba8ed8e74e27e9c4095e0190d2aad9_cgraph" id="group__libvncclient__api_gaa9ba8ed8e74e27e9c4095e0190d2aad9_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="284,56,435,83"/>
-<area shape="rect" id="node6" href="group__libvncclient__api.html#ga180680663bb6ef69e69a9fc0cb06f352" title="Handles XCursor and RichCursor shape updates from the server. " alt="" coords="284,107,435,133"/>
-<area shape="rect" id="node7" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="244,157,475,184"/>
-<area shape="rect" id="node3" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="552,5,660,32"/>
-<area shape="rect" id="node4" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="547,56,665,83"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="543,107,669,133"/>
-<area shape="rect" id="node8" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="523,157,689,184"/>
-<area shape="rect" id="node9" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="540,208,672,235"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="284,56,437,83"/>
+<area shape="rect" id="node6" href="group__libvncclient__api.html#ga180680663bb6ef69e69a9fc0cb06f352" title="Handles XCursor and RichCursor shape updates from the server. " alt="" coords="285,107,436,133"/>
+<area shape="rect" id="node7" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="245,157,476,184"/>
+<area shape="rect" id="node3" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="553,5,662,32"/>
+<area shape="rect" id="node4" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="548,56,667,83"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="543,107,671,133"/>
+<area shape="rect" id="node8" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="524,157,691,184"/>
+<area shape="rect" id="node9" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="539,208,676,235"/>
 </map>
 </div>
 
@@ -1300,37 +1614,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00981">981</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00892">892</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga1219fbe60da3199af17e6c7476d72420_cgraph.png" border="0" usemap="#group__libvncclient__api_ga1219fbe60da3199af17e6c7476d72420_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga1219fbe60da3199af17e6c7476d72420_cgraph" id="group__libvncclient__api_ga1219fbe60da3199af17e6c7476d72420_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="247,81,397,108"/>
-<area shape="rect" id="node6" href="rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="469,259,668,285"/>
-<area shape="rect" id="node9" href="rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="223,189,421,230"/>
-<area shape="rect" id="node10" href="rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="223,306,421,347"/>
-<area shape="rect" id="node11" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="256,372,388,399"/>
-<area shape="rect" id="node3" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="515,5,623,32"/>
-<area shape="rect" id="node4" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="509,56,628,83"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="506,107,631,133"/>
-<area shape="rect" id="node7" href="rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="716,284,847,311"/>
-<area shape="rect" id="node8" href="rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="716,233,847,260"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="253,81,406,108"/>
+<area shape="rect" id="node6" href="rfbproto_8c.html#a6b9b4635b6181d6b19adfe6ceba704ac" title="DefaultSupportedMessages" alt="" coords="477,259,677,285"/>
+<area shape="rect" id="node9" href="rfbproto_8c.html#a8f51b9feae446728bc0ce88895c382fa" title="DefaultSupportedMessages\lUltraVNC" alt="" coords="229,189,429,230"/>
+<area shape="rect" id="node10" href="rfbproto_8c.html#ac8ef48e9abc7e1786300a72c3c79097d" title="DefaultSupportedMessages\lTightVNC" alt="" coords="229,306,429,347"/>
+<area shape="rect" id="node11" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="261,372,398,399"/>
+<area shape="rect" id="node3" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="523,5,632,32"/>
+<area shape="rect" id="node4" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="518,56,637,83"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="513,107,641,133"/>
+<area shape="rect" id="node7" href="rfbproto_8c.html#aec5b634651da922f70f15fa9c101b07b" title="SetClient2Server" alt="" coords="725,284,856,311"/>
+<area shape="rect" id="node8" href="rfbproto_8c.html#a8b8377f06119910b59c96efe75039db0" title="SetServer2Client" alt="" coords="725,233,856,260"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="gae00ef3a48d980b9ff7284219fea112ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae00ef3a48d980b9ff7284219fea112ac">&#9670;&nbsp;</a></span>ListenAtTcpPort()</h2>
+<a id="ga99d194819f6f9b833d60c8fac347ded5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99d194819f6f9b833d60c8fac347ded5">&#9670;&nbsp;</a></span>ListenAtTcpPort()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ListenAtTcpPort </td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ListenAtTcpPort </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>port</em></td><td>)</td>
@@ -1339,28 +1653,28 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00522">522</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00578">578</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_gae00ef3a48d980b9ff7284219fea112ac_cgraph.png" border="0" usemap="#group__libvncclient__api_gae00ef3a48d980b9ff7284219fea112ac_cgraph" alt=""/></div>
-<map name="group__libvncclient__api_gae00ef3a48d980b9ff7284219fea112ac_cgraph" id="group__libvncclient__api_gae00ef3a48d980b9ff7284219fea112ac_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga69c6bc02b34e74139dac22ed91060ae4" title="ListenAtTcpPortAndAddress" alt="" coords="173,5,371,32"/>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga99d194819f6f9b833d60c8fac347ded5_cgraph.png" border="0" usemap="#group__libvncclient__api_ga99d194819f6f9b833d60c8fac347ded5_cgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga99d194819f6f9b833d60c8fac347ded5_cgraph" id="group__libvncclient__api_ga99d194819f6f9b833d60c8fac347ded5_cgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d" title="ListenAtTcpPortAndAddress" alt="" coords="176,5,375,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga69c6bc02b34e74139dac22ed91060ae4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga69c6bc02b34e74139dac22ed91060ae4">&#9670;&nbsp;</a></span>ListenAtTcpPortAndAddress()</h2>
+<a id="ga5759acea7d722d1391410c0dd93cf12d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5759acea7d722d1391410c0dd93cf12d">&#9670;&nbsp;</a></span>ListenAtTcpPortAndAddress()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ListenAtTcpPortAndAddress </td>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> ListenAtTcpPortAndAddress </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>port</em>, </td>
@@ -1379,17 +1693,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00535">535</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00591">591</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_ga69c6bc02b34e74139dac22ed91060ae4_icgraph.png" border="0" usemap="#group__libvncclient__api_ga69c6bc02b34e74139dac22ed91060ae4_icgraph" alt=""/></div>
-<map name="group__libvncclient__api_ga69c6bc02b34e74139dac22ed91060ae4_icgraph" id="group__libvncclient__api_ga69c6bc02b34e74139dac22ed91060ae4_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="251,5,464,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="251,57,464,98"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#gae00ef3a48d980b9ff7284219fea112ac" title="ListenAtTcpPort" alt="" coords="297,123,417,149"/>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga5759acea7d722d1391410c0dd93cf12d_icgraph.png" border="0" usemap="#group__libvncclient__api_ga5759acea7d722d1391410c0dd93cf12d_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga5759acea7d722d1391410c0dd93cf12d_icgraph" id="group__libvncclient__api_ga5759acea7d722d1391410c0dd93cf12d_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="252,5,471,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="252,57,471,98"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga99d194819f6f9b833d60c8fac347ded5" title="ListenAtTcpPort" alt="" coords="300,123,423,149"/>
 </map>
 </div>
 
@@ -1411,17 +1725,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="listen_8c_source.html#l00050">50</a> of file <a class="el" href="listen_8c_source.html">listen.c</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="listen_8c_source.html#l00049">49</a> of file <a class="el" href="listen_8c_source.html">listen.c</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga2f122dd993677e865fc8f3284c494224_cgraph.png" border="0" usemap="#group__libvncclient__api_ga2f122dd993677e865fc8f3284c494224_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga2f122dd993677e865fc8f3284c494224_cgraph" id="group__libvncclient__api_ga2f122dd993677e865fc8f3284c494224_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga69c6bc02b34e74139dac22ed91060ae4" title="ListenAtTcpPortAndAddress" alt="" coords="267,5,464,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga923e422f147002ce7546dec6a6b4a786" title="AcceptTcpConnection" alt="" coords="286,56,445,83"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="304,107,427,133"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d" title="ListenAtTcpPortAndAddress" alt="" coords="272,5,471,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga999107eaef4e6bb18181033634e81dd5" title="AcceptTcpConnection" alt="" coords="291,56,451,83"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="309,107,434,133"/>
 </map>
 </div>
 
@@ -1453,17 +1767,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="listen_8c_source.html#l00151">151</a> of file <a class="el" href="listen_8c_source.html">listen.c</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="listen_8c_source.html#l00150">150</a> of file <a class="el" href="listen_8c_source.html">listen.c</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gae41c9e6ab2ea17c4923e1fae8e33629f_cgraph.png" border="0" usemap="#group__libvncclient__api_gae41c9e6ab2ea17c4923e1fae8e33629f_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gae41c9e6ab2ea17c4923e1fae8e33629f_cgraph" id="group__libvncclient__api_gae41c9e6ab2ea17c4923e1fae8e33629f_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga69c6bc02b34e74139dac22ed91060ae4" title="ListenAtTcpPortAndAddress" alt="" coords="267,5,464,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga923e422f147002ce7546dec6a6b4a786" title="AcceptTcpConnection" alt="" coords="286,56,445,83"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga48ac5e49c2b88444ae4577767cdd0332" title="SetNonBlocking" alt="" coords="304,107,427,133"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d" title="ListenAtTcpPortAndAddress" alt="" coords="272,5,471,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga999107eaef4e6bb18181033634e81dd5" title="AcceptTcpConnection" alt="" coords="291,56,451,83"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="309,107,434,133"/>
 </map>
 </div>
 
@@ -1495,16 +1809,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01569">1569</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01496">1496</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga430901a9025d2fce8b9ba63bcee0a9c7_cgraph.png" border="0" usemap="#group__libvncclient__api_ga430901a9025d2fce8b9ba63bcee0a9c7_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga430901a9025d2fce8b9ba63bcee0a9c7_cgraph" id="group__libvncclient__api_ga430901a9025d2fce8b9ba63bcee0a9c7_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="192,5,359,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="209,56,341,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="193,5,360,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="208,56,345,83"/>
 </map>
 </div>
 
@@ -1562,30 +1876,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00086">86</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00063">63</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_cgraph.png" border="0" usemap="#group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_cgraph" id="group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_cgraph">
-<area shape="rect" id="node2" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="213,5,321,32"/>
-<area shape="rect" id="node3" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="207,56,326,83"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="204,107,329,133"/>
+<area shape="rect" id="node2" href="tls_8h.html#a1fa159580d9a687173bf0e507a417ff0" title="ReadFromTLS" alt="" coords="216,5,325,32"/>
+<area shape="rect" id="node3" href="sasl_8c.html#aca91aae8dade902584b24c7ec1cb5587" title="ReadFromSASL" alt="" coords="211,56,330,83"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server. " alt="" coords="207,107,335,133"/>
 </map>
 </div>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_icgraph.png" border="0" usemap="#group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_icgraph" id="group__libvncclient__api_gad54463304a4e2929c71f6d754337565d_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="215,5,384,32"/>
-<area shape="rect" id="node3" href="rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="223,56,375,83"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="215,107,384,133"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="204,157,395,184"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="217,5,389,32"/>
+<area shape="rect" id="node3" href="rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="225,56,381,83"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="215,107,391,133"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="207,157,399,184"/>
 </map>
 </div>
 
@@ -1617,15 +1931,15 @@ Variables</h2></td></tr>
 </dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a28">ppmtest.c</a>, and <a class="el" href="_s_d_lvncviewer_8c-example.html#a111">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="vncviewer_8c_source.html#l00501">501</a> of file <a class="el" href="vncviewer_8c_source.html">vncviewer.c</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="vncviewer_8c_source.html#l00508">508</a> of file <a class="el" href="vncviewer_8c_source.html">vncviewer.c</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga71e4dac37ff9a25e1cf5ab06a068bcc3_cgraph.png" border="0" usemap="#group__libvncclient__api_ga71e4dac37ff9a25e1cf5ab06a068bcc3_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga71e4dac37ff9a25e1cf5ab06a068bcc3_cgraph" id="group__libvncclient__api_ga71e4dac37ff9a25e1cf5ab06a068bcc3_cgraph">
-<area shape="rect" id="node2" href="tls_8h.html#a544b05c0d93af06c61dd57b0d32b9d7e" title="FreeTLS" alt="" coords="180,5,252,32"/>
+<area shape="rect" id="node2" href="tls_8h.html#a544b05c0d93af06c61dd57b0d32b9d7e" title="FreeTLS" alt="" coords="184,5,256,32"/>
 </map>
 </div>
 
@@ -1668,7 +1982,7 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>a pointer to the client data </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a30">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00130">130</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00129">129</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -1688,7 +2002,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00106">106</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00105">105</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -1735,7 +2049,7 @@ Variables</h2></td></tr>
 </dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a32">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00114">114</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00113">113</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -1784,15 +2098,15 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>a pointer to the allocated <a class="el" href="structrfb_client.html">rfbClient</a> structure </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a22">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a125">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a42">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="vncviewer_8c_source.html#l00254">254</a> of file <a class="el" href="vncviewer_8c_source.html">vncviewer.c</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="vncviewer_8c_source.html#l00249">249</a> of file <a class="el" href="vncviewer_8c_source.html">vncviewer.c</a>.</p>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga13e0666f04539bf2a0f36af961e9506a_icgraph.png" border="0" usemap="#group__libvncclient__api_ga13e0666f04539bf2a0f36af961e9506a_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga13e0666f04539bf2a0f36af961e9506a_icgraph" id="group__libvncclient__api_ga13e0666f04539bf2a0f36af961e9506a_icgraph">
-<area shape="rect" id="node2" href="ppmtest_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="152,5,207,32"/>
+<area shape="rect" id="node2" href="ppmtest_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="155,5,209,32"/>
 </map>
 </div>
 
@@ -1862,12 +2176,12 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the client was initialized successfully, false otherwise. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a25">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a136">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a52">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="vncviewer_8c_source.html#l00422">422</a> of file <a class="el" href="vncviewer_8c_source.html">vncviewer.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vncviewer_8c_source.html#l00429">429</a> of file <a class="el" href="vncviewer_8c_source.html">vncviewer.c</a>.</p>
 
 </div>
 </div>
-<a id="ga76a01adbf99e3e7bcd9aed691e59bbd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga76a01adbf99e3e7bcd9aed691e59bbd1">&#9670;&nbsp;</a></span>SameMachine()</h2>
+<a id="gaef73b983a7f67aca4a1bee1d51000bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaef73b983a7f67aca4a1bee1d51000bcc">&#9670;&nbsp;</a></span>SameMachine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1875,14 +2189,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> SameMachine </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td>
           <td class="paramname"><em>sock</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00780">780</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00843">843</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 
 </div>
 </div>
@@ -1930,16 +2244,16 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the client cut message was sent successfully, false otherwise </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a115">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01659">1659</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01586">1586</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga033450499eb08f78b92b78eacdd44dcc_cgraph.png" border="0" usemap="#group__libvncclient__api_ga033450499eb08f78b92b78eacdd44dcc_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga033450499eb08f78b92b78eacdd44dcc_cgraph" id="group__libvncclient__api_ga033450499eb08f78b92b78eacdd44dcc_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="192,5,359,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="209,56,341,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="195,5,361,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="209,56,347,83"/>
 </map>
 </div>
 
@@ -2011,27 +2325,27 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the update request was sent successfully, false otherwise </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a112">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01455">1455</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01382">1382</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_cgraph.png" border="0" usemap="#group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_cgraph" id="group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_cgraph">
 <area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="284,5,451,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="301,56,433,83"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="299,56,436,83"/>
 </map>
 </div>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_icgraph.png" border="0" usemap="#group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_icgraph" id="group__libvncclient__api_gac4575a4204618231f6b810c4cbc27401_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="284,5,492,47"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="293,71,483,98"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="284,5,495,47"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="293,71,485,98"/>
 </map>
 </div>
 
@@ -2053,17 +2367,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01442">1442</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01369">1369</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gaed24883ef3038e2785f0f7bd9ca5e9d9_cgraph.png" border="0" usemap="#group__libvncclient__api_gaed24883ef3038e2785f0f7bd9ca5e9d9_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gaed24883ef3038e2785f0f7bd9ca5e9d9_cgraph" id="group__libvncclient__api_gaed24883ef3038e2785f0f7bd9ca5e9d9_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="261,31,492,57"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="540,5,707,32"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="557,56,689,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="264,31,495,57"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="543,5,709,32"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="557,56,695,83"/>
 </map>
 </div>
 
@@ -2113,16 +2427,16 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the key event was send successfully, false otherwise </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a116">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01640">1640</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01567">1567</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gabbf04cd637fc2e400f624e07b2be3d80_cgraph.png" border="0" usemap="#group__libvncclient__api_gabbf04cd637fc2e400f624e07b2be3d80_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gabbf04cd637fc2e400f624e07b2be3d80_cgraph" id="group__libvncclient__api_gabbf04cd637fc2e400f624e07b2be3d80_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="167,5,333,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="184,56,316,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="168,5,335,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="183,56,320,83"/>
 </map>
 </div>
 
@@ -2182,7 +2496,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 <dl class="section return"><dt>Returns</dt><dd>true if the pointer event was sent successfully, false otherwise </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a117">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01618">1618</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01545">1545</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -2212,16 +2526,16 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01479">1479</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01406">1406</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gaa1ba5207ea861033e2c9e219c169af8a_cgraph.png" border="0" usemap="#group__libvncclient__api_gaa1ba5207ea861033e2c9e219c169af8a_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gaa1ba5207ea861033e2c9e219c169af8a_cgraph" id="group__libvncclient__api_gaa1ba5207ea861033e2c9e219c169af8a_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="189,5,356,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="207,56,339,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="188,5,355,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="203,56,340,83"/>
 </map>
 </div>
 
@@ -2259,16 +2573,48 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01596">1596</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01523">1523</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gabe907e4cdd36d303bff50471f7770fbe_cgraph.png" border="0" usemap="#group__libvncclient__api_gabe907e4cdd36d303bff50471f7770fbe_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_gabe907e4cdd36d303bff50471f7770fbe_cgraph" id="group__libvncclient__api_gabe907e4cdd36d303bff50471f7770fbe_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="157,5,324,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="175,56,307,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="159,5,325,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="173,56,311,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gad1674f8bbbdc6f0211ec91f0d3ff9b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1674f8bbbdc6f0211ec91f0d3ff9b58">&#9670;&nbsp;</a></span>SetBlocking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> SetBlocking </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td>
+          <td class="paramname"><em>sock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00743">743</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_gad1674f8bbbdc6f0211ec91f0d3ff9b58_icgraph.png" border="0" usemap="#group__libvncclient__api_gad1674f8bbbdc6f0211ec91f0d3ff9b58_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_gad1674f8bbbdc6f0211ec91f0d3ff9b58_icgraph" id="group__libvncclient__api_gad1674f8bbbdc6f0211ec91f0d3ff9b58_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga22031a3e1c2573dcd34f12098103d432" title="Tries to connect to an IPv4 host. " alt="" coords="157,5,335,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga054b62220b4e153524f59223ecbb8943" title="Tries to connect to an IPv4 or IPv6 host. " alt="" coords="153,56,339,83"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#ga2bb544e98a25a109a75bfac259125428" title="Tries to connect to a Unix socket. " alt="" coords="152,107,340,133"/>
 </map>
 </div>
 
@@ -2306,12 +2652,12 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00952">952</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00863">863</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
-<a id="ga6a989607734750c72470ae1d222458e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6a989607734750c72470ae1d222458e0">&#9670;&nbsp;</a></span>SetDSCP()</h2>
+<a id="ga091495fca85ba9440a73983c228e6bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga091495fca85ba9440a73983c228e6bc6">&#9670;&nbsp;</a></span>SetDSCP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2319,7 +2665,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
         <tr>
           <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> SetDSCP </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td>
           <td class="paramname"><em>sock</em>, </td>
         </tr>
         <tr>
@@ -2336,7 +2682,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00699">699</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00765">765</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 
 </div>
 </div>
@@ -2372,12 +2718,12 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 </ul>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a40">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01226">1226</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01152">1152</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
-<a id="ga48ac5e49c2b88444ae4577767cdd0332"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga48ac5e49c2b88444ae4577767cdd0332">&#9670;&nbsp;</a></span>SetNonBlocking()</h2>
+<a id="ga8786be007e2b0a36554d7098403633ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8786be007e2b0a36554d7098403633ad">&#9670;&nbsp;</a></span>SetNonBlocking()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2385,24 +2731,30 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
         <tr>
           <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> SetNonBlocking </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a>&#160;</td>
           <td class="paramname"><em>sock</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00676">676</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00726">726</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_ga48ac5e49c2b88444ae4577767cdd0332_icgraph.png" border="0" usemap="#group__libvncclient__api_ga48ac5e49c2b88444ae4577767cdd0332_icgraph" alt=""/></div>
-<map name="group__libvncclient__api_ga48ac5e49c2b88444ae4577767cdd0332_icgraph" id="group__libvncclient__api_ga48ac5e49c2b88444ae4577767cdd0332_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="176,5,389,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="176,57,389,98"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="198,123,367,149"/>
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga8786be007e2b0a36554d7098403633ad_icgraph.png" border="0" usemap="#group__libvncclient__api_ga8786be007e2b0a36554d7098403633ad_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga8786be007e2b0a36554d7098403633ad_icgraph" id="group__libvncclient__api_ga8786be007e2b0a36554d7098403633ad_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="179,5,397,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="179,57,397,98"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gabd4701a48e213f5807e4964ad3dd25e2" title="Tries to connect to an IPv4 host using the given timeout value. " alt="" coords="184,122,392,163"/>
+<area shape="rect" id="node7" href="group__libvncclient__api.html#gaa9642294e2aa024d38cf4555d33819aa" title="Tries to connect to an IPv4 or IPv6 host using the given timeout value. " alt="" coords="180,187,396,229"/>
+<area shape="rect" id="node9" href="group__libvncclient__api.html#ga1a39f4b121ae83dfc329e1f4ebc6253f" title="Tries to connect to a Unix socket using the given timeout value. " alt="" coords="179,253,397,294"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="453,152,625,179"/>
+<area shape="rect" id="node6" href="group__libvncclient__api.html#ga22031a3e1c2573dcd34f12098103d432" title="Tries to connect to an IPv4 host. " alt="" coords="450,101,629,128"/>
+<area shape="rect" id="node8" href="group__libvncclient__api.html#ga054b62220b4e153524f59223ecbb8943" title="Tries to connect to an IPv4 or IPv6 host. " alt="" coords="446,203,633,229"/>
+<area shape="rect" id="node10" href="group__libvncclient__api.html#ga2bb544e98a25a109a75bfac259125428" title="Tries to connect to a Unix socket. " alt="" coords="445,260,633,287"/>
 </map>
 </div>
 
@@ -2434,15 +2786,15 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00747">747</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00813">813</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gaac22e57008d10f34a9d37c441db5f268_icgraph.png" border="0" usemap="#group__libvncclient__api_gaac22e57008d10f34a9d37c441db5f268_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_gaac22e57008d10f34a9d37c441db5f268_icgraph" id="group__libvncclient__api_gaac22e57008d10f34a9d37c441db5f268_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="167,5,336,32"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="168,5,340,32"/>
 </map>
 </div>
 
@@ -2474,26 +2826,26 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00189">189</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00188">188</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_gaf0be1bc51fb5a51bb8022356fb116948_icgraph.png" border="0" usemap="#group__libvncclient__api_gaf0be1bc51fb5a51bb8022356fb116948_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_gaf0be1bc51fb5a51bb8022356fb116948_icgraph" id="group__libvncclient__api_gaf0be1bc51fb5a51bb8022356fb116948_icgraph">
 <area shape="rect" id="node2" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="220,42,451,69"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#gaa1ba5207ea861033e2c9e219c169af8a" title="SendScaleSetting" alt="" coords="267,93,403,119"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#gaa1ba5207ea861033e2c9e219c169af8a" title="SendScaleSetting" alt="" coords="268,93,403,119"/>
 <area shape="rect" id="node6" href="group__libvncclient__api.html#ga8f60b3d5f9974296d0de9cc0aa59bb3f" title="Sends a text chat message to the server. " alt="" coords="280,143,391,170"/>
-<area shape="rect" id="node7" href="group__libvncclient__api.html#ga232fc2e1ae4ff62310d73d97285553ab" title="Opens a text chat window on the server. " alt="" coords="280,194,391,221"/>
-<area shape="rect" id="node8" href="group__libvncclient__api.html#ga9bc2b2864ae70fb6da4b39fdda220798" title="Closes the text chat window on the server. " alt="" coords="279,245,391,271"/>
-<area shape="rect" id="node9" href="group__libvncclient__api.html#ga2624712903d55aeb1bb647cd59d013bc" title="TextChatFinish" alt="" coords="279,295,391,322"/>
-<area shape="rect" id="node10" href="group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7" title="PermitServerInput" alt="" coords="266,346,405,373"/>
-<area shape="rect" id="node11" href="group__libvncclient__api.html#gabe907e4cdd36d303bff50471f7770fbe" title="SendXvpMsg" alt="" coords="283,397,387,423"/>
-<area shape="rect" id="node12" href="group__libvncclient__api.html#gabbf04cd637fc2e400f624e07b2be3d80" title="Sends a key event to the server. " alt="" coords="279,447,392,474"/>
-<area shape="rect" id="node13" href="group__libvncclient__api.html#ga033450499eb08f78b92b78eacdd44dcc" title="Places a string on the server&#39;s clipboard. " alt="" coords="266,498,405,525"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="499,5,707,47"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="507,71,698,98"/>
+<area shape="rect" id="node7" href="group__libvncclient__api.html#ga232fc2e1ae4ff62310d73d97285553ab" title="Opens a text chat window on the server. " alt="" coords="279,194,392,221"/>
+<area shape="rect" id="node8" href="group__libvncclient__api.html#ga9bc2b2864ae70fb6da4b39fdda220798" title="Closes the text chat window on the server. " alt="" coords="278,245,393,271"/>
+<area shape="rect" id="node9" href="group__libvncclient__api.html#ga2624712903d55aeb1bb647cd59d013bc" title="TextChatFinish" alt="" coords="277,295,393,322"/>
+<area shape="rect" id="node10" href="group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7" title="PermitServerInput" alt="" coords="265,346,405,373"/>
+<area shape="rect" id="node11" href="group__libvncclient__api.html#gabe907e4cdd36d303bff50471f7770fbe" title="SendXvpMsg" alt="" coords="283,397,388,423"/>
+<area shape="rect" id="node12" href="group__libvncclient__api.html#gabbf04cd637fc2e400f624e07b2be3d80" title="Sends a key event to the server. " alt="" coords="278,447,393,474"/>
+<area shape="rect" id="node13" href="group__libvncclient__api.html#ga033450499eb08f78b92b78eacdd44dcc" title="Places a string on the server&#39;s clipboard. " alt="" coords="265,498,406,525"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="499,5,709,47"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="508,71,700,98"/>
 </map>
 </div>
 
@@ -2525,7 +2877,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00195">195</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00194">194</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -2554,16 +2906,16 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the window was closed successfully, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01542">1542</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01469">1469</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga9bc2b2864ae70fb6da4b39fdda220798_cgraph.png" border="0" usemap="#group__libvncclient__api_ga9bc2b2864ae70fb6da4b39fdda220798_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga9bc2b2864ae70fb6da4b39fdda220798_cgraph" id="group__libvncclient__api_ga9bc2b2864ae70fb6da4b39fdda220798_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="165,5,332,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="183,56,315,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="168,5,335,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="183,56,320,83"/>
 </map>
 </div>
 
@@ -2585,16 +2937,16 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01553">1553</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01480">1480</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga2624712903d55aeb1bb647cd59d013bc_cgraph.png" border="0" usemap="#group__libvncclient__api_ga2624712903d55aeb1bb647cd59d013bc_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga2624712903d55aeb1bb647cd59d013bc_cgraph" id="group__libvncclient__api_ga2624712903d55aeb1bb647cd59d013bc_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="165,5,332,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="183,56,315,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="169,5,336,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="184,56,321,83"/>
 </map>
 </div>
 
@@ -2626,16 +2978,16 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 <dl class="section return"><dt>Returns</dt><dd>true if the window was opened successfully, false otherwise </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a107">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01530">1530</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01457">1457</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga232fc2e1ae4ff62310d73d97285553ab_cgraph.png" border="0" usemap="#group__libvncclient__api_ga232fc2e1ae4ff62310d73d97285553ab_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga232fc2e1ae4ff62310d73d97285553ab_cgraph" id="group__libvncclient__api_ga232fc2e1ae4ff62310d73d97285553ab_cgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="164,5,331,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="181,56,313,83"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="167,5,333,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="181,56,319,83"/>
 </map>
 </div>
 
@@ -2677,16 +3029,16 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the text was sent successfully, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01508">1508</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
-<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l01435">1435</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga8f60b3d5f9974296d0de9cc0aa59bb3f_cgraph.png" border="0" usemap="#group__libvncclient__api_ga8f60b3d5f9974296d0de9cc0aa59bb3f_cgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga8f60b3d5f9974296d0de9cc0aa59bb3f_cgraph" id="group__libvncclient__api_ga8f60b3d5f9974296d0de9cc0aa59bb3f_cgraph">
 <area shape="rect" id="node2" href="group__libvncclient__api.html#gaf0be1bc51fb5a51bb8022356fb116948" title="SupportsClient2Server" alt="" coords="164,5,331,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga09b7a813c4b523168b118706b09b085f" title="WriteToRFBServer" alt="" coords="181,56,313,83"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1e280a8ec1e6af121002f30f5d8e0bac" title="WriteToRFBServer" alt="" coords="179,56,316,83"/>
 </map>
 </div>
 
@@ -2729,26 +3081,26 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 <dl class="section return"><dt>Returns</dt><dd>the return value of the underlying select() call </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a26">ppmtest.c</a>, <a class="el" href="_s_d_lvncviewer_8c-example.html#a137">SDLvncviewer.c</a>, and <a class="el" href="vnc2mpg_8c-example.html#a53">vnc2mpg.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00835">835</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00898">898</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libvncclient__api_ga154dcdd94ef439dc8d57dd14bf1e1c59_icgraph.png" border="0" usemap="#group__libvncclient__api_ga154dcdd94ef439dc8d57dd14bf1e1c59_icgraph" alt=""/></div>
 <map name="group__libvncclient__api_ga154dcdd94ef439dc8d57dd14bf1e1c59_icgraph" id="group__libvncclient__api_ga154dcdd94ef439dc8d57dd14bf1e1c59_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="179,81,329,108"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="388,5,557,32"/>
-<area shape="rect" id="node4" href="rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="397,56,549,83"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="388,107,557,133"/>
-<area shape="rect" id="node6" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="377,157,568,184"/>
+<area shape="rect" id="node2" href="group__libvncclient__api.html#gad54463304a4e2929c71f6d754337565d" title="ReadFromRFBServer" alt="" coords="181,81,335,108"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="393,5,565,32"/>
+<area shape="rect" id="node4" href="rfbproto_8c.html#ad6c451108b4e5e70bbe17465a129b72a" title="rfbHandleAuthResult" alt="" coords="401,56,557,83"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="391,107,567,133"/>
+<area shape="rect" id="node6" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="383,157,575,184"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga09b7a813c4b523168b118706b09b085f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga09b7a813c4b523168b118706b09b085f">&#9670;&nbsp;</a></span>WriteToRFBServer()</h2>
+<a id="ga1e280a8ec1e6af121002f30f5d8e0bac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1e280a8ec1e6af121002f30f5d8e0bac">&#9670;&nbsp;</a></span>WriteToRFBServer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2762,13 +3114,13 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -2779,28 +3131,28 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00259">259</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
-<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00250">250</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__libvncclient__api_ga09b7a813c4b523168b118706b09b085f_icgraph.png" border="0" usemap="#group__libvncclient__api_ga09b7a813c4b523168b118706b09b085f_icgraph" alt=""/></div>
-<map name="group__libvncclient__api_ga09b7a813c4b523168b118706b09b085f_icgraph" id="group__libvncclient__api_ga09b7a813c4b523168b118706b09b085f_icgraph">
-<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="216,5,385,32"/>
-<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="216,56,385,83"/>
-<area shape="rect" id="node4" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="185,107,416,133"/>
-<area shape="rect" id="node7" href="group__libvncclient__api.html#gaa1ba5207ea861033e2c9e219c169af8a" title="SendScaleSetting" alt="" coords="233,157,369,184"/>
-<area shape="rect" id="node8" href="group__libvncclient__api.html#ga8f60b3d5f9974296d0de9cc0aa59bb3f" title="Sends a text chat message to the server. " alt="" coords="245,208,356,235"/>
-<area shape="rect" id="node9" href="group__libvncclient__api.html#ga232fc2e1ae4ff62310d73d97285553ab" title="Opens a text chat window on the server. " alt="" coords="245,259,356,285"/>
-<area shape="rect" id="node10" href="group__libvncclient__api.html#ga9bc2b2864ae70fb6da4b39fdda220798" title="Closes the text chat window on the server. " alt="" coords="245,309,357,336"/>
-<area shape="rect" id="node11" href="group__libvncclient__api.html#ga2624712903d55aeb1bb647cd59d013bc" title="TextChatFinish" alt="" coords="245,360,357,387"/>
-<area shape="rect" id="node12" href="group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7" title="PermitServerInput" alt="" coords="231,411,370,437"/>
-<area shape="rect" id="node13" href="group__libvncclient__api.html#gabe907e4cdd36d303bff50471f7770fbe" title="SendXvpMsg" alt="" coords="249,461,353,488"/>
-<area shape="rect" id="node14" href="group__libvncclient__api.html#gabbf04cd637fc2e400f624e07b2be3d80" title="Sends a key event to the server. " alt="" coords="244,512,357,539"/>
-<area shape="rect" id="node15" href="group__libvncclient__api.html#ga033450499eb08f78b92b78eacdd44dcc" title="Places a string on the server&#39;s clipboard. " alt="" coords="231,563,370,589"/>
-<area shape="rect" id="node5" href="group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="464,70,672,111"/>
-<area shape="rect" id="node6" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="473,136,663,163"/>
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__libvncclient__api_ga1e280a8ec1e6af121002f30f5d8e0bac_icgraph.png" border="0" usemap="#group__libvncclient__api_ga1e280a8ec1e6af121002f30f5d8e0bac_icgraph" alt=""/></div>
+<map name="group__libvncclient__api_ga1e280a8ec1e6af121002f30f5d8e0bac_icgraph" id="group__libvncclient__api_ga1e280a8ec1e6af121002f30f5d8e0bac_icgraph">
+<area shape="rect" id="node2" href="group__libvncclient__api.html#ga350e0f88ca685d162230609c93dde167" title="ConnectToRFBRepeater" alt="" coords="220,5,392,32"/>
+<area shape="rect" id="node3" href="group__libvncclient__api.html#ga1219fbe60da3199af17e6c7476d72420" title="InitialiseRFBConnection" alt="" coords="218,56,394,83"/>
+<area shape="rect" id="node4" href="group__libvncclient__api.html#gac4575a4204618231f6b810c4cbc27401" title="Sends a framebuffer update request to the server. " alt="" coords="191,107,421,133"/>
+<area shape="rect" id="node7" href="group__libvncclient__api.html#gaa1ba5207ea861033e2c9e219c169af8a" title="SendScaleSetting" alt="" coords="239,157,373,184"/>
+<area shape="rect" id="node8" href="group__libvncclient__api.html#ga8f60b3d5f9974296d0de9cc0aa59bb3f" title="Sends a text chat message to the server. " alt="" coords="251,208,361,235"/>
+<area shape="rect" id="node9" href="group__libvncclient__api.html#ga232fc2e1ae4ff62310d73d97285553ab" title="Opens a text chat window on the server. " alt="" coords="249,259,363,285"/>
+<area shape="rect" id="node10" href="group__libvncclient__api.html#ga9bc2b2864ae70fb6da4b39fdda220798" title="Closes the text chat window on the server. " alt="" coords="249,309,363,336"/>
+<area shape="rect" id="node11" href="group__libvncclient__api.html#ga2624712903d55aeb1bb647cd59d013bc" title="TextChatFinish" alt="" coords="248,360,364,387"/>
+<area shape="rect" id="node12" href="group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7" title="PermitServerInput" alt="" coords="236,411,376,437"/>
+<area shape="rect" id="node13" href="group__libvncclient__api.html#gabe907e4cdd36d303bff50471f7770fbe" title="SendXvpMsg" alt="" coords="253,461,359,488"/>
+<area shape="rect" id="node14" href="group__libvncclient__api.html#gabbf04cd637fc2e400f624e07b2be3d80" title="Sends a key event to the server. " alt="" coords="249,512,363,539"/>
+<area shape="rect" id="node15" href="group__libvncclient__api.html#ga033450499eb08f78b92b78eacdd44dcc" title="Places a string on the server&#39;s clipboard. " alt="" coords="235,563,377,589"/>
+<area shape="rect" id="node5" href="group__libvncclient__api.html#gaed24883ef3038e2785f0f7bd9ca5e9d9" title="SendIncrementalFramebuffer\lUpdateRequest" alt="" coords="469,70,680,111"/>
+<area shape="rect" id="node6" href="group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server. " alt="" coords="479,136,671,163"/>
 </map>
 </div>
 
@@ -2819,7 +3171,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00069">69</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libvncclient_2sockets_8c_source.html#l00046">46</a> of file <a class="el" href="libvncclient_2sockets_8c_source.html">sockets.c</a>.</p>
 
 </div>
 </div>
@@ -2836,7 +3188,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a9">ppmtest.c</a>, and <a class="el" href="_s_d_lvncviewer_8c-example.html#a31">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00100">100</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00099">99</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -2853,7 +3205,7 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="ppmtest_8c-example.html#a4">ppmtest.c</a>, and <a class="el" href="_s_d_lvncviewer_8c-example.html#a114">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00099">99</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00098">98</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
@@ -2870,14 +3222,14 @@ The coordinate system is a left-handed Cartesian coordinate system with the Z ax
 </div><div class="memdoc">
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="_s_d_lvncviewer_8c-example.html#a110">SDLvncviewer.c</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00075">75</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rfbproto_8c_source.html#l00074">74</a> of file <a class="el" href="rfbproto_8c_source.html">rfbproto.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:45 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

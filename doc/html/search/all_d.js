@@ -28,6 +28,8 @@ var searchData=
   ['nservermessagetypes',['nServerMessageTypes',['../structrfb_interaction_caps_msg.html#a289e382204eab9a86fa72f7cc64e72b3',1,'rfbInteractionCapsMsg']]],
   ['nsubrects',['nSubrects',['../structrfb_r_r_e_header.html#afb9ae1bc8059636c55a29cd6b26ca0fc',1,'rfbRREHeader']]],
   ['ntunneltypes',['nTunnelTypes',['../structrfb_tunneling_caps_msg.html#abf20b2c199527d6bf145777a7f4c82b7',1,'rfbTunnelingCapsMsg']]],
+  ['numberofextdesktopscreenshook',['numberOfExtDesktopScreensHook',['../structrfb_screen_info.html#a61f8dc4d4015635edede4409f1de397e',1,'rfbScreenInfo']]],
+  ['numberofscreens',['numberOfScreens',['../structrfb_ext_desktop_size_msg.html#afdb3291c349bad394dd0f35aafd548b3',1,'rfbExtDesktopSizeMsg::numberOfScreens()'],['../structrfb_set_desktop_size_msg.html#afdb3291c349bad394dd0f35aafd548b3',1,'rfbSetDesktopSizeMsg::numberOfScreens()']]],
   ['numclrs',['NUMCLRS',['../libvncserver_2corre_8c.html#ae1f4084ff487adcf7a14f95cd9fae064',1,'NUMCLRS():&#160;corre.c'],['../libvncserver_2rre_8c.html#ae1f4084ff487adcf7a14f95cd9fae064',1,'NUMCLRS():&#160;rre.c']]],
   ['numentries',['numEntries',['../struct_file_list_info.html#a75b15f0e26b4ccf3195772b134b660ec',1,'FileListInfo']]],
   ['numfiles',['numFiles',['../structrfb_file_list_data_msg.html#ae794e91e54de11839d126d6a3c849c34',1,'rfbFileListDataMsg']]],

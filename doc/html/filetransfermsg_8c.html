@@ -90,12 +90,12 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c__incl.png" border="0" usemap="#libvncserver_2tightvnc-filetransfer_2filetransfermsg_8c" alt=""/></div>
 <map name="libvncserver_2tightvnc-filetransfer_2filetransfermsg_8c" id="libvncserver_2tightvnc-filetransfer_2filetransfermsg_8c">
-<area shape="rect" id="node11" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="747,169,819,196"/>
-<area shape="rect" id="node15" href="rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="910,95,1024,121"/>
-<area shape="rect" id="node17" href="filelistinfo_8h.html" title="filelistinfo.h" alt="" coords="1048,95,1142,121"/>
-<area shape="rect" id="node18" href="filetransfermsg_8h.html" title="filetransfermsg.h" alt="" coords="1166,95,1296,121"/>
-<area shape="rect" id="node19" href="handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="46,95,240,121"/>
-<area shape="rect" id="node12" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="730,244,836,271"/>
+<area shape="rect" id="node11" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="676,169,751,196"/>
+<area shape="rect" id="node20" href="rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="887,95,1003,121"/>
+<area shape="rect" id="node22" href="filelistinfo_8h.html" title="filelistinfo.h" alt="" coords="1028,95,1127,121"/>
+<area shape="rect" id="node23" href="filetransfermsg_8h.html" title="filetransfermsg.h" alt="" coords="1151,95,1284,121"/>
+<area shape="rect" id="node24" href="handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="614,95,813,121"/>
+<area shape="rect" id="node12" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="597,244,705,271"/>
 </map>
 </div>
 </div>
@@ -148,8 +148,10 @@ Functions</h2></td></tr>
 <tr class="separator:a662a3d0e41c30ee0219d484c204f778a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d96c35b092b779553336eb40963b7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="filetransfermsg_8c.html#ac6d96c35b092b779553336eb40963b7c">FileUpdateComplete</a> (rfbClientPtr cl, rfbTightClientPtr rtcp)</td></tr>
 <tr class="separator:ac6d96c35b092b779553336eb40963b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4a21a4089cb4b02aff8ddbec27adc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="filetransfermsg_8c.html#a9c4a21a4089cb4b02aff8ddbec27adc1">CloseUndoneFileTransfer</a> (rfbClientPtr cl, rfbTightClientPtr rtcp)</td></tr>
-<tr class="separator:a9c4a21a4089cb4b02aff8ddbec27adc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab83aaf2d3c7040578f98a9157b30d2ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="filetransfermsg_8c.html#ab83aaf2d3c7040578f98a9157b30d2ce">CloseUndoneFileUpload</a> (rfbClientPtr cl, rfbTightClientPtr rtcp)</td></tr>
+<tr class="separator:ab83aaf2d3c7040578f98a9157b30d2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae65474f796d9c74001ebf733ad987f2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="filetransfermsg_8c.html#ae65474f796d9c74001ebf733ad987f2d">CloseUndoneFileDownload</a> (rfbClientPtr cl, rfbTightClientPtr rtcp)</td></tr>
+<tr class="separator:ae65474f796d9c74001ebf733ad987f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab820f96050791f01e2f585728199aaa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="filetransfermsg_8c.html#ab820f96050791f01e2f585728199aaa2">CreateDirectory</a> (char *dirName)</td></tr>
 <tr class="separator:ab820f96050791f01e2f585728199aaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -279,18 +281,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00662">662</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00661">661</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
 
 </div>
 </div>
-<a id="a9c4a21a4089cb4b02aff8ddbec27adc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c4a21a4089cb4b02aff8ddbec27adc1">&#9670;&nbsp;</a></span>CloseUndoneFileTransfer()</h2>
+<a id="ae65474f796d9c74001ebf733ad987f2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae65474f796d9c74001ebf733ad987f2d">&#9670;&nbsp;</a></span>CloseUndoneFileDownload()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CloseUndoneFileTransfer </td>
+          <td class="memname">void CloseUndoneFileDownload </td>
           <td>(</td>
           <td class="paramtype">rfbClientPtr&#160;</td>
           <td class="paramname"><em>cl</em>, </td>
@@ -309,7 +311,37 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00738">738</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00765">765</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+
+</div>
+</div>
+<a id="ab83aaf2d3c7040578f98a9157b30d2ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab83aaf2d3c7040578f98a9157b30d2ce">&#9670;&nbsp;</a></span>CloseUndoneFileUpload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CloseUndoneFileUpload </td>
+          <td>(</td>
+          <td class="paramtype">rfbClientPtr&#160;</td>
+          <td class="paramname"><em>cl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rfbTightClientPtr&#160;</td>
+          <td class="paramname"><em>rtcp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00737">737</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
 
 </div>
 </div>
@@ -329,7 +361,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00784">784</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00793">793</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
 
 </div>
 </div>
@@ -367,7 +399,7 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_cgraph.png" border="0" usemap="#filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_cgraph" id="filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="261,13,436,39"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="268,13,445,39"/>
 </map>
 </div>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -377,9 +409,9 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_icgraph.png" border="0" usemap="#filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_icgraph" id="filetransfermsg_8c_a533d011f5e956c7dc744006e16c0068c_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="261,31,395,57"/>
-<area shape="rect" id="node3" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="457,5,603,32"/>
-<area shape="rect" id="node4" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="443,56,617,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="268,31,404,57"/>
+<area shape="rect" id="node3" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="467,5,616,32"/>
+<area shape="rect" id="node4" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="452,56,631,83"/>
 </map>
 </div>
 
@@ -419,12 +451,12 @@ Functions</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a2db3d5115ea087b4c5a74db71778d6b5_icgraph.png" border="0" usemap="#filetransfermsg_8c_a2db3d5115ea087b4c5a74db71778d6b5_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a2db3d5115ea087b4c5a74db71778d6b5_icgraph" id="filetransfermsg_8c_a2db3d5115ea087b4c5a74db71778d6b5_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="294,31,427,57"/>
-<area shape="rect" id="node5" href="filetransfermsg_8h.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="273,81,448,108"/>
-<area shape="rect" id="node6" href="filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="244,132,477,159"/>
-<area shape="rect" id="node7" href="filetransfermsg_8h.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="266,183,455,225"/>
-<area shape="rect" id="node3" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="540,5,685,32"/>
-<area shape="rect" id="node4" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="525,56,700,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="301,31,437,57"/>
+<area shape="rect" id="node5" href="filetransfermsg_8h.html#af2f1015ce8216a48fcaf022d86ceee28" title="GetFileDownLoadErrMsg" alt="" coords="279,81,458,108"/>
+<area shape="rect" id="node6" href="filetransfermsg_8c.html#aaae659d0cebe25531aaf40beb0030398" title="GetFileDownloadReadDataErrMsg" alt="" coords="249,132,488,159"/>
+<area shape="rect" id="node7" href="filetransfermsg_8h.html#a1e1ad3c6c82c8baa451b368206ca0719" title="GetFileDownloadLengthErr\lResponseMsg" alt="" coords="271,183,466,225"/>
+<area shape="rect" id="node3" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="551,5,700,32"/>
+<area shape="rect" id="node4" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="536,56,715,83"/>
 </map>
 </div>
 
@@ -454,9 +486,9 @@ Functions</h2></td></tr>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a306ece82aab058379826a1142ad0a119_icgraph.png" border="0" usemap="#filetransfermsg_8c_a306ece82aab058379826a1142ad0a119_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a306ece82aab058379826a1142ad0a119_icgraph" id="filetransfermsg_8c_a306ece82aab058379826a1142ad0a119_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="259,31,392,57"/>
-<area shape="rect" id="node3" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="455,5,600,32"/>
-<area shape="rect" id="node4" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="440,56,615,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="263,31,399,57"/>
+<area shape="rect" id="node3" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="461,5,611,32"/>
+<area shape="rect" id="node4" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="447,56,625,83"/>
 </map>
 </div>
 
@@ -486,8 +518,8 @@ Functions</h2></td></tr>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a481f6aca079706450416c71072a81531_icgraph.png" border="0" usemap="#filetransfermsg_8c_a481f6aca079706450416c71072a81531_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a481f6aca079706450416c71072a81531_icgraph" id="filetransfermsg_8c_a481f6aca079706450416c71072a81531_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="219,5,364,32"/>
-<area shape="rect" id="node3" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="204,56,379,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="223,5,372,32"/>
+<area shape="rect" id="node3" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="208,56,387,83"/>
 </map>
 </div>
 
@@ -533,8 +565,8 @@ Functions</h2></td></tr>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_cgraph.png" border="0" usemap="#filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_cgraph" id="filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_cgraph">
-<area shape="rect" id="node2" href="handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="208,5,301,32"/>
-<area shape="rect" id="node3" href="filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="184,56,325,83"/>
+<area shape="rect" id="node2" href="handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="214,5,309,32"/>
+<area shape="rect" id="node3" href="filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="188,56,335,83"/>
 </map>
 </div>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -544,8 +576,8 @@ Functions</h2></td></tr>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_icgraph.png" border="0" usemap="#filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_icgraph" id="filetransfermsg_8c_a4f842d9eb93ce11ae4483dd422f4a2ed_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="199,5,344,32"/>
-<area shape="rect" id="node3" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="184,56,359,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="203,5,352,32"/>
+<area shape="rect" id="node3" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="188,56,367,83"/>
 </map>
 </div>
 
@@ -585,14 +617,14 @@ Functions</h2></td></tr>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_cgraph.png" border="0" usemap="#filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_cgraph" id="filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_cgraph">
-<area shape="rect" id="node2" href="filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578" title="GetSumOfFileNamesLength" alt="" coords="191,5,390,32"/>
-<area shape="rect" id="node3" href="filelistinfo_8c.html#a43e72fef150d97c9c1a14e3e2a25cc08" title="GetFileSizeAt" alt="" coords="237,56,344,83"/>
-<area shape="rect" id="node4" href="filelistinfo_8c.html#a16d387d05d60b06e5e4cbfe69e1a9df6" title="GetFileDataAt" alt="" coords="235,107,346,133"/>
-<area shape="rect" id="node5" href="filelistinfo_8c.html#a9697c606d7343b214285b5bd42840e1f" title="GetFileNameAt" alt="" coords="231,157,350,184"/>
-<area shape="rect" id="node6" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="195,208,386,235"/>
-<area shape="rect" id="node7" href="filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="188,259,393,301"/>
-<area shape="rect" id="node8" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="187,325,395,366"/>
-<area shape="rect" id="node9" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="443,332,617,359"/>
+<area shape="rect" id="node2" href="filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578" title="GetSumOfFileNamesLength" alt="" coords="196,5,397,32"/>
+<area shape="rect" id="node3" href="filelistinfo_8c.html#a43e72fef150d97c9c1a14e3e2a25cc08" title="GetFileSizeAt" alt="" coords="243,56,351,83"/>
+<area shape="rect" id="node4" href="filelistinfo_8c.html#a16d387d05d60b06e5e4cbfe69e1a9df6" title="GetFileDataAt" alt="" coords="241,107,353,133"/>
+<area shape="rect" id="node5" href="filelistinfo_8c.html#a9697c606d7343b214285b5bd42840e1f" title="GetFileNameAt" alt="" coords="237,157,357,184"/>
+<area shape="rect" id="node6" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="199,208,395,235"/>
+<area shape="rect" id="node7" href="filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="192,259,401,301"/>
+<area shape="rect" id="node8" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="189,325,404,366"/>
+<area shape="rect" id="node9" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="452,332,629,359"/>
 </map>
 </div>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -602,8 +634,8 @@ Functions</h2></td></tr>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_icgraph.png" border="0" usemap="#filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_icgraph" id="filetransfermsg_8c_a8cff3d15046774317738e0d39eca7f8c_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="201,5,347,32"/>
-<area shape="rect" id="node3" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="187,56,361,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="204,5,353,32"/>
+<area shape="rect" id="node3" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="189,56,368,83"/>
 </map>
 </div>
 
@@ -635,7 +667,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00704">704</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00703">703</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -643,12 +675,12 @@ Functions</h2></td></tr>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a2c1c68425b9e2379fe893aebc7362c30_icgraph.png" border="0" usemap="#filetransfermsg_8c_a2c1c68425b9e2379fe893aebc7362c30_icgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a2c1c68425b9e2379fe893aebc7362c30_icgraph" id="filetransfermsg_8c_a2c1c68425b9e2379fe893aebc7362c30_icgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="253,23,461,65"/>
-<area shape="rect" id="node6" href="filetransfermsg_8h.html#ab1aa05123bc9f29e32ae4c6e425795e7" title="GetFileUploadLengthErrResponseMsg" alt="" coords="228,89,487,116"/>
-<area shape="rect" id="node7" href="filetransfermsg_8h.html#a13bf704d8f27f1bc267cdfc1273b2257" title="GetFileUploadCompressedLevel\lErrMsg" alt="" coords="245,141,469,182"/>
-<area shape="rect" id="node3" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="535,31,668,57"/>
-<area shape="rect" id="node4" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="731,5,876,32"/>
-<area shape="rect" id="node5" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="716,56,891,83"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="255,23,469,65"/>
+<area shape="rect" id="node6" href="filetransfermsg_8h.html#ab1aa05123bc9f29e32ae4c6e425795e7" title="GetFileUploadLengthErrResponseMsg" alt="" coords="231,89,493,116"/>
+<area shape="rect" id="node7" href="filetransfermsg_8h.html#a13bf704d8f27f1bc267cdfc1273b2257" title="GetFileUploadCompressedLevel\lErrMsg" alt="" coords="247,141,477,182"/>
+<area shape="rect" id="node3" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="541,31,677,57"/>
+<area shape="rect" id="node4" href="filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="740,5,889,32"/>
+<area shape="rect" id="node5" href="filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="725,56,904,83"/>
 </map>
 </div>
 
@@ -680,7 +712,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00682">682</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00681">681</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
 
 </div>
 </div>
@@ -708,19 +740,19 @@ Functions</h2></td></tr>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_acb4dc6babdc23585245833e13d91b406_cgraph.png" border="0" usemap="#filetransfermsg_8c_acb4dc6babdc23585245833e13d91b406_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_acb4dc6babdc23585245833e13d91b406_cgraph" id="filetransfermsg_8c_acb4dc6babdc23585245833e13d91b406_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a4f842d9eb93ce11ae4483dd422f4a2ed" title="CreateFileListInfo" alt="" coords="209,56,339,83"/>
-<area shape="rect" id="node5" href="filetransfermsg_8c.html#a481f6aca079706450416c71072a81531" title="CreateFileListErrMsg" alt="" coords="199,132,349,159"/>
-<area shape="rect" id="node6" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="207,233,341,260"/>
-<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="455,5,548,32"/>
-<area shape="rect" id="node4" href="filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="431,56,572,83"/>
-<area shape="rect" id="node7" href="filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578" title="GetSumOfFileNamesLength" alt="" coords="402,107,601,133"/>
-<area shape="rect" id="node8" href="filelistinfo_8c.html#a43e72fef150d97c9c1a14e3e2a25cc08" title="GetFileSizeAt" alt="" coords="448,157,555,184"/>
-<area shape="rect" id="node9" href="filelistinfo_8c.html#a16d387d05d60b06e5e4cbfe69e1a9df6" title="GetFileDataAt" alt="" coords="446,208,557,235"/>
-<area shape="rect" id="node10" href="filelistinfo_8c.html#a9697c606d7343b214285b5bd42840e1f" title="GetFileNameAt" alt="" coords="442,259,561,285"/>
-<area shape="rect" id="node11" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="406,309,597,336"/>
-<area shape="rect" id="node12" href="filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="399,361,604,402"/>
-<area shape="rect" id="node13" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="397,426,605,467"/>
-<area shape="rect" id="node14" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="653,433,828,460"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a4f842d9eb93ce11ae4483dd422f4a2ed" title="CreateFileListInfo" alt="" coords="213,56,347,83"/>
+<area shape="rect" id="node5" href="filetransfermsg_8c.html#a481f6aca079706450416c71072a81531" title="CreateFileListErrMsg" alt="" coords="203,144,357,171"/>
+<area shape="rect" id="node6" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="212,233,348,260"/>
+<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="465,5,560,32"/>
+<area shape="rect" id="node4" href="filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="439,56,586,83"/>
+<area shape="rect" id="node7" href="filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578" title="GetSumOfFileNamesLength" alt="" coords="412,107,613,133"/>
+<area shape="rect" id="node8" href="filelistinfo_8c.html#a43e72fef150d97c9c1a14e3e2a25cc08" title="GetFileSizeAt" alt="" coords="459,157,567,184"/>
+<area shape="rect" id="node9" href="filelistinfo_8c.html#a16d387d05d60b06e5e4cbfe69e1a9df6" title="GetFileDataAt" alt="" coords="457,208,569,235"/>
+<area shape="rect" id="node10" href="filelistinfo_8c.html#a9697c606d7343b214285b5bd42840e1f" title="GetFileNameAt" alt="" coords="453,259,573,285"/>
+<area shape="rect" id="node11" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="415,309,611,336"/>
+<area shape="rect" id="node12" href="filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="408,361,617,402"/>
+<area shape="rect" id="node13" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="405,426,620,467"/>
+<area shape="rect" id="node14" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="668,433,845,460"/>
 </map>
 </div>
 
@@ -749,7 +781,7 @@ Functions</h2></td></tr>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_af2f1015ce8216a48fcaf022d86ceee28_cgraph.png" border="0" usemap="#filetransfermsg_8c_af2f1015ce8216a48fcaf022d86ceee28_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_af2f1015ce8216a48fcaf022d86ceee28_cgraph" id="filetransfermsg_8c_af2f1015ce8216a48fcaf022d86ceee28_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="228,5,419,32"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="232,5,428,32"/>
 </map>
 </div>
 
@@ -778,7 +810,7 @@ Functions</h2></td></tr>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a1e1ad3c6c82c8baa451b368206ca0719_cgraph.png" border="0" usemap="#filetransfermsg_8c_a1e1ad3c6c82c8baa451b368206ca0719_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a1e1ad3c6c82c8baa451b368206ca0719_cgraph" id="filetransfermsg_8c_a1e1ad3c6c82c8baa451b368206ca0719_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="243,13,433,39"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="248,13,444,39"/>
 </map>
 </div>
 
@@ -807,7 +839,7 @@ Functions</h2></td></tr>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_aaae659d0cebe25531aaf40beb0030398_cgraph.png" border="0" usemap="#filetransfermsg_8c_aaae659d0cebe25531aaf40beb0030398_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_aaae659d0cebe25531aaf40beb0030398_cgraph" id="filetransfermsg_8c_aaae659d0cebe25531aaf40beb0030398_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="287,5,477,32"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="292,5,488,32"/>
 </map>
 </div>
 
@@ -877,20 +909,20 @@ Functions</h2></td></tr>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a97922d620758d9b7aa8971a714962cea_cgraph.png" border="0" usemap="#filetransfermsg_8c_a97922d620758d9b7aa8971a714962cea_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a97922d620758d9b7aa8971a714962cea_cgraph" id="filetransfermsg_8c_a97922d620758d9b7aa8971a714962cea_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a4f842d9eb93ce11ae4483dd422f4a2ed" title="CreateFileListInfo" alt="" coords="238,56,369,83"/>
-<area shape="rect" id="node5" href="filetransfermsg_8c.html#a481f6aca079706450416c71072a81531" title="CreateFileListErrMsg" alt="" coords="228,183,379,209"/>
-<area shape="rect" id="node6" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="237,233,370,260"/>
-<area shape="rect" id="node15" href="filelistinfo_8c.html#a418047e13e5001cee5d0025e65324d13" title="FreeFileListInfo" alt="" coords="246,284,361,311"/>
-<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="484,5,577,32"/>
-<area shape="rect" id="node4" href="filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="460,56,601,83"/>
-<area shape="rect" id="node7" href="filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578" title="GetSumOfFileNamesLength" alt="" coords="431,107,630,133"/>
-<area shape="rect" id="node8" href="filelistinfo_8c.html#a43e72fef150d97c9c1a14e3e2a25cc08" title="GetFileSizeAt" alt="" coords="477,157,584,184"/>
-<area shape="rect" id="node9" href="filelistinfo_8c.html#a16d387d05d60b06e5e4cbfe69e1a9df6" title="GetFileDataAt" alt="" coords="475,208,586,235"/>
-<area shape="rect" id="node10" href="filelistinfo_8c.html#a9697c606d7343b214285b5bd42840e1f" title="GetFileNameAt" alt="" coords="471,259,590,285"/>
-<area shape="rect" id="node11" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="435,309,626,336"/>
-<area shape="rect" id="node12" href="filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="428,361,633,402"/>
-<area shape="rect" id="node13" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="427,426,635,467"/>
-<area shape="rect" id="node14" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="683,433,857,460"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a4f842d9eb93ce11ae4483dd422f4a2ed" title="CreateFileListInfo" alt="" coords="242,56,377,83"/>
+<area shape="rect" id="node5" href="filetransfermsg_8c.html#a481f6aca079706450416c71072a81531" title="CreateFileListErrMsg" alt="" coords="232,183,387,209"/>
+<area shape="rect" id="node6" href="filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="241,233,377,260"/>
+<area shape="rect" id="node15" href="filelistinfo_8c.html#a418047e13e5001cee5d0025e65324d13" title="FreeFileListInfo" alt="" coords="250,284,369,311"/>
+<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#a94b8cdf04ed3aa96f005ebee80919239" title="GetFtpRoot" alt="" coords="495,5,589,32"/>
+<area shape="rect" id="node4" href="filelistinfo_8c.html#a6c6685530c88f88f9913665b8767fbc7" title="AddFileListItemInfo" alt="" coords="469,56,615,83"/>
+<area shape="rect" id="node7" href="filelistinfo_8c.html#a95f31a78f2dd6a6d8b660734760d1578" title="GetSumOfFileNamesLength" alt="" coords="441,107,643,133"/>
+<area shape="rect" id="node8" href="filelistinfo_8c.html#a43e72fef150d97c9c1a14e3e2a25cc08" title="GetFileSizeAt" alt="" coords="488,157,596,184"/>
+<area shape="rect" id="node9" href="filelistinfo_8c.html#a16d387d05d60b06e5e4cbfe69e1a9df6" title="GetFileDataAt" alt="" coords="486,208,598,235"/>
+<area shape="rect" id="node10" href="filelistinfo_8c.html#a9697c606d7343b214285b5bd42840e1f" title="GetFileNameAt" alt="" coords="482,259,602,285"/>
+<area shape="rect" id="node11" href="filetransfermsg_8c.html#a2db3d5115ea087b4c5a74db71778d6b5" title="CreateFileDownloadErrMsg" alt="" coords="444,309,640,336"/>
+<area shape="rect" id="node12" href="filetransfermsg_8c.html#a306ece82aab058379826a1142ad0a119" title="CreateFileDownloadZeroSize\lDataMsg" alt="" coords="437,361,647,402"/>
+<area shape="rect" id="node13" href="filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="435,426,649,467"/>
+<area shape="rect" id="node14" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="697,433,875,460"/>
 </map>
 </div>
 
@@ -911,7 +943,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00652">652</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filetransfermsg_8c_source.html#l00651">651</a> of file <a class="el" href="filetransfermsg_8c_source.html">filetransfermsg.c</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
@@ -919,7 +951,7 @@ Functions</h2></td></tr>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_a13bf704d8f27f1bc267cdfc1273b2257_cgraph.png" border="0" usemap="#filetransfermsg_8c_a13bf704d8f27f1bc267cdfc1273b2257_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_a13bf704d8f27f1bc267cdfc1273b2257_cgraph" id="filetransfermsg_8c_a13bf704d8f27f1bc267cdfc1273b2257_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="277,13,452,39"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="283,13,460,39"/>
 </map>
 </div>
 
@@ -948,7 +980,7 @@ Functions</h2></td></tr>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="filetransfermsg_8c_ab1aa05123bc9f29e32ae4c6e425795e7_cgraph.png" border="0" usemap="#filetransfermsg_8c_ab1aa05123bc9f29e32ae4c6e425795e7_cgraph" alt=""/></div>
 <map name="filetransfermsg_8c_ab1aa05123bc9f29e32ae4c6e425795e7_cgraph" id="filetransfermsg_8c_ab1aa05123bc9f29e32ae4c6e425795e7_cgraph">
-<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="312,5,487,32"/>
+<area shape="rect" id="node2" href="filetransfermsg_8c.html#a2c1c68425b9e2379fe893aebc7362c30" title="CreateFileUploadErrMsg" alt="" coords="316,5,493,32"/>
 </map>
 </div>
 
@@ -957,7 +989,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 3 2018 01:21:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
