@@ -77,8 +77,7 @@ $(function() {
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="rfbproto_8h_source.html">rfb/rfbproto.h</a>&gt;</code><br />
-<code>#include &lt;sys/types.h&gt;</code><br />
-<code>#include &quot;threading.h&quot;</code><br />
+<code>#include &lt;<a class="el" href="threading_8h_source.html">rfb/threading.h</a>&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for rfb.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -87,6 +86,7 @@ $(function() {
 <div class="center"><img src="rfb_8h__incl.png" border="0" usemap="#rfb_2rfb_8h" alt=""/></div>
 <map name="rfb_2rfb_8h" id="rfb_2rfb_8h">
 <area shape="rect" id="node5" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,80,394,107"/>
+<area shape="rect" id="node8" href="threading_8h.html" title="rfb/threading.h" alt="" coords="418,80,537,107"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -176,14 +176,11 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga3adb1ec74d14601d08bb501f12a1735a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga3adb1ec74d14601d08bb501f12a1735a">rfbInitServer</a>&#160;&#160;&#160;rfbInitServerWithPthreadsAndZRLE</td></tr>
+<tr class="memitem:ga3adb1ec74d14601d08bb501f12a1735a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga3adb1ec74d14601d08bb501f12a1735a">rfbInitServer</a>&#160;&#160;&#160;rfbInitServerWithoutPthreadsAndZRLE</td></tr>
 <tr class="separator:ga3adb1ec74d14601d08bb501f12a1735a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61400348e73de4d4621acae7c8edd487"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfb_8h.html#a61400348e73de4d4621acae7c8edd487">UPDATE_BUF_SIZE</a>&#160;&#160;&#160;30000</td></tr>
 <tr class="memdesc:a61400348e73de4d4621acae7c8edd487"><td class="mdescLeft">&#160;</td><td class="mdescRight">UPDATE_BUF_SIZE must be big enough to send at least one whole line of the framebuffer.  <a href="#a61400348e73de4d4621acae7c8edd487">More...</a><br /></td></tr>
 <tr class="separator:a61400348e73de4d4621acae7c8edd487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa94f07cedb782297ce9b24a10979bba3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfb_8h.html#aa94f07cedb782297ce9b24a10979bba3">LIBVNCSERVER_SEND_MUTEX</a></td></tr>
-<tr class="memdesc:aa94f07cedb782297ce9b24a10979bba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">for thread safety for rfbSendFBUpdate()  <a href="#aa94f07cedb782297ce9b24a10979bba3">More...</a><br /></td></tr>
-<tr class="separator:aa94f07cedb782297ce9b24a10979bba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa184cd17aebf746da9300ad0a5a350ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaa184cd17aebf746da9300ad0a5a350ae">FB_UPDATE_PENDING</a>(cl)</td></tr>
 <tr class="memdesc:gaa184cd17aebf746da9300ad0a5a350ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro is used to test whether there is a framebuffer update needing to be sent to the client.  <a href="group__libvncserver__api.html#gaa184cd17aebf746da9300ad0a5a350ae">More...</a><br /></td></tr>
 <tr class="separator:gaa184cd17aebf746da9300ad0a5a350ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,17 +206,6 @@ Macros</h2></td></tr>
 <tr class="separator:ga41c3c5be27dabf6570009e7d471f5e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga195efa2e3073368f86325cb361c70375"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga195efa2e3073368f86325cb361c70375">ULTRA_MAX_SIZE</a>(min)</td></tr>
 <tr class="separator:ga195efa2e3073368f86325cb361c70375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36e6132da1ef2aa351b7b0d40d30cecf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga36e6132da1ef2aa351b7b0d40d30cecf">VNC_ENCODE_ZLIB_MIN_COMP_SIZE</a>&#160;&#160;&#160;(17)</td></tr>
-<tr class="memdesc:ga36e6132da1ef2aa351b7b0d40d30cecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum zlib rectangle size in bytes.  <a href="group__libvncserver__api.html#ga36e6132da1ef2aa351b7b0d40d30cecf">More...</a><br /></td></tr>
-<tr class="separator:ga36e6132da1ef2aa351b7b0d40d30cecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga849dffcc297e113bfb2d77d512e077fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga849dffcc297e113bfb2d77d512e077fa">ZLIB_MAX_RECT_SIZE</a>&#160;&#160;&#160;(128*256)</td></tr>
-<tr class="separator:ga849dffcc297e113bfb2d77d512e077fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad6b863deb0b7d428eb1db274e581eba3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad6b863deb0b7d428eb1db274e581eba3">ZLIB_MAX_SIZE</a>(min)</td></tr>
-<tr class="separator:gad6b863deb0b7d428eb1db274e581eba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae48880f85eff7a032b110fd0b6dc46af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gae48880f85eff7a032b110fd0b6dc46af">TIGHT_DEFAULT_COMPRESSION</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:gae48880f85eff7a032b110fd0b6dc46af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa230a05958161b1023a978279ebd0410"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaa230a05958161b1023a978279ebd0410">TURBO_DEFAULT_SUBSAMP</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:gaa230a05958161b1023a978279ebd0410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -330,17 +316,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga6fcf93c784bcc8e7fafd4d9a046dd973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga441ee3ed4bb634dbb1d12231b046e8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga441ee3ed4bb634dbb1d12231b046e8c3">rfbSetNonBlocking</a> (<a class="el" href="rfbproto_8h.html#ac65a5458e2a209a2a66e812376c3eed8">rfbSocket</a> sock)</td></tr>
 <tr class="separator:ga441ee3ed4bb634dbb1d12231b046e8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5d414a85f519679fbb92395d0b6fa433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga5d414a85f519679fbb92395d0b6fa433">webSocketsCheck</a> (rfbClientPtr cl)</td></tr>
-<tr class="separator:ga5d414a85f519679fbb92395d0b6fa433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacb56fa6e136edffe8a8b9754b00674b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gacb56fa6e136edffe8a8b9754b00674b0">webSocketCheckDisconnect</a> (rfbClientPtr cl)</td></tr>
-<tr class="memdesc:gacb56fa6e136edffe8a8b9754b00674b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a stub function that was once used for Hixie-encoding.  <a href="group__libvncserver__api.html#gacb56fa6e136edffe8a8b9754b00674b0">More...</a><br /></td></tr>
-<tr class="separator:gacb56fa6e136edffe8a8b9754b00674b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga76bf748e758748f2d2ad836d2feddd35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga76bf748e758748f2d2ad836d2feddd35">webSocketsEncode</a> (rfbClientPtr cl, const char *src, int len, char **dst)</td></tr>
-<tr class="separator:ga76bf748e758748f2d2ad836d2feddd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5db02391795ad333a739c5034b489d9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga5db02391795ad333a739c5034b489d9b">webSocketsDecode</a> (rfbClientPtr cl, char *dst, int len)</td></tr>
-<tr class="separator:ga5db02391795ad333a739c5034b489d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaadf8b1d045b50afa2741690723ae3b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaaadf8b1d045b50afa2741690723ae3b3">webSocketsHasDataInBuffer</a> (rfbClientPtr cl)</td></tr>
-<tr class="separator:gaaadf8b1d045b50afa2741690723ae3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacc4239e66c4bab330ec15e1472f8534c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gacc4239e66c4bab330ec15e1472f8534c">rfbClientListInit</a> (rfbScreenInfoPtr rfbScreen)</td></tr>
 <tr class="separator:gacc4239e66c4bab330ec15e1472f8534c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0e6ec0764fcf459b5f4e191eabc02469"><td class="memItemLeft" align="right" valign="top">rfbClientIteratorPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga0e6ec0764fcf459b5f4e191eabc02469">rfbGetClientIterator</a> (rfbScreenInfoPtr rfbScreen)</td></tr>
@@ -435,18 +410,6 @@ Functions</h2></td></tr>
 <tr class="separator:gaa0159e6e27182eb05b46f073eeed10ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7c2213e24518b3556f81d06ac4ef7e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga7c2213e24518b3556f81d06ac4ef7e16">rfbSendRectEncodingUltra</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
 <tr class="separator:ga7c2213e24518b3556f81d06ac4ef7e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaef3a327d190961712c6181323daf9cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaef3a327d190961712c6181323daf9cb7">rfbSendRectEncodingZlib</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:gaef3a327d190961712c6181323daf9cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0843886f1201dd27d1fdb9e4fce47477"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga0843886f1201dd27d1fdb9e4fce47477">rfbNumCodedRectsTight</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:ga0843886f1201dd27d1fdb9e4fce47477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c9b83bf36bc1c7b347689946e1f4148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga3c9b83bf36bc1c7b347689946e1f4148">rfbSendRectEncodingTight</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:ga3c9b83bf36bc1c7b347689946e1f4148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga653bf508d19dc1b924abb2aa49ab8015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga653bf508d19dc1b924abb2aa49ab8015">rfbSendTightHeader</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:ga653bf508d19dc1b924abb2aa49ab8015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabee2f89865105fb864c55b83784d7f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gabee2f89865105fb864c55b83784d7f40">rfbSendCompressedDataTight</a> (rfbClientPtr cl, char *buf, int compressedLen)</td></tr>
-<tr class="separator:gabee2f89865105fb864c55b83784d7f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad5c817fcf9a9535841859ba90e729a64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad5c817fcf9a9535841859ba90e729a64">rfbSendRectEncodingTightPng</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:gad5c817fcf9a9535841859ba90e729a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7c5fce8d751e0a4a8062f99a46bc77e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga7c5fce8d751e0a4a8062f99a46bc77e4">rfbSendCursorShape</a> (rfbClientPtr cl)</td></tr>
 <tr class="separator:ga7c5fce8d751e0a4a8062f99a46bc77e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga769f5d3434e867fbabb8638316ed7ecb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga769f5d3434e867fbabb8638316ed7ecb">rfbSendCursorPos</a> (rfbClientPtr cl)</td></tr>
@@ -470,8 +433,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6b2065e71b8c8780c383a09c9fbaf63d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga6b2065e71b8c8780c383a09c9fbaf63d">rfbDefaultPtrAddEvent</a> (int buttonMask, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, rfbClientPtr cl)</td></tr>
 <tr class="memdesc:ga6b2065e71b8c8780c383a09c9fbaf63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">cursor handling for the pointer  <a href="group__libvncserver__api.html#ga6b2065e71b8c8780c383a09c9fbaf63d">More...</a><br /></td></tr>
 <tr class="separator:ga6b2065e71b8c8780c383a09c9fbaf63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba32d5b02fde2f2ca5daca6cec3a345c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaba32d5b02fde2f2ca5daca6cec3a345c">rfbSendRectEncodingZRLE</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:gaba32d5b02fde2f2ca5daca6cec3a345c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga419f4ca804dcd64fca1f1c9777df852a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga419f4ca804dcd64fca1f1c9777df852a">rfbResetStats</a> (rfbClientPtr cl)</td></tr>
 <tr class="separator:ga419f4ca804dcd64fca1f1c9777df852a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad3f82c6dfabac23e6e344d735ed5bde7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gad3f82c6dfabac23e6e344d735ed5bde7">rfbPrintStats</a> (rfbClientPtr cl)</td></tr>
@@ -634,8 +595,6 @@ Variables</h2></td></tr>
 <tr class="separator:gaad72681b3673862735e4199a9cd9a2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac08a04d84f638dad1090e83b27d2a067"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gac08a04d84f638dad1090e83b27d2a067">rfbEconomicTranslate</a></td></tr>
 <tr class="separator:gac08a04d84f638dad1090e83b27d2a067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb1e2f6d906d82302750f6b472658f98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gadb1e2f6d906d82302750f6b472658f98">rfbTightDisableGradient</a></td></tr>
-<tr class="separator:gadb1e2f6d906d82302750f6b472658f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7f51e1d82713f715a5ad5ed7e0134669"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga7f51e1d82713f715a5ad5ed7e0134669">rfbReverseByte</a> [0x100]</td></tr>
 <tr class="separator:ga7f51e1d82713f715a5ad5ed7e0134669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7dbb19fc1e9af584f905801934b8c5c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncserver__api.html#gae40fbd2e2c5b9d05dd1a8e8d39526430">rfbLogProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#ga7dbb19fc1e9af584f905801934b8c5c5">rfbLog</a></td></tr>
@@ -644,24 +603,6 @@ Variables</h2></td></tr>
 <tr class="separator:ga00d1a8593444e51e0cc512d58836025f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa94f07cedb782297ce9b24a10979bba3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa94f07cedb782297ce9b24a10979bba3">&#9670;&nbsp;</a></span>LIBVNCSERVER_SEND_MUTEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LIBVNCSERVER_SEND_MUTEX</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>for thread safety for rfbSendFBUpdate() </p>
-
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00648">648</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
-
-</div>
-</div>
 <a id="a61400348e73de4d4621acae7c8edd487"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61400348e73de4d4621acae7c8edd487">&#9670;&nbsp;</a></span>UPDATE_BUF_SIZE</h2>
 
@@ -684,7 +625,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 13 2020 13:15:43 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

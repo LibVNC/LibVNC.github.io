@@ -22,7 +22,6 @@ var searchData=
   ['receiving',['receiving',['../structrfb_file_transfer_data.html#a90c73c14654cb24d44bd47d3345a36bf',1,'rfbFileTransferData']]],
   ['redmax',['redMax',['../structrfb_pixel_format.html#a07ca53b709f723484418082b4511540a',1,'rfbPixelFormat']]],
   ['redshift',['redShift',['../structrfb_pixel_format.html#ae15e89a5090279dd2fca4453a3a3f20a',1,'rfbPixelFormat']]],
-  ['refcount',['refCount',['../structrfb_client_rec.html#a43ab0d8eafd71383b2233bdee65911de',1,'rfbClientRec']]],
   ['requesteddepth',['requestedDepth',['../struct_app_data.html#ae126aaba2d1e4330bb45f0c012ad1908',1,'AppData']]],
   ['requesteddesktopsizechange',['requestedDesktopSizeChange',['../structrfb_client_rec.html#ade0b127f9dad628f97f4d2d36637ce4d',1,'rfbClientRec']]],
   ['requestedregion',['requestedRegion',['../structrfb_client_rec.html#a38531f807034549613836b7b3d5f83ca',1,'rfbClientRec']]],
@@ -40,7 +39,6 @@ var searchData=
   ['rfblog',['rfbLog',['../group__libvncserver__api.html#ga7dbb19fc1e9af584f905801934b8c5c5',1,'rfbLog():&#160;main.c'],['../group__libvncserver__api.html#ga7dbb19fc1e9af584f905801934b8c5c5',1,'rfbLog():&#160;main.c']]],
   ['rfbmaxclientwait',['rfbMaxClientWait',['../group__libvncserver__api.html#gaad72681b3673862735e4199a9cd9a2c2',1,'rfbMaxClientWait():&#160;sockets.c'],['../group__libvncserver__api.html#gaad72681b3673862735e4199a9cd9a2c2',1,'rfbMaxClientWait():&#160;sockets.c']]],
   ['rfbreversebyte',['rfbReverseByte',['../group__libvncserver__api.html#ga7f51e1d82713f715a5ad5ed7e0134669',1,'rfbReverseByte():&#160;cursor.c'],['../group__libvncserver__api.html#ga7f51e1d82713f715a5ad5ed7e0134669',1,'rfbReverseByte():&#160;cursor.c']]],
-  ['rfbtightdisablegradient',['rfbTightDisableGradient',['../group__libvncserver__api.html#gadb1e2f6d906d82302750f6b472658f98',1,'rfb.h']]],
   ['rgb',['rgb',['../struct_c_o_l_o_r___l_i_s_t.html#a28086d540d2e744ccf1edcbd27e5917b',1,'COLOR_LIST']]],
   ['richsource',['richSource',['../structrfb_cursor.html#af59ff96c2cd9ecb7760f00f542e41761',1,'rfbCursor']]],
   ['rsfb',['rsfb',['../unionrfb_server_to_client_msg.html#a29dcdedca091ee4e7348d521009d36b0',1,'rfbServerToClientMsg']]]

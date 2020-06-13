@@ -1,7 +1,5 @@
 <map id="rfbTightProcessArg" name="rfbTightProcessArg">
-<area shape="rect" id="node2" href="$handlefiletransferrequest_8c.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="210,56,327,83"/>
-<area shape="rect" id="node4" href="$handlefiletransferrequest_8c.html#ab761869aecb5d47d985a71bd6e49c544" title="SetFtpRoot" alt="" coords="394,107,486,133"/>
-<area shape="rect" id="node6" href="$handlefiletransferrequest_8c.html#abbfaade077bbfd4a00fcaf82b2a9275e" title="EnableFileTransfer" alt="" coords="199,157,339,184"/>
-<area shape="rect" id="node3" href="$handlefiletransferrequest_8c.html#adcc0b245f325acd8ac3bcdf9d5785bf6" title="GetHomeDir" alt="" coords="389,5,491,32"/>
-<area shape="rect" id="node5" href="$handlefiletransferrequest_8c.html#a051b3f8f20a64b56884761cd3497bb56" title="FreeHomeDir" alt="" coords="387,56,493,83"/>
+<area shape="rect" id="node2" href="$handlefiletransferrequest_8c.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="210,5,327,32"/>
+<area shape="rect" id="node3" href="$handlefiletransferrequest_8c.html#ab761869aecb5d47d985a71bd6e49c544" title="SetFtpRoot" alt="" coords="223,56,315,83"/>
+<area shape="rect" id="node4" href="$handlefiletransferrequest_8c.html#abbfaade077bbfd4a00fcaf82b2a9275e" title="EnableFileTransfer" alt="" coords="199,107,339,133"/>
 </map>

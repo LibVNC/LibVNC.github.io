@@ -1,5 +1,6 @@
 <map id="libvncclient/cursor.c" name="libvncclient/cursor.c">
-<area shape="rect" id="node2" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="245,80,355,107"/>
-<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="338,155,446,181"/>
-<area shape="rect" id="node13" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="470,155,578,181"/>
+<area shape="rect" id="node2" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="227,80,338,107"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,155,394,181"/>
+<area shape="rect" id="node9" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="418,155,526,181"/>
+<area shape="rect" id="node10" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="550,155,669,181"/>
 </map>

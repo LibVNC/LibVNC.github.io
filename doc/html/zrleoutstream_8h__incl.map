@@ -1,5 +1,6 @@
 <map id="libvncserver/zrleoutstream.h" name="libvncserver/zrleoutstream.h">
-<area shape="rect" id="node3" href="$zrletypes_8h.html" title="zrletypes.h" alt="" coords="80,80,175,107"/>
-<area shape="rect" id="node4" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="231,80,306,107"/>
-<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="328,155,436,181"/>
+<area shape="rect" id="node3" href="$zrletypes_8h.html" title="zrletypes.h" alt="" coords="87,80,181,107"/>
+<area shape="rect" id="node4" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="206,80,281,107"/>
+<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="303,155,411,181"/>
+<area shape="rect" id="node11" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="435,155,553,181"/>
 </map>

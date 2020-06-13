@@ -23,7 +23,6 @@ var searchData=
   ['permitserverinput',['PermitServerInput',['../group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7',1,'PermitServerInput(rfbClient *client, int enabled):&#160;rfbproto.c'],['../group__libvncclient__api.html#ga430901a9025d2fce8b9ba63bcee0a9c7',1,'PermitServerInput(rfbClient *client, int enabled):&#160;rfbproto.c']]],
   ['pf_5feq',['PF_EQ',['../translate_8c.html#a07a8ab46cdc318aa07854fd2ceb42489',1,'translate.c']]],
   ['picture_5ftimeout',['PICTURE_TIMEOUT',['../camera_8c.html#a7294a2f84ccd42d5de7cb3ca655a52ce',1,'camera.c']]],
-  ['pipe_5fnotify_5fclient_5fthread',['pipe_notify_client_thread',['../structrfb_client_rec.html#a9e9896549bd6bb32afe748a3d469bece',1,'rfbClientRec']]],
   ['pixel_5ft',['PIXEL_T',['../zrleencodetemplate_8c.html#ab4472600f4f77bd72e51d116ed5138ed',1,'zrleencodetemplate.c']]],
   ['pnmshow_2ec',['pnmshow.c',['../pnmshow_8c.html',1,'']]],
   ['pnmshow24_2ec',['pnmshow24.c',['../pnmshow24_8c.html',1,'']]],

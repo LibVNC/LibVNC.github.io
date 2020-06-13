@@ -64,8 +64,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">handlefiletransferrequest.c File Reference</div>  </div>
 </div><!--header-->
@@ -90,11 +89,12 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="handlefiletransferrequest_8c__incl.png" border="0" usemap="#libvncserver_2tightvnc-filetransfer_2handlefiletransferrequest_8c" alt=""/></div>
 <map name="libvncserver_2tightvnc-filetransfer_2handlefiletransferrequest_8c" id="libvncserver_2tightvnc-filetransfer_2handlefiletransferrequest_8c">
-<area shape="rect" id="node10" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="375,169,450,196"/>
-<area shape="rect" id="node18" href="rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="423,95,539,121"/>
-<area shape="rect" id="node19" href="filetransfermsg_8h.html" title="filetransfermsg.h" alt="" coords="985,95,1118,121"/>
-<area shape="rect" id="node20" href="handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="149,95,348,121"/>
-<area shape="rect" id="node11" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="359,244,467,271"/>
+<area shape="rect" id="node10" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="285,169,360,196"/>
+<area shape="rect" id="node14" href="rfbtightproto_8h.html" title="rfbtightproto.h" alt="" coords="310,95,426,121"/>
+<area shape="rect" id="node15" href="filetransfermsg_8h.html" title="filetransfermsg.h" alt="" coords="992,95,1125,121"/>
+<area shape="rect" id="node16" href="handlefiletransferrequest_8h.html" title="handlefiletransferrequest.h" alt="" coords="36,95,235,121"/>
+<area shape="rect" id="node11" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="262,244,370,271"/>
+<area shape="rect" id="node13" href="threading_8h.html" title="rfb/threading.h" alt="" coords="119,244,238,271"/>
 </map>
 </div>
 </div>
@@ -155,17 +155,6 @@ Functions</h2></td></tr>
 <tr class="separator:a71c692266ebc435f5d8ddd4db56fc373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7159879e27594873306f16c2838fd6b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="handlefiletransferrequest_8c.html#a7159879e27594873306f16c2838fd6b6">HandleFileCreateDirRequest</a> (rfbClientPtr cl, rfbTightClientPtr rtcp)</td></tr>
 <tr class="separator:a7159879e27594873306f16c2838fd6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a22c5b1dcbbdd587ff590039cc0235b52"><td class="memItemLeft" align="right" valign="top">pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="handlefiletransferrequest_8c.html#a22c5b1dcbbdd587ff590039cc0235b52">fileDownloadMutex</a> = PTHREAD_MUTEX_INITIALIZER</td></tr>
-<tr class="separator:a22c5b1dcbbdd587ff590039cc0235b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc02aa13627b3f9febdceaf7e5dd0248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="handlefiletransferrequest_8c.html#abc02aa13627b3f9febdceaf7e5dd0248">fileTransferEnabled</a> = <a class="el" href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></td></tr>
-<tr class="separator:abc02aa13627b3f9febdceaf7e5dd0248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67a50999748e598d45bb6540f0294224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="handlefiletransferrequest_8c.html#a67a50999748e598d45bb6540f0294224">fileTransferInitted</a> = <a class="el" href="rfbproto_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></td></tr>
-<tr class="separator:a67a50999748e598d45bb6540f0294224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e077e00065d8305211fda9b98efe7c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="handlefiletransferrequest_8c.html#a19e077e00065d8305211fda9b98efe7c">ftproot</a> [<a class="el" href="rfbtightproto_8h.html#ae688d728e1acdfe5988c7db45d6f0166">PATH_MAX</a>]</td></tr>
-<tr class="separator:a19e077e00065d8305211fda9b98efe7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a828bb1dfda1afd67ca795075903d227d"></a>
@@ -252,17 +241,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00211">211</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="handlefiletransferrequest_8c_a051b3f8f20a64b56884761cd3497bb56_icgraph.png" border="0" usemap="#handlefiletransferrequest_8c_a051b3f8f20a64b56884761cd3497bb56_icgraph" alt=""/></div>
-<map name="handlefiletransferrequest_8c_a051b3f8f20a64b56884761cd3497bb56_icgraph" id="handlefiletransferrequest_8c_a051b3f8f20a64b56884761cd3497bb56_icgraph">
-<area shape="rect" id="node2" href="handlefiletransferrequest_8h.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="160,5,277,32"/>
-<area shape="rect" id="node3" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230" title="rfbTightProcessArg" alt="" coords="325,5,471,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -282,11 +260,11 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00264">264</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="handlefiletransferrequest_8c_a94b8cdf04ed3aa96f005ebee80919239_icgraph.png" border="0" usemap="#handlefiletransferrequest_8c_a94b8cdf04ed3aa96f005ebee80919239_icgraph" alt=""/></div>
 <map name="handlefiletransferrequest_8c_a94b8cdf04ed3aa96f005ebee80919239_icgraph" id="handlefiletransferrequest_8c_a94b8cdf04ed3aa96f005ebee80919239_icgraph">
 <area shape="rect" id="node2" href="filetransfermsg_8c.html#a4f842d9eb93ce11ae4483dd422f4a2ed" title="CreateFileListInfo" alt="" coords="148,31,283,57"/>
@@ -314,17 +292,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00172">172</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="handlefiletransferrequest_8c_adcc0b245f325acd8ac3bcdf9d5785bf6_icgraph.png" border="0" usemap="#handlefiletransferrequest_8c_adcc0b245f325acd8ac3bcdf9d5785bf6_icgraph" alt=""/></div>
-<map name="handlefiletransferrequest_8c_adcc0b245f325acd8ac3bcdf9d5785bf6_icgraph" id="handlefiletransferrequest_8c_adcc0b245f325acd8ac3bcdf9d5785bf6_icgraph">
-<area shape="rect" id="node2" href="handlefiletransferrequest_8h.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="156,5,273,32"/>
-<area shape="rect" id="node3" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230" title="rfbTightProcessArg" alt="" coords="321,5,467,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -710,23 +677,11 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00080">80</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_cgraph.png" border="0" usemap="#handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_cgraph" alt=""/></div>
-<map name="handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_cgraph" id="handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_cgraph">
-<area shape="rect" id="node2" href="handlefiletransferrequest_8c.html#adcc0b245f325acd8ac3bcdf9d5785bf6" title="GetHomeDir" alt="" coords="173,5,275,32"/>
-<area shape="rect" id="node3" href="handlefiletransferrequest_8c.html#ab761869aecb5d47d985a71bd6e49c544" title="SetFtpRoot" alt="" coords="178,56,270,83"/>
-<area shape="rect" id="node4" href="handlefiletransferrequest_8c.html#a051b3f8f20a64b56884761cd3497bb56" title="FreeHomeDir" alt="" coords="171,107,277,133"/>
-</map>
-</div>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_icgraph.png" border="0" usemap="#handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_icgraph" alt=""/></div>
 <map name="handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_icgraph" id="handlefiletransferrequest_8c_a9199afedaf315e8168e66b24020943be_icgraph">
 <area shape="rect" id="node2" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230" title="rfbTightProcessArg" alt="" coords="171,5,316,32"/>
@@ -851,89 +806,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00116">116</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="handlefiletransferrequest_8c_ab761869aecb5d47d985a71bd6e49c544_icgraph.png" border="0" usemap="#handlefiletransferrequest_8c_ab761869aecb5d47d985a71bd6e49c544_icgraph" alt=""/></div>
 <map name="handlefiletransferrequest_8c_ab761869aecb5d47d985a71bd6e49c544_icgraph" id="handlefiletransferrequest_8c_ab761869aecb5d47d985a71bd6e49c544_icgraph">
-<area shape="rect" id="node2" href="handlefiletransferrequest_8h.html#a9199afedaf315e8168e66b24020943be" title="InitFileTransfer" alt="" coords="145,5,263,32"/>
-<area shape="rect" id="node3" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230" title="rfbTightProcessArg" alt="" coords="311,31,456,57"/>
+<area shape="rect" id="node2" href="rfbtightserver_8c.html#a9dc26b72b9cc9198baffa0630f2ad230" title="rfbTightProcessArg" alt="" coords="145,5,291,32"/>
 </map>
 </div>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a22c5b1dcbbdd587ff590039cc0235b52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22c5b1dcbbdd587ff590039cc0235b52">&#9670;&nbsp;</a></span>fileDownloadMutex</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">pthread_mutex_t fileDownloadMutex = PTHREAD_MUTEX_INITIALIZER</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00056">56</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-
-</div>
-</div>
-<a id="abc02aa13627b3f9febdceaf7e5dd0248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc02aa13627b3f9febdceaf7e5dd0248">&#9670;&nbsp;</a></span>fileTransferEnabled</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> fileTransferEnabled = <a class="el" href="rfbproto_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00058">58</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-
-</div>
-</div>
-<a id="a67a50999748e598d45bb6540f0294224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67a50999748e598d45bb6540f0294224">&#9670;&nbsp;</a></span>fileTransferInitted</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> fileTransferInitted = <a class="el" href="rfbproto_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00059">59</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
-
-</div>
-</div>
-<a id="a19e077e00065d8305211fda9b98efe7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19e077e00065d8305211fda9b98efe7c">&#9670;&nbsp;</a></span>ftproot</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char ftproot[<a class="el" href="rfbtightproto_8h.html#ae688d728e1acdfe5988c7db45d6f0166">PATH_MAX</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="handlefiletransferrequest_8c_source.html#l00060">60</a> of file <a class="el" href="handlefiletransferrequest_8c_source.html">handlefiletransferrequest.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 13 2020 13:15:43 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

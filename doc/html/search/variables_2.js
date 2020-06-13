@@ -7,7 +7,6 @@ var searchData=
   ['backblue',['backBlue',['../structrfb_cursor.html#a80ad5f2bbcaf81045b6b0bb82ce8efc5',1,'rfbCursor::backBlue()'],['../structrfb_x_cursor_colors.html#a65e683de07cf23714698f5b02281ed3f',1,'rfbXCursorColors::backBlue()']]],
   ['backcolour',['backColour',['../structrfb_select_data.html#acaec605bde0603ac3b60198d9ad19b22',1,'rfbSelectData']]],
   ['backgreen',['backGreen',['../structrfb_cursor.html#ab9315a1baa0faff6899a99bb47df689c',1,'rfbCursor::backGreen()'],['../structrfb_x_cursor_colors.html#a7a8b8408608fe3cb5863f59cf0ae82ed',1,'rfbXCursorColors::backGreen()']]],
-  ['backgroundloop',['backgroundLoop',['../structrfb_screen_info.html#a73bba5902f55fbdd2ec181fd151daf96',1,'rfbScreenInfo']]],
   ['backred',['backRed',['../structrfb_cursor.html#a7915995f48cdfd2a2c30d734c9518eaa',1,'rfbCursor::backRed()'],['../structrfb_x_cursor_colors.html#a19f7891d3fcb5f29770f527550390dc1',1,'rfbXCursorColors::backRed()']]],
   ['base64',['base64',['../structws__ctx__s.html#af7101cc4f4dfc580c7c48ef40a37c745',1,'ws_ctx_s']]],
   ['beforeencbuf',['beforeEncBuf',['../structrfb_client_rec.html#a3fde6822c6f3ebf1871548a4d08f2065',1,'rfbClientRec']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['wait',['WAIT',['../threading_8h.html#a7bc196bf22c20ff1f9cccb0c4a97e892',1,'threading.h']]],
   ['websockets_5fclient_5fconnect_5fwait_5fms',['WEBSOCKETS_CLIENT_CONNECT_WAIT_MS',['../websockets_8c.html#abebc28930e8a1f4a77932367e6da5c82',1,'websockets.c']]],
   ['websockets_5fclient_5fsend_5fwait_5fms',['WEBSOCKETS_CLIENT_SEND_WAIT_MS',['../websockets_8c.html#ac61a92ae0ec421fbfea3747b6e28124c',1,'websockets.c']]],
   ['websockets_5fmax_5fhandshake_5flen',['WEBSOCKETS_MAX_HANDSHAKE_LEN',['../websockets_8c.html#a58859b4a3f1f774abaa01edd5b3b007c',1,'websockets.c']]],

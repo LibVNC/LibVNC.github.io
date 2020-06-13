@@ -77,8 +77,9 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="libvncserver_2zlib_8c__incl.png" border="0" usemap="#libvncserver_2zlib_8c" alt=""/></div>
 <map name="libvncserver_2zlib_8c" id="libvncserver_2zlib_8c">
-<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,80,320,107"/>
+<area shape="rect" id="node2" href="rfb_8h.html" title="rfb/rfb.h" alt="" coords="189,80,264,107"/>
 <area shape="rect" id="node6" href="rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,155,394,181"/>
+<area shape="rect" id="node9" href="threading_8h.html" title="rfb/threading.h" alt="" coords="418,155,537,181"/>
 </map>
 </div>
 </div>
@@ -93,8 +94,8 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a1bcd688a07658a2551a21704af29eab0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libvncserver_2zlib_8c.html#a1bcd688a07658a2551a21704af29eab0">rfbZlibCleanup</a> (rfbScreenInfoPtr screen)</td></tr>
 <tr class="separator:a1bcd688a07658a2551a21704af29eab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaef3a327d190961712c6181323daf9cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libvncserver__api.html#gaef3a327d190961712c6181323daf9cb7">rfbSendRectEncodingZlib</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
-<tr class="separator:gaef3a327d190961712c6181323daf9cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3a327d190961712c6181323daf9cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libvncserver_2zlib_8c.html#aef3a327d190961712c6181323daf9cb7">rfbSendRectEncodingZlib</a> (rfbClientPtr cl, int <a class="el" href="_s_d_lvncviewer_8c.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, int <a class="el" href="_s_d_lvncviewer_8c.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, int w, int h)</td></tr>
+<tr class="separator:aef3a327d190961712c6181323daf9cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="af409fb3ab68b0de34fadad58cd6f744f"></a>
@@ -114,6 +115,54 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aef3a327d190961712c6181323daf9cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3a327d190961712c6181323daf9cb7">&#9670;&nbsp;</a></span>rfbSendRectEncodingZlib()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> rfbSendRectEncodingZlib </td>
+          <td>(</td>
+          <td class="paramtype">rfbClientPtr&#160;</td>
+          <td class="paramname"><em>cl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="libvncserver_2zlib_8c_source.html#l00274">274</a> of file <a class="el" href="libvncserver_2zlib_8c_source.html">zlib.c</a>.</p>
+
+</div>
+</div>
 <a id="a1bcd688a07658a2551a21704af29eab0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bcd688a07658a2551a21704af29eab0">&#9670;&nbsp;</a></span>rfbZlibCleanup()</h2>
 
@@ -137,7 +186,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 17 2020 17:04:47 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 13 2020 13:15:43 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

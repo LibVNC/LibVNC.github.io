@@ -1,4 +1,5 @@
 <map id="examples/vncev.c" name="examples/vncev.c">
-<area shape="rect" id="node6" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="291,80,366,107"/>
-<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="285,155,393,181"/>
+<area shape="rect" id="node6" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="301,80,375,107"/>
+<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="167,155,275,181"/>
+<area shape="rect" id="node10" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="24,155,143,181"/>
 </map>

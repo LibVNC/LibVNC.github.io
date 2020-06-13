@@ -1,4 +1,5 @@
 <map id="libvncserver/ws_decode.h" name="libvncserver/ws_decode.h">
-<area shape="rect" id="node3" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="234,80,309,107"/>
-<area shape="rect" id="node7" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="331,155,439,181"/>
+<area shape="rect" id="node3" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="193,80,267,107"/>
+<area shape="rect" id="node7" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="337,155,445,181"/>
+<area shape="rect" id="node9" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="469,155,588,181"/>
 </map>

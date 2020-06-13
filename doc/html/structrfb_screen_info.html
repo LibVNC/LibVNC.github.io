@@ -59,7 +59,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">rfbScreenInfoPtr Struct Reference<div class="ingroups"><a class="el" href="group__libvncserver__api.html">LibVNCServer API Reference</a></div></div>  </div>
@@ -71,11 +70,6 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="rfb_8h_source.html">rfb.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a9b597ac8203f25138eb9ba6a97281a0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_screen_info.html#a9b597ac8203f25138eb9ba6a97281a0f">MUTEX</a> (cursorMutex)</td></tr>
-<tr class="separator:a9b597ac8203f25138eb9ba6a97281a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a93d75189402ece6b9f87fa11d9a292f4"><td class="memItemLeft" align="right" valign="top">struct _rfbScreenInfo *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_screen_info.html#a93d75189402ece6b9f87fa11d9a292f4">scaledScreenNext</a></td></tr>
@@ -221,8 +215,6 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a6bf56fb41e6bf1b684e0fbec173f7ba5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__libvncserver__api.html#ga430c1247af8645c124081a01563f8451">rfbGetKeyboardLedStateHookPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_screen_info.html#a6bf56fb41e6bf1b684e0fbec173f7ba5">getKeyboardLedStateHook</a></td></tr>
 <tr class="memdesc:a6bf56fb41e6bf1b684e0fbec173f7ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">These hooks are called to pass keyboard state back to the client.  <a href="#a6bf56fb41e6bf1b684e0fbec173f7ba5">More...</a><br /></td></tr>
 <tr class="separator:a6bf56fb41e6bf1b684e0fbec173f7ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73bba5902f55fbdd2ec181fd151daf96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_screen_info.html#a73bba5902f55fbdd2ec181fd151daf96">backgroundLoop</a></td></tr>
-<tr class="separator:a73bba5902f55fbdd2ec181fd151daf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b7ed741f7070e772651e18505d8c03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrfb_screen_info.html#a43b7ed741f7070e772651e18505d8c03">ignoreSIGPIPE</a></td></tr>
 <tr class="memdesc:a43b7ed741f7070e772651e18505d8c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">if TRUE, an ignoring signal handler is installed for SIGPIPE  <a href="#a43b7ed741f7070e772651e18505d8c03">More...</a><br /></td></tr>
 <tr class="separator:a43b7ed741f7070e772651e18505d8c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,26 +277,7 @@ Data Fields</h2></td></tr>
 <p>There can be as many as you wish, each serving different clients. However, you have to call rfbProcessEvents for each of these. </p>
 
 <p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00198">198</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9b597ac8203f25138eb9ba6a97281a0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b597ac8203f25138eb9ba6a97281a0f">&#9670;&nbsp;</a></span>MUTEX()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MUTEX </td>
-          <td>(</td>
-          <td class="paramtype">cursorMutex&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Field Documentation</h2>
+</div><h2 class="groupheader">Field Documentation</h2>
 <a id="ae346b0de237536f9c60e41900add8b9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae346b0de237536f9c60e41900add8b9c">&#9670;&nbsp;</a></span>allFds</h2>
 
@@ -384,22 +357,6 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00228">228</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
-
-</div>
-</div>
-<a id="a73bba5902f55fbdd2ec181fd151daf96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73bba5902f55fbdd2ec181fd151daf96">&#9670;&nbsp;</a></span>backgroundLoop</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="rfbproto_8h.html#a329f406ebc51f975c9df984a6b98c74d">rfbBool</a> backgroundLoop</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="rfb_8h_source.html#l00312">312</a> of file <a class="el" href="rfb_8h_source.html">rfb.h</a>.</p>
 
 </div>
 </div>
@@ -1786,7 +1743,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 17 2020 17:04:48 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 13 2020 13:15:44 for LibVNCServer/LibVNCClient by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

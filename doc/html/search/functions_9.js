@@ -5,5 +5,5 @@ var searchData=
   ['messagenameserver2client',['messageNameServer2Client',['../group__libvncserver__api.html#gae0a8c168d432a12298d37b7f2431fd8a',1,'messageNameServer2Client(uint32_t type, char *buf, int len):&#160;stats.c'],['../group__libvncserver__api.html#gae0a8c168d432a12298d37b7f2431fd8a',1,'messageNameServer2Client(uint32_t type, char *buf, int len):&#160;stats.c']]],
   ['movie_5fclose',['movie_close',['../vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75',1,'vnc2mpg.c']]],
   ['movie_5fopen',['movie_open',['../vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441',1,'vnc2mpg.c']]],
-  ['mutex',['MUTEX',['../structrfb_screen_info.html#a9b597ac8203f25138eb9ba6a97281a0f',1,'rfbScreenInfo::MUTEX()'],['../structrfb_client_rec.html#a6d5f2e846fb571d8fd6041e8fb918153',1,'rfbClientRec::MUTEX(refCountMutex)'],['../structrfb_client_rec.html#a3e0cb1935046b27287278ff6dbbb44f7',1,'rfbClientRec::MUTEX(outputMutex)'],['../structrfb_client_rec.html#abc3cdbe982ae7599bdb4528308686d0f',1,'rfbClientRec::MUTEX(updateMutex)'],['../structrfb_client_rec.html#a6e21ded1689e4dbd65e72e7269dfe3bb',1,'rfbClientRec::MUTEX(sendMutex)'],['../structrfb_client.html#a3c9dcb16be8ba8a842b98b9d31ca350f',1,'rfbClient::MUTEX()']]]
+  ['mutex',['MUTEX',['../structrfb_client.html#a3c9dcb16be8ba8a842b98b9d31ca350f',1,'rfbClient']]]
 ];

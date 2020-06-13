@@ -16,6 +16,7 @@ var searchData=
   ['uncompresscpixel',['UncompressCPixel',['../trle_8c.html#acbf8f0dc9a4b5950312afc37789dcd53',1,'trle.c']]],
   ['undercursorbuffer',['underCursorBuffer',['../structrfb_screen_info.html#aceaccd0169648409ac18f1175db16206',1,'rfbScreenInfo']]],
   ['undercursorbufferlen',['underCursorBufferLen',['../structrfb_screen_info.html#ac9f032273fb0fc71af522f48b7ae0e8e',1,'rfbScreenInfo']]],
+  ['unlock',['UNLOCK',['../threading_8h.html#aab75c4136289e7d71035be5153b19b5d',1,'threading.h']]],
   ['unlockwritetotls',['UnlockWriteToTLS',['../structrfb_client.html#a2eb26a7772b4d3d3d40b49533b0d0793',1,'rfbClient']]],
   ['unlockwritetotlsproc',['UnlockWriteToTLSProc',['../group__libvncclient__api.html#gae70582f97491063adaf66723cb5809d8',1,'rfbclient.h']]],
   ['unused',['unused',['../structrfb_file_download_cancel_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileDownloadCancelMsg::unused()'],['../structrfb_file_upload_failed_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileUploadFailedMsg::unused()'],['../structrfb_file_create_dir_request_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileCreateDirRequestMsg::unused()'],['../structrfb_file_upload_cancel_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileUploadCancelMsg::unused()'],['../structrfb_file_download_failed_msg.html#af3138032961911b5742b4344e37f43d4',1,'rfbFileDownloadFailedMsg::unused()']]],

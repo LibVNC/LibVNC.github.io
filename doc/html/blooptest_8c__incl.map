@@ -1,6 +1,7 @@
 <map id="examples/blooptest.c" name="examples/blooptest.c">
-<area shape="rect" id="node2" href="$example_8c.html" title="example.c" alt="" coords="295,80,385,107"/>
-<area shape="rect" id="node4" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="245,155,320,181"/>
-<area shape="rect" id="node17" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="345,155,453,181"/>
+<area shape="rect" id="node2" href="$example_8c.html" title="example.c" alt="" coords="239,80,329,107"/>
+<area shape="rect" id="node4" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="189,155,264,181"/>
+<area shape="rect" id="node12" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="289,155,397,181"/>
 <area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,229,394,256"/>
+<area shape="rect" id="node11" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="418,229,537,256"/>
 </map>

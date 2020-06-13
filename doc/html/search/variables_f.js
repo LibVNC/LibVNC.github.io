@@ -18,7 +18,6 @@ var searchData=
   ['peekstart',['peekstart',['../structrfbssl__ctx.html#a7ffe64f39e35167cc49eb2f9c8c9d086',1,'rfbssl_ctx']]],
   ['pentries',['pEntries',['../struct_file_list_info.html#afd85a687d86116b839e7f5f41bedaec5',1,'FileListInfo']]],
   ['permitfiletransfer',['permitFileTransfer',['../structrfb_screen_info.html#ac90ccd97245761f7702fc3152b9dc31f',1,'rfbScreenInfo']]],
-  ['pipe_5fnotify_5fclient_5fthread',['pipe_notify_client_thread',['../structrfb_client_rec.html#a9e9896549bd6bb32afe748a3d469bece',1,'rfbClientRec']]],
   ['pointerclient',['pointerClient',['../structrfb_screen_info.html#abffc840d8071d986c9506b683e617782',1,'rfbScreenInfo']]],
   ['port',['port',['../structrfb_screen_info.html#a63c89c04d1feae07ca35558055155ffb',1,'rfbScreenInfo']]],
   ['position',['position',['../structrfb_file_download_request_msg.html#ac66edcab862b65e1d49ce97f9c74690c',1,'rfbFileDownloadRequestMsg::position()'],['../structrfb_file_upload_request_msg.html#ac66edcab862b65e1d49ce97f9c74690c',1,'rfbFileUploadRequestMsg::position()']]],

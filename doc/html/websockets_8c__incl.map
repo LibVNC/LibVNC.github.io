@@ -1,6 +1,7 @@
 <map id="libvncserver/websockets.c" name="libvncserver/websockets.c">
-<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="306,155,381,181"/>
-<area shape="rect" id="node16" href="$rfbssl_8h.html" title="rfbssl.h" alt="" coords="49,80,120,107"/>
-<area shape="rect" id="node18" href="$ws__decode_8h.html" title="ws_decode.h" alt="" coords="438,80,545,107"/>
-<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="289,229,397,256"/>
+<area shape="rect" id="node2" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="352,155,427,181"/>
+<area shape="rect" id="node11" href="$rfbssl_8h.html" title="rfbssl.h" alt="" coords="508,80,578,107"/>
+<area shape="rect" id="node13" href="$ws__decode_8h.html" title="ws_decode.h" alt="" coords="326,80,432,107"/>
+<area shape="rect" id="node6" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="118,229,226,256"/>
+<area shape="rect" id="node9" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="342,229,461,256"/>
 </map>

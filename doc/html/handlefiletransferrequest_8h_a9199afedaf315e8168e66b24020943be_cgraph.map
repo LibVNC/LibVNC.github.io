@@ -1,5 +1,0 @@
-<map id="InitFileTransfer" name="InitFileTransfer">
-<area shape="rect" id="node2" href="$handlefiletransferrequest_8c.html#adcc0b245f325acd8ac3bcdf9d5785bf6" title="GetHomeDir" alt="" coords="173,5,275,32"/>
-<area shape="rect" id="node3" href="$handlefiletransferrequest_8c.html#ab761869aecb5d47d985a71bd6e49c544" title="SetFtpRoot" alt="" coords="178,56,270,83"/>
-<area shape="rect" id="node4" href="$handlefiletransferrequest_8c.html#a051b3f8f20a64b56884761cd3497bb56" title="FreeHomeDir" alt="" coords="171,107,277,133"/>
-</map>

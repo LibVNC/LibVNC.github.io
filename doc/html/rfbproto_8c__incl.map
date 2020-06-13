@@ -1,15 +1,16 @@
 <map id="libvncclient/rfbproto.c" name="libvncclient/rfbproto.c">
 <area shape="rect" id="node7" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="511,80,622,107"/>
-<area shape="rect" id="node24" href="$sasl_8h.html" title="sasl.h" alt="" coords="1035,80,1095,107"/>
-<area shape="rect" id="node26" href="$tls_8h.html" title="tls.h" alt="" coords="1227,80,1277,107"/>
-<area shape="rect" id="node27" href="$libvncclient_2rre_8c.html" title="rre.c" alt="" coords="1301,80,1352,107"/>
-<area shape="rect" id="node28" href="$libvncclient_2corre_8c.html" title="corre.c" alt="" coords="1376,80,1443,107"/>
-<area shape="rect" id="node29" href="$libvncclient_2hextile_8c.html" title="hextile.c" alt="" coords="1467,80,1546,107"/>
-<area shape="rect" id="node30" href="$libvncclient_2ultra_8c.html" title="ultra.c" alt="" coords="1570,80,1633,107"/>
-<area shape="rect" id="node31" href="$libvncclient_2zlib_8c.html" title="zlib.c" alt="" coords="1657,80,1713,107"/>
-<area shape="rect" id="node32" href="$libvncclient_2tight_8c.html" title="tight.c" alt="" coords="1738,80,1801,107"/>
-<area shape="rect" id="node33" href="$trle_8c.html" title="trle.c" alt="" coords="1825,80,1879,107"/>
-<area shape="rect" id="node34" href="$libvncclient_2zrle_8c.html" title="zrle.c" alt="" coords="1903,80,1961,107"/>
-<area shape="rect" id="node11" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="605,155,713,181"/>
-<area shape="rect" id="node18" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="737,155,845,181"/>
+<area shape="rect" id="node20" href="$sasl_8h.html" title="sasl.h" alt="" coords="1035,80,1095,107"/>
+<area shape="rect" id="node22" href="$tls_8h.html" title="tls.h" alt="" coords="1227,80,1277,107"/>
+<area shape="rect" id="node23" href="$libvncclient_2rre_8c.html" title="rre.c" alt="" coords="1301,80,1352,107"/>
+<area shape="rect" id="node24" href="$libvncclient_2corre_8c.html" title="corre.c" alt="" coords="1376,80,1443,107"/>
+<area shape="rect" id="node25" href="$libvncclient_2hextile_8c.html" title="hextile.c" alt="" coords="1467,80,1546,107"/>
+<area shape="rect" id="node26" href="$libvncclient_2ultra_8c.html" title="ultra.c" alt="" coords="1570,80,1633,107"/>
+<area shape="rect" id="node27" href="$libvncclient_2zlib_8c.html" title="zlib.c" alt="" coords="1657,80,1713,107"/>
+<area shape="rect" id="node28" href="$libvncclient_2tight_8c.html" title="tight.c" alt="" coords="1738,80,1801,107"/>
+<area shape="rect" id="node29" href="$trle_8c.html" title="trle.c" alt="" coords="1825,80,1879,107"/>
+<area shape="rect" id="node30" href="$libvncclient_2zrle_8c.html" title="zrle.c" alt="" coords="1903,80,1961,107"/>
+<area shape="rect" id="node11" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="570,155,678,181"/>
+<area shape="rect" id="node14" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="702,155,810,181"/>
+<area shape="rect" id="node15" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="834,155,953,181"/>
 </map>
