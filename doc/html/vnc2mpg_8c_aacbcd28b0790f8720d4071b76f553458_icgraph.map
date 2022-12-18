@@ -1,4 +1,6 @@
 <map id="write_final_video_frame" name="write_final_video_frame">
-<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75" title="movie_close" alt="" coords="232,5,336,32"/>
-<area shape="rect" id="node3" href="$vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5" title="vnc_malloc_fb" alt="" coords="384,5,500,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="424,5,604,32"/>
+<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75" title=" " alt="" coords="272,5,376,32"/>
+<area shape="rect" id="node3" href="$vnc2mpg_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node4" href="$vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5" title=" " alt="" coords="108,31,224,57"/>
 </map>

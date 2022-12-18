@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lock',['LOCK',['../threading_8h.html#ac23aa31b2fd0a604ca601084a90bb800',1,'threading.h']]]
+  ['picture_5ftimeout_2630',['PICTURE_TIMEOUT',['../camera_8c.html#a7294a2f84ccd42d5de7cb3ca655a52ce',1,'camera.c']]]
 ];

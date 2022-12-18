@@ -1,5 +1,0 @@
-<map id="rfbDecrClientRef" name="rfbDecrClientRef">
-<area shape="rect" id="node2" href="$rfbserver_8c.html#a615a7287884f04e55e5cd24aef53e0f1" title="rfbClientIteratorHead" alt="" coords="191,5,351,32"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga5324c767981d736ca9c48a91cf65d3b2" title="rfbReleaseClientIterator" alt="" coords="183,56,360,83"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga69b57fe0447eac66fe216430bcda5859" title="rfbShutdownServer" alt="" coords="408,56,555,83"/>
-</map>

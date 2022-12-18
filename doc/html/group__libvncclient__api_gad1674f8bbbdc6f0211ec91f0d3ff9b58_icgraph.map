@@ -1,5 +1,0 @@
-<map id="SetBlocking" name="SetBlocking">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga22031a3e1c2573dcd34f12098103d432" title="Tries to connect to an IPv4 host. " alt="" coords="157,5,335,32"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga054b62220b4e153524f59223ecbb8943" title="Tries to connect to an IPv4 or IPv6 host. " alt="" coords="153,56,339,83"/>
-<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga2bb544e98a25a109a75bfac259125428" title="Tries to connect to a Unix socket. " alt="" coords="152,107,340,133"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="libvncclient/sasl.c" name="libvncclient/sasl.c">
-<area shape="rect" id="node3" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="227,80,338,107"/>
-<area shape="rect" id="node13" href="$sasl_8h.html" title="sasl.h" alt="" coords="470,80,530,107"/>
-<area shape="rect" id="node14" href="$tls_8h.html" title="tls.h" alt="" coords="555,80,605,107"/>
-<area shape="rect" id="node7" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="286,155,394,181"/>
-<area shape="rect" id="node10" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="418,155,526,181"/>
-<area shape="rect" id="node11" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="550,155,669,181"/>
-</map>

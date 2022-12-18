@@ -1,5 +1,0 @@
-<map id="ConnectClientToUnixSock" name="ConnectClientToUnixSock">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga1a39f4b121ae83dfc329e1f4ebc6253f" title="Tries to connect to a Unix socket using the given timeout value. " alt="" coords="241,5,460,47"/>
-<area shape="rect" id="node4" href="$group__libvncclient__api.html#gad1674f8bbbdc6f0211ec91f0d3ff9b58" title="SetBlocking" alt="" coords="301,71,400,98"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="508,13,633,39"/>
-</map>

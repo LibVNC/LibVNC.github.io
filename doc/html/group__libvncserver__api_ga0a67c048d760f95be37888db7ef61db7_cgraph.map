@@ -1,6 +1,0 @@
-<map id="rfbDoCopyRect" name="rfbDoCopyRect">
-<area shape="rect" id="node2" href="$rfbregion_8h.html#a1da150b16d84d6130e95d8f3c9465ba8" title="sraRgnCreateRect" alt="" coords="172,5,311,32"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#gaa07b26543b8a057da510abae57654035" title="rfbDoCopyRegion" alt="" coords="174,56,309,83"/>
-<area shape="rect" id="node4" href="$rfbregion_8h.html#a596e83a5a0244b65bd7f5c216987b261" title="sraRgnDestroy" alt="" coords="182,107,301,133"/>
-<area shape="rect" id="node5" href="$rfbregion_8c.html#a1836e6c639e0567a59e5a10496318180" title="sraSpanListDestroy" alt="" coords="359,107,507,133"/>
-</map>

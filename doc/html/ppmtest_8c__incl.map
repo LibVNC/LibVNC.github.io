@@ -1,6 +1,14 @@
 <map id="client_examples/ppmtest.c" name="client_examples/ppmtest.c">
-<area shape="rect" id="node6" href="$rfbclient_8h.html" title="rfb/rfbclient.h" alt="" coords="189,80,299,107"/>
-<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="561,155,669,181"/>
-<area shape="rect" id="node11" href="$keysym_8h.html" title="rfb/keysym.h" alt="" coords="334,155,442,181"/>
-<area shape="rect" id="node12" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="191,155,310,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="145,5,343,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,72,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="97,155,167,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="324,80,388,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="413,80,481,107"/>
+<area shape="rect" id="node6" href="$rfbclient_8h.html" title=" " alt="" coords="189,80,299,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="466,155,537,181"/>
+<area shape="rect" id="node8" href="$rfbproto_8h.html" title=" " alt="" coords="561,155,669,181"/>
+<area shape="rect" id="node11" href="$keysym_8h.html" title=" " alt="" coords="335,155,441,181"/>
+<area shape="rect" id="node12" href="$threading_8h.html" title=" " alt="" coords="191,155,310,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="579,229,650,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="317,229,432,256"/>
 </map>

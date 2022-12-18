@@ -1,6 +1,0 @@
-<map id="libvncserver/rfbssl.h" name="libvncserver/rfbssl.h">
-<area shape="rect" id="node2" href="$rfbssl__gnutls_8c.html" title="libvncserver/rfbssl\l_gnutls.c" alt="" coords="5,80,148,121"/>
-<area shape="rect" id="node3" href="$rfbssl__none_8c.html" title="libvncserver/rfbssl\l_none.c" alt="" coords="172,80,315,121"/>
-<area shape="rect" id="node4" href="$rfbssl__openssl_8c.html" title="libvncserver/rfbssl\l_openssl.c" alt="" coords="339,80,481,121"/>
-<area shape="rect" id="node5" href="$websockets_8c.html" title="libvncserver/websockets.c" alt="" coords="506,87,701,114"/>
-</map>

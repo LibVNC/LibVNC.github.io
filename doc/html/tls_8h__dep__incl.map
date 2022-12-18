@@ -1,9 +1,0 @@
-<map id="libvncclient/tls.h" name="libvncclient/tls.h">
-<area shape="rect" id="node2" href="$rfbproto_8c.html" title="libvncclient/rfbproto.c" alt="" coords="5,80,169,107"/>
-<area shape="rect" id="node3" href="$sasl_8c.html" title="libvncclient/sasl.c" alt="" coords="194,80,333,107"/>
-<area shape="rect" id="node4" href="$libvncclient_2sockets_8c.html" title="libvncclient/sockets.c" alt="" coords="357,80,519,107"/>
-<area shape="rect" id="node5" href="$tls__gnutls_8c.html" title="libvncclient/tls_gnutls.c" alt="" coords="544,80,719,107"/>
-<area shape="rect" id="node6" href="$tls__none_8c.html" title="libvncclient/tls_none.c" alt="" coords="743,80,909,107"/>
-<area shape="rect" id="node7" href="$tls__openssl_8c.html" title="libvncclient/tls_openssl.c" alt="" coords="933,80,1119,107"/>
-<area shape="rect" id="node8" href="$vncviewer_8c.html" title="libvncclient/vncviewer.c" alt="" coords="1143,80,1322,107"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="AcceptTcpConnection" name="AcceptTcpConnection">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224" title="listenForIncomingConnections" alt="" coords="213,5,432,32"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f" title="listenForIncomingConnections\lNoFork" alt="" coords="213,57,432,98"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="sraSpanListDestroy" name="sraSpanListDestroy">
-<area shape="rect" id="node2" href="$rfbregion_8c.html#a596e83a5a0244b65bd7f5c216987b261" title="sraRgnDestroy" alt="" coords="201,81,320,108"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga0a67c048d760f95be37888db7ef61db7" title="rfbDoCopyRect" alt="" coords="394,5,513,32"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga518b0db56afa287fd7fe0a60ac51f333" title="rfbScheduleCopyRect" alt="" coords="373,56,533,83"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title="rfbMarkRectAsModified" alt="" coords="368,107,539,133"/>
-<area shape="rect" id="node7" href="$rfbregion_8c.html#af037109aad8dbe968d6689e2b442e35f" title="sraClipRect2" alt="" coords="402,157,505,184"/>
-<area shape="rect" id="node6" href="$camera_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="587,107,641,133"/>
-</map>

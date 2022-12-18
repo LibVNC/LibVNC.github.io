@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['listenattcpport',['ListenAtTcpPort',['../group__libvncclient__api.html#ga99d194819f6f9b833d60c8fac347ded5',1,'ListenAtTcpPort(int port):&#160;sockets.c'],['../group__libvncclient__api.html#ga99d194819f6f9b833d60c8fac347ded5',1,'ListenAtTcpPort(int port):&#160;sockets.c']]],
-  ['listenattcpportandaddress',['ListenAtTcpPortAndAddress',['../group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d',1,'ListenAtTcpPortAndAddress(int port, const char *address):&#160;sockets.c'],['../group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d',1,'ListenAtTcpPortAndAddress(int port, const char *address):&#160;sockets.c']]],
-  ['listenforincomingconnections',['listenForIncomingConnections',['../group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224',1,'listenForIncomingConnections(rfbClient *viewer):&#160;listen.c'],['../group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224',1,'listenForIncomingConnections(rfbClient *client):&#160;listen.c']]],
-  ['listenforincomingconnectionsnofork',['listenForIncomingConnectionsNoFork',['../group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f',1,'listenForIncomingConnectionsNoFork(rfbClient *viewer, int usec_timeout):&#160;listen.c'],['../group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f',1,'listenForIncomingConnectionsNoFork(rfbClient *client, int timeout):&#160;listen.c']]]
+  ['listenattcpport_1903',['ListenAtTcpPort',['../group__libvncclient__api.html#ga99d194819f6f9b833d60c8fac347ded5',1,'rfbclient.h']]],
+  ['listenattcpportandaddress_1904',['ListenAtTcpPortAndAddress',['../group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d',1,'rfbclient.h']]],
+  ['listenforincomingconnections_1905',['listenForIncomingConnections',['../group__libvncclient__api.html#ga2f122dd993677e865fc8f3284c494224',1,'rfbclient.h']]],
+  ['listenforincomingconnectionsnofork_1906',['listenForIncomingConnectionsNoFork',['../group__libvncclient__api.html#gae41c9e6ab2ea17c4923e1fae8e33629f',1,'rfbclient.h']]]
 ];

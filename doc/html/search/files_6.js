@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['handlefiletransferrequest_2ec',['handlefiletransferrequest.c',['../handlefiletransferrequest_8c.html',1,'']]],
-  ['handlefiletransferrequest_2eh',['handlefiletransferrequest.h',['../handlefiletransferrequest_8h.html',1,'']]],
-  ['hextile_2ec',['hextile.c',['../libvncclient_2hextile_8c.html',1,'(Global Namespace)'],['../libvncserver_2hextile_8c.html',1,'(Global Namespace)']]],
-  ['httpd_2ec',['httpd.c',['../httpd_8c.html',1,'']]]
+  ['rfb_2eh_1873',['rfb.h',['../rfb_8h.html',1,'']]],
+  ['rfbclient_2eh_1874',['rfbclient.h',['../rfbclient_8h.html',1,'']]],
+  ['rfbproto_2eh_1875',['rfbproto.h',['../rfbproto_8h.html',1,'']]],
+  ['rfbregion_2eh_1876',['rfbregion.h',['../rfbregion_8h.html',1,'']]]
 ];

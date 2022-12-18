@@ -1,4 +1,0 @@
-<map id="rfbUnregisterTightVNCFileTransferExtension" name="rfbUnregisterTightVNCFileTransferExtension">
-<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga297a3e423a5ac429de8b3bf6346cdede" title="rfbUnregisterProtocolExtension" alt="" coords="244,5,469,32"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga623888d606a30e572133e3f7f5967d2b" title="rfbUnregisterSecurityHandler" alt="" coords="251,56,463,83"/>
-</map>

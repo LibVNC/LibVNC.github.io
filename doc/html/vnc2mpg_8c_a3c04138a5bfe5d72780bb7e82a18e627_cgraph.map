@@ -1,0 +1,19 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,60,235"/>
+<area shape="rect" id="node2" href="$group__libvncclient__api.html#gaa9ba8ed8e74e27e9c4095e0190d2aad9" title="Handles messages from the RFB server." alt="" coords="108,5,303,32"/>
+<area shape="rect" id="node3" href="$vnc2mpg_8c.html#a7177a8366cc5afbf927326d293194e75" title=" " alt="" coords="357,157,461,184"/>
+<area shape="rect" id="node6" href="$group__libvncclient__api.html#ga13e0666f04539bf2a0f36af961e9506a" title="Allocates and returns a pointer to an rfbClient structure." alt="" coords="155,107,256,133"/>
+<area shape="rect" id="node7" href="$group__libvncclient__api.html#gabb2299d1644f3cf38544eb97d2356475" title="Initializes the client." alt="" coords="156,157,255,184"/>
+<area shape="rect" id="node8" href="$vnc2mpg_8c.html#aa7b8c6aed61427a47375c18b7173cead" title=" " alt="" coords="156,208,255,235"/>
+<area shape="rect" id="node9" href="$vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5" title=" " alt="" coords="147,259,263,285"/>
+<area shape="rect" id="node15" href="$vnc2mpg_8c.html#adb067ba28d5ec81498f818b5f651e949" title=" " alt="" coords="157,309,254,336"/>
+<area shape="rect" id="node16" href="$group__libvncclient__api.html#ga154dcdd94ef439dc8d57dd14bf1e1c59" title="Waits for an RFB message to arrive from the server." alt="" coords="140,360,271,387"/>
+<area shape="rect" id="node17" href="$vnc2mpg_8c.html#a0bc3f07512bea6f483328e00507622c9" title=" " alt="" coords="133,411,277,437"/>
+<area shape="rect" id="node4" href="$vnc2mpg_8c.html#af8b75d30beeb1528c92f7fe0487e620e" title=" " alt="" coords="530,183,682,209"/>
+<area shape="rect" id="node5" href="$vnc2mpg_8c.html#aacbcd28b0790f8720d4071b76f553458" title=" " alt="" coords="516,132,696,159"/>
+<area shape="rect" id="node10" href="$vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441" title=" " alt="" coords="358,233,461,260"/>
+<area shape="rect" id="node14" href="$vnc2mpg_8c.html#a3b527c56ed133ee6815bfbc625e757af" title=" " alt="" coords="351,284,468,311"/>
+<area shape="rect" id="node11" href="$vnc2mpg_8c.html#abc6889a1426b82361498b7bdd23cdfd4" title=" " alt="" coords="535,233,677,260"/>
+<area shape="rect" id="node12" href="$vnc2mpg_8c.html#a8e56ffdf2b7120254398781ba2b40e21" title=" " alt="" coords="557,284,655,311"/>
+<area shape="rect" id="node13" href="$vnc2mpg_8c.html#a6617ea96debf017c216c5ae98c6e1ef1" title=" " alt="" coords="744,284,849,311"/>
+</map>

@@ -1,8 +1,0 @@
-<map id="CreateFileUploadErrMsg" name="CreateFileUploadErrMsg">
-<area shape="rect" id="node2" href="$filetransfermsg_8c.html#a533d011f5e956c7dc744006e16c0068c" title="CreateFileDownloadBlockSize\lDataMsg" alt="" coords="255,23,469,65"/>
-<area shape="rect" id="node6" href="$filetransfermsg_8h.html#ab1aa05123bc9f29e32ae4c6e425795e7" title="GetFileUploadLengthErrResponseMsg" alt="" coords="231,89,493,116"/>
-<area shape="rect" id="node7" href="$filetransfermsg_8h.html#a13bf704d8f27f1bc267cdfc1273b2257" title="GetFileUploadCompressedLevel\lErrMsg" alt="" coords="247,141,477,182"/>
-<area shape="rect" id="node3" href="$filetransfermsg_8c.html#a8cff3d15046774317738e0d39eca7f8c" title="CreateFileListMsg" alt="" coords="541,31,677,57"/>
-<area shape="rect" id="node4" href="$filetransfermsg_8h.html#acb4dc6babdc23585245833e13d91b406" title="FreeFileTransferMsg" alt="" coords="740,5,889,32"/>
-<area shape="rect" id="node5" href="$filetransfermsg_8h.html#a6cceb68064eea224ad0962bfc5dbdffe" title="GetFileListResponseMsg" alt="" coords="725,56,904,83"/>
-</map>

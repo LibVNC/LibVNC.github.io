@@ -1,5 +1,6 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga13e0666f04539bf2a0f36af961e9506a" title="Allocates and returns a pointer to an rfbClient structure. " alt="" coords="110,5,211,32"/>
-<area shape="rect" id="node3" href="$ppmtest_8c.html#aee112f3ce669ae4eb8dcd97f13f69279" title="getuser" alt="" coords="125,56,196,83"/>
-<area shape="rect" id="node4" href="$ppmtest_8c.html#acb9be5d6582ce9944db4b8a26cc9737e" title="getpassword" alt="" coords="108,107,213,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" id="node2" href="$ppmtest_8c.html#acb9be5d6582ce9944db4b8a26cc9737e" title=" " alt="" coords="108,5,213,32"/>
+<area shape="rect" id="node3" href="$ppmtest_8c.html#aee112f3ce669ae4eb8dcd97f13f69279" title=" " alt="" coords="125,56,196,83"/>
+<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga13e0666f04539bf2a0f36af961e9506a" title="Allocates and returns a pointer to an rfbClient structure." alt="" coords="110,107,211,133"/>
 </map>

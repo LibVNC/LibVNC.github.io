@@ -1,5 +1,13 @@
 <map id="examples/vncev.c" name="examples/vncev.c">
-<area shape="rect" id="node6" href="$rfb_8h.html" title="rfb/rfb.h" alt="" coords="301,80,375,107"/>
-<area shape="rect" id="node8" href="$rfbproto_8h.html" title="rfb/rfbproto.h" alt="" coords="167,155,275,181"/>
-<area shape="rect" id="node10" href="$threading_8h.html" title="rfb/threading.h" alt="" coords="24,155,143,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="378,5,517,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="26,229,141,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="394,155,461,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="485,155,556,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="510,80,606,107"/>
+<area shape="rect" id="node6" href="$rfb_8h.html" title=" " alt="" coords="301,80,375,107"/>
+<area shape="rect" id="node11" title=" " alt="" coords="631,80,765,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="299,155,369,181"/>
+<area shape="rect" id="node8" href="$rfbproto_8h.html" title=" " alt="" coords="167,155,275,181"/>
+<area shape="rect" id="node10" href="$threading_8h.html" title=" " alt="" coords="24,155,143,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="185,229,256,256"/>
 </map>

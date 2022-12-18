@@ -1,4 +1,6 @@
 <map id="add_video_stream" name="add_video_stream">
-<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441" title="movie_open" alt="" coords="196,5,299,32"/>
-<area shape="rect" id="node3" href="$vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5" title="vnc_malloc_fb" alt="" coords="347,5,463,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="423,5,565,32"/>
+<area shape="rect" id="node2" href="$vnc2mpg_8c.html#a97b7085eabc3cd2a95d349bd24adf441" title=" " alt="" coords="272,5,375,32"/>
+<area shape="rect" id="node3" href="$vnc2mpg_8c.html#aec8ebc550111e0085f2b3101dd2275f5" title=" " alt="" coords="108,5,224,32"/>
+<area shape="rect" id="node4" href="$vnc2mpg_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,32"/>
 </map>

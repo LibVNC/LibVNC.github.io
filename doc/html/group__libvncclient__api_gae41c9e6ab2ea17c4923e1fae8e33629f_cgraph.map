@@ -1,5 +1,0 @@
-<map id="listenForIncomingConnectionsNoFork" name="listenForIncomingConnectionsNoFork">
-<area shape="rect" id="node2" href="$group__libvncclient__api.html#ga5759acea7d722d1391410c0dd93cf12d" title="ListenAtTcpPortAndAddress" alt="" coords="272,5,471,32"/>
-<area shape="rect" id="node3" href="$group__libvncclient__api.html#ga999107eaef4e6bb18181033634e81dd5" title="AcceptTcpConnection" alt="" coords="291,56,451,83"/>
-<area shape="rect" id="node4" href="$group__libvncclient__api.html#ga8786be007e2b0a36554d7098403633ad" title="SetNonBlocking" alt="" coords="309,107,434,133"/>
-</map>

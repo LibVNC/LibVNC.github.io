@@ -1,5 +1,0 @@
-<map id="rfbLogPerror" name="rfbLogPerror">
-<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga9611ba339fbc6eb64b3f21ed2569c625" title="rfbListenOnTCP6Port" alt="" coords="158,5,313,32"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#gabde2e92d745a9c16ada18bb697af09f6" title="rfbConnectToTcpAddr" alt="" coords="156,56,315,83"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga441ee3ed4bb634dbb1d12231b046e8c3" title="rfbSetNonBlocking" alt="" coords="164,107,307,133"/>
-</map>
