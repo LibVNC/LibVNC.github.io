@@ -1,0 +1,26 @@
+var rfbregion_8h =
+[
+    [ "sraRect", "structsra_rect.html", "structsra_rect" ],
+    [ "sraRectangleIterator", "structsra_rectangle_iterator.html", "structsra_rectangle_iterator" ],
+    [ "sraRegion", "rfbregion_8h.html#a324286acd617747cbd352909d7faf1e9", null ],
+    [ "sraClipRect", "rfbregion_8h.html#aae2d5da4ce0c869b8f1acd8f1cf74cd1", null ],
+    [ "sraClipRect2", "rfbregion_8h.html#af037109aad8dbe968d6689e2b442e35f", null ],
+    [ "sraRgnAnd", "rfbregion_8h.html#aa00ec361ac3a1aa4ab282f09e6da1304", null ],
+    [ "sraRgnBBox", "rfbregion_8h.html#ad7716d293852f4ba7a52c4eabe203cbb", null ],
+    [ "sraRgnCountRects", "rfbregion_8h.html#af9f9f2865c9aef910d75ce046a615157", null ],
+    [ "sraRgnCreate", "rfbregion_8h.html#a4ecb41e667c54aa83bfd6204ab40b70f", null ],
+    [ "sraRgnCreateRect", "rfbregion_8h.html#a0617bc35438d2c31767ffdaa537ba471", null ],
+    [ "sraRgnCreateRgn", "rfbregion_8h.html#a0898506a783122bdf5810697e168e933", null ],
+    [ "sraRgnDestroy", "rfbregion_8h.html#a596e83a5a0244b65bd7f5c216987b261", null ],
+    [ "sraRgnEmpty", "rfbregion_8h.html#ae2bc8fd0fd11df2130ce5842692328b1", null ],
+    [ "sraRgnGetIterator", "rfbregion_8h.html#a952a0e44e757efe4ce4fbd2fcd289628", null ],
+    [ "sraRgnGetReverseIterator", "rfbregion_8h.html#afd3548e6c13d0cd8545977ad5242e120", null ],
+    [ "sraRgnIteratorNext", "rfbregion_8h.html#ae136bd7edc797893660c338d2467ad34", null ],
+    [ "sraRgnMakeEmpty", "rfbregion_8h.html#af32f44819018015973ca177cada8872a", null ],
+    [ "sraRgnOffset", "rfbregion_8h.html#a238615bae0d77cff185b830a403e0ce8", null ],
+    [ "sraRgnOr", "rfbregion_8h.html#a8da96b0923f469be1346604d6608e941", null ],
+    [ "sraRgnPopRect", "rfbregion_8h.html#aab6f80c4e0dc85eb499d73225321276f", null ],
+    [ "sraRgnPrint", "rfbregion_8h.html#a9883a568243489c1c1cdd0c6c40a6ca5", null ],
+    [ "sraRgnReleaseIterator", "rfbregion_8h.html#aad3b73b9c266919ad3335874d1ca2b5e", null ],
+    [ "sraRgnSubtract", "rfbregion_8h.html#a765e6e8f1f5a693651cf04873b2c37b0", null ]
+];

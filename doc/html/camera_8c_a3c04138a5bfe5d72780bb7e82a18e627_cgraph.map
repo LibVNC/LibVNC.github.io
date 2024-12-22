@@ -1,10 +1,10 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,157,60,184"/>
-<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga7bc0e73d60a80ddc855fe1c4313fe57d" title=" " alt="" coords="142,5,249,32"/>
-<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga0fb612a193a96424b82b9a5e7b494e73" title=" " alt="" coords="144,56,247,83"/>
-<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga8d95458dd102510f8dfc48b645b6a5cf" title=" " alt="" coords="149,107,241,133"/>
-<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title=" " alt="" coords="108,157,283,184"/>
-<area shape="rect" id="node6" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title=" " alt="" coords="128,208,263,235"/>
-<area shape="rect" id="node7" href="$camera_8c.html#a3bf27110afe2299a3ca2d8689c622ebe" title=" " alt="" coords="147,259,243,285"/>
-<area shape="rect" id="node8" href="$camera_8c.html#af6f08e3c92a8e79780b52c8438e0363c" title=" " alt="" coords="124,309,267,336"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,57,184"/>
+<area shape="rect" id="node2" href="$group__libvncserver__api.html#ga7bc0e73d60a80ddc855fe1c4313fe57d" title=" " alt="" coords="137,5,244,32"/>
+<area shape="rect" id="node3" href="$group__libvncserver__api.html#ga0fb612a193a96424b82b9a5e7b494e73" title=" " alt="" coords="139,56,243,83"/>
+<area shape="rect" id="node4" href="$group__libvncserver__api.html#ga8d95458dd102510f8dfc48b645b6a5cf" title=" " alt="" coords="145,107,236,133"/>
+<area shape="rect" id="node5" href="$group__libvncserver__api.html#ga4063480bb7e8d337ea2948638957ff75" title=" " alt="" coords="105,157,276,184"/>
+<area shape="rect" id="node6" href="$group__libvncserver__api.html#ga94e550459ace749f762f8e891930d55b" title=" " alt="" coords="126,208,255,235"/>
+<area shape="rect" id="node7" href="$camera_8c.html#a3bf27110afe2299a3ca2d8689c622ebe" title=" " alt="" coords="144,259,237,285"/>
+<area shape="rect" id="node8" href="$camera_8c.html#af6f08e3c92a8e79780b52c8438e0363c" title=" " alt="" coords="122,309,259,336"/>
 </map>

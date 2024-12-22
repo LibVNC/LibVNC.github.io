@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['getpassword_1897',['getpassword',['../ppmtest_8c.html#acb9be5d6582ce9944db4b8a26cc9737e',1,'ppmtest.c']]],
-  ['getuser_1898',['getuser',['../ppmtest_8c.html#aee112f3ce669ae4eb8dcd97f13f69279',1,'ppmtest.c']]]
+  ['getpassword_0',['getpassword',['../ppmtest_8c.html#a868d949e18f2246f4d548d3a652506d0',1,'ppmtest.c']]],
+  ['getuser_1',['getuser',['../ppmtest_8c.html#aab1b2e89a5b6c5888f52a0a92fd8ef73',1,'ppmtest.c']]]
 ];

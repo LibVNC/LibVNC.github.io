@@ -1,11 +1,11 @@
-<map id="rfb/keysym.h" name="rfb/keysym.h">
-<area shape="rect" id="node1" title=" " alt="" coords="755,5,862,32"/>
-<area shape="rect" id="node2" href="$rfbclient_8h.html" title=" " alt="" coords="421,80,532,107"/>
-<area shape="rect" id="node6" href="$example_8c.html" title=" " alt="" coords="637,80,796,107"/>
-<area shape="rect" id="node8" href="$pnmshow_8c.html" title=" " alt="" coords="821,80,983,107"/>
-<area shape="rect" id="node9" href="$pnmshow24_8c.html" title=" " alt="" coords="1008,80,1188,107"/>
-<area shape="rect" id="node3" href="$_s_d_lvncviewer_8c.html" title=" " alt="" coords="5,155,241,181"/>
-<area shape="rect" id="node4" href="$ppmtest_8c.html" title=" " alt="" coords="265,155,464,181"/>
-<area shape="rect" id="node5" href="$vnc2mpg_8c.html" title=" " alt="" coords="488,155,692,181"/>
-<area shape="rect" id="node7" href="$blooptest_8c.html" title=" " alt="" coords="717,155,879,181"/>
+<map id="include/rfb/keysym.h" name="include/rfb/keysym.h">
+<area shape="rect" id="node1" title=" " alt="" coords="366,5,519,32"/>
+<area shape="rect" id="node2" href="$example_8c.html" title=" " alt="" coords="9,80,202,107"/>
+<area shape="rect" id="node4" href="$pnmshow_8c.html" title=" " alt="" coords="226,80,427,107"/>
+<area shape="rect" id="node5" href="$pnmshow24_8c.html" title=" " alt="" coords="451,80,669,107"/>
+<area shape="rect" id="node6" href="$rfbclient_8h.html" title=" " alt="" coords="693,80,851,107"/>
+<area shape="rect" id="node3" href="$blooptest_8c.html" title=" " alt="" coords="5,155,205,181"/>
+<area shape="rect" id="node7" href="$_s_d_lvncviewer_8c.html" title=" " alt="" coords="439,155,655,181"/>
+<area shape="rect" id="node8" href="$ppmtest_8c.html" title=" " alt="" coords="679,155,865,181"/>
+<area shape="rect" id="node9" href="$vnc2mpg_8c.html" title=" " alt="" coords="889,155,1079,181"/>
 </map>

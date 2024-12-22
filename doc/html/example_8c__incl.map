@@ -1,15 +1,15 @@
-<map id="examples/example.c" name="examples/example.c">
-<area shape="rect" id="node1" title=" " alt="" coords="161,5,319,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,80,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="105,80,178,107"/>
-<area shape="rect" id="node4" href="$rfb_8h.html" title=" " alt="" coords="203,80,277,107"/>
-<area shape="rect" id="node12" href="$keysym_8h.html" title=" " alt="" coords="301,80,408,107"/>
-<area shape="rect" id="node13" title=" " alt="" coords="433,80,503,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="19,155,85,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="110,155,181,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="205,155,275,181"/>
-<area shape="rect" id="node8" href="$rfbproto_8h.html" title=" " alt="" coords="299,155,407,181"/>
-<area shape="rect" id="node11" href="$threading_8h.html" title=" " alt="" coords="431,155,550,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="318,229,389,256"/>
-<area shape="rect" id="node10" title=" " alt="" coords="423,229,537,256"/>
+<map id="examples/server/example.c" name="examples/server/example.c">
+<area shape="rect" id="node1" title=" " alt="" coords="137,5,330,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,77,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,80,171,107"/>
+<area shape="rect" id="node4" href="$rfb_8h.html" title=" " alt="" coords="195,80,272,107"/>
+<area shape="rect" id="node12" href="$keysym_8h.html" title=" " alt="" coords="296,80,400,107"/>
+<area shape="rect" id="node13" title=" " alt="" coords="425,80,495,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="19,155,83,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="107,155,173,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="198,155,269,181"/>
+<area shape="rect" id="node8" href="$rfbproto_8h.html" title=" " alt="" coords="293,155,403,181"/>
+<area shape="rect" id="node11" href="$threading_8h.html" title=" " alt="" coords="427,155,546,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="313,229,383,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="417,229,532,256"/>
 </map>
